@@ -176,13 +176,13 @@ body {
   cursor: url("/images/normal.cur"), auto;
 }
 a {
-  cursor: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur"), auto;
+  cursor: url("/images/shouzhi.cur"), auto;
 }
 a:hover {
-  cursor: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur"), auto;
+  cursor: url("/images/shouzhi.cur"), auto;
 }
 .hty-icon-button {
-  cursor: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur"), pointer;
+  cursor: url("/images/shouzhi.cur"), pointer;
 }
 input {
   cursor: url("/images/texto.cur"), auto;
