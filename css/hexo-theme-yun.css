@@ -738,7 +738,7 @@ input {
 }
 .wordcloud #wordcloud-canvas,
 .wordcloud #wordcloud-sidebar-canvas {
-  cursor: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur"), pointer;
+  cursor: url("/images/shouzhi.cur"), pointer;
 }
 .wordcloud #wordbox {
   pointer-events: none;
@@ -2163,7 +2163,7 @@ pre[class*='language-']:hover .copy-btn {
   position: relative;
   width: 15rem;
   margin: 1.5rem;
-  cursor: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur"), pointer;
+  cursor: url("/images/shouzhi.cur"), pointer;
 }
 .photo-list-item img {
   box-sizing: border-box;
