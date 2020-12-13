@@ -133,7 +133,7 @@ body::before {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: url("/images/day.jpg");
+  background-image: url("https://cdn.jsdelivr.net/gh/JollyLight/images/main_interface/day.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -174,19 +174,19 @@ body::before {
   }
 }
 body {
-  cursor: url("/images/normal.cur"), auto;
+  cursor: url("https://cdn.jsdelivr.net/gh/JollyLight/images/main_interface/Arrow.cur"), auto;
 }
 a {
-  cursor: url("/images/shouzhi.cur"), auto;
+  cursor: url("https://cdn.jsdelivr.net/gh/JollyLight/images/main_interface/Hand.cur"), auto;
 }
 a:hover {
-  cursor: url("/images/shouzhi.cur"), auto;
+  cursor: url("https://cdn.jsdelivr.net/gh/JollyLight/images/main_interface/Hand.cur"), auto;
 }
 .hty-icon-button {
-  cursor: url("/images/shouzhi.cur"), pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/JollyLight/images/main_interface/Hand.cur"), pointer;
 }
 input {
-  cursor: url("/images/texto.cur"), auto;
+  cursor: url("https://cdn.jsdelivr.net/gh/JollyLight/images/main_interface/IBeam.cur"), auto;
 }
 :root {
   --banner-line-color: #000;
@@ -739,7 +739,7 @@ input {
 }
 .wordcloud #wordcloud-canvas,
 .wordcloud #wordcloud-sidebar-canvas {
-  cursor: url("/images/shouzhi.cur"), pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/JollyLight/images/main_interface/Hand.cur"), pointer;
 }
 .wordcloud #wordbox {
   pointer-events: none;
@@ -2075,7 +2075,7 @@ pre[class*='language-']:hover .copy-btn {
     color: var(--hty-text-color);
   }
   :root:not([data-user-color-scheme]) body::before {
-    background-image: url("/images/night.jpg");
+    background-image: url("https://cdn.jsdelivr.net/gh/JollyLight/images/main_interface/night.jpeg");
   }
   :root:not([data-user-color-scheme]) .char {
     background-color: rgba(0,0,0,0.5);
@@ -2151,7 +2151,7 @@ pre[class*='language-']:hover .copy-btn {
   color: var(--hty-text-color);
 }
 [data-user-color-scheme='dark'] body::before {
-  background-image: url("/images/night.jpg");
+  background-image: url("https://cdn.jsdelivr.net/gh/JollyLight/images/main_interface/night.jpeg");
 }
 [data-user-color-scheme='dark'] .char {
   background-color: rgba(0,0,0,0.5);
@@ -2264,7 +2264,7 @@ pre[class*='language-']:hover .copy-btn {
   position: relative;
   width: 15rem;
   margin: 1.5rem;
-  cursor: url("/images/shouzhi.cur"), pointer;
+  cursor: url("https://cdn.jsdelivr.net/gh/JollyLight/images/main_interface/Hand.cur"), pointer;
 }
 .photo-list-item img {
   box-sizing: border-box;
