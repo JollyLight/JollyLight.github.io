@@ -1,10 +1,48 @@
+// toggle sidebar nav and panel
+const activeTabClass = "sidebar-nav-active";
+const activePanelClass = "sidebar-panel-active";
+
+/**
+ * 切换侧边栏目录列表数字显示
+ */
+function toggleTocNumber() {
+  const tocBtn = document.querySelector(".sidebar-nav-toc");
+  const orderedIcon = "#icon-list-ordered";
+  const unorderedIcon = "#icon-list-unordered";
+
+  if (!tocBtn) {
+    return;
+  }
+
+  tocBtn.addEventListener("click", () => {
+    // 被激活时才可切换
+    const isActived = tocBtn.classList.contains(activeTabClass);
+    if (isActived) {
+      const useTag = tocBtn.querySelector("use");
+
+      useTag.setAttribute(
+        "xlink:href",
+        useTag.getAttribute("xlink:href") === orderedIcon
+          ? unorderedIcon
+          : orderedIcon
+      );
+
+      document.querySelectorAll(".toc-number").forEach((el) => {
+        el.classList.toggle("hidden");
+      });
+    }
+  });
+}
+
+/**
+ * 切换侧边栏导航
+ */
 function toggleSidebarNav() {
-  // toggle sidebar nav and panel
-  const activeTabClass = "sidebar-nav-active";
-  const activePanelClass = "sidebar-panel-active";
   document.querySelectorAll(".sidebar-nav li").forEach((el) => {
     el.onclick = function() {
-      if (this.classList.contains(activeTabClass)) return;
+      if (this.classList.contains(activeTabClass)) {
+        return;
+      }
       document
         .querySelector("." + activePanelClass)
         .classList.remove(activePanelClass);
@@ -19,7 +57,28 @@ function toggleSidebarNav() {
   });
 }
 
-function listennSidebarTOC() {
+/**
+ * 根据目标激活索引
+ * @param {*} target
+ */
+function activateNavByIndex(target) {
+  if (target.classList.contains("active-current")) return;
+
+  document.querySelectorAll(".post-toc .active").forEach((element) => {
+    element.classList.remove("active", "active-current");
+  });
+  target.classList.add("active", "active-current");
+  let parent = target.parentNode;
+  while (!parent.matches(".post-toc")) {
+    if (parent.matches("li")) parent.classList.add("active");
+    parent = parent.parentNode;
+  }
+}
+
+/**
+ * 监听侧边栏目录
+ */
+function listenSidebarTOC() {
   const navItems = document.querySelectorAll(".post-toc li");
   if (!navItems.length) return;
   const sections = [...navItems].map((element) => {
@@ -33,20 +92,6 @@ function listennSidebarTOC() {
     });
     return target;
   });
-
-  function activateNavByIndex(target) {
-    if (target.classList.contains("active-current")) return;
-
-    document.querySelectorAll(".post-toc .active").forEach((element) => {
-      element.classList.remove("active", "active-current");
-    });
-    target.classList.add("active", "active-current");
-    let parent = target.parentNode;
-    while (!parent.matches(".post-toc")) {
-      if (parent.matches("li")) parent.classList.add("active");
-      parent = parent.parentNode;
-    }
-  }
 
   function findIndex(entries) {
     let index = 0;
@@ -92,8 +137,9 @@ function listennSidebarTOC() {
 }
 
 function initSidebar() {
+  toggleTocNumber();
   toggleSidebarNav();
-  listennSidebarTOC();
+  listenSidebarTOC();
 }
 
 document.addEventListener("DOMContentLoaded", initSidebar);
