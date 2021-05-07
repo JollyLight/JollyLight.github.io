@@ -93,7 +93,7 @@ body {
 }
 ::selection {
   color: #fff;
-  background: #fcf;
+  background: #f60;
 }
 a {
   color: var(--smc-link-color);
