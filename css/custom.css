@@ -28,4 +28,13 @@
     background: #FFCC66;
     opacity: 0.1;
   }
+  .post-copyright {
+    border-left: 4px solid #FFCC66;
+  }
+/* copyright左端颜色 */
+
+  .markdown-body blockquote {
+    border-left: 4px solid #FFCC66;
+  }
+  /* markdown引用块左端颜色 */
   
