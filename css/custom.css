@@ -37,4 +37,31 @@
     border-left: 4px solid #FFCC66;
   }
   /* markdown引用块左端颜色 */
-  
+
+  /* 以下为改girls页面为littleworld页面 */
+  .girl-item .girl-avatar {
+    object-fit: cover;
+    object-position: center top;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    padding: 0.2rem;
+    background-color: #fff;
+    box-shadow: 0 0 1rem rgb(0 0 0 / 12%);
+    transition: 0.5s;
+}
+.girl-item .girl-name {
+  font-size: 1.8rem;
+}
+.girl-item .girl-from {
+  font-size: 12px;
+  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
+  font-weight: bold;
+  color: #fff;
+}
+.girl-items {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
