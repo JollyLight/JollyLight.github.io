@@ -65,3 +65,9 @@
   flex-wrap: wrap;
   padding-left: 0;
 }
+.girl-item .girl-from {
+  visibility:hidden;
+}
+.girls-number {
+  visibility:hidden;
+}
