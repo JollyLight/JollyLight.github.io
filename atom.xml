@@ -6,7 +6,7 @@
   <link href="https://jollylight.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://jollylight.gitee.io/"/>
-  <updated>2021-09-25T11:55:32.771Z</updated>
+  <updated>2022-03-26T18:06:27.832Z</updated>
   <id>https://jollylight.gitee.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2022年3月26日</title>
+    <link href="https://jollylight.gitee.io/posts/undefined/"/>
+    <id>https://jollylight.gitee.io/posts/undefined/</id>
+    <published>2022-03-26T16:52:02.881Z</published>
+    <updated>2022-03-26T18:06:27.832Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天好像发生了很多事，想写下来。</p><p>今天是周六，如果不是公司的A说周日来加班的话，我今天下午应该和爸爸一起回家的，我当时应该拒绝的，我真的，还是很没有主见，我总是认为，家人比一切都重要，可我口口声声这么说，却还是向万恶的资本主义低下了头，我也不知道怎样做是对的，怎样做是错的，只是有时候的确是会身不由己，而这时更需要的或许是一种敢于对抗的勇气，心里想的和实际做的总是差异太大，更何况我身上自带的强烈的社恐属性挥之不去，sometimes just don‘t know how to deal with it.</p><p>今天还是B的生日，B是去年和我们一起进公司的应届生，我们几个去年一起来的应届生交流会比较多一些，毕业之后我改变了很多想法，也试着作出一些对自己的改变，决定试着交一些朋友，于是刚来公司时我很努力的让自己表现的不像以前那样另类，可终究还是本性难移吧，我好像又回到了以前一个人独来独往的生活。今天是B的生日，他们去聚餐，我又没去，当然我其实另有原因，公司一个短程出差，我不知道啊，我应该去的呀，可是人一多我真的连说话都会紧张，即使是相处了这么久的人。现在有时回想起大学时候，宿舍的人每次出去或一起干什么事我都不参与真的有些后悔了，今天看到他们在群里发的一起打球的照片，有时候会想，我为什么会产生这么多距离感呢，明明都是很好的人啊。</p><p>今天在群里看到大学舍友提了离职，裸辞，他说快乐最重要，工作的事以后再说，我真的很羡慕他能有这样的勇气，也或许我羡慕的是他的主见，至少能够对这件事坚定下来，并付以实际行动。我确实不敢这样，嗯，或许也说不定吧。离职的事我的确不是没有想过，只是我想太多了，需要通过和别人交流来落实内心的想法对我来说不是一件容易的事，至少很多时候不是，但是如果我像他一样对自己的工作看不到一点光亮的话或许我也会选择放下一些东西吧。</p><p>大一时军训的教官今天在朋友圈里发了自己要离开世界的话，我的一个同学C去公安局报警了，一边在微信里主动安慰他，因为做生意失败了欠了很多钱，家里妻子和老人又有重病住院，需要很多钱，发给同学C一张医院账单截图，同学C问需要多少钱，教官说至少需要15w，同学C很爽快的回复了一句“没问题，我想办法帮你筹”，教练像是抓住了救命稻草，回复了一番做牛做马的话，我在宿舍群里看到同学C发的求助对话截图，五味杂陈，都是刚毕业的学生，拿什么筹呢？可这15w怎么比得起一条生命呢？</p><p>我不知道，成年人的生活就是这样的吗？</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>不是学生了呀</title>
@@ -129,9 +152,9 @@
     <link href="https://jollylight.gitee.io/posts/note-for-blog-working/"/>
     <id>https://jollylight.gitee.io/posts/note-for-blog-working/</id>
     <published>2020-10-29T14:01:36.000Z</published>
-    <updated>2021-09-25T10:55:48.366Z</updated>
+    <updated>2022-03-18T03:49:16.329Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p><strong>写文章</strong><br> <strong>step1:</strong> 打开blog文件夹，并在里面空白处右击选择<code>Git Bash Here</code><br> <strong>step2:</strong> 在里面输入<code>hexo n 新文章名</code>，再回车<br> <strong>step3:</strong> 在blog文件夹中，进入source文件夹，再进入_posts文件夹，用宇宙最强编辑器vs code打开新建的文章<br> <strong>step4:</strong> 就可以可以开始写啦！写完后记得保存（Ctrl s）<br> <strong>step5:</strong> 再打开Git Bash,依次输入<code>hexo c</code> <code>hexo g</code> <code>hexo d</code>(注意看有没有报错或警告啊)</p><blockquote><p>当然也可以随时在输入<code>hexo s</code>后在<a href="http://localhost:4000/">本地</a>查看自己的网站</p></blockquote><p> <strong>step6:</strong> 打开码云的<a href="https://gitee.com/jollylight/jollylight/pages">gitee page页面</a>,点击更新，等待片刻<br> <strong>step7:</strong> 就OK啦！</p><p>（这么简单为什么写出来，因为我真的是小白啊QAQ）</p><p><del>（主要也怕自己太久没写博客忘了）</del></p><h1 id="linux常用命令-即git-bash下"><a href="#linux常用命令-即git-bash下" class="headerlink" title="linux常用命令(即git bash下)"></a>linux常用命令(即git bash下)</h1><p><code>Ctrl</code>+<code>Insert</code> : 复制</p><p><code>Shift</code>+<code>Insert</code> : 粘贴</p><h1 id="其他常用"><a href="#其他常用" class="headerlink" title="其他常用"></a>其他常用</h1><p><strong>blog主颜色</strong>：#FFCC66</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p><strong>写文章</strong><br> <strong>step1:</strong> 打开blog文件夹，并在里面空白处右击选择<code>Git Bash Here</code><br> <strong>step2:</strong> 在里面输入<code>hexo n 新文章名</code>，再回车<br> <strong>step3:</strong> 在blog文件夹中，进入source文件夹，再进入_posts文件夹，用宇宙最强编辑器vs code打开新建的文章</p><blockquote><p>其实也可以直接在source/_posts文件夹内新建markdown文件（可以先新建一个记事本txt文件再改后缀为md），然后直接在里面写文章，推荐Typora编辑器</p></blockquote><p> <strong>step4:</strong> 就可以可以开始写啦！写完后记得保存<br> <strong>step5:</strong> 再打开Git Bash，依次输入<code>hexo c</code> <code>hexo g</code> <code>hexo d</code>(注意看有没有报错或警告啊)</p><blockquote><p>当然也可以随时在输入<code>hexo s</code>后在<a href="http://localhost:4000/">本地</a>查看自己的网站</p></blockquote><p><strong>step6:</strong> 再输入 <code>sh update.sh</code>运行之前写好的bash脚本，以完成博客源文件推送到gitee目标仓库hexo分支上实现备份</p><blockquote><p>可以在update.sh文件中更改info=”<del>“中的</del>来描述此次要在仓库中显示的更新说明</p></blockquote><p><strong>step7:</strong> 打开码云的<a href="https://gitee.com/jollylight/jollylight/pages">gitee page页面</a>，点击更新，等待片刻<br> <strong>step8:</strong> 就OK啦！</p><p>（这么简单为什么写出来，因为我真的是小白啊QAQ）</p><p><del>（主要也怕自己太久没写博客忘了）</del></p><h1 id="linux常用命令-即git-bash下"><a href="#linux常用命令-即git-bash下" class="headerlink" title="linux常用命令(即git bash下)"></a>linux常用命令(即git bash下)</h1><p><code>Ctrl</code>+<code>Insert</code> : 复制</p><p><code>Shift</code>+<code>Insert</code> : 粘贴</p><h1 id="其他常用"><a href="#其他常用" class="headerlink" title="其他常用"></a>其他常用</h1><p><strong>blog主颜色</strong>：#FFCC66</p>]]></content>
     
     
       
