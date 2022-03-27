@@ -71,3 +71,9 @@
 .girls-number {
   visibility:hidden;
 }
+
+:root {
+  --smc-secondary: #FFCC66;
+  --hty-link-color: #FFCC66;
+  --smc-primary: #FFCC66;
+}
