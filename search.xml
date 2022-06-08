@@ -59,7 +59,7 @@
 <p>终于还是毕业了，这篇文章就当是我四年生活的一个句点吧。</p>
 </blockquote>
 
-    <div id="aplayer-QoTYdoTl" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-zIaiNhGO" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1413374282" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FFCC66"
     ></div>
 
@@ -81,7 +81,7 @@
 <p>有时拿出手机对着夜空中的星星，笨拙地认识着这颗、那颗星星的名字，有时坐在或躺在草坪上，什么也不去想，放空自己，会意识到最近的烦心事都不算什么，能够衣食无忧地生活在这颗小星球上已经是件很幸运的事了呀。</p>
 <h2 id="毕业"><a href="#毕业" class="headerlink" title="毕业"></a>毕业</h2><p>每年看着学长学姐在毕业季围成一个弧形，穿着学士服拍毕业照，总会心生许多感慨，今年轮到自己了，却似乎并没有什么特别的感觉，只是心里想着：嗯，毕业就是这样嘛。</p>
 <p>只是还是会想到入学时在体育馆开的毕业典礼，军训时被大雨淋湿的衣服……四年里所有美好的瞬间应该都刻进了永恒的回忆了吧，虽然，不再是学生了，但求今后也别褪去那份稚气吧。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/JollyLight/images/main_interface/1632569128356.jpg"></p>
+<p><img src="https://fastly.jsdelivr.net/gh/JollyLight/images/main_interface/1632569128356.jpg" loading="lazy"></p>
 ]]></content>
       <categories>
         <category>时光印记</category>
@@ -107,8 +107,9 @@
   opacity="0.7"
   zIndex="2"
   count="72"
-  src="https://cdn.jsdelivr.net/npm/canvas-nest.js/dist/canvas-nest.js"
+  src="https://fastly.jsdelivr.net/npm/canvas-nest.js/dist/canvas-nest.js"
 ></script>
+
 
 
 <p>这篇文章记录了我的一些有点儿意思的小发现，并且会不断更新</p>
@@ -126,7 +127,7 @@
   opacity&#x3D;&quot;0.7&quot;
   zIndex&#x3D;&quot;2&quot;
   count&#x3D;&quot;72&quot;
-  src&#x3D;&quot;https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;npm&#x2F;canvas-nest.js&#x2F;dist&#x2F;canvas-nest.js&quot;
+  src&#x3D;&quot;https:&#x2F;&#x2F;fastly.jsdelivr.net&#x2F;npm&#x2F;canvas-nest.js&#x2F;dist&#x2F;canvas-nest.js&quot;
 &gt;&lt;&#x2F;script&gt;</code></pre>
 
 <p>可配置：</p>

@@ -1,79 +1,98 @@
 <link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script>a {
-    color: #FFA500;
-    text-decoration: none;
-    transition: color 0.1s;
-  }
-  a:hover,
-  a:focus {
-    color: #db2828;
-  }
-  a:active {
-    color: #FFCC66;
-  }
-  :root {
-    --smc-link-color: #FFCC66;
-  }
-  .with-love {
-    display: inline-block;
-    margin: 5px 5px 0 5px;
-    color: #FFCC66;
-  }
-  .category-lists .category-list-item:hover::before {
-    color: #FFCC66;
-  }
-  .post-eof {
-    margin: 50px auto;
-    width: 50%;
-    height: 1px;
-    background: #FFCC66;
-    opacity: 0.1;
-  }
-  .post-copyright {
-    border-left: 4px solid #FFCC66;
-  }
+  color: #FFA500;
+  text-decoration: none;
+  transition: color 0.1s;
+}
+
+a:hover,
+a:focus {
+  color: #db2828;
+}
+
+a:active {
+  color: #FFCC66;
+}
+
+:root {
+  --smc-link-color: #FFCC66;
+}
+
+.with-love {
+  display: inline-block;
+  margin: 5px 5px 0 5px;
+  color: #FFCC66;
+}
+
+.category-lists .category-list-item:hover::before {
+  color: #FFCC66;
+}
+
+.post-eof {
+  margin: 50px auto;
+  width: 50%;
+  height: 1px;
+  background: #FFCC66;
+  opacity: 0.1;
+}
+
+.post-copyright {
+  border-left: 4px solid #FFCC66;
+}
+
 /* copyright左端颜色 */
 
-  .markdown-body blockquote {
-    border-left: 4px solid #FFCC66;
-  }
-  /* markdown引用块左端颜色 */
-
-  /* 以下为改girls页面为littleworld页面 */
-  .girl-item .girl-avatar {
-    object-fit: cover;
-    object-position: center top;
-    width: 8rem;
-    height: 8rem;
-    border-radius: 50%;
-    padding: 0.2rem;
-    background-color: #fff;
-    box-shadow: 0 0 1rem rgb(0 0 0 / 12%);
-    transition: 0.5s;
+.markdown-body blockquote {
+  border-left: 4px solid #FFCC66;
 }
+
+/* markdown引用块左端颜色 */
+
+/* 以下为改girls页面为littleworld页面 */
+.girl-item .girl-avatar {
+  object-fit: cover;
+  object-position: center top;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  padding: 0.2rem;
+  background-color: #fff;
+  box-shadow: 0 0 1rem rgb(0 0 0 / 12%);
+  transition: 0.5s;
+}
+
 .girl-item .girl-name {
   font-size: 1.8rem;
 }
+
 .girl-item .girl-from {
   font-size: 12px;
   font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
   font-weight: bold;
   color: #fff;
 }
+
 .girl-items {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding-left: 0;
 }
+
 .girl-item .girl-from {
-  visibility:hidden;
+  visibility: hidden;
 }
+
 .girls-number {
-  visibility:hidden;
+  visibility: hidden;
 }
 
 :root {
   --smc-secondary: #FFCC66;
   --hty-link-color: #FFCC66;
   --smc-primary: #FFCC66;
+  --smc-c-primary: #FFCC66;
+}
+
+.girl-url {
+  target: "_self";
 }
