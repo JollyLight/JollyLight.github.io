@@ -59,7 +59,7 @@
 <p>终于还是毕业了，这篇文章就当是我四年生活的一个句点吧。</p>
 </blockquote>
 
-    <div id="aplayer-xFRSUCtJ" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-ZCuwKnbJ" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1413374282" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FFCC66"
     ></div>
 
@@ -90,12 +90,6 @@
         <tag>时光</tag>
         <tag>毕业</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>你好！银河系第三旋臂上的小星星！</title>
-    <url>/posts/hello-galaxy/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天是10月29日，第一篇博客文章呢！</p>
-]]></content>
   </entry>
   <entry>
     <title>喜欢的句子</title>
@@ -152,52 +146,10 @@
       </tags>
   </entry>
   <entry>
-    <title>常用快捷键小记</title>
-    <url>/posts/Notes-on-common-shortcut-keys/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>这篇文章可能对你没什么帮助，_(:з)∠)_主要是记给自己看的，只记录了我个人觉得应该常用但我不常用的快捷键(*/ω＼*)，没有列出我很熟悉的与很不熟悉的快捷键<del>(如果你真那么巧恰好和我熟悉的和不熟悉的快捷键一样那就应该对你也有很大帮助)</del> </p>
-<h3 id="微软输入法（拼音）"><a href="#微软输入法（拼音）" class="headerlink" title="微软输入法（拼音）"></a>微软输入法（拼音）</h3><p><kbd>，</kbd>：<strong>上翻页</strong></p>
-<p><kbd>。</kbd>：<strong>下翻页</strong></p>
-<p><kbd>↓ </kbd>：下一个字</p>
-<p><kbd>↑</kbd>  ：上一个字</p>
-<p><kbd>win</kbd> + <kbd>.</kbd> ：表情（包含各种符号）</p>
-<p><kbd>Ctrl </kbd>+ <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>→</kbd>/ <kbd>↓</kbd> ：切换表情（包含各种符号）</p>
-<h3 id="Edge浏览器"><a href="#Edge浏览器" class="headerlink" title="Edge浏览器"></a>Edge浏览器</h3><p><kbd>Ctrl</kbd> + <kbd>Tab</kbd>：<strong>切换到下一个标签页</strong></p>
-<p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Tab</kbd>：切换到上一个标签页</p>
-<p><kbd>Ctrl </kbd>+ <kbd>T</kbd>：新建标签页</p>
-<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>T</kbd>：<strong>恢复上一个关闭的标签页</strong></p>
-<p><kbd>Alt</kbd> + <kbd>←</kbd>/<kbd>→</kbd>：对同一标签页的返回与前进操作</p>
-<p><kbd>Ctrl</kbd> + <kbd>E</kbd>：在当前标签打开搜索引擎查询</p>
-<p><kbd>Ctrl</kbd> + <kbd>H</kbd>：历史记录</p>
-<p><kbd>Ctrl</kbd> + <kbd>W</kbd>：<strong>关闭当前标签页</strong></p>
-<p><kbd>Ctrl</kbd> + <kbd>F5</kbd>：<strong>强制刷新当前页面</strong>（部署了博客后页面没更新可以试试这个）</p>
-<p><kbd>空格键</kbd>：<strong>向下滚动网页</strong>（浏览学校的pdf非常好用）</p>
-<p><kbd>Shift</kbd>+ <kbd>空格键</kbd>：<strong>向上滚动网页</strong></p>
-<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>S</kbd>：网页截图（可截自动滚动后的整页）</p>
-<p><kbd>Shift</kbd> + <kbd>Esc</kbd>：浏览器资源管理器</p>
-<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>U</kbd>：语音朗读</p>
-<h3 id="Windows-10-11"><a href="#Windows-10-11" class="headerlink" title="Windows 10/11"></a>Windows 10/11</h3><p><kbd>win</kbd> + <kbd>V</kbd>：<strong>打开剪贴板</strong>（可以省去一些情况下需要2个页面来回跳转复制粘贴的麻烦)</p>
-<p>（以下截图的前提是将<code>设置</code>→<code>轻松使用</code>→<code>键盘</code>→<code>屏幕截图快捷方式</code>中的<code>使用PrtScn按键打开截图</code>打开）</p>
-<p><kbd>PrtSc</kbd>：<strong>截图（可选范围）并保存至剪贴板</strong></p>
-<p><kbd>win</kbd> + <kbd>PrtSc</kbd>：<strong>截图整屏保存至剪贴板并保存至文件夹</strong>（默认保存在了<code>C:\Users\你的用户名\Pictures\屏幕截图</code>文件夹下，你可以右击该文件夹选择<code>属性</code>→<code>位置</code>→<code>移动…</code>来选择你想保存在的文件夹，这是我找到的最舒服的截图方式了[]<del>(￣▽￣)</del>*）</p>
-<p><kbd>Alt</kbd> + <kbd>F4</kbd>：关闭当前页面</p>
-<blockquote>
-<p>用<kbd>Fn</kbd>键控制时按键的顺序是<kbd>Fn</kbd> + <kbd>Alt</kbd> + <kbd>F4</kbd></p>
-</blockquote>
-<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>D</kbd>：新建虚拟桌面</p>
-<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>←</kbd>/<kbd>→</kbd>：左右切换虚拟桌面</p>
-<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>F4</kbd>：关闭当前虚拟桌面</p>
-<p><kbd>win</kbd> + <kbd>N</kbd>：打开通知面板/日历面板</p>
-<p><kbd>win</kbd> + <kbd>W</kbd>：打开小组件（win11，虽然不用小组件，还是列这，<del>说不定以后小组件会改善</del>）</p>
-<p><kbd>win</kbd> + <kbd>A</kbd>：<strong>打开快速设置面板</strong></p>
-<p><kbd>win</kbd> + <kbd>H</kbd>：语音输入</p>
-<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>Esc</kbd>：任务管理器</p>
+    <title>你好！银河系第三旋臂上的小星星！</title>
+    <url>/posts/hello-galaxy/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天是10月29日，第一篇博客文章呢！</p>
 ]]></content>
-      <categories>
-        <category>备忘笔记</category>
-      </categories>
-      <tags>
-        <tag>快捷键</tag>
-      </tags>
   </entry>
   <entry>
     <title>小发现</title>
@@ -247,6 +199,54 @@
       </categories>
       <tags>
         <tag>发现</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>常用快捷键小记</title>
+    <url>/posts/Notes-on-common-shortcut-keys/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>这篇文章可能对你没什么帮助，_(:з)∠)_主要是记给自己看的，只记录了我个人觉得应该常用但我不常用的快捷键(*/ω＼*)，没有列出我很熟悉的与很不熟悉的快捷键<del>(如果你真那么巧恰好和我熟悉的和不熟悉的快捷键一样那就应该对你也有很大帮助)</del> </p>
+<h3 id="微软输入法（拼音）"><a href="#微软输入法（拼音）" class="headerlink" title="微软输入法（拼音）"></a>微软输入法（拼音）</h3><p><kbd>，</kbd>：<strong>上翻页</strong></p>
+<p><kbd>。</kbd>：<strong>下翻页</strong></p>
+<p><kbd>↓ </kbd>：下一个字</p>
+<p><kbd>↑</kbd>  ：上一个字</p>
+<p><kbd>win</kbd> + <kbd>.</kbd> ：表情（包含各种符号）</p>
+<p><kbd>Ctrl </kbd>+ <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>→</kbd>/ <kbd>↓</kbd> ：切换表情（包含各种符号）</p>
+<h3 id="Edge浏览器"><a href="#Edge浏览器" class="headerlink" title="Edge浏览器"></a>Edge浏览器</h3><p><kbd>Ctrl</kbd> + <kbd>Tab</kbd>：<strong>切换到下一个标签页</strong></p>
+<p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Tab</kbd>：切换到上一个标签页</p>
+<p><kbd>Ctrl </kbd>+ <kbd>T</kbd>：新建标签页</p>
+<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>T</kbd>：<strong>恢复上一个关闭的标签页</strong></p>
+<p><kbd>Alt</kbd> + <kbd>←</kbd>/<kbd>→</kbd>：对同一标签页的返回与前进操作</p>
+<p><kbd>Ctrl</kbd> + <kbd>E</kbd>：在当前标签打开搜索引擎查询</p>
+<p><kbd>Ctrl</kbd> + <kbd>H</kbd>：历史记录</p>
+<p><kbd>Ctrl</kbd> + <kbd>W</kbd>：<strong>关闭当前标签页</strong></p>
+<p><kbd>Ctrl</kbd> + <kbd>F5</kbd>：<strong>强制刷新当前页面</strong>（部署了博客后页面没更新可以试试这个）</p>
+<p><kbd>空格键</kbd>：<strong>向下滚动网页</strong>（浏览学校的pdf非常好用）</p>
+<p><kbd>Shift</kbd>+ <kbd>空格键</kbd>：<strong>向上滚动网页</strong></p>
+<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>S</kbd>：网页截图（可截自动滚动后的整页）</p>
+<p><kbd>Shift</kbd> + <kbd>Esc</kbd>：浏览器资源管理器</p>
+<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>U</kbd>：语音朗读</p>
+<h3 id="Windows-10-11"><a href="#Windows-10-11" class="headerlink" title="Windows 10/11"></a>Windows 10/11</h3><p><kbd>win</kbd> + <kbd>V</kbd>：<strong>打开剪贴板</strong>（可以省去一些情况下需要2个页面来回跳转复制粘贴的麻烦)</p>
+<p>（以下截图的前提是将<code>设置</code>→<code>轻松使用</code>→<code>键盘</code>→<code>屏幕截图快捷方式</code>中的<code>使用PrtScn按键打开截图</code>打开）</p>
+<p><kbd>PrtSc</kbd>：<strong>截图（可选范围）并保存至剪贴板</strong></p>
+<p><kbd>win</kbd> + <kbd>PrtSc</kbd>：<strong>截图整屏保存至剪贴板并保存至文件夹</strong>（默认保存在了<code>C:\Users\你的用户名\Pictures\屏幕截图</code>文件夹下，你可以右击该文件夹选择<code>属性</code>→<code>位置</code>→<code>移动…</code>来选择你想保存在的文件夹，这是我找到的最舒服的截图方式了[]<del>(￣▽￣)</del>*）</p>
+<p><kbd>Alt</kbd> + <kbd>F4</kbd>：关闭当前页面</p>
+<blockquote>
+<p>用<kbd>Fn</kbd>键控制时按键的顺序是<kbd>Fn</kbd> + <kbd>Alt</kbd> + <kbd>F4</kbd></p>
+</blockquote>
+<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>D</kbd>：新建虚拟桌面</p>
+<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>←</kbd>/<kbd>→</kbd>：左右切换虚拟桌面</p>
+<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>F4</kbd>：关闭当前虚拟桌面</p>
+<p><kbd>win</kbd> + <kbd>N</kbd>：打开通知面板/日历面板</p>
+<p><kbd>win</kbd> + <kbd>W</kbd>：打开小组件（win11，虽然不用小组件，还是列这，<del>说不定以后小组件会改善</del>）</p>
+<p><kbd>win</kbd> + <kbd>A</kbd>：<strong>打开快速设置面板</strong></p>
+<p><kbd>win</kbd> + <kbd>H</kbd>：语音输入</p>
+<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>Esc</kbd>：任务管理器</p>
+]]></content>
+      <categories>
+        <category>备忘笔记</category>
+      </categories>
+      <tags>
+        <tag>快捷键</tag>
       </tags>
   </entry>
   <entry>
