@@ -1,65 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>blog运行小笔记</title>
-    <url>/posts/note-for-blog-working/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p><strong>写文章</strong><br> <strong>step1:</strong> 打开blog文件夹，并在里面空白处右击选择<code>Git Bash Here</code><br> <strong>step2:</strong> 在里面输入<code>hexo n 新文章名</code>，再回车<br> <strong>step3:</strong> 在blog文件夹中，进入source文件夹，再进入_posts文件夹，用宇宙最强编辑器vs code打开新建的文章</p>
-<blockquote>
-<p>其实也可以直接在source/_posts文件夹内新建markdown文件（可以先新建一个记事本txt文件再改后缀为md），然后直接在里面写文章，推荐Typora编辑器</p>
-</blockquote>
-<p> <strong>step4:</strong> 就可以可以开始写啦！写完后记得保存<br> <strong>step5:</strong> 再打开Git Bash，依次输入<code>hexo c</code> <code>hexo g</code> <code>hexo d</code>(注意看有没有报错或警告啊)</p>
-<blockquote>
-<p>当然也可以随时在输入<code>hexo s</code>后在<a href="http://localhost:4000/">本地</a>查看自己的网站</p>
-</blockquote>
-<p><strong>step6:</strong> 再输入 <code>sh update.sh</code>运行之前写好的bash脚本，以完成博客源文件推送到gitee目标仓库hexo分支上实现备份</p>
-<blockquote>
-<p>可以在update.sh文件中更改info=”~“中的~来描述此次要在仓库中显示的更新说明</p>
-</blockquote>
-<p><strong>step7:</strong> 打开码云的<a href="https://gitee.com/jollylight/jollylight/pages">gitee page页面</a>，点击更新，等待片刻<br> <strong>step8:</strong> 就OK啦！</p>
-<p>（这么简单为什么写出来，因为我真的是小白啊QAQ）</p>
-<p><del>（主要也怕自己太久没写博客忘了）</del></p>
-<h1 id="linux常用命令-即git-bash下"><a href="#linux常用命令-即git-bash下" class="headerlink" title="linux常用命令(即git bash下)"></a>linux常用命令(即git bash下)</h1><p><kbd>Ctrl</kbd>+<kbd>Insert </kbd>: 复制</p>
-<p><kbd>Shift</kbd>+<kbd>Insert </kbd>: 粘贴</p>
-<h1 id="其他常用"><a href="#其他常用" class="headerlink" title="其他常用"></a>其他常用</h1><p><strong>blog主颜色</strong>：<font color=#FFCC66>#FFCC66</font></p>
-]]></content>
-      <categories>
-        <category>备忘笔记</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2022.03.26</title>
-    <url>/posts/2022.03.26/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天好像发生了很多事，想写下来。</p>
-<p>今天是周六，如果不是公司的A说周日让我来加班的话，我今天下午应该回家的，我当时应该拒绝的，我真的，还是很没有主见，我总是认为，家人比一切都重要，可我口口声声这么说，却还是向万恶的资本主义低下了头，我也不知道怎样做是对的，怎样做是错的，只是有时候的确是会身不由己，而这时或许更需要一种敢于对抗的勇气，心里想的和实际做的总是差异太大，更何况我身上自带的强烈的社恐属性挥之不去，sometimes just don’t know how to deal with it.</p>
-<p>今天还是B的生日，B是去年和我们一起进公司的应届生，我们几个去年一起来的应届生交流会比较多一些，毕业之后我改变了很多想法，也试着作出一些对自己的改变，决定试着交一些朋友，于是刚来公司时我很努力的让自己表现的不像以前那样另类，可终究还是本性难移吧，我好像又回到了以前一个人独来独往的生活。今天是B的生日，他们去聚餐，我又没去，当然我其实另有原因，公司一个短程出差，又或者这只是一个借口，没有这次出差我就会和他们一起去给B过生日吗，我不知道啊，我一直觉得B是一个很棒的人，我应该去的呀，可是人一多我真的连说话都会紧张，即使是相处了这么久的人。现在有时回想起大学时候，宿舍的人每次出去或一起干什么事我都不参与真的有些后悔了，今天看到他们在群里发的一起打球的照片，有时候会想，我为什么会产生这么多距离感呢，明明都是很好的人啊。今天宿舍群里打开了难得的视频通话，我看着图标，也想点下去加入，和他们聊聊最近大家都怎么样，可点不下去，我还是格格不入的那个啊。</p>
-<p>今天在群里看到大学舍友提了离职，直接裸辞，他说快乐最重要，工作的事以后再说，我羡慕他能有这样的勇气和主见，能够对这件事坚定下来，并付以实际行动。我确实不敢这样，嗯……或许也说不定吧。离职的事有时我也会想，只是常常觉得自己想太多了，需要通过和别人交流来落实内心的想法对我来说不是一件容易的事，至少很多时候不是，但是如果我像他一样对自己的工作看不到一点光亮的话或许我也会选择放下一些东西吧。</p>
-<p>大一时军训的教官今晚在朋友圈里发了自己要离开世界的话，我的一个同学C去公安局报警了，一边在微信里主动安慰他，了解到他做生意失败了欠了债，家里妻子和老人又有重病在住院，需要很多钱，还发给同学C一张医院的账单截图，聊天中能看到主要是钱的问题，同学C问现在需要多少钱，教官说至少需要15w，同学C回复了一句“没问题，我想办法帮你筹”，他像是抓住了救命稻草，回复了一番做牛做马的话，我在宿舍群里看到同学C发的对话截图向我们求助，五味杂陈，同学C和我们一样都是刚毕业也没什么钱，但关乎生命的事……</p>
-<p>我不知道，大人的生活就是这样的吗？</p>
-<details><summary>第二天</summary>
-    第二天听到同学C说他已经没事了，现在想开了一些，那15w也不会让同学C去凑，他会自己慢慢解决，嗯。<br>
-    我在记事本里对自己写道：如果你觉得现在的生活不如意，不妨大胆一些，尝试着去改变它，去寻找让自己更安心的活法，而你所做出的任何你看起来很大的改变，在生命面前，都不过是过眼云烟。<del>（不过我又怎会那么轻易的付诸实际行动呢）</del>
-</details>
-]]></content>
-      <categories>
-        <category>时间沙漏</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>不是学生了呀</title>
     <url>/posts/for-the-past-four-years/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
 <p>终于还是毕业了，这篇文章就当是我四年生活的一个句点吧。</p>
 </blockquote>
 
-    <div id="aplayer-tIIFiSZu" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-qhTMbOal" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1413374282" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FFCC66"
     ></div>
 
@@ -89,6 +37,58 @@
       <tags>
         <tag>时光</tag>
         <tag>毕业</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2022.03.26</title>
+    <url>/posts/2022.03.26/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天好像发生了很多事，想写下来。</p>
+<p>今天是周六，如果不是公司的A说周日让我来加班的话，我今天下午应该回家的，我当时应该拒绝的，我真的，还是很没有主见，我总是认为，家人比一切都重要，可我口口声声这么说，却还是向万恶的资本主义低下了头，我也不知道怎样做是对的，怎样做是错的，只是有时候的确是会身不由己，而这时或许更需要一种敢于对抗的勇气，心里想的和实际做的总是差异太大，更何况我身上自带的强烈的社恐属性挥之不去，sometimes just don’t know how to deal with it.</p>
+<p>今天还是B的生日，B是去年和我们一起进公司的应届生，我们几个去年一起来的应届生交流会比较多一些，毕业之后我改变了很多想法，也试着作出一些对自己的改变，决定试着交一些朋友，于是刚来公司时我很努力的让自己表现的不像以前那样另类，可终究还是本性难移吧，我好像又回到了以前一个人独来独往的生活。今天是B的生日，他们去聚餐，我又没去，当然我其实另有原因，公司一个短程出差，又或者这只是一个借口，没有这次出差我就会和他们一起去给B过生日吗，我不知道啊，我一直觉得B是一个很棒的人，我应该去的呀，可是人一多我真的连说话都会紧张，即使是相处了这么久的人。现在有时回想起大学时候，宿舍的人每次出去或一起干什么事我都不参与真的有些后悔了，今天看到他们在群里发的一起打球的照片，有时候会想，我为什么会产生这么多距离感呢，明明都是很好的人啊。今天宿舍群里打开了难得的视频通话，我看着图标，也想点下去加入，和他们聊聊最近大家都怎么样，可点不下去，我还是格格不入的那个啊。</p>
+<p>今天在群里看到大学舍友提了离职，直接裸辞，他说快乐最重要，工作的事以后再说，我羡慕他能有这样的勇气和主见，能够对这件事坚定下来，并付以实际行动。我确实不敢这样，嗯……或许也说不定吧。离职的事有时我也会想，只是常常觉得自己想太多了，需要通过和别人交流来落实内心的想法对我来说不是一件容易的事，至少很多时候不是，但是如果我像他一样对自己的工作看不到一点光亮的话或许我也会选择放下一些东西吧。</p>
+<p>大一时军训的教官今晚在朋友圈里发了自己要离开世界的话，我的一个同学C去公安局报警了，一边在微信里主动安慰他，了解到他做生意失败了欠了债，家里妻子和老人又有重病在住院，需要很多钱，还发给同学C一张医院的账单截图，聊天中能看到主要是钱的问题，同学C问现在需要多少钱，教官说至少需要15w，同学C回复了一句“没问题，我想办法帮你筹”，他像是抓住了救命稻草，回复了一番做牛做马的话，我在宿舍群里看到同学C发的对话截图向我们求助，五味杂陈，同学C和我们一样都是刚毕业也没什么钱，但关乎生命的事……</p>
+<p>我不知道，大人的生活就是这样的吗？</p>
+<details><summary>第二天</summary>
+    第二天听到同学C说他已经没事了，现在想开了一些，那15w也不会让同学C去凑，他会自己慢慢解决，嗯。<br>
+    我在记事本里对自己写道：如果你觉得现在的生活不如意，不妨大胆一些，尝试着去改变它，去寻找让自己更安心的活法，而你所做出的任何你看起来很大的改变，在生命面前，都不过是过眼云烟。<del>（不过我又怎会那么轻易的付诸实际行动呢）</del>
+</details>
+]]></content>
+      <categories>
+        <category>时间沙漏</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>blog运行小笔记</title>
+    <url>/posts/note-for-blog-working/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p><strong>写文章</strong><br> <strong>step1:</strong> 打开blog文件夹，并在里面空白处右击选择<code>Git Bash Here</code><br> <strong>step2:</strong> 在里面输入<code>hexo n 新文章名</code>，再回车<br> <strong>step3:</strong> 在blog文件夹中，进入source文件夹，再进入_posts文件夹，用宇宙最强编辑器vs code打开新建的文章</p>
+<blockquote>
+<p>其实也可以直接在source/_posts文件夹内新建markdown文件（可以先新建一个记事本txt文件再改后缀为md），然后直接在里面写文章，推荐Typora编辑器</p>
+</blockquote>
+<p> <strong>step4:</strong> 就可以可以开始写啦！写完后记得保存<br> <strong>step5:</strong> 再打开Git Bash，依次输入<code>hexo c</code> <code>hexo g</code> <code>hexo d</code>(注意看有没有报错或警告啊)</p>
+<blockquote>
+<p>当然也可以随时在输入<code>hexo s</code>后在<a href="http://localhost:4000/">本地</a>查看自己的网站</p>
+</blockquote>
+<p><strong>step6:</strong> 再输入 <code>sh update.sh</code>运行之前写好的bash脚本，以完成博客源文件推送到gitee目标仓库hexo分支上实现备份</p>
+<blockquote>
+<p>可以在update.sh文件中更改info=”~“中的~来描述此次要在仓库中显示的更新说明</p>
+</blockquote>
+<p><strong>step7:</strong> 打开码云的<a href="https://gitee.com/jollylight/jollylight/pages">gitee page页面</a>，点击更新，等待片刻<br> <strong>step8:</strong> 就OK啦！</p>
+<p>（这么简单为什么写出来，因为我真的是小白啊QAQ）</p>
+<p><del>（主要也怕自己太久没写博客忘了）</del></p>
+<h1 id="linux常用命令-即git-bash下"><a href="#linux常用命令-即git-bash下" class="headerlink" title="linux常用命令(即git bash下)"></a>linux常用命令(即git bash下)</h1><p><kbd>Ctrl</kbd>+<kbd>Insert </kbd>: 复制</p>
+<p><kbd>Shift</kbd>+<kbd>Insert </kbd>: 粘贴</p>
+<h1 id="其他常用"><a href="#其他常用" class="headerlink" title="其他常用"></a>其他常用</h1><p><strong>blog主颜色</strong>：<font color=#FFCC66>#FFCC66</font></p>
+]]></content>
+      <categories>
+        <category>备忘笔记</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -200,34 +200,6 @@
       </tags>
   </entry>
   <entry>
-    <title>空间小画</title>
-    <url>/posts/space-little-drawing/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>如何把一个无聊的制图软件玩出花来……</p>
-<blockquote>
-<p>最初见到用Solidworks绘出有意思的三维图像并渲染得那么好看还是在B站的up主<a href="https://space.bilibili.com/25636858/">碧落九重剑</a>这儿（不过现在好像不发布Solidworks的教学视频了），后来自己慢慢琢磨也能自己绘出一些简单的作品了~</p>
-</blockquote>
-<h3 id="阿柒的魔刀千刃"><a href="#阿柒的魔刀千刃" class="headerlink" title="阿柒的魔刀千刃"></a>阿柒的魔刀千刃</h3><p><del>（剑格部分的六边形因为开始没注意到后来又懒得改就保持了矩形的样子，也还看得过去）</del></p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E9%AD%94%E5%88%80%E5%8D%83%E5%88%83B.JPG" loading="lazy"></p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E9%AD%94%E5%88%80%E5%8D%83%E5%88%83K.JPG" loading="lazy"></p>
-<h3 id="bilibili小电视"><a href="#bilibili小电视" class="headerlink" title="bilibili小电视"></a>bilibili小电视</h3><p><del>（原本想着能3D打印出来,再涂上相应的颜料，等我有钱了一定买个3D打印机）</del></p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E5%B0%8F%E7%94%B5%E8%A7%86x.JPG" loading="lazy"></p>
-<h3 id="没有名字的无人机"><a href="#没有名字的无人机" class="headerlink" title="没有名字的无人机"></a>没有名字的无人机</h3><p>（当初是个3D打印课的作业，自己设计一个可3D打印出来的模型之类的）</p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E6%97%A0%E4%BA%BA%E6%9C%BA.JPG" loading="lazy"></p>
-<h3 id="灰红的狼堡"><a href="#灰红的狼堡" class="headerlink" title="灰红的狼堡"></a>灰红的狼堡</h3><p><del>（追喜羊羊的时候画的）</del></p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E7%8B%BC%E5%A0%A1L.JPG" loading="lazy"></p>
-<h3 id="伽小"><a href="#伽小" class="headerlink" title="伽小"></a>伽小</h3><p><del>（应该不算毁童年吧）</del></p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/jialuo.JPG" loading="lazy"></p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E5%B0%8F%E5%BF%83%E8%B6%85%E4%BA%BAS.JPG" loading="lazy"></p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E4%BC%BD%E7%BD%97L.JPG" loading="lazy"><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E5%B0%8F%E5%BF%83%E8%B6%85%E4%BA%BA.JPG" loading="lazy"></p>
-]]></content>
-      <categories>
-        <category>创作作品</category>
-      </categories>
-      <tags>
-        <tag>Solidworks</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>小发现</title>
     <url>/posts/little-discoveries/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><script
@@ -278,42 +250,31 @@
       </tags>
   </entry>
   <entry>
-    <title>记读：人类简史</title>
-    <url>/posts/reading--A-Brief-History-of-Humankind/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
-<p>这本书给我从认知上带来的改变无法用只言片语来概括，摘录几个印象深刻的段落在这里。</p>
+    <title>空间小画</title>
+    <url>/posts/space-little-drawing/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>如何把一个无聊的制图软件玩出花来……</p>
+<blockquote>
+<p>最初见到用Solidworks绘出有意思的三维图像并渲染得那么好看还是在B站的up主<a href="https://space.bilibili.com/25636858/">碧落九重剑</a>这儿（不过现在好像不发布Solidworks的教学视频了），后来自己慢慢琢磨也能自己绘出一些简单的作品了~</p>
 </blockquote>
-<p>农业革命所带来的非但不是轻松生活的新时代，反而让农民过着比采集者更辛苦、更不满足的生活。狩猎采集者的生活其实更为丰富多变，也比较少会碰上饥饿和疾病的威胁。确实，农业革命让人类的食物总量增加，但量的增加并不代表吃得更好、过得更悠闲，反而只是造成人口爆炸，而且产生一群养尊处优、娇生惯养的精英分子。普遍来说，农民的工作要比采集者更辛苦，而且到头来的饮食还要更糟。农业革命可说是史上最大的一桩骗局。</p>
-<p align="right">—— 引自章节：史上最大骗局</p>
-
-<p>如果要衡量某种物种演化成功与否，评断标准就在于世界上其DNA螺旋的拷贝数的多寡。</p>
-<p>这正是农业革命真正的本质：让更多的人却以更糟的状况活下去。 但是，身为个人，为什么要管这种演化问题？如果有人说，为了“增加智人基因组在世界上的拷贝数”，希望你降低自己的生活水平，你会同意吗？没有人会同意这笔交易。简单说来，农业革命就是一个陷阱。</p>
-<p align="right">—— 引自章节：史上最大骗局</p>
-
-<p>于是，种种想让生活变得轻松的努力，反而给人带来无穷的麻烦；而且这可不是史上的最后一次，今天仍然如此。年轻的大学毕业生投身大企业，发誓要努力赚钱，好在35岁就退休，去从事他们真正有兴趣的事业？但等他们到了35岁，却发现自己背着巨额贷款，要付子女的学费，要养在高级住宅区的豪宅，每家得有两部车，而且觉得生活里不能没有高级红酒和国外的假期。他们能怎么做？他们会放下一切，回去野外采果子挖树根吗？当然不可能，而是加倍努力，继续把自己累得半死。</p>
-<p align="right">—— 引自章节：史上最大骗局</p>
-
-<p>讲到国家如何为资本家服务，最恶名昭彰的就是中英第一次鸦片战争（1840－1842年）。鸦片烟商与英国国会和首相关系良好，许多议员和部长其实都持有烟商公司的股票。因为不满于中国政府禁烟禁鸦片，烟商因此向政府施压。英国以“自由贸易”的名义发动了战争，迫使中国签订不平等条约。从此香港就成了烟商安全的贩*毒基地。在19世纪末，中国鸦片成瘾者达4000万，达占全国人口的1/10。</p>
-<p align="right">—— 引自章节：资本主义信条</p>
-
-<p>现代资本主义经济如果想要存活，就得不断提高产量。然而，光是生产还不够。生产出来之后，还得有人买。就出现了一种新的伦理观：消费主义。 消费主义的美德就是消费更多的产品和服务，鼓励所有人应该善待自己、宠爱自己，就算因为过度消费而慢慢走上绝路，也是在所不惜。</p>
-<p align="right">—— 引自章节：工业的巨轮</p>
-
-<p>然而，如果根据商人的资本主义伦理，所有的利润都该再投入生产而不是白白浪费，这样一来，消费主义论理和资本主义道德该如何共存？在中世纪欧洲，贵族浪掷千金、尽享奢华，而农民则是省吃俭用、锱铢必较。但今天情况正相反。大富豪管理资产和投资非常谨慎，反而是没那么有钱的人，买起没那么需要的汽车和电视机却毫不手软。 大多数人都能轻松达到资本/消费主义的理想。想要进入这种新伦理所承诺的天堂，条件就是有钱人应该继续贪婪下去，把时间投入赚更多的钱，至于一般大众则是要尽情满足自己的欲望和热情，想要什么就买什么。这是人类有史以来第一次，信众终于真的能够做到宗教要求的条件。</p>
-<p align="right">—— 引自章节：工业的巨轮</p>
-
-<p>科学革命并不是知识的革命，而是“无知的革命”。真正让科学革命起步的伟大发现，就是发现“人类对于最重要的问题其实毫无所知” 现代科学愿意承认自己的无知，就让它比素有先前的知识体系更具活力、更有弹性，也更有求知欲 早起的知识体系常常是用“故事”构成理论，而现代科学用的则是“数学”。</p>
-<p align="right">—— 引自章节：发现自己的无知</p>
-
-<p>两千五百多年来，佛教有系统地研究了快乐的本质和成因。正因如此，最近有越来越多科学团体开始研究佛教哲学和冥想。佛教认为，快乐就不是主观感受到愉悦，也不是主观觉得生命有意义，反而是在于放下追求主观感受这件事。 根据佛教的观点，大多数人太看重自己的感受，以为快感就是快乐，不愉悦的感受就是受苦。于是，人类就渴望能有快感，并希望避免不愉悦的感受。然而，这是大大的误解。事实是，人类的主观感受没有任何实质或意义。主观感受就只是一种电光石火的波动，每个瞬间都在改变，就像海浪一样。不论你感受到的是快感或不快，觉得生命是否有着意义，这都只是一瞬间的波动而已。 如果我们太看重这些内部的波动，就会变得太过执迷，心灵也就焦躁不安、感到不满。每次碰上不快，就感觉受苦。而且就算已经得到快感，因为我们还希望快感能够增强或是害怕快感将会减弱，所以心里还是不能感到满足。追求这些主观感受十分耗费心神，而且终是徒劳，只是让我们受制于追求本身。因此，苦的根源及不在于感到悲伤或疼痛，也不在于感觉一切没有意义。苦真正的根源就在于“追求”主观感受这件事，不管追求的是什么，都会让人陷入持续的紧张、困惑和不满之中。 佛教与现代生物学和新世纪运动的相同点，在于都认定快乐不在于外在条件。但佛教更重要也更深刻的见解在于，真正的快乐也不在于我们的主观感受。我们如果越强调主观感受，反而就越感到苦。佛教给我们的建议是，除了别再追求外在成就之外，同时也别再追求那些感觉良好的心理感受了。</p>
-<p align="right">—— 引自章节：认识你自己</p>
-
+<h3 id="阿柒的魔刀千刃"><a href="#阿柒的魔刀千刃" class="headerlink" title="阿柒的魔刀千刃"></a>阿柒的魔刀千刃</h3><p><del>（剑格部分的六边形因为开始没注意到后来又懒得改就保持了矩形的样子，也还看得过去）</del></p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E9%AD%94%E5%88%80%E5%8D%83%E5%88%83B.JPG" loading="lazy"></p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E9%AD%94%E5%88%80%E5%8D%83%E5%88%83K.JPG" loading="lazy"></p>
+<h3 id="bilibili小电视"><a href="#bilibili小电视" class="headerlink" title="bilibili小电视"></a>bilibili小电视</h3><p><del>（原本想着能3D打印出来,再涂上相应的颜料，等我有钱了一定买个3D打印机）</del></p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E5%B0%8F%E7%94%B5%E8%A7%86x.JPG" loading="lazy"></p>
+<h3 id="没有名字的无人机"><a href="#没有名字的无人机" class="headerlink" title="没有名字的无人机"></a>没有名字的无人机</h3><p>（当初是个3D打印课的作业，自己设计一个可3D打印出来的模型之类的）</p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E6%97%A0%E4%BA%BA%E6%9C%BA.JPG" loading="lazy"></p>
+<h3 id="灰红的狼堡"><a href="#灰红的狼堡" class="headerlink" title="灰红的狼堡"></a>灰红的狼堡</h3><p><del>（追喜羊羊的时候画的）</del></p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E7%8B%BC%E5%A0%A1L.JPG" loading="lazy"></p>
+<h3 id="伽小"><a href="#伽小" class="headerlink" title="伽小"></a>伽小</h3><p><del>（应该不算毁童年吧）</del></p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/jialuo.JPG" loading="lazy"></p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E5%B0%8F%E5%BF%83%E8%B6%85%E4%BA%BAS.JPG" loading="lazy"></p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E4%BC%BD%E7%BD%97L.JPG" loading="lazy"><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E5%B0%8F%E5%BF%83%E8%B6%85%E4%BA%BA.JPG" loading="lazy"></p>
 ]]></content>
       <categories>
-        <category>备忘笔记</category>
+        <category>创作作品</category>
       </categories>
       <tags>
-        <tag>阅读</tag>
+        <tag>Solidworks</tag>
       </tags>
   </entry>
 </search>
