@@ -23,13 +23,43 @@
       </tags>
   </entry>
   <entry>
+    <title>blog运行小笔记</title>
+    <url>/posts/note-for-blog-working/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p><strong>写文章</strong><br> <strong>step1:</strong> 打开blog文件夹，并在里面空白处右击选择<code>Git Bash Here</code><br> <strong>step2:</strong> 在里面输入<code>hexo n 新文章名</code>，再回车<br> <strong>step3:</strong> 在blog文件夹中，进入source文件夹，再进入_posts文件夹，用宇宙最强编辑器vs code打开新建的文章</p>
+<blockquote>
+<p>其实也可以直接在source/_posts文件夹内新建markdown文件（可以先新建一个记事本txt文件再改后缀为md），然后直接在里面写文章，推荐Typora编辑器</p>
+</blockquote>
+<p> <strong>step4:</strong> 就可以可以开始写啦！写完后记得保存<br> <strong>step5:</strong> 再打开Git Bash，依次输入<code>hexo c</code> <code>hexo g</code> <code>hexo d</code>(注意看有没有报错或警告啊)</p>
+<blockquote>
+<p>当然也可以随时在输入<code>hexo s</code>后在<a href="http://localhost:4000/">本地</a>查看自己的网站</p>
+</blockquote>
+<p><strong>step6:</strong> 再输入 <code>sh update.sh</code>运行之前写好的bash脚本，以完成博客源文件推送到gitee目标仓库hexo分支上实现备份</p>
+<blockquote>
+<p>可以在update.sh文件中更改info=”~“中的~来描述此次要在仓库中显示的更新说明</p>
+</blockquote>
+<p><strong>step7:</strong> 打开码云的<a href="https://gitee.com/jollylight/jollylight/pages">gitee page页面</a>，点击更新，等待片刻<br> <strong>step8:</strong> 就OK啦！</p>
+<p>（这么简单为什么写出来，因为我真的是小白啊QAQ）</p>
+<p><del>（主要也怕自己太久没写博客忘了）</del></p>
+<h1 id="linux常用命令-即git-bash下"><a href="#linux常用命令-即git-bash下" class="headerlink" title="linux常用命令(即git bash下)"></a>linux常用命令(即git bash下)</h1><p><kbd>Ctrl</kbd>+<kbd>Insert </kbd>: 复制</p>
+<p><kbd>Shift</kbd>+<kbd>Insert </kbd>: 粘贴</p>
+<h1 id="其他常用"><a href="#其他常用" class="headerlink" title="其他常用"></a>其他常用</h1><p><strong>blog主颜色</strong>：<font color=#FFCC66>#FFCC66</font></p>
+]]></content>
+      <categories>
+        <category>备忘笔记</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>不是学生了呀</title>
     <url>/posts/for-the-past-four-years/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
 <p>终于还是毕业了，这篇文章就当是我四年生活的一个句点吧。</p>
 </blockquote>
 
-    <div id="aplayer-gJBkNDHf" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-ankCLoeo" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1413374282" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FFCC66"
     ></div>
 
@@ -59,36 +89,6 @@
       <tags>
         <tag>时光</tag>
         <tag>毕业</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>blog运行小笔记</title>
-    <url>/posts/note-for-blog-working/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p><strong>写文章</strong><br> <strong>step1:</strong> 打开blog文件夹，并在里面空白处右击选择<code>Git Bash Here</code><br> <strong>step2:</strong> 在里面输入<code>hexo n 新文章名</code>，再回车<br> <strong>step3:</strong> 在blog文件夹中，进入source文件夹，再进入_posts文件夹，用宇宙最强编辑器vs code打开新建的文章</p>
-<blockquote>
-<p>其实也可以直接在source/_posts文件夹内新建markdown文件（可以先新建一个记事本txt文件再改后缀为md），然后直接在里面写文章，推荐Typora编辑器</p>
-</blockquote>
-<p> <strong>step4:</strong> 就可以可以开始写啦！写完后记得保存<br> <strong>step5:</strong> 再打开Git Bash，依次输入<code>hexo c</code> <code>hexo g</code> <code>hexo d</code>(注意看有没有报错或警告啊)</p>
-<blockquote>
-<p>当然也可以随时在输入<code>hexo s</code>后在<a href="http://localhost:4000/">本地</a>查看自己的网站</p>
-</blockquote>
-<p><strong>step6:</strong> 再输入 <code>sh update.sh</code>运行之前写好的bash脚本，以完成博客源文件推送到gitee目标仓库hexo分支上实现备份</p>
-<blockquote>
-<p>可以在update.sh文件中更改info=”~“中的~来描述此次要在仓库中显示的更新说明</p>
-</blockquote>
-<p><strong>step7:</strong> 打开码云的<a href="https://gitee.com/jollylight/jollylight/pages">gitee page页面</a>，点击更新，等待片刻<br> <strong>step8:</strong> 就OK啦！</p>
-<p>（这么简单为什么写出来，因为我真的是小白啊QAQ）</p>
-<p><del>（主要也怕自己太久没写博客忘了）</del></p>
-<h1 id="linux常用命令-即git-bash下"><a href="#linux常用命令-即git-bash下" class="headerlink" title="linux常用命令(即git bash下)"></a>linux常用命令(即git bash下)</h1><p><kbd>Ctrl</kbd>+<kbd>Insert </kbd>: 复制</p>
-<p><kbd>Shift</kbd>+<kbd>Insert </kbd>: 粘贴</p>
-<h1 id="其他常用"><a href="#其他常用" class="headerlink" title="其他常用"></a>其他常用</h1><p><strong>blog主颜色</strong>：<font color=#FFCC66>#FFCC66</font></p>
-]]></content>
-      <categories>
-        <category>备忘笔记</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -202,6 +202,34 @@
       </tags>
   </entry>
   <entry>
+    <title>空间小画</title>
+    <url>/posts/space-little-drawing/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>如何把一个无聊的制图软件玩出花来……</p>
+<blockquote>
+<p>最初见到用Solidworks绘出有意思的三维图像并渲染得那么好看还是在B站的up主<a href="https://space.bilibili.com/25636858/">碧落九重剑</a>这儿（不过现在好像不发布Solidworks的教学视频了），后来自己慢慢琢磨也能自己绘出一些简单的作品了~</p>
+</blockquote>
+<h3 id="阿柒的魔刀千刃"><a href="#阿柒的魔刀千刃" class="headerlink" title="阿柒的魔刀千刃"></a>阿柒的魔刀千刃</h3><p><del>（剑格部分的六边形因为开始没注意到后来又懒得改就保持了矩形的样子，也还看得过去）</del></p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E9%AD%94%E5%88%80%E5%8D%83%E5%88%83B.JPG" loading="lazy"></p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E9%AD%94%E5%88%80%E5%8D%83%E5%88%83K.JPG" loading="lazy"></p>
+<h3 id="bilibili小电视"><a href="#bilibili小电视" class="headerlink" title="bilibili小电视"></a>bilibili小电视</h3><p><del>（原本想着能3D打印出来,再涂上相应的颜料，等我有钱了一定买个3D打印机）</del></p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E5%B0%8F%E7%94%B5%E8%A7%86x.JPG" loading="lazy"></p>
+<h3 id="没有名字的无人机"><a href="#没有名字的无人机" class="headerlink" title="没有名字的无人机"></a>没有名字的无人机</h3><p>（当初是个3D打印课的作业，自己设计一个可3D打印出来的模型之类的）</p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E6%97%A0%E4%BA%BA%E6%9C%BA.JPG" loading="lazy"></p>
+<h3 id="灰红的狼堡"><a href="#灰红的狼堡" class="headerlink" title="灰红的狼堡"></a>灰红的狼堡</h3><p><del>（追喜羊羊的时候画的）</del></p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E7%8B%BC%E5%A0%A1L.JPG" loading="lazy"></p>
+<h3 id="伽小"><a href="#伽小" class="headerlink" title="伽小"></a>伽小</h3><p><del>（应该不算毁童年吧）</del></p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/jialuo.JPG" loading="lazy"></p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E5%B0%8F%E5%BF%83%E8%B6%85%E4%BA%BAS.JPG" loading="lazy"></p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E4%BC%BD%E7%BD%97L.JPG" loading="lazy"><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E5%B0%8F%E5%BF%83%E8%B6%85%E4%BA%BA.JPG" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>创作作品</category>
+      </categories>
+      <tags>
+        <tag>Solidworks</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>常用快捷键小记</title>
     <url>/posts/Notes-on-common-shortcut-keys/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>这篇文章可能对你没什么帮助，_(:з)∠)_主要是记给自己看的，只记录了我个人觉得应该常用但我不常用的快捷键(*/ω＼*)，没有列出我很熟悉的与很不熟悉的快捷键<del>(如果你真那么巧恰好和我熟悉的和不熟悉的快捷键一样那就应该对你也有很大帮助)</del> </p>
@@ -250,34 +278,6 @@
       </tags>
   </entry>
   <entry>
-    <title>空间小画</title>
-    <url>/posts/space-little-drawing/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>如何把一个无聊的制图软件玩出花来……</p>
-<blockquote>
-<p>最初见到用Solidworks绘出有意思的三维图像并渲染得那么好看还是在B站的up主<a href="https://space.bilibili.com/25636858/">碧落九重剑</a>这儿（不过现在好像不发布Solidworks的教学视频了），后来自己慢慢琢磨也能自己绘出一些简单的作品了~</p>
-</blockquote>
-<h3 id="阿柒的魔刀千刃"><a href="#阿柒的魔刀千刃" class="headerlink" title="阿柒的魔刀千刃"></a>阿柒的魔刀千刃</h3><p><del>（剑格部分的六边形因为开始没注意到后来又懒得改就保持了矩形的样子，也还看得过去）</del></p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E9%AD%94%E5%88%80%E5%8D%83%E5%88%83B.JPG" loading="lazy"></p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E9%AD%94%E5%88%80%E5%8D%83%E5%88%83K.JPG" loading="lazy"></p>
-<h3 id="bilibili小电视"><a href="#bilibili小电视" class="headerlink" title="bilibili小电视"></a>bilibili小电视</h3><p><del>（原本想着能3D打印出来,再涂上相应的颜料，等我有钱了一定买个3D打印机）</del></p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E5%B0%8F%E7%94%B5%E8%A7%86x.JPG" loading="lazy"></p>
-<h3 id="没有名字的无人机"><a href="#没有名字的无人机" class="headerlink" title="没有名字的无人机"></a>没有名字的无人机</h3><p>（当初是个3D打印课的作业，自己设计一个可3D打印出来的模型之类的）</p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E6%97%A0%E4%BA%BA%E6%9C%BA.JPG" loading="lazy"></p>
-<h3 id="灰红的狼堡"><a href="#灰红的狼堡" class="headerlink" title="灰红的狼堡"></a>灰红的狼堡</h3><p><del>（追喜羊羊的时候画的）</del></p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E7%8B%BC%E5%A0%A1L.JPG" loading="lazy"></p>
-<h3 id="伽小"><a href="#伽小" class="headerlink" title="伽小"></a>伽小</h3><p><del>（应该不算毁童年吧）</del></p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/jialuo.JPG" loading="lazy"></p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E5%B0%8F%E5%BF%83%E8%B6%85%E4%BA%BAS.JPG" loading="lazy"></p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E4%BC%BD%E7%BD%97L.JPG" loading="lazy"><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E5%B0%8F%E5%BF%83%E8%B6%85%E4%BA%BA.JPG" loading="lazy"></p>
-]]></content>
-      <categories>
-        <category>创作作品</category>
-      </categories>
-      <tags>
-        <tag>Solidworks</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>记读：人类简史</title>
     <url>/posts/reading--A-Brief-History-of-Humankind/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
@@ -293,7 +293,7 @@
 <p>于是，种种想让生活变得轻松的努力，反而给人带来无穷的麻烦；而且这可不是史上的最后一次，今天仍然如此。年轻的大学毕业生投身大企业，发誓要努力赚钱，好在35岁就退休，去从事他们真正有兴趣的事业？但等他们到了35岁，却发现自己背着巨额贷款，要付子女的学费，要养在高级住宅区的豪宅，每家得有两部车，而且觉得生活里不能没有高级红酒和国外的假期。他们能怎么做？他们会放下一切，回去野外采果子挖树根吗？当然不可能，而是加倍努力，继续把自己累得半死。</p>
 <p align="right">—— 引自章节：史上最大骗局</p>
 
-<p>讲到国家如何为资本家服务，最恶名昭彰的就是中英第一次鸦片战争（1840－1842年）。鸦片烟商与英国国会和首相关系良好，许多议员和部长其实都持有烟商公司的股票。因为不满于中国zhengfu禁烟禁鸦片，烟商因此向zhengfu施压。英国以“自由贸易”的名义发动了战争，迫使中国签订不平等条约。从此香港就成了烟商安全的贩毒基地。在19世纪末，中国鸦片成瘾者达4000万，达占全国人口的1/10。</p>
+<p>讲到国家如何为资本家服务，最恶名昭彰的就是中英第一次鸦片战争（1840－1842年）。鸦片烟商与英国国会和首相关系良好，许多议员和部长其实都持有烟商公司的股票。因为不满于中国zhengfu禁烟禁鸦片，烟商因此向zhengfu施压。英国以“自由贸易”的名义发动了战争，迫使中国签订不平等条约。从此香港就成了烟商安全的fandu基地。在19世纪末，中国鸦片成瘾者达4000万，达占全国人口的1/10。</p>
 <p align="right">—— 引自章节：资本主义信条</p>
 
 <p>现代资本主义经济如果想要存活，就得不断提高产量。然而，光是生产还不够。生产出来之后，还得有人买。就出现了一种新的伦理观：消费主义。 消费主义的美德就是消费更多的产品和服务，鼓励所有人应该善待自己、宠爱自己，就算因为过度消费而慢慢走上绝路，也是在所不惜。</p>
