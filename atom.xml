@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>七号中微子</title>
-  <icon>https://jollylight.gitee.io/icon.png</icon>
+  <icon>https://jollylight.github.io/icon.png</icon>
   
-  <link href="https://jollylight.gitee.io/atom.xml" rel="self"/>
+  <link href="https://jollylight.github.io/atom.xml" rel="self"/>
   
-  <link href="https://jollylight.gitee.io/"/>
+  <link href="https://jollylight.github.io/"/>
   <updated>2022-10-12T15:32:43.514Z</updated>
-  <id>https://jollylight.gitee.io/</id>
+  <id>https://jollylight.github.io/</id>
   
   <author>
     <name>JollyLight</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>记读：人类简史</title>
-    <link href="https://jollylight.gitee.io/posts/reading--A-Brief-History-of-Humankind/"/>
-    <id>https://jollylight.gitee.io/posts/reading--A-Brief-History-of-Humankind/</id>
+    <link href="https://jollylight.github.io/posts/reading--A-Brief-History-of-Humankind/"/>
+    <id>https://jollylight.github.io/posts/reading--A-Brief-History-of-Humankind/</id>
     <published>2022-09-15T15:05:43.515Z</published>
     <updated>2022-10-12T15:32:43.514Z</updated>
     
@@ -36,17 +36,17 @@
     
     
     
-    <category term="备忘笔记" scheme="https://jollylight.gitee.io/categories/%E5%A4%87%E5%BF%98%E7%AC%94%E8%AE%B0/"/>
+    <category term="备忘笔记" scheme="https://jollylight.github.io/categories/%E5%A4%87%E5%BF%98%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="阅读" scheme="https://jollylight.gitee.io/tags/%E9%98%85%E8%AF%BB/"/>
+    <category term="阅读" scheme="https://jollylight.github.io/tags/%E9%98%85%E8%AF%BB/"/>
     
   </entry>
   
   <entry>
     <title>喜欢的句子</title>
-    <link href="https://jollylight.gitee.io/posts/some-sentences-I-like/"/>
-    <id>https://jollylight.gitee.io/posts/some-sentences-I-like/</id>
+    <link href="https://jollylight.github.io/posts/some-sentences-I-like/"/>
+    <id>https://jollylight.github.io/posts/some-sentences-I-like/</id>
     <published>2022-04-15T15:28:55.000Z</published>
     <updated>2022-08-06T04:49:57.652Z</updated>
     
@@ -63,19 +63,19 @@
     
     
     
-    <category term="收藏小间" scheme="https://jollylight.gitee.io/categories/%E6%94%B6%E8%97%8F%E5%B0%8F%E9%97%B4/"/>
+    <category term="收藏小间" scheme="https://jollylight.github.io/categories/%E6%94%B6%E8%97%8F%E5%B0%8F%E9%97%B4/"/>
     
     
-    <category term="诗句" scheme="https://jollylight.gitee.io/tags/%E8%AF%97%E5%8F%A5/"/>
+    <category term="诗句" scheme="https://jollylight.github.io/tags/%E8%AF%97%E5%8F%A5/"/>
     
-    <category term="段落" scheme="https://jollylight.gitee.io/tags/%E6%AE%B5%E8%90%BD/"/>
+    <category term="段落" scheme="https://jollylight.github.io/tags/%E6%AE%B5%E8%90%BD/"/>
     
   </entry>
   
   <entry>
     <title>2022.03.26</title>
-    <link href="https://jollylight.gitee.io/posts/2022.03.26/"/>
-    <id>https://jollylight.gitee.io/posts/2022.03.26/</id>
+    <link href="https://jollylight.github.io/posts/2022.03.26/"/>
+    <id>https://jollylight.github.io/posts/2022.03.26/</id>
     <published>2022-03-25T16:00:00.000Z</published>
     <updated>2022-03-28T16:05:55.842Z</updated>
     
@@ -92,19 +92,19 @@
     
     
     
-    <category term="时间沙漏" scheme="https://jollylight.gitee.io/categories/%E6%97%B6%E9%97%B4%E6%B2%99%E6%BC%8F/"/>
+    <category term="时间沙漏" scheme="https://jollylight.github.io/categories/%E6%97%B6%E9%97%B4%E6%B2%99%E6%BC%8F/"/>
     
     
-    <category term="日记" scheme="https://jollylight.gitee.io/tags/%E6%97%A5%E8%AE%B0/"/>
+    <category term="日记" scheme="https://jollylight.github.io/tags/%E6%97%A5%E8%AE%B0/"/>
     
-    <category term="生活" scheme="https://jollylight.gitee.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://jollylight.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
   <entry>
     <title>不是学生了呀</title>
-    <link href="https://jollylight.gitee.io/posts/for-the-past-four-years/"/>
-    <id>https://jollylight.gitee.io/posts/for-the-past-four-years/</id>
+    <link href="https://jollylight.github.io/posts/for-the-past-four-years/"/>
+    <id>https://jollylight.github.io/posts/for-the-past-four-years/</id>
     <published>2021-07-16T15:29:51.000Z</published>
     <updated>2022-08-01T13:49:59.156Z</updated>
     
@@ -121,19 +121,19 @@
     
     
     
-    <category term="时光印记" scheme="https://jollylight.gitee.io/categories/%E6%97%B6%E5%85%89%E5%8D%B0%E8%AE%B0/"/>
+    <category term="时光印记" scheme="https://jollylight.github.io/categories/%E6%97%B6%E5%85%89%E5%8D%B0%E8%AE%B0/"/>
     
     
-    <category term="时光" scheme="https://jollylight.gitee.io/tags/%E6%97%B6%E5%85%89/"/>
+    <category term="时光" scheme="https://jollylight.github.io/tags/%E6%97%B6%E5%85%89/"/>
     
-    <category term="毕业" scheme="https://jollylight.gitee.io/tags/%E6%AF%95%E4%B8%9A/"/>
+    <category term="毕业" scheme="https://jollylight.github.io/tags/%E6%AF%95%E4%B8%9A/"/>
     
   </entry>
   
   <entry>
     <title>空间小画</title>
-    <link href="https://jollylight.gitee.io/posts/space-little-drawing/"/>
-    <id>https://jollylight.gitee.io/posts/space-little-drawing/</id>
+    <link href="https://jollylight.github.io/posts/space-little-drawing/"/>
+    <id>https://jollylight.github.io/posts/space-little-drawing/</id>
     <published>2020-11-17T07:22:25.043Z</published>
     <updated>2022-08-01T13:49:34.877Z</updated>
     
@@ -150,17 +150,17 @@
     
     
     
-    <category term="创作作品" scheme="https://jollylight.gitee.io/categories/%E5%88%9B%E4%BD%9C%E4%BD%9C%E5%93%81/"/>
+    <category term="创作作品" scheme="https://jollylight.github.io/categories/%E5%88%9B%E4%BD%9C%E4%BD%9C%E5%93%81/"/>
     
     
-    <category term="Solidworks" scheme="https://jollylight.gitee.io/tags/Solidworks/"/>
+    <category term="Solidworks" scheme="https://jollylight.github.io/tags/Solidworks/"/>
     
   </entry>
   
   <entry>
     <title>常用快捷键小记</title>
-    <link href="https://jollylight.gitee.io/posts/Notes-on-common-shortcut-keys/"/>
-    <id>https://jollylight.gitee.io/posts/Notes-on-common-shortcut-keys/</id>
+    <link href="https://jollylight.github.io/posts/Notes-on-common-shortcut-keys/"/>
+    <id>https://jollylight.github.io/posts/Notes-on-common-shortcut-keys/</id>
     <published>2020-11-06T08:03:57.080Z</published>
     <updated>2022-04-21T15:29:53.214Z</updated>
     
@@ -177,17 +177,17 @@
     
     
     
-    <category term="备忘笔记" scheme="https://jollylight.gitee.io/categories/%E5%A4%87%E5%BF%98%E7%AC%94%E8%AE%B0/"/>
+    <category term="备忘笔记" scheme="https://jollylight.github.io/categories/%E5%A4%87%E5%BF%98%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="快捷键" scheme="https://jollylight.gitee.io/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    <category term="快捷键" scheme="https://jollylight.github.io/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     
   </entry>
   
   <entry>
     <title>小发现</title>
-    <link href="https://jollylight.gitee.io/posts/little-discoveries/"/>
-    <id>https://jollylight.gitee.io/posts/little-discoveries/</id>
+    <link href="https://jollylight.github.io/posts/little-discoveries/"/>
+    <id>https://jollylight.github.io/posts/little-discoveries/</id>
     <published>2020-11-05T10:12:03.388Z</published>
     <updated>2022-08-01T13:49:48.766Z</updated>
     
@@ -204,17 +204,17 @@
     
     
     
-    <category term="收藏小间" scheme="https://jollylight.gitee.io/categories/%E6%94%B6%E8%97%8F%E5%B0%8F%E9%97%B4/"/>
+    <category term="收藏小间" scheme="https://jollylight.github.io/categories/%E6%94%B6%E8%97%8F%E5%B0%8F%E9%97%B4/"/>
     
     
-    <category term="发现" scheme="https://jollylight.gitee.io/tags/%E5%8F%91%E7%8E%B0/"/>
+    <category term="发现" scheme="https://jollylight.github.io/tags/%E5%8F%91%E7%8E%B0/"/>
     
   </entry>
   
   <entry>
     <title>blog运行小笔记</title>
-    <link href="https://jollylight.gitee.io/posts/note-for-blog-working/"/>
-    <id>https://jollylight.gitee.io/posts/note-for-blog-working/</id>
+    <link href="https://jollylight.github.io/posts/note-for-blog-working/"/>
+    <id>https://jollylight.github.io/posts/note-for-blog-working/</id>
     <published>2020-10-29T14:01:36.000Z</published>
     <updated>2022-04-22T16:48:02.763Z</updated>
     
@@ -231,19 +231,19 @@
     
     
     
-    <category term="备忘笔记" scheme="https://jollylight.gitee.io/categories/%E5%A4%87%E5%BF%98%E7%AC%94%E8%AE%B0/"/>
+    <category term="备忘笔记" scheme="https://jollylight.github.io/categories/%E5%A4%87%E5%BF%98%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="blog" scheme="https://jollylight.gitee.io/tags/blog/"/>
+    <category term="blog" scheme="https://jollylight.github.io/tags/blog/"/>
     
-    <category term="笔记" scheme="https://jollylight.gitee.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://jollylight.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>你好！银河系第三旋臂上的小星星！</title>
-    <link href="https://jollylight.gitee.io/posts/hello-galaxy/"/>
-    <id>https://jollylight.gitee.io/posts/hello-galaxy/</id>
+    <link href="https://jollylight.github.io/posts/hello-galaxy/"/>
+    <id>https://jollylight.github.io/posts/hello-galaxy/</id>
     <published>2020-10-29T03:09:25.000Z</published>
     <updated>2021-01-03T06:52:32.804Z</updated>
     
