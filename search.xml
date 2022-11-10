@@ -24,6 +24,36 @@
       </tags>
   </entry>
   <entry>
+    <title>blog运行小笔记</title>
+    <url>/posts/note-for-blog-working/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p><strong>写文章</strong><br> <strong>step1:</strong> 打开blog文件夹，并在里面空白处右击选择<code>Git Bash Here</code><br> <strong>step2:</strong> 在里面输入<code>hexo n 新文章名</code>，再回车<br> <strong>step3:</strong> 在blog文件夹中，进入source文件夹，再进入_posts文件夹，用宇宙最强编辑器vs code打开新建的文章</p>
+<blockquote>
+<p>其实也可以直接在source/_posts文件夹内新建markdown文件（可以先新建一个记事本txt文件再改后缀为md），然后直接在里面写文章，推荐Typora编辑器</p>
+</blockquote>
+<p> <strong>step4:</strong> 就可以可以开始写啦！写完后记得保存<br> <strong>step5:</strong> 再打开Git Bash，依次输入<code>hexo c</code> <code>hexo g</code> <code>hexo d</code>(注意看有没有报错或警告啊)</p>
+<blockquote>
+<p>当然也可以随时在输入<code>hexo s</code>后在<a href="http://localhost:4000/">本地</a>查看自己的网站</p>
+</blockquote>
+<p><strong>step6:</strong> 再输入 <code>sh update.sh</code>运行之前写好的bash脚本，以完成博客源文件推送到gitee目标仓库hexo分支上实现备份</p>
+<blockquote>
+<p>可以在update.sh文件中更改info=”~“中的~来描述此次要在仓库中显示的更新说明</p>
+</blockquote>
+<p><strong>step7:</strong> 打开码云的<a href="https://gitee.com/jollylight/jollylight/pages">gitee page页面</a>，点击更新，等待片刻<br> <strong>step8:</strong> 就OK啦！</p>
+<p>（这么简单为什么写出来，因为我真的是小白啊QAQ）</p>
+<p><del>（主要也怕自己太久没写博客忘了）</del></p>
+<h1 id="linux常用命令-即git-bash下"><a href="#linux常用命令-即git-bash下" class="headerlink" title="linux常用命令(即git bash下)"></a>linux常用命令(即git bash下)</h1><p><kbd>Ctrl</kbd>+<kbd>Insert </kbd>: 复制</p>
+<p><kbd>Shift</kbd>+<kbd>Insert </kbd>: 粘贴</p>
+<h1 id="其他常用"><a href="#其他常用" class="headerlink" title="其他常用"></a>其他常用</h1><p><strong>blog主颜色</strong>：<font color=#FFCC66>#FFCC66</font></p>
+]]></content>
+      <categories>
+        <category>备忘笔记</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>CFOP练习笔记</title>
     <url>/posts/note-of-CFOP/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><details><summary>介绍</summary>
@@ -67,8 +97,8 @@
         <category>备忘笔记</category>
       </categories>
       <tags>
-        <tag>魔方</tag>
         <tag>笔记</tag>
+        <tag>魔方</tag>
       </tags>
   </entry>
   <entry>
@@ -78,7 +108,7 @@
 <p>终于还是毕业了，这篇文章就当是我四年生活的一个句点吧。</p>
 </blockquote>
 
-    <div id="aplayer-MSoatsbS" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-LDczSquP" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1413374282" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FFCC66"
     ></div>
 
@@ -111,42 +141,6 @@
       </tags>
   </entry>
   <entry>
-    <title>blog运行小笔记</title>
-    <url>/posts/note-for-blog-working/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p><strong>写文章</strong><br> <strong>step1:</strong> 打开blog文件夹，并在里面空白处右击选择<code>Git Bash Here</code><br> <strong>step2:</strong> 在里面输入<code>hexo n 新文章名</code>，再回车<br> <strong>step3:</strong> 在blog文件夹中，进入source文件夹，再进入_posts文件夹，用宇宙最强编辑器vs code打开新建的文章</p>
-<blockquote>
-<p>其实也可以直接在source/_posts文件夹内新建markdown文件（可以先新建一个记事本txt文件再改后缀为md），然后直接在里面写文章，推荐Typora编辑器</p>
-</blockquote>
-<p> <strong>step4:</strong> 就可以可以开始写啦！写完后记得保存<br> <strong>step5:</strong> 再打开Git Bash，依次输入<code>hexo c</code> <code>hexo g</code> <code>hexo d</code>(注意看有没有报错或警告啊)</p>
-<blockquote>
-<p>当然也可以随时在输入<code>hexo s</code>后在<a href="http://localhost:4000/">本地</a>查看自己的网站</p>
-</blockquote>
-<p><strong>step6:</strong> 再输入 <code>sh update.sh</code>运行之前写好的bash脚本，以完成博客源文件推送到gitee目标仓库hexo分支上实现备份</p>
-<blockquote>
-<p>可以在update.sh文件中更改info=”~“中的~来描述此次要在仓库中显示的更新说明</p>
-</blockquote>
-<p><strong>step7:</strong> 打开码云的<a href="https://gitee.com/jollylight/jollylight/pages">gitee page页面</a>，点击更新，等待片刻<br> <strong>step8:</strong> 就OK啦！</p>
-<p>（这么简单为什么写出来，因为我真的是小白啊QAQ）</p>
-<p><del>（主要也怕自己太久没写博客忘了）</del></p>
-<h1 id="linux常用命令-即git-bash下"><a href="#linux常用命令-即git-bash下" class="headerlink" title="linux常用命令(即git bash下)"></a>linux常用命令(即git bash下)</h1><p><kbd>Ctrl</kbd>+<kbd>Insert </kbd>: 复制</p>
-<p><kbd>Shift</kbd>+<kbd>Insert </kbd>: 粘贴</p>
-<h1 id="其他常用"><a href="#其他常用" class="headerlink" title="其他常用"></a>其他常用</h1><p><strong>blog主颜色</strong>：<font color=#FFCC66>#FFCC66</font></p>
-]]></content>
-      <categories>
-        <category>备忘笔记</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>你好！银河系第三旋臂上的小星星！</title>
-    <url>/posts/hello-galaxy/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天是10月29日，第一篇博客文章呢！</p>
-]]></content>
-  </entry>
-  <entry>
     <title>兴趣爱好在平淡生活中泛起的涟漪——写歌</title>
     <url>/posts/Interest-in-SongWriting/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>我好喜欢17岁，17岁那年我总认为17岁是最好的年纪，便想做些什么好好珍惜这个年纪，那时我决定赶在自己18岁生日之前写一首纪念自己这个年纪的歌，那时大一，自己所谓的写歌指的是指自己无比业余的作词作曲，并没有编曲混音和其他专业的东西。</p>
@@ -156,60 +150,19 @@
 <p>2017年，嗯，高考完的那一年是2017年，这个年份始终在我心中有着很重要的意义，也算是自己人生轨迹的一个转折点了，当然，对那一年高考的大多数学生来说应该都是。也是从那个暑假开始接触了吉他，因为家里正好有一把吉他，是爸爸的，暑假的时候正好没事就自学了起来，大学里也断断续续学了一阵子，不过只会一些简单的伴奏而已，当时学吉他的目标只有一个，就是给我自己的歌做伴奏，只可惜后来的确因为各种因素没有继续学了。</p>
 <p>不得不承认，自己虽然有着繁多的兴趣爱好，但大多只是蜻蜓点水，浅尝辄止，虽然很想像以前一直对自己说的一样“做当下想做的事情”，但一个人的精力和时间的确是有限的，在某个或长或短的时间段内，专注自己某个兴趣的某个部分或许才是正解。</p>
 ]]></content>
+      <categories>
+        <category>时光印记</category>
+      </categories>
       <tags>
         <tag>写歌</tag>
         <tag>爱好</tag>
       </tags>
   </entry>
   <entry>
-    <title>小发现</title>
-    <url>/posts/little-discoveries/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><script
-  type="text/javascript"
-  color="246,178,43"
-  pointColor="246,178,43"
-  opacity="0.7"
-  zIndex="2"
-  count="72"
-  src="https://gcore.jsdelivr.net/npm/canvas-nest.js/dist/canvas-nest.js"
-></script>
-
-
-
-<p>这篇文章记录了我的一些有点儿意思的小发现，并且会不断更新</p>
-<h3 id="直达QQ对话框的链接"><a href="#直达QQ对话框的链接" class="headerlink" title="直达QQ对话框的链接"></a>直达QQ对话框的链接</h3><p><code>http://wpa.qq.com/msgrd?v=3&amp;uin= 你的 QQ 号 &amp;site=qq&amp;menu=yes</code></p>
-<p>或者这个</p>
-<p><code>tencent://message/?uin= 你的 QQ 号 </code></p>
-<p>点击链接就会自动跳转到对应QQ号的对话框啦！</p>
-<p>（这是从<a href="https://idealclover.top/archives/545/">翠翠这</a>发现的）</p>
-<h3 id="实现网页背景线条效果（如此页效果）"><a href="#实现网页背景线条效果（如此页效果）" class="headerlink" title="实现网页背景线条效果（如此页效果）"></a>实现网页背景线条效果（如此页效果）</h3><p>将下面的代码插入到html的 <code>&lt;body&gt;</code> 和 <code>&lt;/body&gt;</code> 标签之间</p>
-<p>（也可直接粘贴至md文件中，本页就是如此）</p>
-<pre class="language-none"><code class="language-none">&lt;script
-  type&#x3D;&quot;text&#x2F;javascript&quot;
-  color&#x3D;&quot;246,178,43&quot;
-  pointColor&#x3D;&quot;246,178,43&quot;
-  opacity&#x3D;&quot;0.7&quot;
-  zIndex&#x3D;&quot;2&quot;
-  count&#x3D;&quot;72&quot;
-  src&#x3D;&quot;https:&#x2F;&#x2F;gcore.jsdelivr.net&#x2F;npm&#x2F;canvas-nest.js&#x2F;dist&#x2F;canvas-nest.js&quot;
-&gt;&lt;&#x2F;script&gt;</code></pre>
-
-<p>可配置：</p>
-<ul>
-<li><strong><code>color</code></strong> : 线条颜色, 默认: <code>&#39;0,0,0&#39;</code>；三个数字分别为(R,G,B)，注意用 <code>,</code> 分割</li>
-<li><strong><code>pointColor</code></strong>: 点颜色, 默认：<code>&#39;0,0,0&#39;</code>; RGB 格式.（注意：使用 <code>,</code> 分割）</li>
-<li><strong><code>opacity</code></strong> : 线条透明度（0~1）, 默认: <code>0.5</code></li>
-<li><strong><code>count</code></strong> : 线条的总数量, 默认: <code>99</code></li>
-<li><strong><code>zIndex</code></strong> : 背景的 <code>z-index</code> 属性，css 属性用于控制所在层的位置, 默认: <code>-1</code></li>
-</ul>
-<p>（这是从<a href="https://www.yunyoujun.cn/share/html5-canvas-nest-js/">云游这</a>发现的，最终来源于github的<a href="https://github.com/hustcc/canvas-nest.js/blob/master/README-zh.md">canvas-nest.js</a>）</p>
+    <title>你好！银河系第三旋臂上的小星星！</title>
+    <url>/posts/hello-galaxy/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天是10月29日，第一篇博客文章呢！</p>
 ]]></content>
-      <categories>
-        <category>收藏小间</category>
-      </categories>
-      <tags>
-        <tag>发现</tag>
-      </tags>
   </entry>
   <entry>
     <title>喜欢的句子</title>
@@ -278,45 +231,6 @@
       </tags>
   </entry>
   <entry>
-    <title>收藏的博客</title>
-    <url>/posts/Bookmarked-Blog/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
-<p>记录自己收藏的一些博客，嗯</p>
-</blockquote>
-<h2 id="常看的博客"><a href="#常看的博客" class="headerlink" title="常看的博客"></a>常看的博客</h2><ul>
-<li><a href="https://tianheg.xyz/posts/"> 一大加贝 </a></li>
-<li><a href="https://conge.github.io/">Conge</a></li>
-<li><a href="https://guanqr.com/">荷戟独彷徨</a></li>
-<li><a href="https://timegg.top/">TIMEGG ｜ 放进时光蛋里</a></li>
-<li><a href="https://www.fanyiming.life/">Eamon ‘s Blog - 生活嘛~那么矫情 </a></li>
-<li><a href="https://blog.liugezhou.online/">六个周 | enjoy day </a></li>
-</ul>
-<h2 id="喜欢的博客"><a href="#喜欢的博客" class="headerlink" title="喜欢的博客"></a>喜欢的博客</h2><ul>
-<li><a href="https://blog.dorakika.cn/">DoraKika</a></li>
-<li><a href="https://kisstime.top/">银河漫游KK </a></li>
-<li><a href="https://chanshiyu.com/">蝉時雨 </a></li>
-</ul>
-<h2 id="博客集合站"><a href="#博客集合站" class="headerlink" title="博客集合站"></a>博客集合站</h2><ul>
-<li><a href="http://www.jetli.com.cn/">博客志 - 优秀个人独立博客导航 </a></li>
-<li><a href="https://www.foreverblog.cn/go.html">虫洞-随机访问十年之约成员博客 </a></li>
-<li><a href="https://512kb.club/">512KB Club | A showcase of lightweight websites.</a></li>
-<li><a href="https://blogroll.icl.moe/">友链屋 | idealclover </a></li>
-<li><a href="https://travellings.cn/">开往-友链接力 </a></li>
-</ul>
-<h2 id="博客之始"><a href="#博客之始" class="headerlink" title="博客之始"></a>博客之始</h2><ul>
-<li><a href="https://maorx.cn/">毛若昕丨静水流深 </a></li>
-<li><a href="https://idealclover.top/">idealclover</a></li>
-<li><a href="https://www.yunyoujun.cn/">云游君的小站</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>收藏小间</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>常用快捷键小记</title>
     <url>/posts/Notes-on-common-shortcut-keys/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>这篇文章可能对你没什么帮助，_(:з)∠)_主要是记给自己看的，只记录了我个人觉得应该常用但我不常用的快捷键(*/ω＼*)，没有列出我很熟悉的与很不熟悉的快捷键<del>(如果你真那么巧恰好和我熟悉的和不熟悉的快捷键一样那就应该对你也有很大帮助)</del> </p>
@@ -362,6 +276,99 @@
       </categories>
       <tags>
         <tag>快捷键</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小发现</title>
+    <url>/posts/little-discoveries/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><script
+  type="text/javascript"
+  color="246,178,43"
+  pointColor="246,178,43"
+  opacity="0.7"
+  zIndex="2"
+  count="72"
+  src="https://gcore.jsdelivr.net/npm/canvas-nest.js/dist/canvas-nest.js"
+></script>
+
+
+
+<p>这篇文章记录了我的一些有点儿意思的小发现，并且会不断更新</p>
+<h3 id="直达QQ对话框的链接"><a href="#直达QQ对话框的链接" class="headerlink" title="直达QQ对话框的链接"></a>直达QQ对话框的链接</h3><p><code>http://wpa.qq.com/msgrd?v=3&amp;uin= 你的 QQ 号 &amp;site=qq&amp;menu=yes</code></p>
+<p>或者这个</p>
+<p><code>tencent://message/?uin= 你的 QQ 号 </code></p>
+<p>点击链接就会自动跳转到对应QQ号的对话框啦！</p>
+<p>（这是从<a href="https://idealclover.top/archives/545/">翠翠这</a>发现的）</p>
+<h3 id="实现网页背景线条效果（如此页效果）"><a href="#实现网页背景线条效果（如此页效果）" class="headerlink" title="实现网页背景线条效果（如此页效果）"></a>实现网页背景线条效果（如此页效果）</h3><p>将下面的代码插入到html的 <code>&lt;body&gt;</code> 和 <code>&lt;/body&gt;</code> 标签之间</p>
+<p>（也可直接粘贴至md文件中，本页就是如此）</p>
+<pre class="language-none"><code class="language-none">&lt;script
+  type&#x3D;&quot;text&#x2F;javascript&quot;
+  color&#x3D;&quot;246,178,43&quot;
+  pointColor&#x3D;&quot;246,178,43&quot;
+  opacity&#x3D;&quot;0.7&quot;
+  zIndex&#x3D;&quot;2&quot;
+  count&#x3D;&quot;72&quot;
+  src&#x3D;&quot;https:&#x2F;&#x2F;gcore.jsdelivr.net&#x2F;npm&#x2F;canvas-nest.js&#x2F;dist&#x2F;canvas-nest.js&quot;
+&gt;&lt;&#x2F;script&gt;</code></pre>
+
+<p>可配置：</p>
+<ul>
+<li><strong><code>color</code></strong> : 线条颜色, 默认: <code>&#39;0,0,0&#39;</code>；三个数字分别为(R,G,B)，注意用 <code>,</code> 分割</li>
+<li><strong><code>pointColor</code></strong>: 点颜色, 默认：<code>&#39;0,0,0&#39;</code>; RGB 格式.（注意：使用 <code>,</code> 分割）</li>
+<li><strong><code>opacity</code></strong> : 线条透明度（0~1）, 默认: <code>0.5</code></li>
+<li><strong><code>count</code></strong> : 线条的总数量, 默认: <code>99</code></li>
+<li><strong><code>zIndex</code></strong> : 背景的 <code>z-index</code> 属性，css 属性用于控制所在层的位置, 默认: <code>-1</code></li>
+</ul>
+<p>（这是从<a href="https://www.yunyoujun.cn/share/html5-canvas-nest-js/">云游这</a>发现的，最终来源于github的<a href="https://github.com/hustcc/canvas-nest.js/blob/master/README-zh.md">canvas-nest.js</a>）</p>
+]]></content>
+      <categories>
+        <category>收藏小间</category>
+      </categories>
+      <tags>
+        <tag>发现</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>收藏的博客</title>
+    <url>/posts/Bookmarked-Blog/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
+<p>记录自己收藏的一些博客，嗯</p>
+</blockquote>
+<h2 id="常看的博客"><a href="#常看的博客" class="headerlink" title="常看的博客"></a>常看的博客</h2><ul>
+<li><a href="https://tianheg.xyz/posts/"> 一大加贝 </a></li>
+<li><a href="https://conge.github.io/">Conge</a></li>
+<li><a href="https://guanqr.com/">荷戟独彷徨</a></li>
+<li><a href="https://www.fanyiming.life/">Eamon ‘s Blog - 生活嘛~那么矫情 </a></li>
+<li><a href="https://blog.liugezhou.online/">六个周 | enjoy day </a></li>
+</ul>
+<h2 id="喜欢的博客"><a href="#喜欢的博客" class="headerlink" title="喜欢的博客"></a>喜欢的博客</h2><ul>
+<li><a href="https://blog.dorakika.cn/">DoraKika</a></li>
+<li><a href="https://kisstime.top/">银河漫游KK </a></li>
+<li><a href="https://chanshiyu.com/">蝉時雨 </a></li>
+<li><a href="https://www.fomal.cc/">Fomalhaut🥝</a></li>
+<li><a href="https://blog.xecades.xyz/">Xecades</a></li>
+<li><a href="https://write.skywt.cn/">SkyWrite</a></li>
+<li><a href="https://whisper.skywt.cn/">SkyWhisper – 低语 (skywt.cn)</a></li>
+<li><a href="https://timegg.top/">TIMEGG ｜ 放进时光蛋里</a></li>
+</ul>
+<h2 id="博客集合站"><a href="#博客集合站" class="headerlink" title="博客集合站"></a>博客集合站</h2><ul>
+<li><a href="http://www.jetli.com.cn/">博客志 - 优秀个人独立博客导航 </a></li>
+<li><a href="https://www.foreverblog.cn/go.html">虫洞-随机访问十年之约成员博客 </a></li>
+<li><a href="https://512kb.club/">512KB Club | A showcase of lightweight websites.</a></li>
+<li><a href="https://blogroll.icl.moe/">友链屋 | idealclover </a></li>
+<li><a href="https://travellings.cn/">开往-友链接力 </a></li>
+</ul>
+<h2 id="博客之始"><a href="#博客之始" class="headerlink" title="博客之始"></a>博客之始</h2><ul>
+<li><a href="https://maorx.cn/">毛若昕丨静水流深 </a></li>
+<li><a href="https://idealclover.top/">idealclover</a></li>
+<li><a href="https://www.yunyoujun.cn/">云游君的小站</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>收藏小间</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
       </tags>
   </entry>
   <entry>

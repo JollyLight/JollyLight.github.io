@@ -96,3 +96,10 @@ a:active {
 .girl-url {
   target: "_self";
 }
+
+
+.tag-cloud a {
+  color: #FFCC66 ! important;
+}
+
+/* 标签颜色 */
