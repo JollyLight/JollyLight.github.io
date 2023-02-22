@@ -24,6 +24,36 @@
       </tags>
   </entry>
   <entry>
+    <title>blog运行小笔记</title>
+    <url>/posts/note-for-blog-working/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p><strong>写文章</strong><br> <strong>step1:</strong> 打开blog文件夹，并在里面空白处右击选择<code>Git Bash Here</code><br> <strong>step2:</strong> 在里面输入<code>hexo n 新文章名</code>，再回车<br> <strong>step3:</strong> 在blog文件夹中，进入source文件夹，再进入_posts文件夹，用宇宙最强编辑器vs code打开新建的文章</p>
+<blockquote>
+<p>其实也可以直接在source/_posts文件夹内新建markdown文件（可以先新建一个记事本txt文件再改后缀为md），然后直接在里面写文章，推荐Typora编辑器</p>
+</blockquote>
+<p> <strong>step4:</strong> 就可以可以开始写啦！写完后记得保存<br> <strong>step5:</strong> 再打开Git Bash，依次输入<code>hexo c</code> <code>hexo g</code> <code>hexo d</code>(注意看有没有报错或警告啊)</p>
+<blockquote>
+<p>当然也可以随时在输入<code>hexo s</code>后在<a href="http://localhost:4000/">本地</a>查看自己的网站</p>
+</blockquote>
+<p><strong>step6:</strong> 再输入 <code>sh update.sh</code>运行之前写好的bash脚本，以完成博客源文件推送到gitee目标仓库hexo分支上实现备份</p>
+<blockquote>
+<p>可以在update.sh文件中更改info=”~“中的~来描述此次要在仓库中显示的更新说明</p>
+</blockquote>
+<p><strong>step7:</strong> 打开码云的<a href="https://gitee.com/jollylight/jollylight/pages">gitee page页面</a>，点击更新，等待片刻<br> <strong>step8:</strong> 就OK啦！</p>
+<p>（这么简单为什么写出来，因为我真的是小白啊QAQ）</p>
+<p><del>（主要也怕自己太久没写博客忘了）</del></p>
+<h1 id="linux常用命令-即git-bash下"><a href="#linux常用命令-即git-bash下" class="headerlink" title="linux常用命令(即git bash下)"></a>linux常用命令(即git bash下)</h1><p><kbd>Ctrl</kbd>+<kbd>Insert </kbd>: 复制</p>
+<p><kbd>Shift</kbd>+<kbd>Insert </kbd>: 粘贴</p>
+<h1 id="其他常用"><a href="#其他常用" class="headerlink" title="其他常用"></a>其他常用</h1><p><strong>blog主颜色</strong>：<font color=#FFCC66>#FFCC66</font></p>
+]]></content>
+      <categories>
+        <category>备忘笔记</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>CFOP练习笔记</title>
     <url>/posts/note-of-CFOP/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><details><summary>介绍</summary>
@@ -67,38 +97,8 @@
         <category>备忘笔记</category>
       </categories>
       <tags>
+        <tag>笔记</tag>
         <tag>魔方</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>blog运行小笔记</title>
-    <url>/posts/note-for-blog-working/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p><strong>写文章</strong><br> <strong>step1:</strong> 打开blog文件夹，并在里面空白处右击选择<code>Git Bash Here</code><br> <strong>step2:</strong> 在里面输入<code>hexo n 新文章名</code>，再回车<br> <strong>step3:</strong> 在blog文件夹中，进入source文件夹，再进入_posts文件夹，用宇宙最强编辑器vs code打开新建的文章</p>
-<blockquote>
-<p>其实也可以直接在source/_posts文件夹内新建markdown文件（可以先新建一个记事本txt文件再改后缀为md），然后直接在里面写文章，推荐Typora编辑器</p>
-</blockquote>
-<p> <strong>step4:</strong> 就可以可以开始写啦！写完后记得保存<br> <strong>step5:</strong> 再打开Git Bash，依次输入<code>hexo c</code> <code>hexo g</code> <code>hexo d</code>(注意看有没有报错或警告啊)</p>
-<blockquote>
-<p>当然也可以随时在输入<code>hexo s</code>后在<a href="http://localhost:4000/">本地</a>查看自己的网站</p>
-</blockquote>
-<p><strong>step6:</strong> 再输入 <code>sh update.sh</code>运行之前写好的bash脚本，以完成博客源文件推送到gitee目标仓库hexo分支上实现备份</p>
-<blockquote>
-<p>可以在update.sh文件中更改info=”~“中的~来描述此次要在仓库中显示的更新说明</p>
-</blockquote>
-<p><strong>step7:</strong> 打开码云的<a href="https://gitee.com/jollylight/jollylight/pages">gitee page页面</a>，点击更新，等待片刻<br> <strong>step8:</strong> 就OK啦！</p>
-<p>（这么简单为什么写出来，因为我真的是小白啊QAQ）</p>
-<p><del>（主要也怕自己太久没写博客忘了）</del></p>
-<h1 id="linux常用命令-即git-bash下"><a href="#linux常用命令-即git-bash下" class="headerlink" title="linux常用命令(即git bash下)"></a>linux常用命令(即git bash下)</h1><p><kbd>Ctrl</kbd>+<kbd>Insert </kbd>: 复制</p>
-<p><kbd>Shift</kbd>+<kbd>Insert </kbd>: 粘贴</p>
-<h1 id="其他常用"><a href="#其他常用" class="headerlink" title="其他常用"></a>其他常用</h1><p><strong>blog主颜色</strong>：<font color=#FFCC66>#FFCC66</font></p>
-]]></content>
-      <categories>
-        <category>备忘笔记</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -108,7 +108,7 @@
 <p>终于还是毕业了，这篇文章就当是我四年生活的一个句点吧。</p>
 </blockquote>
 
-    <div id="aplayer-KtWRbFHk" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-jfXmMequ" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1413374282" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FFCC66"
     ></div>
 
@@ -141,6 +141,30 @@
       </tags>
   </entry>
   <entry>
+    <title>你好！银河系第三旋臂上的小星星！</title>
+    <url>/posts/hello-galaxy/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天是10月29日，第一篇博客文章呢！</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>兴趣爱好在平淡生活中泛起的涟漪——写歌</title>
+    <url>/posts/Interest-in-SongWriting/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>我好喜欢17岁，17岁那年我总认为17岁是最好的年纪，便想做些什么好好珍惜这个年纪，那时我决定赶在自己18岁生日之前写一首纪念自己这个年纪的歌，那时大一，自己所谓的写歌指的是指自己无比业余的作词作曲，并没有编曲混音和其他专业的东西。</p>
+<p>想起来，第一次自己写歌大概可以追溯到自己小学，但之前算是写着玩的，后来高中之后可以说开启了对我自己来说快乐的写歌之路，直到大三之前，前前后后写了有十几首，每首歌我都自认为有它自己的意义，并无可替代，虽然只是自己的自娱自乐，没有其他人知道，但也丝毫不减当时自己对此的热爱。</p>
+<p>那时还给自己的歌专门制作了一个小册子，里面有自己写的每首歌的歌词、写歌时的背景、完成的时间、歌曲的标签等等信息，后来接触了一些音乐制作软件就开始试着给自己以前的歌编曲，自己唱自己录音……当然，自己终究只会一些简单的编曲，我也自知自己远远不及专业水平，但自由地创作出一首自己满意的歌还是一件很酷的事啊~</p>
+<p>现在再回头看自己之前的那些歌，仔细斟酌的确是有些幼稚，或是说非常小众，小众到大概只有我自己才能理解和体会到这首歌的目的和意境在哪里，拿不出手，但这些歌的确是构成了自己那个时期重要的一部分。</p>
+<p>2017年，嗯，高考完的那一年是2017年，这个年份始终在我心中有着很重要的意义，也算是自己人生轨迹的一个转折点了，当然，对那一年高考的大多数学生来说应该都是。也是从那个暑假开始接触了吉他，因为家里正好有一把吉他，是爸爸的，暑假的时候正好没事就自学了起来，大学里也断断续续学了一阵子，不过只会一些简单的伴奏而已，当时学吉他的目标只有一个，就是给我自己的歌做伴奏，只可惜后来的确因为各种因素没有继续学了。</p>
+<p>不得不承认，自己虽然有着繁多的兴趣爱好，但大多只是蜻蜓点水，浅尝辄止，虽然很想像以前一直对自己说的一样“做当下想做的事情”，但一个人的精力和时间的确是有限的，在某个或长或短的时间段内，专注自己某个兴趣的某个部分或许才是正解。</p>
+]]></content>
+      <categories>
+        <category>时光印记</category>
+      </categories>
+      <tags>
+        <tag>写歌</tag>
+        <tag>爱好</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>喜欢的句子</title>
     <url>/posts/some-sentences-I-like/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
@@ -168,7 +192,11 @@
 
 <center>悟已往之不谏，知来者之可追。</center>
 
-<p align="right">——《 归去来兮辞》陶渊明</p>
+<p align="right">——《归去来兮辞》陶渊明</p>
+
+<center>行到水穷处，坐看云起时。</center>
+
+<p align="right">——《终南别业》王维</p>
 
 <h2 id="喜欢的句子"><a href="#喜欢的句子" class="headerlink" title="喜欢的句子"></a>喜欢的句子</h2><p>若不能有所舍弃，就无法改变现状。</p>
 <p align="right">——《进击的巨人》</p>
@@ -207,21 +235,51 @@
       </tags>
   </entry>
   <entry>
-    <title>兴趣爱好在平淡生活中泛起的涟漪——写歌</title>
-    <url>/posts/Interest-in-SongWriting/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>我好喜欢17岁，17岁那年我总认为17岁是最好的年纪，便想做些什么好好珍惜这个年纪，那时我决定赶在自己18岁生日之前写一首纪念自己这个年纪的歌，那时大一，自己所谓的写歌指的是指自己无比业余的作词作曲，并没有编曲混音和其他专业的东西。</p>
-<p>想起来，第一次自己写歌大概可以追溯到自己小学，但之前算是写着玩的，后来高中之后可以说开启了对我自己来说快乐的写歌之路，直到大三之前，前前后后写了有十几首，每首歌我都自认为有它自己的意义，并无可替代，虽然只是自己的自娱自乐，没有其他人知道，但也丝毫不减当时自己对此的热爱。</p>
-<p>那时还给自己的歌专门制作了一个小册子，里面有自己写的每首歌的歌词、写歌时的背景、完成的时间、歌曲的标签等等信息，后来接触了一些音乐制作软件就开始试着给自己以前的歌编曲，自己唱自己录音……当然，自己终究只会一些简单的编曲，我也自知自己远远不及专业水平，但自由地创作出一首自己满意的歌还是一件很酷的事啊~</p>
-<p>现在再回头看自己之前的那些歌，仔细斟酌的确是有些幼稚，或是说非常小众，小众到大概只有我自己才能理解和体会到这首歌的目的和意境在哪里，拿不出手，但这些歌的确是构成了自己那个时期重要的一部分。</p>
-<p>2017年，嗯，高考完的那一年是2017年，这个年份始终在我心中有着很重要的意义，也算是自己人生轨迹的一个转折点了，当然，对那一年高考的大多数学生来说应该都是。也是从那个暑假开始接触了吉他，因为家里正好有一把吉他，是爸爸的，暑假的时候正好没事就自学了起来，大学里也断断续续学了一阵子，不过只会一些简单的伴奏而已，当时学吉他的目标只有一个，就是给我自己的歌做伴奏，只可惜后来的确因为各种因素没有继续学了。</p>
-<p>不得不承认，自己虽然有着繁多的兴趣爱好，但大多只是蜻蜓点水，浅尝辄止，虽然很想像以前一直对自己说的一样“做当下想做的事情”，但一个人的精力和时间的确是有限的，在某个或长或短的时间段内，专注自己某个兴趣的某个部分或许才是正解。</p>
+    <title>常用快捷键小记</title>
+    <url>/posts/Notes-on-common-shortcut-keys/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>这篇文章可能对你没什么帮助，_(:з)∠)_主要是记给自己看的，只记录了我个人觉得应该常用但我不常用的快捷键(*/ω＼*)，没有列出我很熟悉的与很不熟悉的快捷键<del>(如果你真那么巧恰好和我熟悉的和不熟悉的快捷键一样那就应该对你也有很大帮助)</del> </p>
+<h3 id="微软输入法（拼音）"><a href="#微软输入法（拼音）" class="headerlink" title="微软输入法（拼音）"></a>微软输入法（拼音）</h3><p><kbd>，</kbd>：<strong>上翻页</strong></p>
+<p><kbd>。</kbd>：<strong>下翻页</strong></p>
+<p><kbd>↓ </kbd>：下一个字</p>
+<p><kbd>↑</kbd>  ：上一个字</p>
+<p><kbd>win</kbd> + <kbd>.</kbd> ：表情（包含各种符号）</p>
+<p><kbd>Ctrl </kbd>+ <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>→</kbd>/ <kbd>↓</kbd> ：切换表情（包含各种符号）</p>
+<h3 id="Edge浏览器"><a href="#Edge浏览器" class="headerlink" title="Edge浏览器"></a>Edge浏览器</h3><p><kbd>Ctrl</kbd> + <kbd>Tab</kbd>：<strong>切换到下一个标签页</strong></p>
+<p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Tab</kbd>：切换到上一个标签页</p>
+<p><kbd>Ctrl </kbd>+ <kbd>T</kbd>：新建标签页</p>
+<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>T</kbd>：<strong>恢复上一个关闭的标签页</strong></p>
+<p><kbd>Alt</kbd> + <kbd>←</kbd>/<kbd>→</kbd>：对同一标签页的返回与前进操作</p>
+<p><kbd>Ctrl</kbd> + <kbd>E</kbd>：在当前标签打开搜索引擎查询</p>
+<p><kbd>Ctrl</kbd> + <kbd>H</kbd>：历史记录</p>
+<p><kbd>Ctrl</kbd> + <kbd>W</kbd>：<strong>关闭当前标签页</strong></p>
+<p><kbd>Ctrl</kbd> + <kbd>F5</kbd>：<strong>强制刷新当前页面</strong>（部署了博客后页面没更新可以试试这个）</p>
+<p><kbd>空格键</kbd>：<strong>向下滚动网页</strong>（浏览学校的pdf非常好用）</p>
+<p><kbd>Shift</kbd>+ <kbd>空格键</kbd>：<strong>向上滚动网页</strong></p>
+<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>S</kbd>：网页截图（可截自动滚动后的整页）</p>
+<p><kbd>Shift</kbd> + <kbd>Esc</kbd>：浏览器资源管理器</p>
+<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>U</kbd>：语音朗读</p>
+<h3 id="Windows-10-11"><a href="#Windows-10-11" class="headerlink" title="Windows 10/11"></a>Windows 10/11</h3><p><kbd>win</kbd> + <kbd>V</kbd>：<strong>打开剪贴板</strong>（可以省去一些情况下需要2个页面来回跳转复制粘贴的麻烦)</p>
+<p>（以下截图的前提是将<code>设置</code>→<code>轻松使用</code>→<code>键盘</code>→<code>屏幕截图快捷方式</code>中的<code>使用PrtScn按键打开截图</code>打开）</p>
+<p><kbd>PrtSc</kbd>：<strong>截图（可选范围）并保存至剪贴板</strong></p>
+<p><kbd>win</kbd> + <kbd>PrtSc</kbd>：<strong>截图整屏保存至剪贴板并保存至文件夹</strong>（默认保存在了<code>C:\Users\你的用户名\Pictures\屏幕截图</code>文件夹下，你可以右击该文件夹选择<code>属性</code>→<code>位置</code>→<code>移动…</code>来选择你想保存在的文件夹，这是我找到的最舒服的截图方式了[]<del>(￣▽￣)</del>*）</p>
+<p><kbd>Alt</kbd> + <kbd>F4</kbd>：关闭当前页面</p>
+<blockquote>
+<p>用<kbd>Fn</kbd>键控制时按键的顺序是<kbd>Fn</kbd> + <kbd>Alt</kbd> + <kbd>F4</kbd></p>
+</blockquote>
+<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>D</kbd>：新建虚拟桌面</p>
+<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>←</kbd>/<kbd>→</kbd>：左右切换虚拟桌面</p>
+<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>F4</kbd>：关闭当前虚拟桌面</p>
+<p><kbd>win</kbd> + <kbd>N</kbd>：打开通知面板/日历面板</p>
+<p><kbd>win</kbd> + <kbd>W</kbd>：打开小组件（win11，虽然不用小组件，还是列这，<del>说不定以后小组件会改善</del>）</p>
+<p><kbd>win</kbd> + <kbd>A</kbd>：<strong>打开快速设置面板</strong></p>
+<p><kbd>win</kbd> + <kbd>H</kbd>：语音输入</p>
+<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>Esc</kbd>：任务管理器</p>
 ]]></content>
       <categories>
-        <category>时光印记</category>
+        <category>备忘笔记</category>
       </categories>
       <tags>
-        <tag>写歌</tag>
-        <tag>爱好</tag>
+        <tag>快捷键</tag>
       </tags>
   </entry>
   <entry>
@@ -275,6 +333,34 @@
       </tags>
   </entry>
   <entry>
+    <title>空间小画</title>
+    <url>/posts/space-little-drawing/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>如何把一个无聊的制图软件玩出花来……</p>
+<blockquote>
+<p>最初见到用Solidworks绘出有意思的三维图像并渲染得那么好看还是在B站的up主<a href="https://space.bilibili.com/25636858/">碧落九重剑</a>这儿（不过现在好像不发布Solidworks的教学视频了），后来自己慢慢琢磨也能自己绘出一些简单的作品了~</p>
+</blockquote>
+<h3 id="阿柒的魔刀千刃"><a href="#阿柒的魔刀千刃" class="headerlink" title="阿柒的魔刀千刃"></a>阿柒的魔刀千刃</h3><p><del>（剑格部分的六边形因为开始没注意到后来又懒得改就保持了矩形的样子，也还看得过去）</del></p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E9%AD%94%E5%88%80%E5%8D%83%E5%88%83B.JPG" loading="lazy"></p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E9%AD%94%E5%88%80%E5%8D%83%E5%88%83K.JPG" loading="lazy"></p>
+<h3 id="bilibili小电视"><a href="#bilibili小电视" class="headerlink" title="bilibili小电视"></a>bilibili小电视</h3><p><del>（原本想着能3D打印出来,再涂上相应的颜料，等我有钱了一定买个3D打印机）</del></p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E5%B0%8F%E7%94%B5%E8%A7%86x.JPG" loading="lazy"></p>
+<h3 id="没有名字的无人机"><a href="#没有名字的无人机" class="headerlink" title="没有名字的无人机"></a>没有名字的无人机</h3><p>（当初是个3D打印课的作业，自己设计一个可3D打印出来的模型之类的）</p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E6%97%A0%E4%BA%BA%E6%9C%BA.JPG" loading="lazy"></p>
+<h3 id="灰红的狼堡"><a href="#灰红的狼堡" class="headerlink" title="灰红的狼堡"></a>灰红的狼堡</h3><p><del>（追喜羊羊的时候画的）</del></p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E7%8B%BC%E5%A0%A1L.JPG" loading="lazy"></p>
+<h3 id="伽小"><a href="#伽小" class="headerlink" title="伽小"></a>伽小</h3><p><del>（应该不算毁童年吧）</del></p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/jialuo.JPG" loading="lazy"></p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E5%B0%8F%E5%BF%83%E8%B6%85%E4%BA%BAS.JPG" loading="lazy"></p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E4%BC%BD%E7%BD%97L.JPG" loading="lazy"><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E5%B0%8F%E5%BF%83%E8%B6%85%E4%BA%BA.JPG" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>创作作品</category>
+      </categories>
+      <tags>
+        <tag>Solidworks</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>收藏的博客</title>
     <url>/posts/Bookmarked-Blog/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
@@ -318,82 +404,6 @@
       </tags>
   </entry>
   <entry>
-    <title>常用快捷键小记</title>
-    <url>/posts/Notes-on-common-shortcut-keys/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>这篇文章可能对你没什么帮助，_(:з)∠)_主要是记给自己看的，只记录了我个人觉得应该常用但我不常用的快捷键(*/ω＼*)，没有列出我很熟悉的与很不熟悉的快捷键<del>(如果你真那么巧恰好和我熟悉的和不熟悉的快捷键一样那就应该对你也有很大帮助)</del> </p>
-<h3 id="微软输入法（拼音）"><a href="#微软输入法（拼音）" class="headerlink" title="微软输入法（拼音）"></a>微软输入法（拼音）</h3><p><kbd>，</kbd>：<strong>上翻页</strong></p>
-<p><kbd>。</kbd>：<strong>下翻页</strong></p>
-<p><kbd>↓ </kbd>：下一个字</p>
-<p><kbd>↑</kbd>  ：上一个字</p>
-<p><kbd>win</kbd> + <kbd>.</kbd> ：表情（包含各种符号）</p>
-<p><kbd>Ctrl </kbd>+ <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>→</kbd>/ <kbd>↓</kbd> ：切换表情（包含各种符号）</p>
-<h3 id="Edge浏览器"><a href="#Edge浏览器" class="headerlink" title="Edge浏览器"></a>Edge浏览器</h3><p><kbd>Ctrl</kbd> + <kbd>Tab</kbd>：<strong>切换到下一个标签页</strong></p>
-<p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Tab</kbd>：切换到上一个标签页</p>
-<p><kbd>Ctrl </kbd>+ <kbd>T</kbd>：新建标签页</p>
-<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>T</kbd>：<strong>恢复上一个关闭的标签页</strong></p>
-<p><kbd>Alt</kbd> + <kbd>←</kbd>/<kbd>→</kbd>：对同一标签页的返回与前进操作</p>
-<p><kbd>Ctrl</kbd> + <kbd>E</kbd>：在当前标签打开搜索引擎查询</p>
-<p><kbd>Ctrl</kbd> + <kbd>H</kbd>：历史记录</p>
-<p><kbd>Ctrl</kbd> + <kbd>W</kbd>：<strong>关闭当前标签页</strong></p>
-<p><kbd>Ctrl</kbd> + <kbd>F5</kbd>：<strong>强制刷新当前页面</strong>（部署了博客后页面没更新可以试试这个）</p>
-<p><kbd>空格键</kbd>：<strong>向下滚动网页</strong>（浏览学校的pdf非常好用）</p>
-<p><kbd>Shift</kbd>+ <kbd>空格键</kbd>：<strong>向上滚动网页</strong></p>
-<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>S</kbd>：网页截图（可截自动滚动后的整页）</p>
-<p><kbd>Shift</kbd> + <kbd>Esc</kbd>：浏览器资源管理器</p>
-<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>U</kbd>：语音朗读</p>
-<h3 id="Windows-10-11"><a href="#Windows-10-11" class="headerlink" title="Windows 10/11"></a>Windows 10/11</h3><p><kbd>win</kbd> + <kbd>V</kbd>：<strong>打开剪贴板</strong>（可以省去一些情况下需要2个页面来回跳转复制粘贴的麻烦)</p>
-<p>（以下截图的前提是将<code>设置</code>→<code>轻松使用</code>→<code>键盘</code>→<code>屏幕截图快捷方式</code>中的<code>使用PrtScn按键打开截图</code>打开）</p>
-<p><kbd>PrtSc</kbd>：<strong>截图（可选范围）并保存至剪贴板</strong></p>
-<p><kbd>win</kbd> + <kbd>PrtSc</kbd>：<strong>截图整屏保存至剪贴板并保存至文件夹</strong>（默认保存在了<code>C:\Users\你的用户名\Pictures\屏幕截图</code>文件夹下，你可以右击该文件夹选择<code>属性</code>→<code>位置</code>→<code>移动…</code>来选择你想保存在的文件夹，这是我找到的最舒服的截图方式了[]<del>(￣▽￣)</del>*）</p>
-<p><kbd>Alt</kbd> + <kbd>F4</kbd>：关闭当前页面</p>
-<blockquote>
-<p>用<kbd>Fn</kbd>键控制时按键的顺序是<kbd>Fn</kbd> + <kbd>Alt</kbd> + <kbd>F4</kbd></p>
-</blockquote>
-<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>D</kbd>：新建虚拟桌面</p>
-<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>←</kbd>/<kbd>→</kbd>：左右切换虚拟桌面</p>
-<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>F4</kbd>：关闭当前虚拟桌面</p>
-<p><kbd>win</kbd> + <kbd>N</kbd>：打开通知面板/日历面板</p>
-<p><kbd>win</kbd> + <kbd>W</kbd>：打开小组件（win11，虽然不用小组件，还是列这，<del>说不定以后小组件会改善</del>）</p>
-<p><kbd>win</kbd> + <kbd>A</kbd>：<strong>打开快速设置面板</strong></p>
-<p><kbd>win</kbd> + <kbd>H</kbd>：语音输入</p>
-<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>Esc</kbd>：任务管理器</p>
-]]></content>
-      <categories>
-        <category>备忘笔记</category>
-      </categories>
-      <tags>
-        <tag>快捷键</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>空间小画</title>
-    <url>/posts/space-little-drawing/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>如何把一个无聊的制图软件玩出花来……</p>
-<blockquote>
-<p>最初见到用Solidworks绘出有意思的三维图像并渲染得那么好看还是在B站的up主<a href="https://space.bilibili.com/25636858/">碧落九重剑</a>这儿（不过现在好像不发布Solidworks的教学视频了），后来自己慢慢琢磨也能自己绘出一些简单的作品了~</p>
-</blockquote>
-<h3 id="阿柒的魔刀千刃"><a href="#阿柒的魔刀千刃" class="headerlink" title="阿柒的魔刀千刃"></a>阿柒的魔刀千刃</h3><p><del>（剑格部分的六边形因为开始没注意到后来又懒得改就保持了矩形的样子，也还看得过去）</del></p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E9%AD%94%E5%88%80%E5%8D%83%E5%88%83B.JPG" loading="lazy"></p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E9%AD%94%E5%88%80%E5%8D%83%E5%88%83K.JPG" loading="lazy"></p>
-<h3 id="bilibili小电视"><a href="#bilibili小电视" class="headerlink" title="bilibili小电视"></a>bilibili小电视</h3><p><del>（原本想着能3D打印出来,再涂上相应的颜料，等我有钱了一定买个3D打印机）</del></p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E5%B0%8F%E7%94%B5%E8%A7%86x.JPG" loading="lazy"></p>
-<h3 id="没有名字的无人机"><a href="#没有名字的无人机" class="headerlink" title="没有名字的无人机"></a>没有名字的无人机</h3><p>（当初是个3D打印课的作业，自己设计一个可3D打印出来的模型之类的）</p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E6%97%A0%E4%BA%BA%E6%9C%BA.JPG" loading="lazy"></p>
-<h3 id="灰红的狼堡"><a href="#灰红的狼堡" class="headerlink" title="灰红的狼堡"></a>灰红的狼堡</h3><p><del>（追喜羊羊的时候画的）</del></p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E7%8B%BC%E5%A0%A1L.JPG" loading="lazy"></p>
-<h3 id="伽小"><a href="#伽小" class="headerlink" title="伽小"></a>伽小</h3><p><del>（应该不算毁童年吧）</del></p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/jialuo.JPG" loading="lazy"></p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E5%B0%8F%E5%BF%83%E8%B6%85%E4%BA%BAS.JPG" loading="lazy"></p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E4%BC%BD%E7%BD%97L.JPG" loading="lazy"><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/post/space-little-drawing/%E5%B0%8F%E5%BF%83%E8%B6%85%E4%BA%BA.JPG" loading="lazy"></p>
-]]></content>
-      <categories>
-        <category>创作作品</category>
-      </categories>
-      <tags>
-        <tag>Solidworks</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>记读：人类简史</title>
     <url>/posts/reading--A-Brief-History-of-Humankind/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/reading/%E4%BA%BA%E7%B1%BB%E7%AE%80%E5%8F%B2.jpg" alt="Audits - Lighthouse" loading="lazy"><em>《人类简史：从动物到上帝》</em></p>
@@ -432,11 +442,5 @@
       <tags>
         <tag>阅读</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>你好！银河系第三旋臂上的小星星！</title>
-    <url>/posts/hello-galaxy/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天是10月29日，第一篇博客文章呢！</p>
-]]></content>
   </entry>
 </search>
