@@ -24,33 +24,6 @@
       </tags>
   </entry>
   <entry>
-    <title>blog运行排障笔记</title>
-    <url>/posts/note-for-blog-problem/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
-<p>记录自己在折腾博客时遇到的一些问题及解决方法，以便日后遇到相同问题能快速解决，本文章持续更新</p>
-</blockquote>
-<h3 id="markdown文章对特定CSS引用问题"><a href="#markdown文章对特定CSS引用问题" class="headerlink" title="markdown文章对特定CSS引用问题"></a>markdown文章对特定CSS引用问题</h3><p>直接通过<code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;../css/book.css&quot; /&gt;</code>引用，引用路径根据相对路径确认好，其中<code>../</code>表示上一级</p>
-<h3 id="markdown文章中html与css不起效问题"><a href="#markdown文章中html与css不起效问题" class="headerlink" title="markdown文章中html与css不起效问题"></a>markdown文章中html与css不起效问题</h3><p>首先，markdown能运行所有html与css代码，代码不起效可能是代码中含有空行，在查找替换中用正则表达式将<code>^\s*$</code>替换为空白即可删除所有空行</p>
-<h3 id="主题外css显示正常，主题内css显示异常问题"><a href="#主题外css显示正常，主题内css显示异常问题" class="headerlink" title="主题外css显示正常，主题内css显示异常问题"></a>主题外css显示正常，主题内css显示异常问题</h3><p>可能由于主题markdown css与外部css相互影响导致，先f12调试直正常css，再在引用的css中修改对应内容</p>
-<h3 id="主题外html显示正常，主题内html显示异常问题"><a href="#主题外html显示正常，主题内html显示异常问题" class="headerlink" title="主题外html显示正常，主题内html显示异常问题"></a>主题外html显示正常，主题内html显示异常问题</h3><p>直接复制f12中正常的html内容进主题内</p>
-<h3 id="提高css优先级"><a href="#提高css优先级" class="headerlink" title="提高css优先级"></a>提高css优先级</h3><p>例：</p>
-<pre class="language-none"><code class="language-none">li &#123;
-
-  list-style-type: none !important;
-
-&#125;</code></pre>
-
-<h3 id="Picgo上传图片失败"><a href="#Picgo上传图片失败" class="headerlink" title="Picgo上传图片失败"></a>Picgo上传图片失败</h3><p>软件fastgithub的开启会导致Picgo上传图片失败，Picgo上传图片前需要关掉fastgithub</p>
-]]></content>
-      <categories>
-        <category>备忘笔记</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CFOP练习笔记</title>
     <url>/posts/note-of-CFOP/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><details><summary>介绍</summary>
@@ -94,38 +67,35 @@
         <category>备忘笔记</category>
       </categories>
       <tags>
-        <tag>笔记</tag>
         <tag>魔方</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
-    <title>blog运行小笔记</title>
-    <url>/posts/note-for-blog-working/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p><strong>写文章</strong><br> <strong>step1:</strong> 打开blog文件夹，并在里面空白处右击选择<code>Git Bash Here</code><br> <strong>step2:</strong> 在里面输入<code>hexo n 新文章名</code>，再回车<br> <strong>step3:</strong> 在blog文件夹中，进入source文件夹，再进入_posts文件夹，用宇宙最强编辑器vs code打开新建的文章</p>
-<blockquote>
-<p>其实也可以直接在source/_posts文件夹内新建markdown文件（可以先新建一个记事本txt文件再改后缀为md），然后直接在里面写文章，推荐Typora编辑器</p>
+    <title>blog运行排障笔记</title>
+    <url>/posts/note-for-blog-problem/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
+<p>记录自己在折腾博客时遇到的一些问题及解决方法，以便日后遇到相同问题能快速解决，本文章持续更新</p>
 </blockquote>
-<p> <strong>step4:</strong> 就可以可以开始写啦！写完后记得保存<br> <strong>step5:</strong> 再打开Git Bash，依次输入<code>hexo c</code> <code>hexo g</code> <code>hexo d</code>(注意看有没有报错或警告啊)</p>
-<blockquote>
-<p>当然也可以随时在输入<code>hexo s</code>后在<a href="http://localhost:4000/">本地</a>查看自己的网站</p>
-</blockquote>
-<p><strong>step6:</strong> 再输入 <code>sh update.sh</code>运行之前写好的bash脚本，以完成博客源文件推送到gitee目标仓库hexo分支上实现备份</p>
-<blockquote>
-<p>可以在update.sh文件中更改info=”~“中的~来描述此次要在仓库中显示的更新说明</p>
-</blockquote>
-<p><strong>step7:</strong> 打开码云的<a href="https://gitee.com/jollylight/jollylight/pages">gitee page页面</a>，点击更新，等待片刻<br> <strong>step8:</strong> 就OK啦！</p>
-<p>（这么简单为什么写出来，因为我真的是小白啊QAQ）</p>
-<p><del>（主要也怕自己太久没写博客忘了）</del></p>
-<h1 id="linux常用命令-即git-bash下"><a href="#linux常用命令-即git-bash下" class="headerlink" title="linux常用命令(即git bash下)"></a>linux常用命令(即git bash下)</h1><p><kbd>Ctrl</kbd>+<kbd>Insert </kbd>: 复制</p>
-<p><kbd>Shift</kbd>+<kbd>Insert </kbd>: 粘贴</p>
-<h1 id="其他常用"><a href="#其他常用" class="headerlink" title="其他常用"></a>其他常用</h1><p><strong>blog主颜色</strong>：<font color=#FFCC66>#FFCC66</font></p>
+<h3 id="markdown文章对特定CSS引用问题"><a href="#markdown文章对特定CSS引用问题" class="headerlink" title="markdown文章对特定CSS引用问题"></a>markdown文章对特定CSS引用问题</h3><p>直接通过<code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;../css/book.css&quot; /&gt;</code>引用，引用路径根据相对路径确认好，其中<code>../</code>表示上一级</p>
+<h3 id="markdown文章中html与css不起效问题"><a href="#markdown文章中html与css不起效问题" class="headerlink" title="markdown文章中html与css不起效问题"></a>markdown文章中html与css不起效问题</h3><p>首先，markdown能运行所有html与css代码，代码不起效可能是代码中含有空行，在查找替换中用正则表达式将<code>^\s*$</code>替换为空白即可删除所有空行</p>
+<h3 id="主题外css显示正常，主题内css显示异常问题"><a href="#主题外css显示正常，主题内css显示异常问题" class="headerlink" title="主题外css显示正常，主题内css显示异常问题"></a>主题外css显示正常，主题内css显示异常问题</h3><p>可能由于主题markdown css与外部css相互影响导致，先f12调试直正常css，再在引用的css中修改对应内容</p>
+<h3 id="主题外html显示正常，主题内html显示异常问题"><a href="#主题外html显示正常，主题内html显示异常问题" class="headerlink" title="主题外html显示正常，主题内html显示异常问题"></a>主题外html显示正常，主题内html显示异常问题</h3><p>直接复制f12中正常的html内容进主题内</p>
+<h3 id="提高css优先级"><a href="#提高css优先级" class="headerlink" title="提高css优先级"></a>提高css优先级</h3><p>例：</p>
+<pre class="language-none"><code class="language-none">li &#123;
+
+  list-style-type: none !important;
+
+&#125;</code></pre>
+
+<h3 id="Picgo上传图片失败"><a href="#Picgo上传图片失败" class="headerlink" title="Picgo上传图片失败"></a>Picgo上传图片失败</h3><p>软件fastgithub的开启会导致Picgo上传图片失败，Picgo上传图片前需要关掉fastgithub</p>
 ]]></content>
       <categories>
         <category>备忘笔记</category>
       </categories>
       <tags>
-        <tag>blog</tag>
         <tag>笔记</tag>
+        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -176,21 +146,33 @@
       </tags>
   </entry>
   <entry>
-    <title>兴趣爱好在平淡生活中泛起的涟漪——写歌</title>
-    <url>/posts/Interest-in-SongWriting/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>我好喜欢17岁，17岁那年我总认为17岁是最好的年纪，便想做些什么好好珍惜这个年纪，那时我决定赶在自己18岁生日之前写一首纪念自己这个年纪的歌，那时大一，自己所谓的写歌指的是指自己无比业余的作词作曲，并没有编曲混音和其他专业的东西。</p>
-<p>想起来，第一次自己写歌大概可以追溯到自己小学，但之前算是写着玩的，后来高中之后可以说开启了对我自己来说快乐的写歌之路，直到大三之前，前前后后写了有十几首，每首歌我都自认为有它自己的意义，并无可替代，虽然只是自己的自娱自乐，没有其他人知道，但也丝毫不减当时自己对此的热爱。</p>
-<p>那时还给自己的歌专门制作了一个小册子，里面有自己写的每首歌的歌词、写歌时的背景、完成的时间、歌曲的标签等等信息，后来接触了一些音乐制作软件就开始试着给自己以前的歌编曲，自己唱自己录音……当然，自己终究只会一些简单的编曲，我也自知自己远远不及专业水平，但自由地创作出一首自己满意的歌还是一件很酷的事啊~</p>
-<p>现在再回头看自己之前的那些歌，仔细斟酌的确是有些幼稚，或是说非常小众，小众到大概只有我自己才能理解和体会到这首歌的目的和意境在哪里，拿不出手，但这些歌的确是构成了自己那个时期重要的一部分。</p>
-<p>2017年，嗯，高考完的那一年是2017年，这个年份始终在我心中有着很重要的意义，也算是自己人生轨迹的一个转折点了，当然，对那一年高考的大多数学生来说应该都是。也是从那个暑假开始接触了吉他，因为家里正好有一把吉他，是爸爸的，暑假的时候正好没事就自学了起来，大学里也断断续续学了一阵子，不过只会一些简单的伴奏而已，当时学吉他的目标只有一个，就是给我自己的歌做伴奏，只可惜后来的确因为各种因素没有继续学了。</p>
-<p>不得不承认，自己虽然有着繁多的兴趣爱好，但大多只是蜻蜓点水，浅尝辄止，虽然很想像以前一直对自己说的一样“做当下想做的事情”，但一个人的精力和时间的确是有限的，在某个或长或短的时间段内，专注自己某个兴趣的某个部分或许才是正解。</p>
+    <title>blog运行小笔记</title>
+    <url>/posts/note-for-blog-working/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p><strong>写文章</strong><br> <strong>step1:</strong> 打开blog文件夹，并在里面空白处右击选择<code>Git Bash Here</code><br> <strong>step2:</strong> 在里面输入<code>hexo n 新文章名</code>，再回车<br> <strong>step3:</strong> 在blog文件夹中，进入source文件夹，再进入_posts文件夹，用宇宙最强编辑器vs code打开新建的文章</p>
+<blockquote>
+<p>其实也可以直接在source/_posts文件夹内新建markdown文件（可以先新建一个记事本txt文件再改后缀为md），然后直接在里面写文章，推荐Typora编辑器</p>
+</blockquote>
+<p> <strong>step4:</strong> 就可以可以开始写啦！写完后记得保存<br> <strong>step5:</strong> 再打开Git Bash，依次输入<code>hexo c</code> <code>hexo g</code> <code>hexo d</code>(注意看有没有报错或警告啊)</p>
+<blockquote>
+<p>当然也可以随时在输入<code>hexo s</code>后在<a href="http://localhost:4000/">本地</a>查看自己的网站</p>
+</blockquote>
+<p><strong>step6:</strong> 再输入 <code>sh update.sh</code>运行之前写好的bash脚本，以完成博客源文件推送到gitee目标仓库hexo分支上实现备份</p>
+<blockquote>
+<p>可以在update.sh文件中更改info=”~“中的~来描述此次要在仓库中显示的更新说明</p>
+</blockquote>
+<p><strong>step7:</strong> 打开码云的<a href="https://gitee.com/jollylight/jollylight/pages">gitee page页面</a>，点击更新，等待片刻<br> <strong>step8:</strong> 就OK啦！</p>
+<p>（这么简单为什么写出来，因为我真的是小白啊QAQ）</p>
+<p><del>（主要也怕自己太久没写博客忘了）</del></p>
+<h1 id="linux常用命令-即git-bash下"><a href="#linux常用命令-即git-bash下" class="headerlink" title="linux常用命令(即git bash下)"></a>linux常用命令(即git bash下)</h1><p><kbd>Ctrl</kbd>+<kbd>Insert </kbd>: 复制</p>
+<p><kbd>Shift</kbd>+<kbd>Insert </kbd>: 粘贴</p>
+<h1 id="其他常用"><a href="#其他常用" class="headerlink" title="其他常用"></a>其他常用</h1><p><strong>blog主颜色</strong>：<font color=#FFCC66>#FFCC66</font></p>
 ]]></content>
       <categories>
-        <category>时光印记</category>
+        <category>备忘笔记</category>
       </categories>
       <tags>
-        <tag>写歌</tag>
-        <tag>爱好</tag>
+        <tag>笔记</tag>
+        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -200,7 +182,7 @@
 <p>终于还是毕业了，这篇文章就当是我四年生活的一个句点吧。</p>
 </blockquote>
 
-    <div id="aplayer-bgyatJqa" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-LfjFhwty" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1413374282" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FFCC66"
     ></div>
 
@@ -231,12 +213,6 @@
         <tag>时光</tag>
         <tag>毕业</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>你好！银河系第三旋臂上的小星星！</title>
-    <url>/posts/hello-galaxy/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天是10月29日，第一篇博客文章呢！</p>
-]]></content>
   </entry>
   <entry>
     <title>喜欢的句子</title>
@@ -309,51 +285,47 @@
       </tags>
   </entry>
   <entry>
-    <title>常用快捷键小记</title>
-    <url>/posts/Notes-on-common-shortcut-keys/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>这篇文章可能对你没什么帮助，_(:з)∠)_主要是记给自己看的，只记录了我个人觉得应该常用但我不常用的快捷键(*/ω＼*)，没有列出我很熟悉的与很不熟悉的快捷键<del>(如果你真那么巧恰好和我熟悉的和不熟悉的快捷键一样那就应该对你也有很大帮助)</del> </p>
-<h3 id="微软输入法（拼音）"><a href="#微软输入法（拼音）" class="headerlink" title="微软输入法（拼音）"></a>微软输入法（拼音）</h3><p><kbd>，</kbd>：<strong>上翻页</strong></p>
-<p><kbd>。</kbd>：<strong>下翻页</strong></p>
-<p><kbd>↓ </kbd>：下一个字</p>
-<p><kbd>↑</kbd>  ：上一个字</p>
-<p><kbd>win</kbd> + <kbd>.</kbd> ：表情（包含各种符号）</p>
-<p><kbd>Ctrl </kbd>+ <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>→</kbd>/ <kbd>↓</kbd> ：切换表情（包含各种符号）</p>
-<h3 id="Edge浏览器"><a href="#Edge浏览器" class="headerlink" title="Edge浏览器"></a>Edge浏览器</h3><p><kbd>Ctrl</kbd> + <kbd>Tab</kbd>：<strong>切换到下一个标签页</strong></p>
-<p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Tab</kbd>：切换到上一个标签页</p>
-<p><kbd>Ctrl </kbd>+ <kbd>T</kbd>：新建标签页</p>
-<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>T</kbd>：<strong>恢复上一个关闭的标签页</strong></p>
-<p><kbd>Alt</kbd> + <kbd>←</kbd>/<kbd>→</kbd>：对同一标签页的返回与前进操作</p>
-<p><kbd>Ctrl</kbd> + <kbd>E</kbd>：在当前标签打开搜索引擎查询</p>
-<p><kbd>Ctrl</kbd> + <kbd>H</kbd>：历史记录</p>
-<p><kbd>Ctrl</kbd> + <kbd>W</kbd>：<strong>关闭当前标签页</strong></p>
-<p><kbd>Ctrl</kbd> + <kbd>F5</kbd>：<strong>强制刷新当前页面</strong>（部署了博客后页面没更新可以试试这个）</p>
-<p><kbd>空格键</kbd>：<strong>向下滚动网页</strong>（浏览学校的pdf非常好用）</p>
-<p><kbd>Shift</kbd>+ <kbd>空格键</kbd>：<strong>向上滚动网页</strong></p>
-<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>S</kbd>：网页截图（可截自动滚动后的整页）</p>
-<p><kbd>Shift</kbd> + <kbd>Esc</kbd>：浏览器资源管理器</p>
-<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>U</kbd>：语音朗读</p>
-<h3 id="Windows-10-11"><a href="#Windows-10-11" class="headerlink" title="Windows 10/11"></a>Windows 10/11</h3><p><kbd>win</kbd> + <kbd>V</kbd>：<strong>打开剪贴板</strong>（可以省去一些情况下需要2个页面来回跳转复制粘贴的麻烦)</p>
-<p>（以下截图的前提是将<code>设置</code>→<code>轻松使用</code>→<code>键盘</code>→<code>屏幕截图快捷方式</code>中的<code>使用PrtScn按键打开截图</code>打开）</p>
-<p><kbd>PrtSc</kbd>：<strong>截图（可选范围）并保存至剪贴板</strong></p>
-<p><kbd>win</kbd> + <kbd>PrtSc</kbd>：<strong>截图整屏保存至剪贴板并保存至文件夹</strong>（默认保存在了<code>C:\Users\你的用户名\Pictures\屏幕截图</code>文件夹下，你可以右击该文件夹选择<code>属性</code>→<code>位置</code>→<code>移动…</code>来选择你想保存在的文件夹，这是我找到的最舒服的截图方式了[]<del>(￣▽￣)</del>*）</p>
-<p><kbd>Alt</kbd> + <kbd>F4</kbd>：关闭当前页面</p>
-<blockquote>
-<p>用<kbd>Fn</kbd>键控制时按键的顺序是<kbd>Fn</kbd> + <kbd>Alt</kbd> + <kbd>F4</kbd></p>
-</blockquote>
-<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>D</kbd>：新建虚拟桌面</p>
-<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>←</kbd>/<kbd>→</kbd>：左右切换虚拟桌面</p>
-<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>F4</kbd>：关闭当前虚拟桌面</p>
-<p><kbd>win</kbd> + <kbd>N</kbd>：打开通知面板/日历面板</p>
-<p><kbd>win</kbd> + <kbd>W</kbd>：打开小组件（win11，虽然不用小组件，还是列这，<del>说不定以后小组件会改善</del>）</p>
-<p><kbd>win</kbd> + <kbd>A</kbd>：<strong>打开快速设置面板</strong></p>
-<p><kbd>win</kbd> + <kbd>H</kbd>：语音输入</p>
-<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>Esc</kbd>：任务管理器</p>
+    <title>你好！银河系第三旋臂上的小星星！</title>
+    <url>/posts/hello-galaxy/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天是10月29日，第一篇博客文章呢！</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>兴趣爱好在平淡生活中泛起的涟漪——写歌</title>
+    <url>/posts/Interest-in-SongWriting/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>我好喜欢17岁，17岁那年我总认为17岁是最好的年纪，便想做些什么好好珍惜这个年纪，那时我决定赶在自己18岁生日之前写一首纪念自己这个年纪的歌，那时大一，自己所谓的写歌指的是指自己无比业余的作词作曲，并没有编曲混音和其他专业的东西。</p>
+<p>想起来，第一次自己写歌大概可以追溯到自己小学，但之前算是写着玩的，后来高中之后可以说开启了对我自己来说快乐的写歌之路，直到大三之前，前前后后写了有十几首，每首歌我都自认为有它自己的意义，并无可替代，虽然只是自己的自娱自乐，没有其他人知道，但也丝毫不减当时自己对此的热爱。</p>
+<p>那时还给自己的歌专门制作了一个小册子，里面有自己写的每首歌的歌词、写歌时的背景、完成的时间、歌曲的标签等等信息，后来接触了一些音乐制作软件就开始试着给自己以前的歌编曲，自己唱自己录音……当然，自己终究只会一些简单的编曲，我也自知自己远远不及专业水平，但自由地创作出一首自己满意的歌还是一件很酷的事啊~</p>
+<p>现在再回头看自己之前的那些歌，仔细斟酌的确是有些幼稚，或是说非常小众，小众到大概只有我自己才能理解和体会到这首歌的目的和意境在哪里，拿不出手，但这些歌的确是构成了自己那个时期重要的一部分。</p>
+<p>2017年，嗯，高考完的那一年是2017年，这个年份始终在我心中有着很重要的意义，也算是自己人生轨迹的一个转折点了，当然，对那一年高考的大多数学生来说应该都是。也是从那个暑假开始接触了吉他，因为家里正好有一把吉他，是爸爸的，暑假的时候正好没事就自学了起来，大学里也断断续续学了一阵子，不过只会一些简单的伴奏而已，当时学吉他的目标只有一个，就是给我自己的歌做伴奏，只可惜后来的确因为各种因素没有继续学了。</p>
+<p>不得不承认，自己虽然有着繁多的兴趣爱好，但大多只是蜻蜓点水，浅尝辄止，虽然很想像以前一直对自己说的一样“做当下想做的事情”，但一个人的精力和时间的确是有限的，在某个或长或短的时间段内，专注自己某个兴趣的某个部分或许才是正解。</p>
+]]></content>
+      <categories>
+        <category>时光印记</category>
+      </categories>
+      <tags>
+        <tag>写歌</tag>
+        <tag>爱好</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>天体物理学习笔记（一）——方向与参考资料</title>
+    <url>/posts/note-for-astrophysics-learning/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="学习方向"><a href="#学习方向" class="headerlink" title="学习方向"></a>学习方向</h2><h4 id="学习方向参考："><a href="#学习方向参考：" class="headerlink" title="学习方向参考："></a>学习方向参考：</h4><p>1.中科大本科<a href="https://astro.ustc.edu.cn/2015/1228/c27261a259601/page.htm">天文英才班培养方案</a></p>
+<p>2.中科大天文学<a href="https://astro.ustc.edu.cn/yjsjy/list.htm">研究生培养方案</a></p>
+<p>3.诺奖得主/理论物理学家Gerard ‘t Hooft建立网站——<a href="https://www.goodtheorist.science/index.html">How to become a GOOD Theoretical Physicist</a></p>
+<h4 id="学习方向总结："><a href="#学习方向总结：" class="headerlink" title="学习方向总结："></a>学习方向总结：</h4><p>基础课程补充：电动力学、热力学与统计物理、量子力学B、天文学导论</p>
+<p>专业核心课程：天体物理概论、实测天体物理学、恒星物理基础</p>
+<p>专业方向课程：星系天文学、广义相对论 A、天体力学与天体测量</p>
+<h2 id="参考资料："><a href="#参考资料：" class="headerlink" title="参考资料："></a>参考资料：</h2><p>1.在线课程：中科大<a href="https://www.bilibili.com/video/BV1Zy4y197Cf?p=27&vd_source=b3b96068e14f7cfce4030f1ce48b5626">天体物理概论</a></p>
+<p>配套教材：《<a href="https://book.douban.com/subject/3353501/">天体物理概论</a>》</p>
 ]]></content>
       <categories>
         <category>备忘笔记</category>
       </categories>
       <tags>
-        <tag>快捷键</tag>
+        <tag>笔记</tag>
+        <tag>天体物理</tag>
       </tags>
   </entry>
   <entry>
@@ -407,6 +379,73 @@
       </tags>
   </entry>
   <entry>
+    <title>常用快捷键小记</title>
+    <url>/posts/Notes-on-common-shortcut-keys/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>这篇文章可能对你没什么帮助，_(:з)∠)_主要是记给自己看的，只记录了我个人觉得应该常用但我不常用的快捷键(*/ω＼*)，没有列出我很熟悉的与很不熟悉的快捷键<del>(如果你真那么巧恰好和我熟悉的和不熟悉的快捷键一样那就应该对你也有很大帮助)</del> </p>
+<h3 id="微软输入法（拼音）"><a href="#微软输入法（拼音）" class="headerlink" title="微软输入法（拼音）"></a>微软输入法（拼音）</h3><p><kbd>，</kbd>：<strong>上翻页</strong></p>
+<p><kbd>。</kbd>：<strong>下翻页</strong></p>
+<p><kbd>↓ </kbd>：下一个字</p>
+<p><kbd>↑</kbd>  ：上一个字</p>
+<p><kbd>win</kbd> + <kbd>.</kbd> ：表情（包含各种符号）</p>
+<p><kbd>Ctrl </kbd>+ <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>→</kbd>/ <kbd>↓</kbd> ：切换表情（包含各种符号）</p>
+<h3 id="Edge浏览器"><a href="#Edge浏览器" class="headerlink" title="Edge浏览器"></a>Edge浏览器</h3><p><kbd>Ctrl</kbd> + <kbd>Tab</kbd>：<strong>切换到下一个标签页</strong></p>
+<p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Tab</kbd>：切换到上一个标签页</p>
+<p><kbd>Ctrl </kbd>+ <kbd>T</kbd>：新建标签页</p>
+<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>T</kbd>：<strong>恢复上一个关闭的标签页</strong></p>
+<p><kbd>Alt</kbd> + <kbd>←</kbd>/<kbd>→</kbd>：对同一标签页的返回与前进操作</p>
+<p><kbd>Ctrl</kbd> + <kbd>E</kbd>：在当前标签打开搜索引擎查询</p>
+<p><kbd>Ctrl</kbd> + <kbd>H</kbd>：历史记录</p>
+<p><kbd>Ctrl</kbd> + <kbd>W</kbd>：<strong>关闭当前标签页</strong></p>
+<p><kbd>Ctrl</kbd> + <kbd>F5</kbd>：<strong>强制刷新当前页面</strong>（部署了博客后页面没更新可以试试这个）</p>
+<p><kbd>空格键</kbd>：<strong>向下滚动网页</strong>（浏览学校的pdf非常好用）</p>
+<p><kbd>Shift</kbd>+ <kbd>空格键</kbd>：<strong>向上滚动网页</strong></p>
+<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>S</kbd>：网页截图（可截自动滚动后的整页）</p>
+<p><kbd>Shift</kbd> + <kbd>Esc</kbd>：浏览器资源管理器</p>
+<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>U</kbd>：语音朗读</p>
+<h3 id="Windows-10-11"><a href="#Windows-10-11" class="headerlink" title="Windows 10/11"></a>Windows 10/11</h3><p><kbd>win</kbd> + <kbd>V</kbd>：<strong>打开剪贴板</strong>（可以省去一些情况下需要2个页面来回跳转复制粘贴的麻烦)</p>
+<p>（以下截图的前提是将<code>设置</code>→<code>轻松使用</code>→<code>键盘</code>→<code>屏幕截图快捷方式</code>中的<code>使用PrtScn按键打开截图</code>打开）</p>
+<p><kbd>PrtSc</kbd>：<strong>截图（可选范围）并保存至剪贴板</strong></p>
+<p><kbd>win</kbd> + <kbd>PrtSc</kbd>：<strong>截图整屏保存至剪贴板并保存至文件夹</strong>（默认保存在了<code>C:\Users\你的用户名\Pictures\屏幕截图</code>文件夹下，你可以右击该文件夹选择<code>属性</code>→<code>位置</code>→<code>移动…</code>来选择你想保存在的文件夹，这是我找到的最舒服的截图方式了[]<del>(￣▽￣)</del>*）</p>
+<p><kbd>Alt</kbd> + <kbd>F4</kbd>：关闭当前页面</p>
+<blockquote>
+<p>用<kbd>Fn</kbd>键控制时按键的顺序是<kbd>Fn</kbd> + <kbd>Alt</kbd> + <kbd>F4</kbd></p>
+</blockquote>
+<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>D</kbd>：新建虚拟桌面</p>
+<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>←</kbd>/<kbd>→</kbd>：左右切换虚拟桌面</p>
+<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>F4</kbd>：关闭当前虚拟桌面</p>
+<p><kbd>win</kbd> + <kbd>N</kbd>：打开通知面板/日历面板</p>
+<p><kbd>win</kbd> + <kbd>W</kbd>：打开小组件（win11，虽然不用小组件，还是列这，<del>说不定以后小组件会改善</del>）</p>
+<p><kbd>win</kbd> + <kbd>A</kbd>：<strong>打开快速设置面板</strong></p>
+<p><kbd>win</kbd> + <kbd>H</kbd>：语音输入</p>
+<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>Esc</kbd>：任务管理器</p>
+]]></content>
+      <categories>
+        <category>备忘笔记</category>
+      </categories>
+      <tags>
+        <tag>快捷键</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>状态与感受小记——2023.02.26</title>
+    <url>/posts/feeling%20notes230226/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="一些杂谈"><a href="#一些杂谈" class="headerlink" title="一些杂谈"></a>一些杂谈</h2><p>从高中开始，我一直这么认为：记录当下发生的事情和即时产生的感受是一件很有意义的事情，某天翻起这些记录的时候会很容易将自己带入到当时的场景中，或开心、或难过、或再一次感同身受、亦或能以一种局外人的视角来看待当时这件事情本身，也不失为一种对过往的总结。</p>
+<p>事实上也的确如此，在一段接近4年的时间里，每天一页日记雷打不动，如果当天有不可预料的情况发生，在第二天也会将前一天的日记补上，尽管有时日子稀疏平常，也会多少记下当天的一些感受，我把它们都放回了老家，每次在那个隐蔽的角落里看到厚厚的几十本时，也会偶有感慨自己当时的那番状态。</p>
+<p>后来记得少了，有时一两周一次，有时几个月一次，但基本能够确保，所有日记除了自己之外没有第二个人翻阅过，直到拥有了个人博客，就有过打算将自己的记录转移到博客上来，但尽管几乎没有人阅读，还是会多少有些顾虑，落笔时不能尽想所言，于是便没有实现，如今尝试在博客上记录，或许会将一些事物或想法过滤掉，若是总能提醒自己“who cares？”，或许就不会。</p>
+<h2 id="关于工作"><a href="#关于工作" class="headerlink" title="关于工作"></a>关于工作</h2><p>我本科的专业是机械设计，现在的工作也算是和专业高度对口，毕业后刚进公司的时候，的确感觉一切都很不错，那时候分配到自己头上的事情很少，主要的任务其实是学习，对一个当了16年学生的学生来说，最擅长的也就是学习了，那会儿几乎没有压力，加班与否全看自己心情。直到第一次被要求处理一些杂事不得不加班到凌晨一点多，直到第一次担心自己的项目不能在年前完成影响回家过年，直到第一次意识到项目交期紧不是偶然事件而是常态，工作的积极性主动性开始在不断消减。当然，实事求是，我现在的工作强度放在自己学生时代来看不值一提，但问题的本质在于，所消耗的时间不是用在提升自己上，而是提高所谓公司的利益，这绝不值。写到这里不由得想贴上马克思在《工资，价格和利润》里的一段话：“<em>资本的经常趋势就是把工作日延长到体力可能达到的极限，因为随着工作日长度的增加，剩余劳动，从而这劳动所创造的利润也将同样增长。资本把工作日越延长，它占有他人的劳动量也越多……时间是人类发展的空间。一个人如果没有自己处置的自由时间，一生中除睡眠饮食等纯生理上必需的间断以外，都是替资本家服务，那么，他就还不如一头载重的牲畜。他不过是一架为别人生产财富的机器，身体垮了，心智也狂野了</em>”。尽管这话看起来更像是在指当时的体力劳动，但其所要表达的想法放在现在的资本雇佣关系依然合适。我仍相信，若愿探寻，世界便有趣，大好时光实在该用来体验世界上更多美好的东西，而不该任由思想被禁锢。当然，漂亮话谁都会说，行与知又有几人能做到一致呢。</p>
+<p>所幸的是，尽管所在公司部门的压力氛围浓厚，但共同相处的人还行，每个前辈都会耐心解答你的问题，平时大家也都互帮互助，带自己入门的导师也无疑也是让自己受益匪浅，想到这些，偶尔会想如果换了其他公司是否还会是这样，偶尔会想若非一切资本利益驱使，本氛围大可不必充斥如此大的压力，一切也会和谐许多。</p>
+<h2 id="关于寻找知己"><a href="#关于寻找知己" class="headerlink" title="关于寻找知己"></a>关于寻找知己</h2><p>用“知己”这个词可能欠妥，这里其实想指的是彼此共度余生的另一半，但的确想不到其他合适的词。在过去的时间里，我从来没有因为此事而困扰过，从来没有因为别人有而自己没有而产生一丝一毫内心的波动，从来没有意识到找一个合适的知己需要当成一件事放在心上。但现在不同了，在家庭与自己内心的双双寄予下，甚至公司的导师也提醒自己该把这件事放上日程，我意识到自己可能该做些什么了，可……我该做些什么呢。我开始把这件事当成一件事来处理，并列上可以实施的行动，尝试着做一些计划和改变，却完全无济于事，加之现实中自己性格内敛，我由衷想说：这件事对我来说比想象中要难很多。</p>
+<p>但随着自己越来越关注这件事情本身，也慢慢产生了很多关于另一半的想法，难免会幻想生活中的种种细节，难免会幻想ta应该是怎样的性格，应该会有怎样的兴趣爱好和想法，我也同样明白，一切更多的该是建立在相互包容的基础之上，而非一定要拥有怎样明确的性格或特定的想法。我所理解的这种亲密关系应该是：相互欣赏，共同体验世界上各种美好的事物，快乐与生活中的确幸相互分享，困难时相互给予鼓励和支持，心情低落时给予安慰，若是有共同的兴趣爱好则更好了……</p>
+<h2 id="关于现状"><a href="#关于现状" class="headerlink" title="关于现状"></a>关于现状</h2><p>如上所述，自己多少正在被上面那两件事所困扰，说是困扰或许有些过头，但的确是对我现在的生活产生了一些影响，我现在大可以把上面两个问题抛之脑后，但也只能是一时。改变现状不是一件容易的事情，还是不由得想到了这句话：“人若不能有所舍弃，就无法改变现状”</p>
+]]></content>
+      <categories>
+        <category>时间沙漏</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>收藏的博客</title>
     <url>/posts/Bookmarked-Blog/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
@@ -447,25 +486,6 @@
       </categories>
       <tags>
         <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>状态与感受小记——2023.02.26</title>
-    <url>/posts/feeling%20notes230226/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="一些杂谈"><a href="#一些杂谈" class="headerlink" title="一些杂谈"></a>一些杂谈</h2><p>从高中开始，我一直这么认为：记录当下发生的事情和即时产生的感受是一件很有意义的事情，某天翻起这些记录的时候会很容易将自己带入到当时的场景中，或开心、或难过、或再一次感同身受、亦或能以一种局外人的视角来看待当时这件事情本身，也不失为一种对过往的总结。</p>
-<p>事实上也的确如此，在一段接近4年的时间里，每天一页日记雷打不动，如果当天有不可预料的情况发生，在第二天也会将前一天的日记补上，尽管有时日子稀疏平常，也会多少记下当天的一些感受，我把它们都放回了老家，每次在那个隐蔽的角落里看到厚厚的几十本时，也会偶有感慨自己当时的那番状态。</p>
-<p>后来记得少了，有时一两周一次，有时几个月一次，但基本能够确保，所有日记除了自己之外没有第二个人翻阅过，直到拥有了个人博客，就有过打算将自己的记录转移到博客上来，但尽管几乎没有人阅读，还是会多少有些顾虑，落笔时不能尽想所言，于是便没有实现，如今尝试在博客上记录，或许会将一些事物或想法过滤掉，若是总能提醒自己“who cares？”，或许就不会。</p>
-<h2 id="关于工作"><a href="#关于工作" class="headerlink" title="关于工作"></a>关于工作</h2><p>我本科的专业是机械设计，现在的工作也算是和专业高度对口，毕业后刚进公司的时候，的确感觉一切都很不错，那时候分配到自己头上的事情很少，主要的任务其实是学习，对一个当了16年学生的学生来说，最擅长的也就是学习了，那会儿几乎没有压力，加班与否全看自己心情。直到第一次被要求处理一些杂事不得不加班到凌晨一点多，直到第一次担心自己的项目不能在年前完成影响回家过年，直到第一次意识到项目交期紧不是偶然事件而是常态，工作的积极性主动性开始在不断消减。当然，实事求是，我现在的工作强度放在自己学生时代来看不值一提，但问题的本质在于，所消耗的时间不是用在提升自己上，而是提高所谓公司的利益，这绝不值。写到这里不由得想贴上马克思在《工资，价格和利润》里的一段话：“<em>资本的经常趋势就是把工作日延长到体力可能达到的极限，因为随着工作日长度的增加，剩余劳动，从而这劳动所创造的利润也将同样增长。资本把工作日越延长，它占有他人的劳动量也越多……时间是人类发展的空间。一个人如果没有自己处置的自由时间，一生中除睡眠饮食等纯生理上必需的间断以外，都是替资本家服务，那么，他就还不如一头载重的牲畜。他不过是一架为别人生产财富的机器，身体垮了，心智也狂野了</em>”。尽管这话看起来更像是在指当时的体力劳动，但其所要表达的想法放在现在的资本雇佣关系依然合适。我仍相信，若愿探寻，世界便有趣，大好时光实在该用来体验世界上更多美好的东西，而不该任由思想被禁锢。当然，漂亮话谁都会说，行与知又有几人能做到一致呢。</p>
-<p>所幸的是，尽管所在公司部门的压力氛围浓厚，但共同相处的人还行，每个前辈都会耐心解答你的问题，平时大家也都互帮互助，带自己入门的导师也无疑也是让自己受益匪浅，想到这些，偶尔会想如果换了其他公司是否还会是这样，偶尔会想若非一切资本利益驱使，本氛围大可不必充斥如此大的压力，一切也会和谐许多。</p>
-<h2 id="关于寻找知己"><a href="#关于寻找知己" class="headerlink" title="关于寻找知己"></a>关于寻找知己</h2><p>用“知己”这个词可能欠妥，这里其实想指的是彼此共度余生的另一半，但的确想不到其他合适的词。在过去的时间里，我从来没有因为此事而困扰过，从来没有因为别人有而自己没有而产生一丝一毫内心的波动，从来没有意识到找一个合适的知己需要当成一件事放在心上。但现在不同了，在家庭与自己内心的双双寄予下，甚至公司的导师也提醒自己该把这件事放上日程，我意识到自己可能该做些什么了，可……我该做些什么呢。我开始把这件事当成一件事来处理，并列上可以实施的行动，尝试着做一些计划和改变，却完全无济于事，加之现实中自己性格内敛，我由衷想说：这件事对我来说比想象中要难很多。</p>
-<p>但随着自己越来越关注这件事情本身，也慢慢产生了很多关于另一半的想法，难免会幻想生活中的种种细节，难免会幻想ta应该是怎样的性格，应该会有怎样的兴趣爱好和想法，我也同样明白，一切更多的该是建立在相互包容的基础之上，而非一定要拥有怎样明确的性格或特定的想法。我所理解的这种亲密关系应该是：相互欣赏，共同体验世界上各种美好的事物，快乐与生活中的确幸相互分享，困难时相互给予鼓励和支持，心情低落时给予安慰，若是有共同的兴趣爱好则更好了……</p>
-<h2 id="关于现状"><a href="#关于现状" class="headerlink" title="关于现状"></a>关于现状</h2><p>如上所述，自己多少正在被上面那两件事所困扰，说是困扰或许有些过头，但的确是对我现在的生活产生了一些影响，我现在大可以把上面两个问题抛之脑后，但也只能是一时。改变现状不是一件容易的事情，还是不由得想到了这句话：“人若不能有所舍弃，就无法改变现状”</p>
-]]></content>
-      <categories>
-        <category>时间沙漏</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
