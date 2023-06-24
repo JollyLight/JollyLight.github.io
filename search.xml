@@ -320,7 +320,11 @@
   <entry>
     <title>天体模型收藏盒</title>
     <url>/posts/summary-of-celestial-models/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="月球"><a href="#月球" class="headerlink" title="月球"></a>月球</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2366' width='100%' height='400px' frameborder='0'></iframe>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
+<p>3D模型取自NASA；</p>
+<p>加载可能需要一些时间，请耐心等待~</p>
+</blockquote>
+<h2 id="月球"><a href="#月球" class="headerlink" title="月球"></a>月球</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2366' width='100%' height='400px' frameborder='0'></iframe>
 
 <h2 id="水星"><a href="#水星" class="headerlink" title="水星"></a>水星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2369' width='100%' height='400px' frameborder='0'></iframe>
 
