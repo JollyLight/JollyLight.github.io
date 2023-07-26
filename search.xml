@@ -24,42 +24,6 @@
       </tags>
   </entry>
   <entry>
-    <title>blog运行排障笔记</title>
-    <url>/posts/note-for-blog-problem/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
-<p>记录自己在折腾博客时遇到的一些问题及解决方法，以便日后遇到相同问题能快速解决，本文章持续更新</p>
-</blockquote>
-<h3 id="markdown文章对特定CSS引用问题"><a href="#markdown文章对特定CSS引用问题" class="headerlink" title="markdown文章对特定CSS引用问题"></a>markdown文章对特定CSS引用问题</h3><p>直接通过<code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;../css/book.css&quot; /&gt;</code>引用，引用路径根据相对路径确认好，其中<code>../</code>表示上一级</p>
-<h3 id="markdown文章中html与css不起效问题"><a href="#markdown文章中html与css不起效问题" class="headerlink" title="markdown文章中html与css不起效问题"></a>markdown文章中html与css不起效问题</h3><p>首先，markdown能运行所有html与css代码，代码不起效可能是代码中含有空行，在查找替换中用正则表达式将<code>^\s*$</code>替换为空白即可删除所有空行</p>
-<h3 id="主题外css显示正常，主题内css显示异常问题"><a href="#主题外css显示正常，主题内css显示异常问题" class="headerlink" title="主题外css显示正常，主题内css显示异常问题"></a>主题外css显示正常，主题内css显示异常问题</h3><p>可能由于主题markdown css与外部css相互影响导致，先f12调试直正常css，再在引用的css中修改对应内容</p>
-<h3 id="主题外html显示正常，主题内html显示异常问题"><a href="#主题外html显示正常，主题内html显示异常问题" class="headerlink" title="主题外html显示正常，主题内html显示异常问题"></a>主题外html显示正常，主题内html显示异常问题</h3><p>直接复制f12中正常的html内容进主题内</p>
-<h3 id="提高css优先级"><a href="#提高css优先级" class="headerlink" title="提高css优先级"></a>提高css优先级</h3><p>例：</p>
-<pre class="language-none"><code class="language-none">li &#123;
-
-  list-style-type: none !important;
-
-&#125;</code></pre>
-
-<h3 id="Picgo上传图片失败"><a href="#Picgo上传图片失败" class="headerlink" title="Picgo上传图片失败"></a>Picgo上传图片失败</h3><p>软件fastgithub的开启会导致Picgo上传图片失败，Picgo上传图片前需要关掉fastgithub</p>
-<h3 id="latex公式无法编译与显示的问题"><a href="#latex公式无法编译与显示的问题" class="headerlink" title="latex公式无法编译与显示的问题"></a>latex公式无法编译与显示的问题</h3><p>latex公式在typora中能正常显示，而无法在博客中显示，解决方案：</p>
-<p>（1）hexo转换markdown文件时遇到<code>连续两个左花括号</code>或<code>连续两个右花括号</code>时无法正常转换，需要提前将其替换为<code>&#123; &#123;</code>与<code>&#125; &#125;</code>（两个相同的花括号中间加空格）</p>
-<p>（2）hexo解析latex公式时<code>$$</code>与<code>$$</code>之间不能存在换行，否则无法正常渲染公式，需要提前将文件在vscode中打开，使用正则表达式将<code>\$\$\n(.*)\n\$\$</code>全部替换成<code>$$$$$1$$$$</code>就好</p>
-<blockquote>
-<p>注意第（1）条不使用正则表达式替换，第（2）条才使用正则表达式替换</p>
-</blockquote>
-<blockquote>
-<p>解释一下第（2）条正则表达式（研究了好久才琢磨出这个解决方法X﹏X），<code>\n</code>表示换行；<code>\n</code>表示通配符；因<code>$</code>有特殊含义，用<code>\$</code>表示<code>$</code>本身；用<code>$$</code>表示<code>$</code></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>备忘笔记</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CFOP练习笔记</title>
     <url>/posts/note-of-CFOP/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><details><summary>介绍</summary>
@@ -103,8 +67,74 @@
         <category>备忘笔记</category>
       </categories>
       <tags>
-        <tag>笔记</tag>
         <tag>魔方</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>blog运行排障笔记</title>
+    <url>/posts/note-for-blog-problem/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
+<p>记录自己在折腾博客时遇到的一些问题及解决方法，以便日后遇到相同问题能快速解决，本文章持续更新</p>
+</blockquote>
+<h3 id="markdown文章对特定CSS引用问题"><a href="#markdown文章对特定CSS引用问题" class="headerlink" title="markdown文章对特定CSS引用问题"></a>markdown文章对特定CSS引用问题</h3><p>直接通过<code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;../css/book.css&quot; /&gt;</code>引用，引用路径根据相对路径确认好，其中<code>../</code>表示上一级</p>
+<h3 id="markdown文章中html与css不起效问题"><a href="#markdown文章中html与css不起效问题" class="headerlink" title="markdown文章中html与css不起效问题"></a>markdown文章中html与css不起效问题</h3><p>首先，markdown能运行所有html与css代码，代码不起效可能是代码中含有空行，在查找替换中用正则表达式将<code>^\s*$</code>替换为空白即可删除所有空行</p>
+<h3 id="主题外css显示正常，主题内css显示异常问题"><a href="#主题外css显示正常，主题内css显示异常问题" class="headerlink" title="主题外css显示正常，主题内css显示异常问题"></a>主题外css显示正常，主题内css显示异常问题</h3><p>可能由于主题markdown css与外部css相互影响导致，先f12调试直正常css，再在引用的css中修改对应内容</p>
+<h3 id="主题外html显示正常，主题内html显示异常问题"><a href="#主题外html显示正常，主题内html显示异常问题" class="headerlink" title="主题外html显示正常，主题内html显示异常问题"></a>主题外html显示正常，主题内html显示异常问题</h3><p>直接复制f12中正常的html内容进主题内</p>
+<h3 id="提高css优先级"><a href="#提高css优先级" class="headerlink" title="提高css优先级"></a>提高css优先级</h3><p>例：</p>
+<pre class="language-none"><code class="language-none">li &#123;
+
+  list-style-type: none !important;
+
+&#125;</code></pre>
+
+<h3 id="Picgo上传图片失败"><a href="#Picgo上传图片失败" class="headerlink" title="Picgo上传图片失败"></a>Picgo上传图片失败</h3><p>软件fastgithub的开启会导致Picgo上传图片失败，Picgo上传图片前需要关掉fastgithub</p>
+<h3 id="latex公式无法编译与显示的问题"><a href="#latex公式无法编译与显示的问题" class="headerlink" title="latex公式无法编译与显示的问题"></a>latex公式无法编译与显示的问题</h3><p>latex公式在typora中能正常显示，而无法在博客中显示，解决方案：</p>
+<p>（1）hexo转换markdown文件时遇到<code>连续两个左花括号</code>或<code>连续两个右花括号</code>时无法正常转换，需要提前将其替换为<code>&#123; &#123;</code>与<code>&#125; &#125;</code>（两个相同的花括号中间加空格）</p>
+<p>（2）hexo解析latex公式时<code>$$</code>与<code>$$</code>之间不能存在换行，否则无法正常渲染公式，需要提前将文件在vscode中打开，使用正则表达式将<code>\$\$\n(.*)\n\$\$</code>全部替换成<code>$$$$$1$$$$</code>就好</p>
+<blockquote>
+<p>注意第（1）条不使用正则表达式替换，第（2）条才使用正则表达式替换</p>
+</blockquote>
+<blockquote>
+<p>解释一下第（2）条正则表达式（研究了好久才琢磨出这个解决方法X﹏X），<code>\n</code>表示换行；<code>\n</code>表示通配符；因<code>$</code>有特殊含义，用<code>\$</code>表示<code>$</code>本身；用<code>$$</code>表示<code>$</code></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>备忘笔记</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>blog运行小笔记</title>
+    <url>/posts/note-for-blog-working/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p><strong>写文章</strong><br> <strong>step1:</strong> 打开blog文件夹，并在里面空白处右击选择<code>Git Bash Here</code><br> <strong>step2:</strong> 在里面输入<code>hexo n 新文章名</code>，再回车<br> <strong>step3:</strong> 在blog文件夹中，进入source文件夹，再进入_posts文件夹，用宇宙最强编辑器vs code打开新建的文章</p>
+<blockquote>
+<p>其实也可以直接在source/_posts文件夹内新建markdown文件（可以先新建一个记事本txt文件再改后缀为md），然后直接在里面写文章，推荐Typora编辑器</p>
+</blockquote>
+<p> <strong>step4:</strong> 就可以可以开始写啦！写完后记得保存<br> <strong>step5:</strong> 再打开Git Bash，依次输入<code>hexo c</code> <code>hexo g</code> <code>hexo d</code>(注意看有没有报错或警告啊)</p>
+<blockquote>
+<p>当然也可以随时在输入<code>hexo s</code>后在<a href="http://localhost:4000/">本地</a>查看自己的网站</p>
+</blockquote>
+<p><strong>step6:</strong> 再输入 <code>sh update.sh</code>运行之前写好的bash脚本，以完成博客源文件推送到gitee目标仓库hexo分支上实现备份</p>
+<blockquote>
+<p>可以在update.sh文件中更改info=”~“中的~来描述此次要在仓库中显示的更新说明</p>
+</blockquote>
+<p><strong>step7:</strong> 打开码云的<a href="https://gitee.com/jollylight/jollylight/pages">gitee page页面</a>，点击更新，等待片刻<br> <strong>step8:</strong> 就OK啦！</p>
+<p>（这么简单为什么写出来，因为我真的是小白啊QAQ）</p>
+<p><del>（主要也怕自己太久没写博客忘了）</del></p>
+<h1 id="linux常用命令-即git-bash下"><a href="#linux常用命令-即git-bash下" class="headerlink" title="linux常用命令(即git bash下)"></a>linux常用命令(即git bash下)</h1><p><kbd>Ctrl</kbd>+<kbd>Insert </kbd>: 复制</p>
+<p><kbd>Shift</kbd>+<kbd>Insert </kbd>: 粘贴</p>
+<h1 id="其他常用"><a href="#其他常用" class="headerlink" title="其他常用"></a>其他常用</h1><p><strong>blog主颜色</strong>：<font color=#FFCC66>#FFCC66</font></p>
+]]></content>
+      <categories>
+        <category>备忘笔记</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -155,43 +185,13 @@
       </tags>
   </entry>
   <entry>
-    <title>blog运行小笔记</title>
-    <url>/posts/note-for-blog-working/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p><strong>写文章</strong><br> <strong>step1:</strong> 打开blog文件夹，并在里面空白处右击选择<code>Git Bash Here</code><br> <strong>step2:</strong> 在里面输入<code>hexo n 新文章名</code>，再回车<br> <strong>step3:</strong> 在blog文件夹中，进入source文件夹，再进入_posts文件夹，用宇宙最强编辑器vs code打开新建的文章</p>
-<blockquote>
-<p>其实也可以直接在source/_posts文件夹内新建markdown文件（可以先新建一个记事本txt文件再改后缀为md），然后直接在里面写文章，推荐Typora编辑器</p>
-</blockquote>
-<p> <strong>step4:</strong> 就可以可以开始写啦！写完后记得保存<br> <strong>step5:</strong> 再打开Git Bash，依次输入<code>hexo c</code> <code>hexo g</code> <code>hexo d</code>(注意看有没有报错或警告啊)</p>
-<blockquote>
-<p>当然也可以随时在输入<code>hexo s</code>后在<a href="http://localhost:4000/">本地</a>查看自己的网站</p>
-</blockquote>
-<p><strong>step6:</strong> 再输入 <code>sh update.sh</code>运行之前写好的bash脚本，以完成博客源文件推送到gitee目标仓库hexo分支上实现备份</p>
-<blockquote>
-<p>可以在update.sh文件中更改info=”~“中的~来描述此次要在仓库中显示的更新说明</p>
-</blockquote>
-<p><strong>step7:</strong> 打开码云的<a href="https://gitee.com/jollylight/jollylight/pages">gitee page页面</a>，点击更新，等待片刻<br> <strong>step8:</strong> 就OK啦！</p>
-<p>（这么简单为什么写出来，因为我真的是小白啊QAQ）</p>
-<p><del>（主要也怕自己太久没写博客忘了）</del></p>
-<h1 id="linux常用命令-即git-bash下"><a href="#linux常用命令-即git-bash下" class="headerlink" title="linux常用命令(即git bash下)"></a>linux常用命令(即git bash下)</h1><p><kbd>Ctrl</kbd>+<kbd>Insert </kbd>: 复制</p>
-<p><kbd>Shift</kbd>+<kbd>Insert </kbd>: 粘贴</p>
-<h1 id="其他常用"><a href="#其他常用" class="headerlink" title="其他常用"></a>其他常用</h1><p><strong>blog主颜色</strong>：<font color=#FFCC66>#FFCC66</font></p>
-]]></content>
-      <categories>
-        <category>备忘笔记</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>不是学生了呀</title>
     <url>/posts/for-the-past-four-years/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
 <p>终于还是毕业了，这篇文章就当是我四年生活的一个句点吧。</p>
 </blockquote>
 
-    <div id="aplayer-kqhWOdhv" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-cxCaRlUo" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1413374282" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FFCC66"
     ></div>
 
@@ -228,6 +228,56 @@
     <url>/posts/hello-galaxy/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天是10月29日，第一篇博客文章呢！</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>天体模型收藏盒</title>
+    <url>/posts/summary-of-celestial-models/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
+<p>3D模型取自NASA</p>
+<p>加载可能需要一些时间，请耐心等待~</p>
+</blockquote>
+<h2 id="月球"><a href="#月球" class="headerlink" title="月球"></a>月球</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2366' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="水星"><a href="#水星" class="headerlink" title="水星"></a>水星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2369' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="金星"><a href="#金星" class="headerlink" title="金星"></a>金星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2343' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="火星"><a href="#火星" class="headerlink" title="火星"></a>火星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2372' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="木星"><a href="#木星" class="headerlink" title="木星"></a>木星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2375' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="土星"><a href="#土星" class="headerlink" title="土星"></a>土星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2355' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="天王星"><a href="#天王星" class="headerlink" title="天王星"></a>天王星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2344' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="海王星"><a href="#海王星" class="headerlink" title="海王星"></a>海王星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2364' width='100%' height='400px' frameborder='0'></iframe>
+
+]]></content>
+      <categories>
+        <category>收藏小间</category>
+      </categories>
+      <tags>
+        <tag>天体</tag>
+        <tag>三维</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>兴趣爱好在平淡生活中泛起的涟漪——写歌</title>
+    <url>/posts/Interest-in-SongWriting/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>我好喜欢17岁，17岁那年我总认为17岁是最好的年纪，便想做些什么好好珍惜这个年纪，那时我决定赶在自己18岁生日之前写一首纪念自己这个年纪的歌，那时大一，自己所谓的写歌指的是指自己无比业余的作词作曲，并没有编曲混音和其他专业的东西。</p>
+<p>想起来，第一次自己写歌大概可以追溯到自己小学，但之前算是写着玩的，后来高中之后可以说开启了对我自己来说快乐的写歌之路，直到大三之前，前前后后写了有十几首，每首歌我都自认为有它自己的意义，并无可替代，虽然只是自己的自娱自乐，没有其他人知道，但也丝毫不减当时自己对此的热爱。</p>
+<p>那时还给自己的歌专门制作了一个小册子，里面有自己写的每首歌的歌词、写歌时的背景、完成的时间、歌曲的标签等等信息，后来接触了一些音乐制作软件就开始试着给自己以前的歌编曲，自己唱自己录音……当然，自己终究只会一些简单的编曲，我也自知自己远远不及专业水平，但自由地创作出一首自己满意的歌还是一件很酷的事啊~</p>
+<p>现在再回头看自己之前的那些歌，仔细斟酌的确是有些幼稚，或是说非常小众，小众到大概只有我自己才能理解和体会到这首歌的目的和意境在哪里，拿不出手，但这些歌的确是构成了自己那个时期重要的一部分。</p>
+<p>2017年，嗯，高考完的那一年是2017年，这个年份始终在我心中有着很重要的意义，也算是自己人生轨迹的一个转折点了，当然，对那一年高考的大多数学生来说应该都是。也是从那个暑假开始接触了吉他，因为家里正好有一把吉他，是爸爸的，暑假的时候正好没事就自学了起来，大学里也断断续续学了一阵子，不过只会一些简单的伴奏而已，当时学吉他的目标只有一个，就是给我自己的歌做伴奏，只可惜后来的确因为各种因素没有继续学了。</p>
+<p>不得不承认，自己虽然有着繁多的兴趣爱好，但大多只是蜻蜓点水，浅尝辄止，虽然很想像以前一直对自己说的一样“做当下想做的事情”，但一个人的精力和时间的确是有限的，在某个或长或短的时间段内，专注自己某个兴趣的某个部分或许才是正解。</p>
+]]></content>
+      <categories>
+        <category>时光印记</category>
+      </categories>
+      <tags>
+        <tag>写歌</tag>
+        <tag>爱好</tag>
+      </tags>
   </entry>
   <entry>
     <title>喜欢的句子</title>
@@ -300,56 +350,6 @@
       </tags>
   </entry>
   <entry>
-    <title>兴趣爱好在平淡生活中泛起的涟漪——写歌</title>
-    <url>/posts/Interest-in-SongWriting/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>我好喜欢17岁，17岁那年我总认为17岁是最好的年纪，便想做些什么好好珍惜这个年纪，那时我决定赶在自己18岁生日之前写一首纪念自己这个年纪的歌，那时大一，自己所谓的写歌指的是指自己无比业余的作词作曲，并没有编曲混音和其他专业的东西。</p>
-<p>想起来，第一次自己写歌大概可以追溯到自己小学，但之前算是写着玩的，后来高中之后可以说开启了对我自己来说快乐的写歌之路，直到大三之前，前前后后写了有十几首，每首歌我都自认为有它自己的意义，并无可替代，虽然只是自己的自娱自乐，没有其他人知道，但也丝毫不减当时自己对此的热爱。</p>
-<p>那时还给自己的歌专门制作了一个小册子，里面有自己写的每首歌的歌词、写歌时的背景、完成的时间、歌曲的标签等等信息，后来接触了一些音乐制作软件就开始试着给自己以前的歌编曲，自己唱自己录音……当然，自己终究只会一些简单的编曲，我也自知自己远远不及专业水平，但自由地创作出一首自己满意的歌还是一件很酷的事啊~</p>
-<p>现在再回头看自己之前的那些歌，仔细斟酌的确是有些幼稚，或是说非常小众，小众到大概只有我自己才能理解和体会到这首歌的目的和意境在哪里，拿不出手，但这些歌的确是构成了自己那个时期重要的一部分。</p>
-<p>2017年，嗯，高考完的那一年是2017年，这个年份始终在我心中有着很重要的意义，也算是自己人生轨迹的一个转折点了，当然，对那一年高考的大多数学生来说应该都是。也是从那个暑假开始接触了吉他，因为家里正好有一把吉他，是爸爸的，暑假的时候正好没事就自学了起来，大学里也断断续续学了一阵子，不过只会一些简单的伴奏而已，当时学吉他的目标只有一个，就是给我自己的歌做伴奏，只可惜后来的确因为各种因素没有继续学了。</p>
-<p>不得不承认，自己虽然有着繁多的兴趣爱好，但大多只是蜻蜓点水，浅尝辄止，虽然很想像以前一直对自己说的一样“做当下想做的事情”，但一个人的精力和时间的确是有限的，在某个或长或短的时间段内，专注自己某个兴趣的某个部分或许才是正解。</p>
-]]></content>
-      <categories>
-        <category>时光印记</category>
-      </categories>
-      <tags>
-        <tag>写歌</tag>
-        <tag>爱好</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>天体模型收藏盒</title>
-    <url>/posts/summary-of-celestial-models/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
-<p>3D模型取自NASA</p>
-<p>加载可能需要一些时间，请耐心等待~</p>
-</blockquote>
-<h2 id="月球"><a href="#月球" class="headerlink" title="月球"></a>月球</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2366' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="水星"><a href="#水星" class="headerlink" title="水星"></a>水星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2369' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="金星"><a href="#金星" class="headerlink" title="金星"></a>金星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2343' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="火星"><a href="#火星" class="headerlink" title="火星"></a>火星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2372' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="木星"><a href="#木星" class="headerlink" title="木星"></a>木星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2375' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="土星"><a href="#土星" class="headerlink" title="土星"></a>土星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2355' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="天王星"><a href="#天王星" class="headerlink" title="天王星"></a>天王星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2344' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="海王星"><a href="#海王星" class="headerlink" title="海王星"></a>海王星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2364' width='100%' height='400px' frameborder='0'></iframe>
-
-]]></content>
-      <categories>
-        <category>收藏小间</category>
-      </categories>
-      <tags>
-        <tag>天体</tag>
-        <tag>三维</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>天体物理学习笔记（一）——方向与参考资料</title>
     <url>/posts/note-for-astrophysics-learning/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="学习方向"><a href="#学习方向" class="headerlink" title="学习方向"></a>学习方向</h2><h3 id="学习方向参考："><a href="#学习方向参考：" class="headerlink" title="学习方向参考："></a>学习方向参考：</h3><p>1.中科大本科<a href="https://astro.ustc.edu.cn/2015/1228/c27261a259601/page.htm">天文英才班培养方案</a></p>
@@ -375,56 +375,6 @@
       <tags>
         <tag>笔记</tag>
         <tag>天体物理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>小发现</title>
-    <url>/posts/little-discoveries/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><script
-  type="text/javascript"
-  color="246,178,43"
-  pointColor="246,178,43"
-  opacity="0.7"
-  zIndex="2"
-  count="72"
-  src="https://gcore.jsdelivr.net/npm/canvas-nest.js/dist/canvas-nest.js"
-></script>
-
-
-
-<p>这篇文章记录了我的一些有点儿意思的小发现，并且会不断更新</p>
-<h3 id="直达QQ对话框的链接"><a href="#直达QQ对话框的链接" class="headerlink" title="直达QQ对话框的链接"></a>直达QQ对话框的链接</h3><p><code>http://wpa.qq.com/msgrd?v=3&amp;uin= 你的 QQ 号 &amp;site=qq&amp;menu=yes</code></p>
-<p>或者这个</p>
-<p><code>tencent://message/?uin= 你的 QQ 号 </code></p>
-<p>点击链接就会自动跳转到对应QQ号的对话框啦！</p>
-<p>（这是从<a href="https://idealclover.top/archives/545/">翠翠这</a>发现的）</p>
-<h3 id="实现网页背景线条效果（如此页效果）"><a href="#实现网页背景线条效果（如此页效果）" class="headerlink" title="实现网页背景线条效果（如此页效果）"></a>实现网页背景线条效果（如此页效果）</h3><p>将下面的代码插入到html的 <code>&lt;body&gt;</code> 和 <code>&lt;/body&gt;</code> 标签之间</p>
-<p>（也可直接粘贴至md文件中，本页就是如此）</p>
-<pre class="language-none"><code class="language-none">&lt;script
-  type&#x3D;&quot;text&#x2F;javascript&quot;
-  color&#x3D;&quot;246,178,43&quot;
-  pointColor&#x3D;&quot;246,178,43&quot;
-  opacity&#x3D;&quot;0.7&quot;
-  zIndex&#x3D;&quot;2&quot;
-  count&#x3D;&quot;72&quot;
-  src&#x3D;&quot;https:&#x2F;&#x2F;gcore.jsdelivr.net&#x2F;npm&#x2F;canvas-nest.js&#x2F;dist&#x2F;canvas-nest.js&quot;
-&gt;&lt;&#x2F;script&gt;</code></pre>
-
-<p>可配置：</p>
-<ul>
-<li><strong><code>color</code></strong> : 线条颜色, 默认: <code>&#39;0,0,0&#39;</code>；三个数字分别为(R,G,B)，注意用 <code>,</code> 分割</li>
-<li><strong><code>pointColor</code></strong>: 点颜色, 默认：<code>&#39;0,0,0&#39;</code>; RGB 格式.（注意：使用 <code>,</code> 分割）</li>
-<li><strong><code>opacity</code></strong> : 线条透明度（0~1）, 默认: <code>0.5</code></li>
-<li><strong><code>count</code></strong> : 线条的总数量, 默认: <code>99</code></li>
-<li><strong><code>zIndex</code></strong> : 背景的 <code>z-index</code> 属性，css 属性用于控制所在层的位置, 默认: <code>-1</code></li>
-</ul>
-<p>（这是从<a href="https://www.yunyoujun.cn/share/html5-canvas-nest-js/">云游这</a>发现的，最终来源于github的<a href="https://github.com/hustcc/canvas-nest.js/blob/master/README-zh.md">canvas-nest.js</a>）</p>
-]]></content>
-      <categories>
-        <category>收藏小间</category>
-      </categories>
-      <tags>
-        <tag>发现</tag>
       </tags>
   </entry>
   <entry>
@@ -487,6 +437,56 @@
       <tags>
         <tag>笔记</tag>
         <tag>天体物理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小发现</title>
+    <url>/posts/little-discoveries/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><script
+  type="text/javascript"
+  color="246,178,43"
+  pointColor="246,178,43"
+  opacity="0.7"
+  zIndex="2"
+  count="72"
+  src="https://gcore.jsdelivr.net/npm/canvas-nest.js/dist/canvas-nest.js"
+></script>
+
+
+
+<p>这篇文章记录了我的一些有点儿意思的小发现，并且会不断更新</p>
+<h3 id="直达QQ对话框的链接"><a href="#直达QQ对话框的链接" class="headerlink" title="直达QQ对话框的链接"></a>直达QQ对话框的链接</h3><p><code>http://wpa.qq.com/msgrd?v=3&amp;uin= 你的 QQ 号 &amp;site=qq&amp;menu=yes</code></p>
+<p>或者这个</p>
+<p><code>tencent://message/?uin= 你的 QQ 号 </code></p>
+<p>点击链接就会自动跳转到对应QQ号的对话框啦！</p>
+<p>（这是从<a href="https://idealclover.top/archives/545/">翠翠这</a>发现的）</p>
+<h3 id="实现网页背景线条效果（如此页效果）"><a href="#实现网页背景线条效果（如此页效果）" class="headerlink" title="实现网页背景线条效果（如此页效果）"></a>实现网页背景线条效果（如此页效果）</h3><p>将下面的代码插入到html的 <code>&lt;body&gt;</code> 和 <code>&lt;/body&gt;</code> 标签之间</p>
+<p>（也可直接粘贴至md文件中，本页就是如此）</p>
+<pre class="language-none"><code class="language-none">&lt;script
+  type&#x3D;&quot;text&#x2F;javascript&quot;
+  color&#x3D;&quot;246,178,43&quot;
+  pointColor&#x3D;&quot;246,178,43&quot;
+  opacity&#x3D;&quot;0.7&quot;
+  zIndex&#x3D;&quot;2&quot;
+  count&#x3D;&quot;72&quot;
+  src&#x3D;&quot;https:&#x2F;&#x2F;gcore.jsdelivr.net&#x2F;npm&#x2F;canvas-nest.js&#x2F;dist&#x2F;canvas-nest.js&quot;
+&gt;&lt;&#x2F;script&gt;</code></pre>
+
+<p>可配置：</p>
+<ul>
+<li><strong><code>color</code></strong> : 线条颜色, 默认: <code>&#39;0,0,0&#39;</code>；三个数字分别为(R,G,B)，注意用 <code>,</code> 分割</li>
+<li><strong><code>pointColor</code></strong>: 点颜色, 默认：<code>&#39;0,0,0&#39;</code>; RGB 格式.（注意：使用 <code>,</code> 分割）</li>
+<li><strong><code>opacity</code></strong> : 线条透明度（0~1）, 默认: <code>0.5</code></li>
+<li><strong><code>count</code></strong> : 线条的总数量, 默认: <code>99</code></li>
+<li><strong><code>zIndex</code></strong> : 背景的 <code>z-index</code> 属性，css 属性用于控制所在层的位置, 默认: <code>-1</code></li>
+</ul>
+<p>（这是从<a href="https://www.yunyoujun.cn/share/html5-canvas-nest-js/">云游这</a>发现的，最终来源于github的<a href="https://github.com/hustcc/canvas-nest.js/blob/master/README-zh.md">canvas-nest.js</a>）</p>
+]]></content>
+      <categories>
+        <category>收藏小间</category>
+      </categories>
+      <tags>
+        <tag>发现</tag>
       </tags>
   </entry>
   <entry>
