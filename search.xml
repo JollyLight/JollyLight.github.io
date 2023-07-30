@@ -24,6 +24,42 @@
       </tags>
   </entry>
   <entry>
+    <title>blog运行排障笔记</title>
+    <url>/posts/note-for-blog-problem/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
+<p>记录自己在折腾博客时遇到的一些问题及解决方法，以便日后遇到相同问题能快速解决，本文章持续更新</p>
+</blockquote>
+<h3 id="markdown文章对特定CSS引用问题"><a href="#markdown文章对特定CSS引用问题" class="headerlink" title="markdown文章对特定CSS引用问题"></a>markdown文章对特定CSS引用问题</h3><p>直接通过<code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;../css/book.css&quot; /&gt;</code>引用，引用路径根据相对路径确认好，其中<code>../</code>表示上一级</p>
+<h3 id="markdown文章中html与css不起效问题"><a href="#markdown文章中html与css不起效问题" class="headerlink" title="markdown文章中html与css不起效问题"></a>markdown文章中html与css不起效问题</h3><p>首先，markdown能运行所有html与css代码，代码不起效可能是代码中含有空行，在查找替换中用正则表达式将<code>^\s*$</code>替换为空白即可删除所有空行</p>
+<h3 id="主题外css显示正常，主题内css显示异常问题"><a href="#主题外css显示正常，主题内css显示异常问题" class="headerlink" title="主题外css显示正常，主题内css显示异常问题"></a>主题外css显示正常，主题内css显示异常问题</h3><p>可能由于主题markdown css与外部css相互影响导致，先f12调试直正常css，再在引用的css中修改对应内容</p>
+<h3 id="主题外html显示正常，主题内html显示异常问题"><a href="#主题外html显示正常，主题内html显示异常问题" class="headerlink" title="主题外html显示正常，主题内html显示异常问题"></a>主题外html显示正常，主题内html显示异常问题</h3><p>直接复制f12中正常的html内容进主题内</p>
+<h3 id="提高css优先级"><a href="#提高css优先级" class="headerlink" title="提高css优先级"></a>提高css优先级</h3><p>例：</p>
+<pre class="language-none"><code class="language-none">li &#123;
+
+  list-style-type: none !important;
+
+&#125;</code></pre>
+
+<h3 id="Picgo上传图片失败"><a href="#Picgo上传图片失败" class="headerlink" title="Picgo上传图片失败"></a>Picgo上传图片失败</h3><p>软件fastgithub的开启会导致Picgo上传图片失败，Picgo上传图片前需要关掉fastgithub</p>
+<h3 id="latex公式无法编译与显示的问题"><a href="#latex公式无法编译与显示的问题" class="headerlink" title="latex公式无法编译与显示的问题"></a>latex公式无法编译与显示的问题</h3><p>latex公式在typora中能正常显示，而无法在博客中显示，解决方案：</p>
+<p>（1）hexo转换markdown文件时遇到<code>连续两个左花括号</code>或<code>连续两个右花括号</code>时无法正常转换，需要提前将其替换为<code>&#123; &#123;</code>与<code>&#125; &#125;</code>（两个相同的花括号中间加空格）</p>
+<p>（2）hexo解析latex公式时<code>$$</code>与<code>$$</code>之间不能存在换行，否则无法正常渲染公式，需要提前将文件在vscode中打开，使用正则表达式将<code>\$\$\n(.*)\n\$\$</code>全部替换成<code>$$$$$1$$$$</code>就好</p>
+<blockquote>
+<p>注意第（1）条不使用正则表达式替换，第（2）条才使用正则表达式替换</p>
+</blockquote>
+<blockquote>
+<p>解释一下第（2）条正则表达式（研究了好久才琢磨出这个解决方法X﹏X），<code>\n</code>表示换行；<code>\n</code>表示通配符；因<code>$</code>有特殊含义，用<code>\$</code>表示<code>$</code>本身；用<code>$$</code>表示<code>$</code></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>备忘笔记</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>CFOP练习笔记</title>
     <url>/posts/note-of-CFOP/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><details><summary>介绍</summary>
@@ -67,44 +103,8 @@
         <category>备忘笔记</category>
       </categories>
       <tags>
+        <tag>笔记</tag>
         <tag>魔方</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>blog运行排障笔记</title>
-    <url>/posts/note-for-blog-problem/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
-<p>记录自己在折腾博客时遇到的一些问题及解决方法，以便日后遇到相同问题能快速解决，本文章持续更新</p>
-</blockquote>
-<h3 id="markdown文章对特定CSS引用问题"><a href="#markdown文章对特定CSS引用问题" class="headerlink" title="markdown文章对特定CSS引用问题"></a>markdown文章对特定CSS引用问题</h3><p>直接通过<code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;../css/book.css&quot; /&gt;</code>引用，引用路径根据相对路径确认好，其中<code>../</code>表示上一级</p>
-<h3 id="markdown文章中html与css不起效问题"><a href="#markdown文章中html与css不起效问题" class="headerlink" title="markdown文章中html与css不起效问题"></a>markdown文章中html与css不起效问题</h3><p>首先，markdown能运行所有html与css代码，代码不起效可能是代码中含有空行，在查找替换中用正则表达式将<code>^\s*$</code>替换为空白即可删除所有空行</p>
-<h3 id="主题外css显示正常，主题内css显示异常问题"><a href="#主题外css显示正常，主题内css显示异常问题" class="headerlink" title="主题外css显示正常，主题内css显示异常问题"></a>主题外css显示正常，主题内css显示异常问题</h3><p>可能由于主题markdown css与外部css相互影响导致，先f12调试直正常css，再在引用的css中修改对应内容</p>
-<h3 id="主题外html显示正常，主题内html显示异常问题"><a href="#主题外html显示正常，主题内html显示异常问题" class="headerlink" title="主题外html显示正常，主题内html显示异常问题"></a>主题外html显示正常，主题内html显示异常问题</h3><p>直接复制f12中正常的html内容进主题内</p>
-<h3 id="提高css优先级"><a href="#提高css优先级" class="headerlink" title="提高css优先级"></a>提高css优先级</h3><p>例：</p>
-<pre class="language-none"><code class="language-none">li &#123;
-
-  list-style-type: none !important;
-
-&#125;</code></pre>
-
-<h3 id="Picgo上传图片失败"><a href="#Picgo上传图片失败" class="headerlink" title="Picgo上传图片失败"></a>Picgo上传图片失败</h3><p>软件fastgithub的开启会导致Picgo上传图片失败，Picgo上传图片前需要关掉fastgithub</p>
-<h3 id="latex公式无法编译与显示的问题"><a href="#latex公式无法编译与显示的问题" class="headerlink" title="latex公式无法编译与显示的问题"></a>latex公式无法编译与显示的问题</h3><p>latex公式在typora中能正常显示，而无法在博客中显示，解决方案：</p>
-<p>（1）hexo转换markdown文件时遇到<code>连续两个左花括号</code>或<code>连续两个右花括号</code>时无法正常转换，需要提前将其替换为<code>&#123; &#123;</code>与<code>&#125; &#125;</code>（两个相同的花括号中间加空格）</p>
-<p>（2）hexo解析latex公式时<code>$$</code>与<code>$$</code>之间不能存在换行，否则无法正常渲染公式，需要提前将文件在vscode中打开，使用正则表达式将<code>\$\$\n(.*)\n\$\$</code>全部替换成<code>$$$$$1$$$$</code>就好</p>
-<blockquote>
-<p>注意第（1）条不使用正则表达式替换，第（2）条才使用正则表达式替换</p>
-</blockquote>
-<blockquote>
-<p>解释一下第（2）条正则表达式（研究了好久才琢磨出这个解决方法X﹏X），<code>\n</code>表示换行；<code>\n</code>表示通配符；因<code>$</code>有特殊含义，用<code>\$</code>表示<code>$</code>本身；用<code>$$</code>表示<code>$</code></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>备忘笔记</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -133,9 +133,15 @@
         <category>备忘笔记</category>
       </categories>
       <tags>
-        <tag>笔记</tag>
         <tag>blog</tag>
+        <tag>笔记</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>你好！银河系第三旋臂上的小星星！</title>
+    <url>/posts/hello-galaxy/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天是10月29日，第一篇博客文章呢！</p>
+]]></content>
   </entry>
   <entry>
     <title>不是学生了呀</title>
@@ -144,7 +150,7 @@
 <p>终于还是毕业了，这篇文章就当是我四年生活的一个句点吧。</p>
 </blockquote>
 
-    <div id="aplayer-BWoGQcxJ" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-NsuTUBWS" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1413374282" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FFCC66"
     ></div>
 
@@ -177,59 +183,6 @@
       </tags>
   </entry>
   <entry>
-    <title>你好！银河系第三旋臂上的小星星！</title>
-    <url>/posts/hello-galaxy/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天是10月29日，第一篇博客文章呢！</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>七号中微子的地球旅行</title>
-    <url>/posts/the-goal-of-my-life/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/others/idijsaiodiodeu.jpg" loading="lazy"></p>
-<pre class="mermaid">
-  mindmap
-(七号中微子的<br/>地球旅行)
-    (主线任务)
-      (数据已丢失)
-    (支线任务)
-      (向物理学前进)
-        (广义与狭义相对论)
-        (量子力学)
-        (天体物理)
-      (音乐创作)
-        (纯音乐制作)
-        (非纯音乐制作)
-      (组建一个地球家庭)
-        (寻找合拍的灵魂)
-        (相处和磨合)
-    (任务补给)
-      (科幻小说及影视)
-      (其他书籍和影视)
-      (音乐)
-</pre>
-
-<script type="module">
-      import mermaid from 'https://gcore.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-      mermaid.initialize({ startOnLoad: true });
-</script>
-
-<style type="text/css">  
-.mindmap-nodes {
-    background: #ffcc66 !important;
-}
-#mermaid-1678893614276 {
-    font-size: 20px !important;
-} 
-</style>
-<blockquote>
-<p>试图找回生活的一些目标感……</p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>兴趣爱好在平淡生活中泛起的涟漪——写歌</title>
     <url>/posts/Interest-in-SongWriting/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>我好喜欢17岁，17岁那年我总认为17岁是最好的年纪，便想做些什么好好珍惜这个年纪，那时我决定赶在自己18岁生日之前写一首纪念自己这个年纪的歌，那时大一，自己所谓的写歌指的是指自己无比业余的作词作曲，并没有编曲混音和其他专业的东西。</p>
@@ -244,52 +197,6 @@
       </categories>
       <tags>
         <tag>写歌</tag>
-        <tag>爱好</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>兴趣爱好浅思</title>
-    <url>/posts/thoughts-on-interests/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>先浅浅说明下，这篇文章所讨论的兴趣爱好，指的是需要投入时间和精力去培养的兴趣爱好，因此，诸如阅读、听音乐之类的更偏向于放松休闲的爱好不在本篇文章的讨论范围内。</p>
-<p>本着尽可能多地体验世界上各种有趣事物的想法，我的兴趣应当算比较广泛，很多时候一股热情上来了便顾不上太多深入细致的思考，因此便十分热衷于尝试，绘画、音乐制作、游戏开发、MMD制作、vocaloid、blender绘图、天体物理学习、前端学习、钢琴学习、魔方CFOP、悠悠球……</p>
-<p>但从自己现在的实际情况来看，自己大部分的爱好都没有以周期性的学习或练习持续下去，一方面的原因显而易见，自己不可能在本就不多的工作之外的时间去同时培养自己所有的兴趣爱好；其次，即使我真的拥有了大量的时间和精力，我也未必有足够的恒心和耐心坚持下来并使之成为日常。因此对自己来说，我大致明白了两点：</p>
-<ul>
-<li><p>在有限的时间内应当选择较少的兴趣着重培养</p>
-</li>
-<li><p>若不想该兴趣爱好被时间淹没，就需要除一时兴起之外的目的去支撑</p>
-</li>
-</ul>
-<p>进一步地，我对此有了以下想法，在做一件事情时，希望自己能按照如下三点思考与执行：</p>
-<pre class="language-none"><code class="language-none">1.明确目的
-
-2.思考该目的能否支撑自己花大量的时间和精力去持续做这件事
-
-3.一旦着手，不轻易放弃</code></pre>
-
-<p>思考之后，对现在（2023年7月30日）的自己而言，我想我可以明确以下两个爱好的目的以希望自己能够坚持：</p>
-<table>
-<thead>
-<tr>
-<th align="center">爱好</th>
-<th align="center">目的</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">练琴</td>
-<td align="center">感受音符的情绪<br/>通过音符表达自己的情绪<br/>平静内心</td>
-</tr>
-<tr>
-<td align="center">天体物理学习</td>
-<td align="center">脱离现实引力的禁锢<br/>投入到对渺小人类以外世界的研究</td>
-</tr>
-</tbody></table>
-<p>当然，凭自己对自己的了解，写完这些后无法要求自己立刻做出某些改变，只是希望自己能在未来的某一时刻得到些许启发，嗯。</p>
-]]></content>
-      <categories>
-        <category>时光印记</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
         <tag>爱好</tag>
       </tags>
   </entry>
@@ -364,6 +271,49 @@
       </tags>
   </entry>
   <entry>
+    <title>兴趣爱好浅思</title>
+    <url>/posts/thoughts-on-interests/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>先浅浅说明下，这篇文章所讨论的兴趣爱好，指的是需要投入时间和精力去培养的兴趣爱好，因此，诸如阅读、听音乐之类的更偏向于放松休闲的爱好不在本篇文章的讨论范围内。</p>
+<p>本着尽可能多地体验世界上各种有趣事物的想法，我的兴趣应当算比较广泛，很多时候一股热情上来了便顾不上太多深入细致的思考，因此便十分热衷于尝试，绘画、音乐制作、游戏开发、MMD制作、vocaloid、blender绘图、天体物理学习、前端学习、钢琴学习、魔方CFOP、悠悠球……</p>
+<p>但从自己现在的实际情况来看，自己大部分的爱好都没有以周期性的学习或练习持续下去，一方面的原因显而易见，自己不可能在本就不多的工作之外的时间去同时培养自己所有的兴趣爱好；其次，即使我真的拥有了大量的时间和精力，我也未必有足够的恒心和耐心坚持下来并使之成为日常。因此对自己来说，我大致明白了两点：</p>
+<ul>
+<li><p>在有限的时间内应当选择较少的兴趣着重培养</p>
+</li>
+<li><p>若不想该兴趣爱好被时间淹没，就需要除一时兴起之外的目的去支撑</p>
+</li>
+</ul>
+<p>进一步地，我对此有了以下想法，在做一件事情时，希望自己能按照如下三点思考与执行：</p>
+<p>&emsp;<strong>1. 明确目的</strong></p>
+<p><strong>&emsp;2. 思考该目的能否支撑自己花大量的时间和精力去持续做这件事</strong></p>
+<p>&emsp;<strong>3. 一旦着手，不轻易放弃</strong></p>
+<p>思考之后，对现在（2023年7月30日）的自己而言，我想我可以明确以下两个爱好的目的以希望自己能够坚持：</p>
+<table>
+<thead>
+<tr>
+<th align="center">爱好</th>
+<th align="center">目的</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">练琴</td>
+<td align="center">感受音符的情绪<br/>通过音符表达自己的情绪<br/>平静内心</td>
+</tr>
+<tr>
+<td align="center">天体物理学习</td>
+<td align="center">脱离现实引力的禁锢<br/>投入到对渺小人类以外世界的研究</td>
+</tr>
+</tbody></table>
+<p>当然，凭自己对自己的了解，写完这些后无法要求自己立刻做出某些改变，只是希望自己能在未来的某一时刻得到些许启发，嗯。</p>
+]]></content>
+      <categories>
+        <category>时光印记</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+        <tag>爱好</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>天体模型收藏盒</title>
     <url>/posts/summary-of-celestial-models/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
@@ -421,6 +371,53 @@
       <tags>
         <tag>笔记</tag>
         <tag>天体物理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>七号中微子的地球旅行</title>
+    <url>/posts/the-goal-of-my-life/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/others/idijsaiodiodeu.jpg" loading="lazy"></p>
+<pre class="mermaid">
+  mindmap
+(七号中微子的<br/>地球旅行)
+    (主线任务)
+      (数据已丢失)
+    (支线任务)
+      (向物理学前进)
+        (广义与狭义相对论)
+        (量子力学)
+        (天体物理)
+      (音乐创作)
+        (纯音乐制作)
+        (非纯音乐制作)
+      (组建一个地球家庭)
+        (寻找合拍的灵魂)
+        (相处和磨合)
+    (任务补给)
+      (科幻小说及影视)
+      (其他书籍和影视)
+      (音乐)
+</pre>
+
+<script type="module">
+      import mermaid from 'https://gcore.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+      mermaid.initialize({ startOnLoad: true });
+</script>
+
+<style type="text/css">  
+.mindmap-nodes {
+    background: #ffcc66 !important;
+}
+#mermaid-1678893614276 {
+    font-size: 20px !important;
+} 
+</style>
+<blockquote>
+<p>试图找回生活的一些目标感……</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -691,6 +688,24 @@
       </tags>
   </entry>
   <entry>
+    <title>雨</title>
+    <url>/posts/rain-in-peace/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>从这几天开始，我在的城市就要进入一段雨季了，我的内心油然出现了一种久违的平静。</p>
+<p>这阵子以来，一直都是，上班，处理琐碎的事情，浏览碎片化的信息，时而盲目投入，时而乏味不堪，下班，回到独居的单人间，对着冰冷的电脑屏幕，时而欢喜，时而悲伤，时而感到孤独，时而庆幸当下，我的内心总是充斥着难以挥去的浮躁，我的行动总是与我的认知背道而驰。</p>
+<p>或许是阳光太过耀眼，让尘埃无所遁形，反而让眼中的世界混沌不堪。</p>
+<p>那天早上在去上班的路上，乌云密布，天色黯淡，这场景像世界末日一般，好像地球上的一切即将毁灭，但我反而产生一种心安的感觉，不如一切就归于生命诞生之初，让蓝藻再重新进化一次，若还将出现人类，或许社会与个体之间的矛盾在如此漫长的演化中应不那么明显。</p>
+<p>周末，天气微凉，依然下着小雨，乘着337路公交，我独自去往图书馆找之前未读完的《神们自己》，走出站台，绕着路走到一处湖边，湖里稀疏地排布着各种大小的荷叶，小雨淅淅沥沥，每一滴在湖面上漾起一圈圈的波纹，向外散开，四野无人，我撑着伞，走近了一些，被惊扰的蝌蚪向四处游开。我摘下耳机，内心有一种久违的平静，听着雨滴拍打雨伞的声音，看着湖面上荷叶与波纹相互交错，远处几座青山依次排开，似乎体会到了九百多年前苏轼写下“耳得之而为声，目遇之而成色”时的感觉。</p>
+<p>或许我终将被浮躁的日常所淹没，但人生之于宇宙本就须臾一瞬，与片刻的宁静之于人生一样别无二致，故即便如此，也不必感伤。</p>
+]]></content>
+      <categories>
+        <category>时光印记</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+        <tag>雨</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>记读：人类简史</title>
     <url>/posts/reading--A-Brief-History-of-Humankind/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/reading/%E4%BA%BA%E7%B1%BB%E7%AE%80%E5%8F%B2.jpg" alt="Audits - Lighthouse" loading="lazy"><em>《人类简史：从动物到上帝》</em></p>
@@ -728,24 +743,6 @@
       </categories>
       <tags>
         <tag>阅读</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>雨</title>
-    <url>/posts/rain-in-peace/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>从这几天开始，我在的城市就要进入一段雨季了，我的内心油然出现了一种久违的平静。</p>
-<p>这阵子以来，一直都是，上班，处理琐碎的事情，浏览碎片化的信息，时而盲目投入，时而乏味不堪，下班，回到独居的单人间，对着冰冷的电脑屏幕，时而欢喜，时而悲伤，时而感到孤独，时而庆幸当下，我的内心总是充斥着难以挥去的浮躁，我的行动总是与我的认知背道而驰。</p>
-<p>或许是阳光太过耀眼，让尘埃无所遁形，反而让眼中的世界混沌不堪。</p>
-<p>那天早上在去上班的路上，乌云密布，天色黯淡，这场景像世界末日一般，好像地球上的一切即将毁灭，但我反而产生一种心安的感觉，不如一切就归于生命诞生之初，让蓝藻再重新进化一次，若还将出现人类，或许社会与个体之间的矛盾在如此漫长的演化中应不那么明显。</p>
-<p>周末，天气微凉，依然下着小雨，乘着337路公交，我独自去往图书馆找之前未读完的《神们自己》，走出站台，绕着路走到一处湖边，湖里稀疏地排布着各种大小的荷叶，小雨淅淅沥沥，每一滴在湖面上漾起一圈圈的波纹，向外散开，四野无人，我撑着伞，走近了一些，被惊扰的蝌蚪向四处游开。我摘下耳机，内心有一种久违的平静，听着雨滴拍打雨伞的声音，看着湖面上荷叶与波纹相互交错，远处几座青山依次排开，似乎体会到了九百多年前苏轼写下“耳得之而为声，目遇之而成色”时的感觉。</p>
-<p>或许我终将被浮躁的日常所淹没，但人生之于宇宙本就须臾一瞬，与片刻的宁静之于人生一样别无二致，故即便如此，也不必感伤。</p>
-]]></content>
-      <categories>
-        <category>时光印记</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-        <tag>雨</tag>
       </tags>
   </entry>
 </search>
