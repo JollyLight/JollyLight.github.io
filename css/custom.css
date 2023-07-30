@@ -102,4 +102,13 @@ a:active {
   color: #FFCC66 ! important;
 }
 
+.markdown-body table>tbody>tr:hover {
+  background-color: rgba(255, 204, 102, .1);
+}
+
+.markdown-body table td,
+.markdown-body table th {
+  border: 2px solid #FFCC66;
+}
+
 /* 标签颜色 */
