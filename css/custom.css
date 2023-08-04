@@ -112,3 +112,100 @@ a:active {
 }
 
 /* 标签颜色 */
+
+
+.link-url {
+  transition: 0.4s;
+}
+
+.link-url:hover {
+  border-radius: 10px;
+  transform: translateY(-5px)
+}
+
+/* 友链 */
+
+.girl-item .girl-avatar:hover {
+  transform: scale(1.1);
+}
+
+/* 世界页面 */
+
+.w-full {
+  border-radius: 10px;
+}
+
+.w-full:hover {
+  border-radius: 10px;
+  transform: scale(1.03);
+}
+
+/* 主页文章卡片 */
+.notice {
+  border-radius: 10px;
+}
+
+/* 可爱 */
+.hty-card {
+  border-radius: 10px;
+}
+
+/* 文章圆角 */
+#page,
+#archive,
+#tag,
+#category {
+  border-radius: 10px;
+}
+
+/* 其他页面圆角 */
+aside.sidebar {
+  border-top-right-radius: 10px;
+  /* border-bottom-right-radius: 100px; */
+}
+
+/* 侧栏 */
+a.site-author-avatar {
+  transition: 0.15s;
+}
+
+a.site-author-avatar:hover {
+  transform: scale(1.05);
+}
+
+/* 头像 */
+.hty-icon-button:hover {
+  cursor: url(https://gcore.jsdelivr.net/gh/JollyLight/images/main_interface/Hand.cur), pointer ! important;
+}
+
+.wl-btn,
+.wl-action,
+.wl-sort li,
+[data-waline] a {
+  cursor: url(https://gcore.jsdelivr.net/gh/JollyLight/images/main_interface/Hand.cur), pointer ! important;
+}
+
+textarea {
+  cursor: url(https://gcore.jsdelivr.net/gh/JollyLight/images/main_interface/IBeam.cur), pointer ! important;
+}
+
+/* 光标bug修复 */
+.sidebar .links-of-author-item:hover,
+.sidebar .links-item .icon:hover {
+  transition: 0.2s;
+}
+
+.sidebar .links-of-author-item:hover,
+.sidebar .links-item .icon:hover {
+  transform: scale(1.2);
+}
+
+.site-state-item-icon .icon {
+  transition: 0.2s;
+}
+
+.site-state-item-icon .icon:hover {
+  transform: scale(1.2);
+}
+
+/* 侧栏图标hover放大 */
