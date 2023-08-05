@@ -181,7 +181,11 @@ a.site-author-avatar:hover {
 .wl-btn,
 .wl-action,
 .wl-sort li,
-[data-waline] a {
+[data-waline] a,
+#artitalk_main svg,
+#operare_artitalk .at_button,
+#artitalk_main .at_button,
+#artitalk_main .power a {
   cursor: url(https://gcore.jsdelivr.net/gh/JollyLight/images/main_interface/Hand.cur), pointer ! important;
 }
 
@@ -209,3 +213,57 @@ textarea {
 }
 
 /* 侧栏图标hover放大 */
+
+/* .category-lists .category-list-link {
+  transition: 0.5s;
+}
+
+.category-lists .category-list-link:hover {
+  background-color: rgba(255, 204, 102, 0.547);
+  background-image: linear-gradient(to left, black, white);
+} */
+
+.category-lists .category-list-link {
+  position: relative;
+}
+
+.category-lists .category-list-link:after,
+.category-lists .category-list-link:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #ffffff;
+  z-index: -2;
+}
+
+.category-lists .category-list-link:hover {
+  z-index: 1;
+  background: transparent;
+  font-weight: bolder;
+}
+
+.category-lists .category-list-link:before {
+  transition: 0.3s;
+  background: rgba(255, 204, 102, 0.282);
+  z-index: -1;
+}
+
+.category-lists .category-list-link:hover:after,
+.category-lists .category-list-link:hover:before {
+  width: 100%;
+}
+
+/* 分类页面hover */
+
+.tag-cloud a {
+  transition: 0.3s;
+}
+
+.tag-cloud a:hover {
+  transform: scale(1.5);
+}
+
+/* 标签hover */
