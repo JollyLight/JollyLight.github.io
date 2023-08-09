@@ -191,7 +191,7 @@
 <p>终于还是毕业了，这篇文章就当是我四年生活的一个句点吧。</p>
 </blockquote>
 
-    <div id="aplayer-OEWOmABS" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-pMEbTuXl" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1413374282" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FFCC66"
     ></div>
 
@@ -216,7 +216,7 @@
 <p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/main_interface/1632569128356.jpg" loading="lazy"></p>
 ]]></content>
       <categories>
-        <category>时光印记</category>
+        <category>时间沙漏</category>
       </categories>
       <tags>
         <tag>时光</tag>
@@ -240,7 +240,7 @@
 <p>不得不承认，自己虽然有着繁多的兴趣爱好，但大多只是蜻蜓点水，浅尝辄止，虽然很想像以前一直对自己说的一样“做当下想做的事情”，但一个人的精力和时间的确是有限的，在某个或长或短的时间段内，专注自己某个兴趣的某个部分或许才是正解。</p>
 ]]></content>
       <categories>
-        <category>时光印记</category>
+        <category>时间沙漏</category>
       </categories>
       <tags>
         <tag>写歌</tag>
@@ -283,7 +283,7 @@
 <p>当然，凭自己对自己的了解，写完这些后无法要求自己立刻做出某些改变，只是希望自己能在未来的某一时刻得到些许启发，嗯。</p>
 ]]></content>
       <categories>
-        <category>时光印记</category>
+        <category>遐想浅思</category>
       </categories>
       <tags>
         <tag>生活</tag>
@@ -393,6 +393,34 @@
       </tags>
   </entry>
   <entry>
+    <title>天体物理学习笔记（一）——方向与参考资料</title>
+    <url>/posts/note-for-astrophysics-learning/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="学习方向"><a href="#学习方向" class="headerlink" title="学习方向"></a>学习方向</h2><h3 id="学习方向参考："><a href="#学习方向参考：" class="headerlink" title="学习方向参考："></a>学习方向参考：</h3><p>1.中科大本科<a href="https://astro.ustc.edu.cn/2015/1228/c27261a259601/page.htm">天文英才班培养方案</a></p>
+<p>2.中科大天文学<a href="https://astro.ustc.edu.cn/yjsjy/list.htm">研究生培养方案</a></p>
+<h3 id="学习方向总结："><a href="#学习方向总结：" class="headerlink" title="学习方向总结："></a>学习方向总结：</h3><p>基础课程补充：电动力学、热力学与统计物理、量子力学B、天文学导论</p>
+<p>专业核心课程：天体物理概论、实测天体物理学、恒星物理基础</p>
+<p>专业方向课程：星系天文学、广义相对论 A、天体力学与天体测量</p>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p>1.在线课程：中科大<a href="https://www.bilibili.com/video/BV1Zy4y197Cf">天体物理概论</a></p>
+<p>配套教材：《<a href="https://book.douban.com/subject/3353501/">天体物理概论</a>》</p>
+<h2 id="相关网站推荐"><a href="#相关网站推荐" class="headerlink" title="相关网站推荐"></a>相关网站推荐</h2><p>1.诺奖得主/理论物理学家Gerard ‘t Hooft建立网站——<a href="https://www.goodtheorist.science/index.html">How to become a GOOD Theoretical Physicist</a></p>
+<p>2.NASA系列网站：</p>
+<ul>
+<li><a href="https://www.nasa.gov/">NASA官网</a></li>
+<li><a href="https://science.nasa.gov/">NASA科学主题网站</a></li>
+<li><a href="https://solarsystem.nasa.gov/">NASA太阳系科普网站</a></li>
+<li><a href="https://mars.nasa.gov/">NASA火星主题网站</a></li>
+<li><a href="https://eyes.nasa.gov/">NASA’s Eyes</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>备忘笔记</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>天体物理</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>天体物理学习笔记（二）——基本天体物理量</title>
     <url>/posts/note-for-astrophysics-learning-2/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="一、基本天体物理量"><a href="#一、基本天体物理量" class="headerlink" title="一、基本天体物理量"></a>一、基本天体物理量</h2><h3 id="1-星等"><a href="#1-星等" class="headerlink" title="1.星等"></a>1.星等</h3><p>（1）<strong>【视星等】</strong>：m<br>$$\frac{E_1}{E_2}=100^{\frac{ {m_2}-{m_1} }5}$$</p>
@@ -455,31 +483,51 @@
       </tags>
   </entry>
   <entry>
-    <title>天体物理学习笔记（一）——方向与参考资料</title>
-    <url>/posts/note-for-astrophysics-learning/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="学习方向"><a href="#学习方向" class="headerlink" title="学习方向"></a>学习方向</h2><h3 id="学习方向参考："><a href="#学习方向参考：" class="headerlink" title="学习方向参考："></a>学习方向参考：</h3><p>1.中科大本科<a href="https://astro.ustc.edu.cn/2015/1228/c27261a259601/page.htm">天文英才班培养方案</a></p>
-<p>2.中科大天文学<a href="https://astro.ustc.edu.cn/yjsjy/list.htm">研究生培养方案</a></p>
-<h3 id="学习方向总结："><a href="#学习方向总结：" class="headerlink" title="学习方向总结："></a>学习方向总结：</h3><p>基础课程补充：电动力学、热力学与统计物理、量子力学B、天文学导论</p>
-<p>专业核心课程：天体物理概论、实测天体物理学、恒星物理基础</p>
-<p>专业方向课程：星系天文学、广义相对论 A、天体力学与天体测量</p>
-<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p>1.在线课程：中科大<a href="https://www.bilibili.com/video/BV1Zy4y197Cf">天体物理概论</a></p>
-<p>配套教材：《<a href="https://book.douban.com/subject/3353501/">天体物理概论</a>》</p>
-<h2 id="相关网站推荐"><a href="#相关网站推荐" class="headerlink" title="相关网站推荐"></a>相关网站推荐</h2><p>1.诺奖得主/理论物理学家Gerard ‘t Hooft建立网站——<a href="https://www.goodtheorist.science/index.html">How to become a GOOD Theoretical Physicist</a></p>
-<p>2.NASA系列网站：</p>
-<ul>
-<li><a href="https://www.nasa.gov/">NASA官网</a></li>
-<li><a href="https://science.nasa.gov/">NASA科学主题网站</a></li>
-<li><a href="https://solarsystem.nasa.gov/">NASA太阳系科普网站</a></li>
-<li><a href="https://mars.nasa.gov/">NASA火星主题网站</a></li>
-<li><a href="https://eyes.nasa.gov/">NASA’s Eyes</a></li>
-</ul>
+    <title>常用快捷键小记</title>
+    <url>/posts/Notes-on-common-shortcut-keys/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>这篇文章可能对你没什么帮助，_(:з)∠)_主要是记给自己看的，只记录了我个人觉得应该常用但我不常用的快捷键(*/ω＼*)，没有列出我很熟悉的与很不熟悉的快捷键<del>(如果你真那么巧恰好和我熟悉的和不熟悉的快捷键一样那就应该对你也有很大帮助)</del> </p>
+<h3 id="微软输入法（拼音）"><a href="#微软输入法（拼音）" class="headerlink" title="微软输入法（拼音）"></a>微软输入法（拼音）</h3><p><kbd>，</kbd>：<strong>上翻页</strong></p>
+<p><kbd>。</kbd>：<strong>下翻页</strong></p>
+<p><kbd>↓ </kbd>：下一个字</p>
+<p><kbd>↑</kbd>  ：上一个字</p>
+<p><kbd>win</kbd> + <kbd>.</kbd> ：表情（包含各种符号）</p>
+<p><kbd>Ctrl </kbd>+ <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>→</kbd>/ <kbd>↓</kbd> ：切换表情（包含各种符号）</p>
+<h3 id="Edge浏览器"><a href="#Edge浏览器" class="headerlink" title="Edge浏览器"></a>Edge浏览器</h3><p><kbd>Ctrl</kbd> + <kbd>Tab</kbd>：<strong>切换到下一个标签页</strong></p>
+<p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Tab</kbd>：切换到上一个标签页</p>
+<p><kbd>Ctrl </kbd>+ <kbd>T</kbd>：新建标签页</p>
+<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>T</kbd>：<strong>恢复上一个关闭的标签页</strong></p>
+<p><kbd>Alt</kbd> + <kbd>←</kbd>/<kbd>→</kbd>：对同一标签页的返回与前进操作</p>
+<p><kbd>Ctrl</kbd> + <kbd>E</kbd>：在当前标签打开搜索引擎查询</p>
+<p><kbd>Ctrl</kbd> + <kbd>H</kbd>：历史记录</p>
+<p><kbd>Ctrl</kbd> + <kbd>W</kbd>：<strong>关闭当前标签页</strong></p>
+<p><kbd>Ctrl</kbd> + <kbd>F5</kbd>：<strong>强制刷新当前页面</strong>（部署了博客后页面没更新可以试试这个）</p>
+<p><kbd>空格键</kbd>：<strong>向下滚动网页</strong>（浏览学校的pdf非常好用）</p>
+<p><kbd>Shift</kbd>+ <kbd>空格键</kbd>：<strong>向上滚动网页</strong></p>
+<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>S</kbd>：网页截图（可截自动滚动后的整页）</p>
+<p><kbd>Shift</kbd> + <kbd>Esc</kbd>：浏览器资源管理器</p>
+<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>U</kbd>：语音朗读</p>
+<h3 id="Windows-10-11"><a href="#Windows-10-11" class="headerlink" title="Windows 10/11"></a>Windows 10/11</h3><p><kbd>win</kbd> + <kbd>V</kbd>：<strong>打开剪贴板</strong>（可以省去一些情况下需要2个页面来回跳转复制粘贴的麻烦)</p>
+<p>（以下截图的前提是将<code>设置</code>→<code>轻松使用</code>→<code>键盘</code>→<code>屏幕截图快捷方式</code>中的<code>使用PrtScn按键打开截图</code>打开）</p>
+<p><kbd>PrtSc</kbd>：<strong>截图（可选范围）并保存至剪贴板</strong></p>
+<p><kbd>win</kbd> + <kbd>PrtSc</kbd>：<strong>截图整屏保存至剪贴板并保存至文件夹</strong>（默认保存在了<code>C:\Users\你的用户名\Pictures\屏幕截图</code>文件夹下，你可以右击该文件夹选择<code>属性</code>→<code>位置</code>→<code>移动…</code>来选择你想保存在的文件夹，这是我找到的最舒服的截图方式了[]<del>(￣▽￣)</del>*）</p>
+<p><kbd>Alt</kbd> + <kbd>F4</kbd>：关闭当前页面</p>
+<blockquote>
+<p>用<kbd>Fn</kbd>键控制时按键的顺序是<kbd>Fn</kbd> + <kbd>Alt</kbd> + <kbd>F4</kbd></p>
+</blockquote>
+<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>D</kbd>：新建虚拟桌面</p>
+<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>←</kbd>/<kbd>→</kbd>：左右切换虚拟桌面</p>
+<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>F4</kbd>：关闭当前虚拟桌面</p>
+<p><kbd>win</kbd> + <kbd>N</kbd>：打开通知面板/日历面板</p>
+<p><kbd>win</kbd> + <kbd>W</kbd>：打开小组件（win11，虽然不用小组件，还是列这，<del>说不定以后小组件会改善</del>）</p>
+<p><kbd>win</kbd> + <kbd>A</kbd>：<strong>打开快速设置面板</strong></p>
+<p><kbd>win</kbd> + <kbd>H</kbd>：语音输入</p>
+<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>Esc</kbd>：任务管理器</p>
 ]]></content>
       <categories>
         <category>备忘笔记</category>
       </categories>
       <tags>
-        <tag>笔记</tag>
-        <tag>天体物理</tag>
+        <tag>快捷键</tag>
       </tags>
   </entry>
   <entry>
@@ -530,54 +578,6 @@
       </categories>
       <tags>
         <tag>发现</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>常用快捷键小记</title>
-    <url>/posts/Notes-on-common-shortcut-keys/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>这篇文章可能对你没什么帮助，_(:з)∠)_主要是记给自己看的，只记录了我个人觉得应该常用但我不常用的快捷键(*/ω＼*)，没有列出我很熟悉的与很不熟悉的快捷键<del>(如果你真那么巧恰好和我熟悉的和不熟悉的快捷键一样那就应该对你也有很大帮助)</del> </p>
-<h3 id="微软输入法（拼音）"><a href="#微软输入法（拼音）" class="headerlink" title="微软输入法（拼音）"></a>微软输入法（拼音）</h3><p><kbd>，</kbd>：<strong>上翻页</strong></p>
-<p><kbd>。</kbd>：<strong>下翻页</strong></p>
-<p><kbd>↓ </kbd>：下一个字</p>
-<p><kbd>↑</kbd>  ：上一个字</p>
-<p><kbd>win</kbd> + <kbd>.</kbd> ：表情（包含各种符号）</p>
-<p><kbd>Ctrl </kbd>+ <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>→</kbd>/ <kbd>↓</kbd> ：切换表情（包含各种符号）</p>
-<h3 id="Edge浏览器"><a href="#Edge浏览器" class="headerlink" title="Edge浏览器"></a>Edge浏览器</h3><p><kbd>Ctrl</kbd> + <kbd>Tab</kbd>：<strong>切换到下一个标签页</strong></p>
-<p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Tab</kbd>：切换到上一个标签页</p>
-<p><kbd>Ctrl </kbd>+ <kbd>T</kbd>：新建标签页</p>
-<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>T</kbd>：<strong>恢复上一个关闭的标签页</strong></p>
-<p><kbd>Alt</kbd> + <kbd>←</kbd>/<kbd>→</kbd>：对同一标签页的返回与前进操作</p>
-<p><kbd>Ctrl</kbd> + <kbd>E</kbd>：在当前标签打开搜索引擎查询</p>
-<p><kbd>Ctrl</kbd> + <kbd>H</kbd>：历史记录</p>
-<p><kbd>Ctrl</kbd> + <kbd>W</kbd>：<strong>关闭当前标签页</strong></p>
-<p><kbd>Ctrl</kbd> + <kbd>F5</kbd>：<strong>强制刷新当前页面</strong>（部署了博客后页面没更新可以试试这个）</p>
-<p><kbd>空格键</kbd>：<strong>向下滚动网页</strong>（浏览学校的pdf非常好用）</p>
-<p><kbd>Shift</kbd>+ <kbd>空格键</kbd>：<strong>向上滚动网页</strong></p>
-<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>S</kbd>：网页截图（可截自动滚动后的整页）</p>
-<p><kbd>Shift</kbd> + <kbd>Esc</kbd>：浏览器资源管理器</p>
-<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>U</kbd>：语音朗读</p>
-<h3 id="Windows-10-11"><a href="#Windows-10-11" class="headerlink" title="Windows 10/11"></a>Windows 10/11</h3><p><kbd>win</kbd> + <kbd>V</kbd>：<strong>打开剪贴板</strong>（可以省去一些情况下需要2个页面来回跳转复制粘贴的麻烦)</p>
-<p>（以下截图的前提是将<code>设置</code>→<code>轻松使用</code>→<code>键盘</code>→<code>屏幕截图快捷方式</code>中的<code>使用PrtScn按键打开截图</code>打开）</p>
-<p><kbd>PrtSc</kbd>：<strong>截图（可选范围）并保存至剪贴板</strong></p>
-<p><kbd>win</kbd> + <kbd>PrtSc</kbd>：<strong>截图整屏保存至剪贴板并保存至文件夹</strong>（默认保存在了<code>C:\Users\你的用户名\Pictures\屏幕截图</code>文件夹下，你可以右击该文件夹选择<code>属性</code>→<code>位置</code>→<code>移动…</code>来选择你想保存在的文件夹，这是我找到的最舒服的截图方式了[]<del>(￣▽￣)</del>*）</p>
-<p><kbd>Alt</kbd> + <kbd>F4</kbd>：关闭当前页面</p>
-<blockquote>
-<p>用<kbd>Fn</kbd>键控制时按键的顺序是<kbd>Fn</kbd> + <kbd>Alt</kbd> + <kbd>F4</kbd></p>
-</blockquote>
-<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>D</kbd>：新建虚拟桌面</p>
-<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>←</kbd>/<kbd>→</kbd>：左右切换虚拟桌面</p>
-<p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>F4</kbd>：关闭当前虚拟桌面</p>
-<p><kbd>win</kbd> + <kbd>N</kbd>：打开通知面板/日历面板</p>
-<p><kbd>win</kbd> + <kbd>W</kbd>：打开小组件（win11，虽然不用小组件，还是列这，<del>说不定以后小组件会改善</del>）</p>
-<p><kbd>win</kbd> + <kbd>A</kbd>：<strong>打开快速设置面板</strong></p>
-<p><kbd>win</kbd> + <kbd>H</kbd>：语音输入</p>
-<p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>Esc</kbd>：任务管理器</p>
-]]></content>
-      <categories>
-        <category>备忘笔记</category>
-      </categories>
-      <tags>
-        <tag>快捷键</tag>
       </tags>
   </entry>
   <entry>
@@ -651,6 +651,23 @@
 <p>今天写了一份技术交底书，是导师让我把之前我参与的项目中的一个机构申请专利，我想着也不错吧，想到之前自己还挺热衷于研究专利相关的东西，第一次写这玩意儿，开始下笔就停不下来，很快就写完了，发明人我填了4个人的名字，把自己放在了后面，导师来检查的时候，坐在我的旁边，握着我的鼠标把我的名字剪切粘贴放在了第一个，说第一发明人写我的名字，然后继续看着后面应该修改下哪些内容。导师确实对我一直很好，今天脑子里想了好几次这件事。</p>
 <p>晚上下班后，我骑着自行车来到以前常来的湖边，第一次在晚上骑着自行车绕着湖骑了很大的一圈，这一圈印象中很大，走路需要一个小时左右，但我骑着单车，晚风很清凉，散步的人很多、跑步的人也不少，时间很快，第一次觉得这一圈也没有多大。骑完一圈后在附近的那家24小时小图书室看了一会儿书，就回去了。突然想换个微信头像，就换了，想到上次换头像还是两年多前，大四的时候在图书馆里那个一个人过的元旦……</p>
 <p>回到宿舍把前几天洗好晒干的鞋子穿上鞋带、洗澡、写下这篇日记，嗯，又过了一天。</p>
+]]></content>
+      <categories>
+        <category>时间沙漏</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活小记（2）</title>
+    <url>/posts/the-life-of-neutrino-2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>2023年8月9日</p>
+<p>最近的心情很糟，我需要重新思考工作、生活还有自己的未来了。</p>
+<p>不得不承认，这份工作教会了我很多东西，甚至自己的性格也产生了一些积极的改变，很长一段时间里我都觉得，尽管这份工作称不上是十分喜欢，但至少自己可以胜任，工作内容也并非乏味不堪，也算是自己可以接受的程度。但这次的绩效结果让我必须重新思考这份工作，绩效的规则十分荒谬，在该套规则下，无论你多努力工作，多认真负责，能力多强，即使没有任何工作失误，都可能需要承担差绩效的结果。尽管所有人都明白这一点，绩效差并不意味着什么，但差绩效给自己带来的负面影响却是真实存在的，除了这个季度少几千块钱，还将限制一年的发展机会。</p>
+<p>或许正是因为这次的事情，我才开始思考早该思考的一些问题，我到底想过一种怎样的生活，这个问题我很早就给过自己答案：平淡，波澜不惊的生活，有足够的空余时间做自己喜欢的事情。但我之前并没有思考这样的生活需要怎样具体的工作，我现在的想法是，我可以接受两种工作，一种是自己可能不算太喜欢，但也不讨厌的工作，不用加班，薪资不用太高；另一种是自己热爱的工作，所做的事情能够激发自己的热情，展现自己的想法和创造性的思维，完成之后的成品是会让自己觉得付出是值得的，有成就感的，加班与否取决于自己的工作效率，并且可以真实的通过提升自己的效率实现不加班或极少数情况加班，薪资比前者高。我认为这两种工作一定存在的，但没有把握自己能够找到。</p>
+<p>得到这个结果让自己心情很差的另一个重要原因是，在这个加班成常态的环境里，事实上自己已经牺牲了大量生活的时间，嗯，实在不值得。我很喜欢一个名为“如果没有加班，世界将会怎样”的问题的回答：回到家的时候，天还没全黑，楼道里都是香气，有的人家炒鸡，有的人家烧鱼。吃了饭，还有时间遛遛弯，公园里爸爸在教孩子骑车，还有几个小孩拿着手电筒跑，光柱扫过树丛，叶子沙沙的响。</p>
+<p>现在，自己并没有明确的方向，可以说还处在一丝迷茫之中，但做自己喜欢的事情不会停下，生活也不会停下，一边前进，一边寻找到达自己想要的未来的方法。</p>
 ]]></content>
       <categories>
         <category>时间沙漏</category>
@@ -738,7 +755,7 @@
 <p>或许我终将被浮躁的日常所淹没，但人生之于宇宙本就须臾一瞬，与片刻的宁静之于人生一样别无二致，故即便如此，也不必感伤。</p>
 ]]></content>
       <categories>
-        <category>时光印记</category>
+        <category>时间沙漏</category>
       </categories>
       <tags>
         <tag>生活</tag>
