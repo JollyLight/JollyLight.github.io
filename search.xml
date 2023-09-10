@@ -24,42 +24,6 @@
       </tags>
   </entry>
   <entry>
-    <title>blog运行排障笔记</title>
-    <url>/posts/note-for-blog-problem/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
-<p>记录自己在折腾博客时遇到的一些问题及解决方法，以便日后遇到相同问题能快速解决，本文章持续更新</p>
-</blockquote>
-<h3 id="markdown文章对特定CSS引用问题"><a href="#markdown文章对特定CSS引用问题" class="headerlink" title="markdown文章对特定CSS引用问题"></a>markdown文章对特定CSS引用问题</h3><p>直接通过<code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;../css/book.css&quot; /&gt;</code>引用，引用路径根据相对路径确认好，其中<code>../</code>表示上一级</p>
-<h3 id="markdown文章中html与css不起效问题"><a href="#markdown文章中html与css不起效问题" class="headerlink" title="markdown文章中html与css不起效问题"></a>markdown文章中html与css不起效问题</h3><p>首先，markdown能运行所有html与css代码，代码不起效可能是代码中含有空行，在查找替换中用正则表达式将<code>^\s*$</code>替换为空白即可删除所有空行</p>
-<h3 id="主题外css显示正常，主题内css显示异常问题"><a href="#主题外css显示正常，主题内css显示异常问题" class="headerlink" title="主题外css显示正常，主题内css显示异常问题"></a>主题外css显示正常，主题内css显示异常问题</h3><p>可能由于主题markdown css与外部css相互影响导致，先f12调试直正常css，再在引用的css中修改对应内容</p>
-<h3 id="主题外html显示正常，主题内html显示异常问题"><a href="#主题外html显示正常，主题内html显示异常问题" class="headerlink" title="主题外html显示正常，主题内html显示异常问题"></a>主题外html显示正常，主题内html显示异常问题</h3><p>直接复制f12中正常的html内容进主题内</p>
-<h3 id="提高css优先级"><a href="#提高css优先级" class="headerlink" title="提高css优先级"></a>提高css优先级</h3><p>例：</p>
-<pre class="language-none"><code class="language-none">li &#123;
-
-  list-style-type: none !important;
-
-&#125;</code></pre>
-
-<h3 id="Picgo上传图片失败"><a href="#Picgo上传图片失败" class="headerlink" title="Picgo上传图片失败"></a>Picgo上传图片失败</h3><p>软件fastgithub的开启会导致Picgo上传图片失败，Picgo上传图片前需要关掉fastgithub</p>
-<h3 id="latex公式无法编译与显示的问题"><a href="#latex公式无法编译与显示的问题" class="headerlink" title="latex公式无法编译与显示的问题"></a>latex公式无法编译与显示的问题</h3><p>latex公式在typora中能正常显示，而无法在博客中显示，解决方案：</p>
-<p>（1）hexo转换markdown文件时遇到<code>连续两个左花括号</code>或<code>连续两个右花括号</code>时无法正常转换，需要提前将其替换为<code>&#123; &#123;</code>与<code>&#125; &#125;</code>（两个相同的花括号中间加空格）</p>
-<p>（2）hexo解析latex公式时<code>$$</code>与<code>$$</code>之间不能存在换行，否则无法正常渲染公式，需要提前将文件在vscode中打开，使用正则表达式将<code>\$\$\n(.*)\n\$\$</code>全部替换成<code>$$$$$1$$$$</code>就好</p>
-<blockquote>
-<p>注意第（1）条不使用正则表达式替换，第（2）条才使用正则表达式替换</p>
-</blockquote>
-<blockquote>
-<p>解释一下第（2）条正则表达式（研究了好久才琢磨出这个解决方法X﹏X），<code>\n</code>表示换行；<code>\n</code>表示通配符；因<code>$</code>有特殊含义，用<code>\$</code>表示<code>$</code>本身；用<code>$$</code>表示<code>$</code></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>备忘笔记</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CFOP练习笔记</title>
     <url>/posts/note-of-CFOP/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><details><summary>介绍</summary>
@@ -103,38 +67,83 @@
         <category>备忘笔记</category>
       </categories>
       <tags>
-        <tag>笔记</tag>
         <tag>魔方</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
-    <title>blog运行小笔记</title>
-    <url>/posts/note-for-blog-working/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p><strong>写文章</strong><br> <strong>step1:</strong> 打开blog文件夹，并在里面空白处右击选择<code>Git Bash Here</code><br> <strong>step2:</strong> 在里面输入<code>hexo n 新文章名</code>，再回车<br> <strong>step3:</strong> 在blog文件夹中，进入source文件夹，再进入_posts文件夹，用宇宙最强编辑器vs code打开新建的文章</p>
-<blockquote>
-<p>其实也可以直接在source/_posts文件夹内新建markdown文件（可以先新建一个记事本txt文件再改后缀为md），然后直接在里面写文章，推荐Typora编辑器</p>
+    <title>blog运行排障笔记</title>
+    <url>/posts/note-for-blog-problem/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
+<p>记录自己在折腾博客时遇到的一些问题及解决方法，以便日后遇到相同问题能快速解决，本文章持续更新</p>
 </blockquote>
-<p> <strong>step4:</strong> 就可以可以开始写啦！写完后记得保存<br> <strong>step5:</strong> 再打开Git Bash，依次输入<code>hexo c</code> <code>hexo g</code> <code>hexo d</code>(注意看有没有报错或警告啊)</p>
+<h3 id="markdown文章对特定CSS引用问题"><a href="#markdown文章对特定CSS引用问题" class="headerlink" title="markdown文章对特定CSS引用问题"></a>markdown文章对特定CSS引用问题</h3><p>直接通过<code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;../css/book.css&quot; /&gt;</code>引用，引用路径根据相对路径确认好，其中<code>../</code>表示上一级</p>
+<h3 id="markdown文章中html与css不起效问题"><a href="#markdown文章中html与css不起效问题" class="headerlink" title="markdown文章中html与css不起效问题"></a>markdown文章中html与css不起效问题</h3><p>首先，markdown能运行所有html与css代码，代码不起效可能是代码中含有空行，在查找替换中用正则表达式将<code>^\s*$</code>替换为空白即可删除所有空行</p>
+<h3 id="主题外css显示正常，主题内css显示异常问题"><a href="#主题外css显示正常，主题内css显示异常问题" class="headerlink" title="主题外css显示正常，主题内css显示异常问题"></a>主题外css显示正常，主题内css显示异常问题</h3><p>可能由于主题markdown css与外部css相互影响导致，先f12调试直正常css，再在引用的css中修改对应内容</p>
+<h3 id="主题外html显示正常，主题内html显示异常问题"><a href="#主题外html显示正常，主题内html显示异常问题" class="headerlink" title="主题外html显示正常，主题内html显示异常问题"></a>主题外html显示正常，主题内html显示异常问题</h3><p>直接复制f12中正常的html内容进主题内</p>
+<h3 id="提高css优先级"><a href="#提高css优先级" class="headerlink" title="提高css优先级"></a>提高css优先级</h3><p>例：</p>
+<pre class="language-none"><code class="language-none">li &#123;
+
+  list-style-type: none !important;
+
+&#125;</code></pre>
+
+<h3 id="Picgo上传图片失败"><a href="#Picgo上传图片失败" class="headerlink" title="Picgo上传图片失败"></a>Picgo上传图片失败</h3><p>软件fastgithub的开启会导致Picgo上传图片失败，Picgo上传图片前需要关掉fastgithub</p>
+<h3 id="latex公式无法编译与显示的问题"><a href="#latex公式无法编译与显示的问题" class="headerlink" title="latex公式无法编译与显示的问题"></a>latex公式无法编译与显示的问题</h3><p>latex公式在typora中能正常显示，而无法在博客中显示，解决方案：</p>
+<p>（1）hexo转换markdown文件时遇到<code>连续两个左花括号</code>或<code>连续两个右花括号</code>时无法正常转换，需要提前将其替换为<code>&#123; &#123;</code>与<code>&#125; &#125;</code>（两个相同的花括号中间加空格）</p>
+<p>（2）hexo解析latex公式时<code>$$</code>与<code>$$</code>之间不能存在换行，否则无法正常渲染公式，需要提前将文件在vscode中打开，使用正则表达式将<code>\$\$\n(.*)\n\$\$</code>全部替换成<code>$$$$$1$$$$</code>就好</p>
 <blockquote>
-<p>当然也可以随时在输入<code>hexo s</code>后在<a href="http://localhost:4000/">本地</a>查看自己的网站</p>
+<p>注意第（1）条不使用正则表达式替换，第（2）条才使用正则表达式替换</p>
 </blockquote>
-<p><strong>step6:</strong> 再输入 <code>sh update.sh</code>运行之前写好的bash脚本，以完成博客源文件推送到gitee目标仓库hexo分支上实现备份</p>
 <blockquote>
-<p>可以在update.sh文件中更改info=”~“中的~来描述此次要在仓库中显示的更新说明</p>
+<p>解释一下第（2）条正则表达式（研究了好久才琢磨出这个解决方法X﹏X），<code>\n</code>表示换行；<code>\n</code>表示通配符；因<code>$</code>有特殊含义，用<code>\$</code>表示<code>$</code>本身；用<code>$$</code>表示<code>$</code></p>
 </blockquote>
-<p><strong>step7:</strong> 打开码云的<a href="https://gitee.com/jollylight/jollylight/pages">gitee page页面</a>，点击更新，等待片刻<br> <strong>step8:</strong> 就OK啦！</p>
-<p>（这么简单为什么写出来，因为我真的是小白啊QAQ）</p>
-<p><del>（主要也怕自己太久没写博客忘了）</del></p>
-<h1 id="linux常用命令-即git-bash下"><a href="#linux常用命令-即git-bash下" class="headerlink" title="linux常用命令(即git bash下)"></a>linux常用命令(即git bash下)</h1><p><kbd>Ctrl</kbd>+<kbd>Insert </kbd>: 复制</p>
-<p><kbd>Shift</kbd>+<kbd>Insert </kbd>: 粘贴</p>
-<h1 id="其他常用"><a href="#其他常用" class="headerlink" title="其他常用"></a>其他常用</h1><p><strong>blog主颜色</strong>：<font color=#FFCC66>#FFCC66</font></p>
 ]]></content>
       <categories>
         <category>备忘笔记</category>
       </categories>
       <tags>
-        <tag>blog</tag>
         <tag>笔记</tag>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>不是学生了呀</title>
+    <url>/posts/for-the-past-four-years/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
+<p>终于还是毕业了，这篇文章就当是我四年生活的一个句点吧。</p>
+</blockquote>
+
+    <div id="aplayer-xirPQqGT" class="aplayer aplayer-tag-marker meting-tag-marker"
+         data-id="1413374282" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FFCC66"
+    ></div>
+
+<h2 id="大学"><a href="#大学" class="headerlink" title="大学"></a>大学</h2><h3 id="独来独往"><a href="#独来独往" class="headerlink" title="独来独往"></a>独来独往</h3><p>如果要我说出能够贯穿我大学生活的几个字的话，我一定会选择【独来独往】这四个字，并不是因为身边的人不好才选择总是独来独往的，而是因为我自己的一种奇怪的感觉。</p>
+<p>说实话，这四年里，我自认为和周围的人相处的还不错，虽然几乎所有人都是点头之交，但大家对我都挺好的，是我性格的原因，也可能还有我身上的其他因素，我常常会因为和别人交际后而感到不安，能够明显感受到心脏会有种受到压迫的感觉，这是一种很不舒服的感觉，而且交际的对象是熟悉的人时这种感觉才更容易被激活，于是能不与人交流的地方我尽量不与人交流。<del>（大概我就是社恐本恐了吧）</del></p>
+<p>很多时候我甚至一天里除了打饭阿姨没和其他人说过一句话，每次上宿舍楼梯时是这种感觉最强烈的时候，因为知道马上要遇到舍友了，以至于我对上楼梯都有了条件反射，上其他楼梯时也总产生了这种感觉，有时我又会对这种不安的感觉本身而感到不安，有时我又会想到以人的普遍性来讲，世界上一定还有人和我有相同的感受，这样想来心中的不安也会消减一些。</p>
+<p>于是，四年里，一个人去图书馆，一个人去上课，一个人在操场夜跑，一个人去校外的湖边看风景……这些独属于我一个人的时间就慢慢遍布了我的大学生活。</p>
+<p>班级或是宿舍有什么聚餐或游玩之类的活动时我常常会纠结一番，我不想去，但时常又会想到身边的人对自己的一些看法，我知道我最终一定会选择不去的，但纠结时产生的不安感总会存在许久，只好用一些要遵从自己内心想法之类的话来试着说服自己。</p>
+<p>不和别人交流少不了会带来一些麻烦，记得大二的一次期末考试里，有门课的考试原来是有范围的，我没了解到，结果分挺低的，还有一门课因为报名参加小组合作的作业可以加分，我不喜欢小组任务，自然也没有这些分，<del>从那个学期以后，就没拿过年级第一了</del>。</p>
+<p>但其实，大部分的时间里，我是很喜欢一个人的世界的，离开宿舍，不用顾及其他人的意愿就可以去自己想去的地方，图书馆、森林小径或是湖边，不用理会多余的话语就可以学自己想学的东西，发展自己的兴趣爱好，不必和别人费劲的解释为什么你要做这个，为什么你要去那里，只要做自己当下想做的事就好。</p>
+<p>我可以午后捧着一本书，沉浸在另一个世界中，发觉天色黯淡时望向窗外，合上书本欣赏薄暮的晚霞；可以放着喜欢的歌，在操场夜跑，或是躺在操场的草坪上，一边看着猎户座的参宿一二三排成一条小直线，一边感叹宇宙的宏大和身边事物的微不足道；可以在心情不好的时候跑来人少的湖边，倚着栏杆吹着风，看着不知所求的鸭子游来游去……似乎这些就足够美好了。</p>
+<h3 id="图书馆"><a href="#图书馆" class="headerlink" title="图书馆"></a>图书馆</h3><p>大学四年里，除去睡觉时间的话，我呆在图书馆里的时间应该比在宿舍里的时间多些<del>（以至于莫名拿了个什么年度入馆前十证书）</del>，仔细想了想，上大学之前我的确是没有去过图书馆的，最多在某些商城的书店里呆过<del>（记得小时候在老家书店只看书不买书还会赶你走）</del>，所以当我第一次来到大学里的图书馆时，看着几楼各式各样的图书，是有不少震惊和激动的，当时就想着应该会在图书馆度过我的大部分校园时光（的确也实现了）。</p>
+<p>像个小孩一样，有空闲的时间就兴致勃勃的跑来图书馆，找到自己喜欢的书读起来，在<a href="https://www.douban.com/tag/BrianCox/book" style="color: black">Brian Cox</a>的宇宙里探寻世界之外的奇迹，在<a href="https://book.douban.com/author/4561353/books?sortby=collect&format=pic" style="color: black">大刘</a>的科幻中脱离现实的禁锢放空自己，在<a href="https://book.douban.com/author/4537266/books?sortby=collect&format=pic" style="color: black">东野圭吾</a>的小说中体会其他灵魂的人生……</p>
+<p>时而会觉得图书馆不是一座建筑那么简单，里面还存在着无数个世界。</p>
+<p>可能是出于一种不甘心或是其他什么类似的心理，尽管上了大学，却仍不想太过放松，学校课程的知识还是会好好学，学校课程的学习是在图书馆里要干的一大主事，老实说，我并没有什么学习的天赋，学习效率也不高，只能通过花比别人更多的时间来换取与投入不成比例的些许提升。</p>
+<p>其实早在大一的时候，我就已经确定毕业后想去更好的学校继续研读，而且傻乎乎的在四年里把一个可望而不可及的学校当成非去不可的奋斗目标，大二大三就疯狂收集那所学校的各种资料，了解各种文化，甚至打入其内部（指加入该学校社团等各种内部群），用他们的课本，听他们的网课……</p>
+<p>考研也是早早准备，只能说现实中不确定的因素太多了吧，没有能绝对成功的事，尽管自己已经对目标学校的部分选择放低了标准，还是未能如意，部分原因大概是过程中许多不好的事情我不能及时对自己的心理进行调解吧，有时会希望自己在现实中有一个朋友，能够彼此真心倾诉学习生活中不如意的事，但时而转念想到自己的性格，要包容我的独来独往与各种缺点，那该是个多完美的朋友才能恰好与我兼容呢。</p>
+<h3 id="操场"><a href="#操场" class="headerlink" title="操场"></a>操场</h3><p>我在大学里除了图书馆之外的第二个地方大概就是操场了，我的体质比较弱，上大学之前去医院是家常便饭了，经常扁桃体发炎，头晕，过敏什么的，但上大学以后感觉确实好了很多，整个四年下来也没几次感冒，就算有不舒服，吃点药也就好了，我把这归功于每天晚上的夜跑，于是就肯坚持一些了，记得在很长一段时间里，在操场跑够十圈再回宿舍，有音乐和星空的夜跑不会累。</p>
+<p>有时拿出手机对着夜空中的星星，笨拙地认识着这颗、那颗星星的名字，有时坐在或躺在草坪上，什么也不去想，放空自己，会意识到最近的烦心事都不算什么，能够衣食无忧地生活在这颗小星球上已经是件很幸运的事了呀。</p>
+<h2 id="毕业"><a href="#毕业" class="headerlink" title="毕业"></a>毕业</h2><p>每年看着学长学姐在毕业季围成一个弧形，穿着学士服拍毕业照，总会心生许多感慨，今年轮到自己了，却似乎并没有什么特别的感觉，只是心里想着：嗯，毕业就是这样嘛。</p>
+<p>只是还是会想到入学时在体育馆开的毕业典礼，军训时被大雨淋湿的衣服……四年里所有美好的瞬间应该都刻进了永恒的回忆了吧，虽然，不再是学生了，但求今后也别褪去那份稚气吧。</p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/main_interface/1632569128356.jpg" loading="lazy"></p>
+]]></content>
+      <categories>
+        <category>时间沙漏</category>
+      </categories>
+      <tags>
+        <tag>时光</tag>
+        <tag>毕业</tag>
       </tags>
   </entry>
   <entry>
@@ -185,42 +194,51 @@
       </tags>
   </entry>
   <entry>
-    <title>不是学生了呀</title>
-    <url>/posts/for-the-past-four-years/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
-<p>终于还是毕业了，这篇文章就当是我四年生活的一个句点吧。</p>
+    <title>blog运行小笔记</title>
+    <url>/posts/note-for-blog-working/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p><strong>写文章</strong><br> <strong>step1:</strong> 打开blog文件夹，并在里面空白处右击选择<code>Git Bash Here</code><br> <strong>step2:</strong> 在里面输入<code>hexo n 新文章名</code>，再回车<br> <strong>step3:</strong> 在blog文件夹中，进入source文件夹，再进入_posts文件夹，用宇宙最强编辑器vs code打开新建的文章</p>
+<blockquote>
+<p>其实也可以直接在source/_posts文件夹内新建markdown文件（可以先新建一个记事本txt文件再改后缀为md），然后直接在里面写文章，推荐Typora编辑器</p>
 </blockquote>
-
-    <div id="aplayer-sOBImptG" class="aplayer aplayer-tag-marker meting-tag-marker"
-         data-id="1413374282" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FFCC66"
-    ></div>
-
-<h2 id="大学"><a href="#大学" class="headerlink" title="大学"></a>大学</h2><h3 id="独来独往"><a href="#独来独往" class="headerlink" title="独来独往"></a>独来独往</h3><p>如果要我说出能够贯穿我大学生活的几个字的话，我一定会选择【独来独往】这四个字，并不是因为身边的人不好才选择总是独来独往的，而是因为我自己的一种奇怪的感觉。</p>
-<p>说实话，这四年里，我自认为和周围的人相处的还不错，虽然几乎所有人都是点头之交，但大家对我都挺好的，是我性格的原因，也可能还有我身上的其他因素，我常常会因为和别人交际后而感到不安，能够明显感受到心脏会有种受到压迫的感觉，这是一种很不舒服的感觉，而且交际的对象是熟悉的人时这种感觉才更容易被激活，于是能不与人交流的地方我尽量不与人交流。<del>（大概我就是社恐本恐了吧）</del></p>
-<p>很多时候我甚至一天里除了打饭阿姨没和其他人说过一句话，每次上宿舍楼梯时是这种感觉最强烈的时候，因为知道马上要遇到舍友了，以至于我对上楼梯都有了条件反射，上其他楼梯时也总产生了这种感觉，有时我又会对这种不安的感觉本身而感到不安，有时我又会想到以人的普遍性来讲，世界上一定还有人和我有相同的感受，这样想来心中的不安也会消减一些。</p>
-<p>于是，四年里，一个人去图书馆，一个人去上课，一个人在操场夜跑，一个人去校外的湖边看风景……这些独属于我一个人的时间就慢慢遍布了我的大学生活。</p>
-<p>班级或是宿舍有什么聚餐或游玩之类的活动时我常常会纠结一番，我不想去，但时常又会想到身边的人对自己的一些看法，我知道我最终一定会选择不去的，但纠结时产生的不安感总会存在许久，只好用一些要遵从自己内心想法之类的话来试着说服自己。</p>
-<p>不和别人交流少不了会带来一些麻烦，记得大二的一次期末考试里，有门课的考试原来是有范围的，我没了解到，结果分挺低的，还有一门课因为报名参加小组合作的作业可以加分，我不喜欢小组任务，自然也没有这些分，<del>从那个学期以后，就没拿过年级第一了</del>。</p>
-<p>但其实，大部分的时间里，我是很喜欢一个人的世界的，离开宿舍，不用顾及其他人的意愿就可以去自己想去的地方，图书馆、森林小径或是湖边，不用理会多余的话语就可以学自己想学的东西，发展自己的兴趣爱好，不必和别人费劲的解释为什么你要做这个，为什么你要去那里，只要做自己当下想做的事就好。</p>
-<p>我可以午后捧着一本书，沉浸在另一个世界中，发觉天色黯淡时望向窗外，合上书本欣赏薄暮的晚霞；可以放着喜欢的歌，在操场夜跑，或是躺在操场的草坪上，一边看着猎户座的参宿一二三排成一条小直线，一边感叹宇宙的宏大和身边事物的微不足道；可以在心情不好的时候跑来人少的湖边，倚着栏杆吹着风，看着不知所求的鸭子游来游去……似乎这些就足够美好了。</p>
-<h3 id="图书馆"><a href="#图书馆" class="headerlink" title="图书馆"></a>图书馆</h3><p>大学四年里，除去睡觉时间的话，我呆在图书馆里的时间应该比在宿舍里的时间多些<del>（以至于莫名拿了个什么年度入馆前十证书）</del>，仔细想了想，上大学之前我的确是没有去过图书馆的，最多在某些商城的书店里呆过<del>（记得小时候在老家书店只看书不买书还会赶你走）</del>，所以当我第一次来到大学里的图书馆时，看着几楼各式各样的图书，是有不少震惊和激动的，当时就想着应该会在图书馆度过我的大部分校园时光（的确也实现了）。</p>
-<p>像个小孩一样，有空闲的时间就兴致勃勃的跑来图书馆，找到自己喜欢的书读起来，在<a href="https://www.douban.com/tag/BrianCox/book" style="color: black">Brian Cox</a>的宇宙里探寻世界之外的奇迹，在<a href="https://book.douban.com/author/4561353/books?sortby=collect&format=pic" style="color: black">大刘</a>的科幻中脱离现实的禁锢放空自己，在<a href="https://book.douban.com/author/4537266/books?sortby=collect&format=pic" style="color: black">东野圭吾</a>的小说中体会其他灵魂的人生……</p>
-<p>时而会觉得图书馆不是一座建筑那么简单，里面还存在着无数个世界。</p>
-<p>可能是出于一种不甘心或是其他什么类似的心理，尽管上了大学，却仍不想太过放松，学校课程的知识还是会好好学，学校课程的学习是在图书馆里要干的一大主事，老实说，我并没有什么学习的天赋，学习效率也不高，只能通过花比别人更多的时间来换取与投入不成比例的些许提升。</p>
-<p>其实早在大一的时候，我就已经确定毕业后想去更好的学校继续研读，而且傻乎乎的在四年里把一个可望而不可及的学校当成非去不可的奋斗目标，大二大三就疯狂收集那所学校的各种资料，了解各种文化，甚至打入其内部（指加入该学校社团等各种内部群），用他们的课本，听他们的网课……</p>
-<p>考研也是早早准备，只能说现实中不确定的因素太多了吧，没有能绝对成功的事，尽管自己已经对目标学校的部分选择放低了标准，还是未能如意，部分原因大概是过程中许多不好的事情我不能及时对自己的心理进行调解吧，有时会希望自己在现实中有一个朋友，能够彼此真心倾诉学习生活中不如意的事，但时而转念想到自己的性格，要包容我的独来独往与各种缺点，那该是个多完美的朋友才能恰好与我兼容呢。</p>
-<h3 id="操场"><a href="#操场" class="headerlink" title="操场"></a>操场</h3><p>我在大学里除了图书馆之外的第二个地方大概就是操场了，我的体质比较弱，上大学之前去医院是家常便饭了，经常扁桃体发炎，头晕，过敏什么的，但上大学以后感觉确实好了很多，整个四年下来也没几次感冒，就算有不舒服，吃点药也就好了，我把这归功于每天晚上的夜跑，于是就肯坚持一些了，记得在很长一段时间里，在操场跑够十圈再回宿舍，有音乐和星空的夜跑不会累。</p>
-<p>有时拿出手机对着夜空中的星星，笨拙地认识着这颗、那颗星星的名字，有时坐在或躺在草坪上，什么也不去想，放空自己，会意识到最近的烦心事都不算什么，能够衣食无忧地生活在这颗小星球上已经是件很幸运的事了呀。</p>
-<h2 id="毕业"><a href="#毕业" class="headerlink" title="毕业"></a>毕业</h2><p>每年看着学长学姐在毕业季围成一个弧形，穿着学士服拍毕业照，总会心生许多感慨，今年轮到自己了，却似乎并没有什么特别的感觉，只是心里想着：嗯，毕业就是这样嘛。</p>
-<p>只是还是会想到入学时在体育馆开的毕业典礼，军训时被大雨淋湿的衣服……四年里所有美好的瞬间应该都刻进了永恒的回忆了吧，虽然，不再是学生了，但求今后也别褪去那份稚气吧。</p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/main_interface/1632569128356.jpg" loading="lazy"></p>
+<p> <strong>step4:</strong> 就可以可以开始写啦！写完后记得保存<br> <strong>step5:</strong> 再打开Git Bash，依次输入<code>hexo c</code> <code>hexo g</code> <code>hexo d</code>(注意看有没有报错或警告啊)</p>
+<blockquote>
+<p>当然也可以随时在输入<code>hexo s</code>后在<a href="http://localhost:4000/">本地</a>查看自己的网站</p>
+</blockquote>
+<p><strong>step6:</strong> 再输入 <code>sh update.sh</code>运行之前写好的bash脚本，以完成博客源文件推送到gitee目标仓库hexo分支上实现备份</p>
+<blockquote>
+<p>可以在update.sh文件中更改info=”~“中的~来描述此次要在仓库中显示的更新说明</p>
+</blockquote>
+<p><strong>step7:</strong> 打开码云的<a href="https://gitee.com/jollylight/jollylight/pages">gitee page页面</a>，点击更新，等待片刻<br> <strong>step8:</strong> 就OK啦！</p>
+<p>（这么简单为什么写出来，因为我真的是小白啊QAQ）</p>
+<p><del>（主要也怕自己太久没写博客忘了）</del></p>
+<h1 id="linux常用命令-即git-bash下"><a href="#linux常用命令-即git-bash下" class="headerlink" title="linux常用命令(即git bash下)"></a>linux常用命令(即git bash下)</h1><p><kbd>Ctrl</kbd>+<kbd>Insert </kbd>: 复制</p>
+<p><kbd>Shift</kbd>+<kbd>Insert </kbd>: 粘贴</p>
+<h1 id="其他常用"><a href="#其他常用" class="headerlink" title="其他常用"></a>其他常用</h1><p><strong>blog主颜色</strong>：<font color=#FFCC66>#FFCC66</font></p>
+]]></content>
+      <categories>
+        <category>备忘笔记</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>兴趣爱好在平淡生活中泛起的涟漪——写歌</title>
+    <url>/posts/Interest-in-SongWriting/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>我好喜欢17岁，17岁那年我总认为17岁是最好的年纪，便想做些什么好好珍惜这个年纪，那时我决定赶在自己18岁生日之前写一首纪念自己这个年纪的歌，那时大一，自己所谓的写歌指的是指自己无比业余的作词作曲，并没有编曲混音和其他专业的东西。</p>
+<p>想起来，第一次自己写歌大概可以追溯到自己小学，但之前算是写着玩的，后来高中之后可以说开启了对我自己来说快乐的写歌之路，直到大三之前，前前后后写了有十几首，每首歌我都自认为有它自己的意义，并无可替代，虽然只是自己的自娱自乐，没有其他人知道，但也丝毫不减当时自己对此的热爱。</p>
+<p>那时还给自己的歌专门制作了一个小册子，里面有自己写的每首歌的歌词、写歌时的背景、完成的时间、歌曲的标签等等信息，后来接触了一些音乐制作软件就开始试着给自己以前的歌编曲，自己唱自己录音……当然，自己终究只会一些简单的编曲，我也自知自己远远不及专业水平，但自由地创作出一首自己满意的歌还是一件很酷的事啊~</p>
+<p>现在再回头看自己之前的那些歌，仔细斟酌的确是有些幼稚，或是说非常小众，小众到大概只有我自己才能理解和体会到这首歌的目的和意境在哪里，拿不出手，但这些歌的确是构成了自己那个时期重要的一部分。</p>
+<p>2017年，嗯，高考完的那一年是2017年，这个年份始终在我心中有着很重要的意义，也算是自己人生轨迹的一个转折点了，当然，对那一年高考的大多数学生来说应该都是。也是从那个暑假开始接触了吉他，因为家里正好有一把吉他，是爸爸的，暑假的时候正好没事就自学了起来，大学里也断断续续学了一阵子，不过只会一些简单的伴奏而已，当时学吉他的目标只有一个，就是给我自己的歌做伴奏，只可惜后来的确因为各种因素没有继续学了。</p>
+<p>不得不承认，自己虽然有着繁多的兴趣爱好，但大多只是蜻蜓点水，浅尝辄止，虽然很想像以前一直对自己说的一样“做当下想做的事情”，但一个人的精力和时间的确是有限的，在某个或长或短的时间段内，专注自己某个兴趣的某个部分或许才是正解。</p>
 ]]></content>
       <categories>
         <category>时间沙漏</category>
       </categories>
       <tags>
-        <tag>时光</tag>
-        <tag>毕业</tag>
+        <tag>写歌</tag>
+        <tag>爱好</tag>
       </tags>
   </entry>
   <entry>
@@ -228,6 +246,49 @@
     <url>/posts/hello-galaxy/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天是10月29日，第一篇博客文章呢！</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>兴趣爱好浅思</title>
+    <url>/posts/thoughts-on-interests/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>先浅浅说明下，这篇文章所讨论的兴趣爱好，指的是需要投入时间和精力去培养的兴趣爱好，因此，诸如阅读、听音乐之类的更偏向于放松休闲的爱好不在本篇文章的讨论范围内。</p>
+<p>本着尽可能多地体验世界上各种有趣事物的想法，我的兴趣应当算比较广泛，很多时候一股热情上来了便顾不上太多深入细致的思考，因此便十分热衷于尝试，绘画、音乐制作、游戏开发、MMD制作、vocaloid、blender绘图、天体物理学习、前端学习、钢琴学习、魔方CFOP、悠悠球……</p>
+<p>但从自己现在的实际情况来看，自己大部分的爱好都没有以周期性的学习或练习持续下去，一方面的原因显而易见，自己不可能在本就不多的工作之外的时间去同时培养自己所有的兴趣爱好；其次，即使我真的拥有了大量的时间和精力，我也未必有足够的恒心和耐心坚持下来并使之成为日常。因此对自己来说，我大致明白了两点：</p>
+<ul>
+<li><p>在有限的时间内应当选择较少的兴趣着重培养</p>
+</li>
+<li><p>若不想该兴趣爱好被时间淹没，就需要除一时兴起之外的目的去支撑</p>
+</li>
+</ul>
+<p>进一步地，我对此有了以下想法，在做一件事情时，希望自己能按照如下三点思考与执行：</p>
+<p>&emsp;<strong>1. 明确目的</strong></p>
+<p><strong>&emsp;2. 思考该目的能否支撑自己花大量的时间和精力去持续做这件事</strong></p>
+<p>&emsp;<strong>3. 一旦着手，不轻易放弃</strong></p>
+<p>思考之后，对现在（2023年7月30日）的自己而言，我想我可以明确以下两个爱好的目的以希望自己能够坚持：</p>
+<table>
+<thead>
+<tr>
+<th align="center">爱好</th>
+<th align="center">目的</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">练琴</td>
+<td align="center">感受音符的情绪<br/>通过音符表达自己的情绪<br/>平静内心</td>
+</tr>
+<tr>
+<td align="center">天体物理学习</td>
+<td align="center">脱离现实引力的禁锢<br/>投入到对渺小人类以外世界的研究</td>
+</tr>
+</tbody></table>
+<p>当然，凭自己对自己的了解，写完这些后无法要求自己立刻做出某些改变，只是希望自己能在未来的某一时刻得到些许启发，嗯。</p>
+]]></content>
+      <categories>
+        <category>遐想浅思</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+        <tag>爱好</tag>
+      </tags>
   </entry>
   <entry>
     <title>喜欢的句子</title>
@@ -300,64 +361,81 @@
       </tags>
   </entry>
   <entry>
-    <title>兴趣爱好在平淡生活中泛起的涟漪——写歌</title>
-    <url>/posts/Interest-in-SongWriting/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>我好喜欢17岁，17岁那年我总认为17岁是最好的年纪，便想做些什么好好珍惜这个年纪，那时我决定赶在自己18岁生日之前写一首纪念自己这个年纪的歌，那时大一，自己所谓的写歌指的是指自己无比业余的作词作曲，并没有编曲混音和其他专业的东西。</p>
-<p>想起来，第一次自己写歌大概可以追溯到自己小学，但之前算是写着玩的，后来高中之后可以说开启了对我自己来说快乐的写歌之路，直到大三之前，前前后后写了有十几首，每首歌我都自认为有它自己的意义，并无可替代，虽然只是自己的自娱自乐，没有其他人知道，但也丝毫不减当时自己对此的热爱。</p>
-<p>那时还给自己的歌专门制作了一个小册子，里面有自己写的每首歌的歌词、写歌时的背景、完成的时间、歌曲的标签等等信息，后来接触了一些音乐制作软件就开始试着给自己以前的歌编曲，自己唱自己录音……当然，自己终究只会一些简单的编曲，我也自知自己远远不及专业水平，但自由地创作出一首自己满意的歌还是一件很酷的事啊~</p>
-<p>现在再回头看自己之前的那些歌，仔细斟酌的确是有些幼稚，或是说非常小众，小众到大概只有我自己才能理解和体会到这首歌的目的和意境在哪里，拿不出手，但这些歌的确是构成了自己那个时期重要的一部分。</p>
-<p>2017年，嗯，高考完的那一年是2017年，这个年份始终在我心中有着很重要的意义，也算是自己人生轨迹的一个转折点了，当然，对那一年高考的大多数学生来说应该都是。也是从那个暑假开始接触了吉他，因为家里正好有一把吉他，是爸爸的，暑假的时候正好没事就自学了起来，大学里也断断续续学了一阵子，不过只会一些简单的伴奏而已，当时学吉他的目标只有一个，就是给我自己的歌做伴奏，只可惜后来的确因为各种因素没有继续学了。</p>
-<p>不得不承认，自己虽然有着繁多的兴趣爱好，但大多只是蜻蜓点水，浅尝辄止，虽然很想像以前一直对自己说的一样“做当下想做的事情”，但一个人的精力和时间的确是有限的，在某个或长或短的时间段内，专注自己某个兴趣的某个部分或许才是正解。</p>
+    <title>天体物理学习笔记（一）——方向与参考资料</title>
+    <url>/posts/note-for-astrophysics-learning/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="学习方向"><a href="#学习方向" class="headerlink" title="学习方向"></a>学习方向</h2><h3 id="学习方向参考："><a href="#学习方向参考：" class="headerlink" title="学习方向参考："></a>学习方向参考：</h3><p>1.中科大本科<a href="https://astro.ustc.edu.cn/2015/1228/c27261a259601/page.htm">天文英才班培养方案</a></p>
+<p>2.中科大天文学<a href="https://astro.ustc.edu.cn/yjsjy/list.htm">研究生培养方案</a></p>
+<h3 id="学习方向总结："><a href="#学习方向总结：" class="headerlink" title="学习方向总结："></a>学习方向总结：</h3><p>基础课程补充：电动力学、热力学与统计物理、量子力学B、天文学导论</p>
+<p>专业核心课程：天体物理概论、实测天体物理学、恒星物理基础</p>
+<p>专业方向课程：星系天文学、广义相对论 A、天体力学与天体测量</p>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p>1.在线课程：中科大<a href="https://www.bilibili.com/video/BV1Zy4y197Cf">天体物理概论</a></p>
+<p>配套教材：《<a href="https://book.douban.com/subject/3353501/">天体物理概论</a>》</p>
+<h2 id="相关网站推荐"><a href="#相关网站推荐" class="headerlink" title="相关网站推荐"></a>相关网站推荐</h2><p>1.诺奖得主/理论物理学家Gerard ‘t Hooft建立网站——<a href="https://www.goodtheorist.science/index.html">How to become a GOOD Theoretical Physicist</a></p>
+<p>2.NASA系列网站：</p>
+<ul>
+<li><a href="https://www.nasa.gov/">NASA官网</a></li>
+<li><a href="https://science.nasa.gov/">NASA科学主题网站</a></li>
+<li><a href="https://solarsystem.nasa.gov/">NASA太阳系科普网站</a></li>
+<li><a href="https://mars.nasa.gov/">NASA火星主题网站</a></li>
+<li><a href="https://eyes.nasa.gov/">NASA’s Eyes</a></li>
+</ul>
 ]]></content>
       <categories>
-        <category>时间沙漏</category>
+        <category>备忘笔记</category>
       </categories>
       <tags>
-        <tag>写歌</tag>
-        <tag>爱好</tag>
+        <tag>笔记</tag>
+        <tag>天体物理</tag>
       </tags>
   </entry>
   <entry>
-    <title>兴趣爱好浅思</title>
-    <url>/posts/thoughts-on-interests/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>先浅浅说明下，这篇文章所讨论的兴趣爱好，指的是需要投入时间和精力去培养的兴趣爱好，因此，诸如阅读、听音乐之类的更偏向于放松休闲的爱好不在本篇文章的讨论范围内。</p>
-<p>本着尽可能多地体验世界上各种有趣事物的想法，我的兴趣应当算比较广泛，很多时候一股热情上来了便顾不上太多深入细致的思考，因此便十分热衷于尝试，绘画、音乐制作、游戏开发、MMD制作、vocaloid、blender绘图、天体物理学习、前端学习、钢琴学习、魔方CFOP、悠悠球……</p>
-<p>但从自己现在的实际情况来看，自己大部分的爱好都没有以周期性的学习或练习持续下去，一方面的原因显而易见，自己不可能在本就不多的工作之外的时间去同时培养自己所有的兴趣爱好；其次，即使我真的拥有了大量的时间和精力，我也未必有足够的恒心和耐心坚持下来并使之成为日常。因此对自己来说，我大致明白了两点：</p>
+    <title>小发现</title>
+    <url>/posts/little-discoveries/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><script
+  type="text/javascript"
+  color="246,178,43"
+  pointColor="246,178,43"
+  opacity="0.7"
+  zIndex="2"
+  count="72"
+  src="https://gcore.jsdelivr.net/npm/canvas-nest.js/dist/canvas-nest.js"
+></script>
+
+
+
+<p>这篇文章记录了我的一些有点儿意思的小发现，并且会不断更新</p>
+<h3 id="直达QQ对话框的链接"><a href="#直达QQ对话框的链接" class="headerlink" title="直达QQ对话框的链接"></a>直达QQ对话框的链接</h3><p><code>http://wpa.qq.com/msgrd?v=3&amp;uin= 你的 QQ 号 &amp;site=qq&amp;menu=yes</code></p>
+<p>或者这个</p>
+<p><code>tencent://message/?uin= 你的 QQ 号 </code></p>
+<p>点击链接就会自动跳转到对应QQ号的对话框啦！</p>
+<p>（这是从<a href="https://idealclover.top/archives/545/">翠翠这</a>发现的）</p>
+<h3 id="实现网页背景线条效果（如此页效果）"><a href="#实现网页背景线条效果（如此页效果）" class="headerlink" title="实现网页背景线条效果（如此页效果）"></a>实现网页背景线条效果（如此页效果）</h3><p>将下面的代码插入到html的 <code>&lt;body&gt;</code> 和 <code>&lt;/body&gt;</code> 标签之间</p>
+<p>（也可直接粘贴至md文件中，本页就是如此）</p>
+<pre class="language-none"><code class="language-none">&lt;script
+  type&#x3D;&quot;text&#x2F;javascript&quot;
+  color&#x3D;&quot;246,178,43&quot;
+  pointColor&#x3D;&quot;246,178,43&quot;
+  opacity&#x3D;&quot;0.7&quot;
+  zIndex&#x3D;&quot;2&quot;
+  count&#x3D;&quot;72&quot;
+  src&#x3D;&quot;https:&#x2F;&#x2F;gcore.jsdelivr.net&#x2F;npm&#x2F;canvas-nest.js&#x2F;dist&#x2F;canvas-nest.js&quot;
+&gt;&lt;&#x2F;script&gt;</code></pre>
+
+<p>可配置：</p>
 <ul>
-<li><p>在有限的时间内应当选择较少的兴趣着重培养</p>
-</li>
-<li><p>若不想该兴趣爱好被时间淹没，就需要除一时兴起之外的目的去支撑</p>
-</li>
+<li><strong><code>color</code></strong> : 线条颜色, 默认: <code>&#39;0,0,0&#39;</code>；三个数字分别为(R,G,B)，注意用 <code>,</code> 分割</li>
+<li><strong><code>pointColor</code></strong>: 点颜色, 默认：<code>&#39;0,0,0&#39;</code>; RGB 格式.（注意：使用 <code>,</code> 分割）</li>
+<li><strong><code>opacity</code></strong> : 线条透明度（0~1）, 默认: <code>0.5</code></li>
+<li><strong><code>count</code></strong> : 线条的总数量, 默认: <code>99</code></li>
+<li><strong><code>zIndex</code></strong> : 背景的 <code>z-index</code> 属性，css 属性用于控制所在层的位置, 默认: <code>-1</code></li>
 </ul>
-<p>进一步地，我对此有了以下想法，在做一件事情时，希望自己能按照如下三点思考与执行：</p>
-<p>&emsp;<strong>1. 明确目的</strong></p>
-<p><strong>&emsp;2. 思考该目的能否支撑自己花大量的时间和精力去持续做这件事</strong></p>
-<p>&emsp;<strong>3. 一旦着手，不轻易放弃</strong></p>
-<p>思考之后，对现在（2023年7月30日）的自己而言，我想我可以明确以下两个爱好的目的以希望自己能够坚持：</p>
-<table>
-<thead>
-<tr>
-<th align="center">爱好</th>
-<th align="center">目的</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">练琴</td>
-<td align="center">感受音符的情绪<br/>通过音符表达自己的情绪<br/>平静内心</td>
-</tr>
-<tr>
-<td align="center">天体物理学习</td>
-<td align="center">脱离现实引力的禁锢<br/>投入到对渺小人类以外世界的研究</td>
-</tr>
-</tbody></table>
-<p>当然，凭自己对自己的了解，写完这些后无法要求自己立刻做出某些改变，只是希望自己能在未来的某一时刻得到些许启发，嗯。</p>
+<p>（这是从<a href="https://www.yunyoujun.cn/share/html5-canvas-nest-js/">云游这</a>发现的，最终来源于github的<a href="https://github.com/hustcc/canvas-nest.js/blob/master/README-zh.md">canvas-nest.js</a>）</p>
 ]]></content>
       <categories>
-        <category>遐想浅思</category>
+        <category>收藏小间</category>
       </categories>
       <tags>
-        <tag>生活</tag>
-        <tag>爱好</tag>
+        <tag>发现</tag>
       </tags>
   </entry>
   <entry>
@@ -393,31 +471,46 @@
       </tags>
   </entry>
   <entry>
-    <title>天体物理学习笔记（一）——方向与参考资料</title>
-    <url>/posts/note-for-astrophysics-learning/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="学习方向"><a href="#学习方向" class="headerlink" title="学习方向"></a>学习方向</h2><h3 id="学习方向参考："><a href="#学习方向参考：" class="headerlink" title="学习方向参考："></a>学习方向参考：</h3><p>1.中科大本科<a href="https://astro.ustc.edu.cn/2015/1228/c27261a259601/page.htm">天文英才班培养方案</a></p>
-<p>2.中科大天文学<a href="https://astro.ustc.edu.cn/yjsjy/list.htm">研究生培养方案</a></p>
-<h3 id="学习方向总结："><a href="#学习方向总结：" class="headerlink" title="学习方向总结："></a>学习方向总结：</h3><p>基础课程补充：电动力学、热力学与统计物理、量子力学B、天文学导论</p>
-<p>专业核心课程：天体物理概论、实测天体物理学、恒星物理基础</p>
-<p>专业方向课程：星系天文学、广义相对论 A、天体力学与天体测量</p>
-<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p>1.在线课程：中科大<a href="https://www.bilibili.com/video/BV1Zy4y197Cf">天体物理概论</a></p>
-<p>配套教材：《<a href="https://book.douban.com/subject/3353501/">天体物理概论</a>》</p>
-<h2 id="相关网站推荐"><a href="#相关网站推荐" class="headerlink" title="相关网站推荐"></a>相关网站推荐</h2><p>1.诺奖得主/理论物理学家Gerard ‘t Hooft建立网站——<a href="https://www.goodtheorist.science/index.html">How to become a GOOD Theoretical Physicist</a></p>
-<p>2.NASA系列网站：</p>
-<ul>
-<li><a href="https://www.nasa.gov/">NASA官网</a></li>
-<li><a href="https://science.nasa.gov/">NASA科学主题网站</a></li>
-<li><a href="https://solarsystem.nasa.gov/">NASA太阳系科普网站</a></li>
-<li><a href="https://mars.nasa.gov/">NASA火星主题网站</a></li>
-<li><a href="https://eyes.nasa.gov/">NASA’s Eyes</a></li>
+    <title>收藏的博客</title>
+    <url>/posts/Bookmarked-Blog/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
+<p>记录自己收藏的一些博客，嗯</p>
+</blockquote>
+<h2 id="常看的博客"><a href="#常看的博客" class="headerlink" title="常看的博客"></a>常看的博客</h2><ul>
+<li><a href="https://tianheg.xyz/posts/"> 一大加贝 </a></li>
+<li><a href="https://conge.github.io/">Conge</a></li>
+<li><a href="https://guanqr.com/">荷戟独彷徨</a></li>
+<li><a href="https://www.fanyiming.life/">Eamon ‘s Blog - 生活嘛~那么矫情 </a></li>
+<li><a href="https://blog.liugezhou.online/">六个周 | enjoy day </a></li>
+</ul>
+<h2 id="喜欢的博客"><a href="#喜欢的博客" class="headerlink" title="喜欢的博客"></a>喜欢的博客</h2><ul>
+<li><a href="https://blog.dorakika.cn/">DoraKika</a></li>
+<li><a href="https://kisstime.top/">银河漫游KK </a></li>
+<li><a href="https://chanshiyu.com/">蝉時雨 </a></li>
+<li><a href="https://www.fomal.cc/">Fomalhaut🥝</a></li>
+<li><a href="https://blog.xecades.xyz/">Xecades</a></li>
+<li><a href="https://write.skywt.cn/">SkyWrite</a></li>
+<li><a href="https://whisper.skywt.cn/">SkyWhisper – 低语 (skywt.cn)</a></li>
+<li><a href="https://timegg.top/">TIMEGG ｜ 放进时光蛋里</a></li>
+</ul>
+<h2 id="博客集合站"><a href="#博客集合站" class="headerlink" title="博客集合站"></a>博客集合站</h2><ul>
+<li><a href="http://www.jetli.com.cn/">博客志 - 优秀个人独立博客导航 </a></li>
+<li><a href="https://www.foreverblog.cn/go.html">虫洞-随机访问十年之约成员博客 </a></li>
+<li><a href="https://512kb.club/">512KB Club | A showcase of lightweight websites.</a></li>
+<li><a href="https://blogroll.icl.moe/">友链屋 | idealclover </a></li>
+<li><a href="https://travellings.cn/">开往-友链接力 </a></li>
+</ul>
+<h2 id="博客之始"><a href="#博客之始" class="headerlink" title="博客之始"></a>博客之始</h2><ul>
+<li><a href="https://maorx.cn/">毛若昕丨静水流深 </a></li>
+<li><a href="https://idealclover.top/">idealclover</a></li>
+<li><a href="https://www.yunyoujun.cn/">云游君的小站</a></li>
 </ul>
 ]]></content>
       <categories>
-        <category>备忘笔记</category>
+        <category>收藏小间</category>
       </categories>
       <tags>
-        <tag>笔记</tag>
-        <tag>天体物理</tag>
+        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -480,99 +573,6 @@
       <tags>
         <tag>笔记</tag>
         <tag>天体物理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>小发现</title>
-    <url>/posts/little-discoveries/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><script
-  type="text/javascript"
-  color="246,178,43"
-  pointColor="246,178,43"
-  opacity="0.7"
-  zIndex="2"
-  count="72"
-  src="https://gcore.jsdelivr.net/npm/canvas-nest.js/dist/canvas-nest.js"
-></script>
-
-
-
-<p>这篇文章记录了我的一些有点儿意思的小发现，并且会不断更新</p>
-<h3 id="直达QQ对话框的链接"><a href="#直达QQ对话框的链接" class="headerlink" title="直达QQ对话框的链接"></a>直达QQ对话框的链接</h3><p><code>http://wpa.qq.com/msgrd?v=3&amp;uin= 你的 QQ 号 &amp;site=qq&amp;menu=yes</code></p>
-<p>或者这个</p>
-<p><code>tencent://message/?uin= 你的 QQ 号 </code></p>
-<p>点击链接就会自动跳转到对应QQ号的对话框啦！</p>
-<p>（这是从<a href="https://idealclover.top/archives/545/">翠翠这</a>发现的）</p>
-<h3 id="实现网页背景线条效果（如此页效果）"><a href="#实现网页背景线条效果（如此页效果）" class="headerlink" title="实现网页背景线条效果（如此页效果）"></a>实现网页背景线条效果（如此页效果）</h3><p>将下面的代码插入到html的 <code>&lt;body&gt;</code> 和 <code>&lt;/body&gt;</code> 标签之间</p>
-<p>（也可直接粘贴至md文件中，本页就是如此）</p>
-<pre class="language-none"><code class="language-none">&lt;script
-  type&#x3D;&quot;text&#x2F;javascript&quot;
-  color&#x3D;&quot;246,178,43&quot;
-  pointColor&#x3D;&quot;246,178,43&quot;
-  opacity&#x3D;&quot;0.7&quot;
-  zIndex&#x3D;&quot;2&quot;
-  count&#x3D;&quot;72&quot;
-  src&#x3D;&quot;https:&#x2F;&#x2F;gcore.jsdelivr.net&#x2F;npm&#x2F;canvas-nest.js&#x2F;dist&#x2F;canvas-nest.js&quot;
-&gt;&lt;&#x2F;script&gt;</code></pre>
-
-<p>可配置：</p>
-<ul>
-<li><strong><code>color</code></strong> : 线条颜色, 默认: <code>&#39;0,0,0&#39;</code>；三个数字分别为(R,G,B)，注意用 <code>,</code> 分割</li>
-<li><strong><code>pointColor</code></strong>: 点颜色, 默认：<code>&#39;0,0,0&#39;</code>; RGB 格式.（注意：使用 <code>,</code> 分割）</li>
-<li><strong><code>opacity</code></strong> : 线条透明度（0~1）, 默认: <code>0.5</code></li>
-<li><strong><code>count</code></strong> : 线条的总数量, 默认: <code>99</code></li>
-<li><strong><code>zIndex</code></strong> : 背景的 <code>z-index</code> 属性，css 属性用于控制所在层的位置, 默认: <code>-1</code></li>
-</ul>
-<p>（这是从<a href="https://www.yunyoujun.cn/share/html5-canvas-nest-js/">云游这</a>发现的，最终来源于github的<a href="https://github.com/hustcc/canvas-nest.js/blob/master/README-zh.md">canvas-nest.js</a>）</p>
-]]></content>
-      <categories>
-        <category>收藏小间</category>
-      </categories>
-      <tags>
-        <tag>发现</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>收藏的博客</title>
-    <url>/posts/Bookmarked-Blog/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
-<p>记录自己收藏的一些博客，嗯</p>
-</blockquote>
-<h2 id="常看的博客"><a href="#常看的博客" class="headerlink" title="常看的博客"></a>常看的博客</h2><ul>
-<li><a href="https://tianheg.xyz/posts/"> 一大加贝 </a></li>
-<li><a href="https://conge.github.io/">Conge</a></li>
-<li><a href="https://guanqr.com/">荷戟独彷徨</a></li>
-<li><a href="https://www.fanyiming.life/">Eamon ‘s Blog - 生活嘛~那么矫情 </a></li>
-<li><a href="https://blog.liugezhou.online/">六个周 | enjoy day </a></li>
-</ul>
-<h2 id="喜欢的博客"><a href="#喜欢的博客" class="headerlink" title="喜欢的博客"></a>喜欢的博客</h2><ul>
-<li><a href="https://blog.dorakika.cn/">DoraKika</a></li>
-<li><a href="https://kisstime.top/">银河漫游KK </a></li>
-<li><a href="https://chanshiyu.com/">蝉時雨 </a></li>
-<li><a href="https://www.fomal.cc/">Fomalhaut🥝</a></li>
-<li><a href="https://blog.xecades.xyz/">Xecades</a></li>
-<li><a href="https://write.skywt.cn/">SkyWrite</a></li>
-<li><a href="https://whisper.skywt.cn/">SkyWhisper – 低语 (skywt.cn)</a></li>
-<li><a href="https://timegg.top/">TIMEGG ｜ 放进时光蛋里</a></li>
-</ul>
-<h2 id="博客集合站"><a href="#博客集合站" class="headerlink" title="博客集合站"></a>博客集合站</h2><ul>
-<li><a href="http://www.jetli.com.cn/">博客志 - 优秀个人独立博客导航 </a></li>
-<li><a href="https://www.foreverblog.cn/go.html">虫洞-随机访问十年之约成员博客 </a></li>
-<li><a href="https://512kb.club/">512KB Club | A showcase of lightweight websites.</a></li>
-<li><a href="https://blogroll.icl.moe/">友链屋 | idealclover </a></li>
-<li><a href="https://travellings.cn/">开往-友链接力 </a></li>
-</ul>
-<h2 id="博客之始"><a href="#博客之始" class="headerlink" title="博客之始"></a>博客之始</h2><ul>
-<li><a href="https://maorx.cn/">毛若昕丨静水流深 </a></li>
-<li><a href="https://idealclover.top/">idealclover</a></li>
-<li><a href="https://www.yunyoujun.cn/">云游君的小站</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>收藏小间</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
