@@ -108,42 +108,33 @@
       </tags>
   </entry>
   <entry>
-    <title>不是学生了呀</title>
-    <url>/posts/for-the-past-four-years/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
-<p>终于还是毕业了，这篇文章就当是我四年生活的一个句点吧。</p>
+    <title>blog运行小笔记</title>
+    <url>/posts/note-for-blog-working/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p><strong>写文章</strong><br> <strong>step1:</strong> 打开blog文件夹，并在里面空白处右击选择<code>Git Bash Here</code><br> <strong>step2:</strong> 在里面输入<code>hexo n 新文章名</code>，再回车<br> <strong>step3:</strong> 在blog文件夹中，进入source文件夹，再进入_posts文件夹，用宇宙最强编辑器vs code打开新建的文章</p>
+<blockquote>
+<p>其实也可以直接在source/_posts文件夹内新建markdown文件（可以先新建一个记事本txt文件再改后缀为md），然后直接在里面写文章，推荐Typora编辑器</p>
 </blockquote>
-
-    <div id="aplayer-xirPQqGT" class="aplayer aplayer-tag-marker meting-tag-marker"
-         data-id="1413374282" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FFCC66"
-    ></div>
-
-<h2 id="大学"><a href="#大学" class="headerlink" title="大学"></a>大学</h2><h3 id="独来独往"><a href="#独来独往" class="headerlink" title="独来独往"></a>独来独往</h3><p>如果要我说出能够贯穿我大学生活的几个字的话，我一定会选择【独来独往】这四个字，并不是因为身边的人不好才选择总是独来独往的，而是因为我自己的一种奇怪的感觉。</p>
-<p>说实话，这四年里，我自认为和周围的人相处的还不错，虽然几乎所有人都是点头之交，但大家对我都挺好的，是我性格的原因，也可能还有我身上的其他因素，我常常会因为和别人交际后而感到不安，能够明显感受到心脏会有种受到压迫的感觉，这是一种很不舒服的感觉，而且交际的对象是熟悉的人时这种感觉才更容易被激活，于是能不与人交流的地方我尽量不与人交流。<del>（大概我就是社恐本恐了吧）</del></p>
-<p>很多时候我甚至一天里除了打饭阿姨没和其他人说过一句话，每次上宿舍楼梯时是这种感觉最强烈的时候，因为知道马上要遇到舍友了，以至于我对上楼梯都有了条件反射，上其他楼梯时也总产生了这种感觉，有时我又会对这种不安的感觉本身而感到不安，有时我又会想到以人的普遍性来讲，世界上一定还有人和我有相同的感受，这样想来心中的不安也会消减一些。</p>
-<p>于是，四年里，一个人去图书馆，一个人去上课，一个人在操场夜跑，一个人去校外的湖边看风景……这些独属于我一个人的时间就慢慢遍布了我的大学生活。</p>
-<p>班级或是宿舍有什么聚餐或游玩之类的活动时我常常会纠结一番，我不想去，但时常又会想到身边的人对自己的一些看法，我知道我最终一定会选择不去的，但纠结时产生的不安感总会存在许久，只好用一些要遵从自己内心想法之类的话来试着说服自己。</p>
-<p>不和别人交流少不了会带来一些麻烦，记得大二的一次期末考试里，有门课的考试原来是有范围的，我没了解到，结果分挺低的，还有一门课因为报名参加小组合作的作业可以加分，我不喜欢小组任务，自然也没有这些分，<del>从那个学期以后，就没拿过年级第一了</del>。</p>
-<p>但其实，大部分的时间里，我是很喜欢一个人的世界的，离开宿舍，不用顾及其他人的意愿就可以去自己想去的地方，图书馆、森林小径或是湖边，不用理会多余的话语就可以学自己想学的东西，发展自己的兴趣爱好，不必和别人费劲的解释为什么你要做这个，为什么你要去那里，只要做自己当下想做的事就好。</p>
-<p>我可以午后捧着一本书，沉浸在另一个世界中，发觉天色黯淡时望向窗外，合上书本欣赏薄暮的晚霞；可以放着喜欢的歌，在操场夜跑，或是躺在操场的草坪上，一边看着猎户座的参宿一二三排成一条小直线，一边感叹宇宙的宏大和身边事物的微不足道；可以在心情不好的时候跑来人少的湖边，倚着栏杆吹着风，看着不知所求的鸭子游来游去……似乎这些就足够美好了。</p>
-<h3 id="图书馆"><a href="#图书馆" class="headerlink" title="图书馆"></a>图书馆</h3><p>大学四年里，除去睡觉时间的话，我呆在图书馆里的时间应该比在宿舍里的时间多些<del>（以至于莫名拿了个什么年度入馆前十证书）</del>，仔细想了想，上大学之前我的确是没有去过图书馆的，最多在某些商城的书店里呆过<del>（记得小时候在老家书店只看书不买书还会赶你走）</del>，所以当我第一次来到大学里的图书馆时，看着几楼各式各样的图书，是有不少震惊和激动的，当时就想着应该会在图书馆度过我的大部分校园时光（的确也实现了）。</p>
-<p>像个小孩一样，有空闲的时间就兴致勃勃的跑来图书馆，找到自己喜欢的书读起来，在<a href="https://www.douban.com/tag/BrianCox/book" style="color: black">Brian Cox</a>的宇宙里探寻世界之外的奇迹，在<a href="https://book.douban.com/author/4561353/books?sortby=collect&format=pic" style="color: black">大刘</a>的科幻中脱离现实的禁锢放空自己，在<a href="https://book.douban.com/author/4537266/books?sortby=collect&format=pic" style="color: black">东野圭吾</a>的小说中体会其他灵魂的人生……</p>
-<p>时而会觉得图书馆不是一座建筑那么简单，里面还存在着无数个世界。</p>
-<p>可能是出于一种不甘心或是其他什么类似的心理，尽管上了大学，却仍不想太过放松，学校课程的知识还是会好好学，学校课程的学习是在图书馆里要干的一大主事，老实说，我并没有什么学习的天赋，学习效率也不高，只能通过花比别人更多的时间来换取与投入不成比例的些许提升。</p>
-<p>其实早在大一的时候，我就已经确定毕业后想去更好的学校继续研读，而且傻乎乎的在四年里把一个可望而不可及的学校当成非去不可的奋斗目标，大二大三就疯狂收集那所学校的各种资料，了解各种文化，甚至打入其内部（指加入该学校社团等各种内部群），用他们的课本，听他们的网课……</p>
-<p>考研也是早早准备，只能说现实中不确定的因素太多了吧，没有能绝对成功的事，尽管自己已经对目标学校的部分选择放低了标准，还是未能如意，部分原因大概是过程中许多不好的事情我不能及时对自己的心理进行调解吧，有时会希望自己在现实中有一个朋友，能够彼此真心倾诉学习生活中不如意的事，但时而转念想到自己的性格，要包容我的独来独往与各种缺点，那该是个多完美的朋友才能恰好与我兼容呢。</p>
-<h3 id="操场"><a href="#操场" class="headerlink" title="操场"></a>操场</h3><p>我在大学里除了图书馆之外的第二个地方大概就是操场了，我的体质比较弱，上大学之前去医院是家常便饭了，经常扁桃体发炎，头晕，过敏什么的，但上大学以后感觉确实好了很多，整个四年下来也没几次感冒，就算有不舒服，吃点药也就好了，我把这归功于每天晚上的夜跑，于是就肯坚持一些了，记得在很长一段时间里，在操场跑够十圈再回宿舍，有音乐和星空的夜跑不会累。</p>
-<p>有时拿出手机对着夜空中的星星，笨拙地认识着这颗、那颗星星的名字，有时坐在或躺在草坪上，什么也不去想，放空自己，会意识到最近的烦心事都不算什么，能够衣食无忧地生活在这颗小星球上已经是件很幸运的事了呀。</p>
-<h2 id="毕业"><a href="#毕业" class="headerlink" title="毕业"></a>毕业</h2><p>每年看着学长学姐在毕业季围成一个弧形，穿着学士服拍毕业照，总会心生许多感慨，今年轮到自己了，却似乎并没有什么特别的感觉，只是心里想着：嗯，毕业就是这样嘛。</p>
-<p>只是还是会想到入学时在体育馆开的毕业典礼，军训时被大雨淋湿的衣服……四年里所有美好的瞬间应该都刻进了永恒的回忆了吧，虽然，不再是学生了，但求今后也别褪去那份稚气吧。</p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/main_interface/1632569128356.jpg" loading="lazy"></p>
+<p> <strong>step4:</strong> 就可以可以开始写啦！写完后记得保存<br> <strong>step5:</strong> 再打开Git Bash，依次输入<code>hexo c</code> <code>hexo g</code> <code>hexo d</code>(注意看有没有报错或警告啊)</p>
+<blockquote>
+<p>当然也可以随时在输入<code>hexo s</code>后在<a href="http://localhost:4000/">本地</a>查看自己的网站</p>
+</blockquote>
+<p><strong>step6:</strong> 再输入 <code>sh update.sh</code>运行之前写好的bash脚本，以完成博客源文件推送到gitee目标仓库hexo分支上实现备份</p>
+<blockquote>
+<p>可以在update.sh文件中更改info=”~“中的~来描述此次要在仓库中显示的更新说明</p>
+</blockquote>
+<p><strong>step7:</strong> 打开码云的<a href="https://gitee.com/jollylight/jollylight/pages">gitee page页面</a>，点击更新，等待片刻<br> <strong>step8:</strong> 就OK啦！</p>
+<p>（这么简单为什么写出来，因为我真的是小白啊QAQ）</p>
+<p><del>（主要也怕自己太久没写博客忘了）</del></p>
+<h1 id="linux常用命令-即git-bash下"><a href="#linux常用命令-即git-bash下" class="headerlink" title="linux常用命令(即git bash下)"></a>linux常用命令(即git bash下)</h1><p><kbd>Ctrl</kbd>+<kbd>Insert </kbd>: 复制</p>
+<p><kbd>Shift</kbd>+<kbd>Insert </kbd>: 粘贴</p>
+<h1 id="其他常用"><a href="#其他常用" class="headerlink" title="其他常用"></a>其他常用</h1><p><strong>blog主颜色</strong>：<font color=#FFCC66>#FFCC66</font></p>
 ]]></content>
       <categories>
-        <category>时间沙漏</category>
+        <category>备忘笔记</category>
       </categories>
       <tags>
-        <tag>时光</tag>
-        <tag>毕业</tag>
+        <tag>笔记</tag>
+        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -194,33 +185,42 @@
       </tags>
   </entry>
   <entry>
-    <title>blog运行小笔记</title>
-    <url>/posts/note-for-blog-working/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p><strong>写文章</strong><br> <strong>step1:</strong> 打开blog文件夹，并在里面空白处右击选择<code>Git Bash Here</code><br> <strong>step2:</strong> 在里面输入<code>hexo n 新文章名</code>，再回车<br> <strong>step3:</strong> 在blog文件夹中，进入source文件夹，再进入_posts文件夹，用宇宙最强编辑器vs code打开新建的文章</p>
-<blockquote>
-<p>其实也可以直接在source/_posts文件夹内新建markdown文件（可以先新建一个记事本txt文件再改后缀为md），然后直接在里面写文章，推荐Typora编辑器</p>
+    <title>不是学生了呀</title>
+    <url>/posts/for-the-past-four-years/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
+<p>终于还是毕业了，这篇文章就当是我四年生活的一个句点吧。</p>
 </blockquote>
-<p> <strong>step4:</strong> 就可以可以开始写啦！写完后记得保存<br> <strong>step5:</strong> 再打开Git Bash，依次输入<code>hexo c</code> <code>hexo g</code> <code>hexo d</code>(注意看有没有报错或警告啊)</p>
-<blockquote>
-<p>当然也可以随时在输入<code>hexo s</code>后在<a href="http://localhost:4000/">本地</a>查看自己的网站</p>
-</blockquote>
-<p><strong>step6:</strong> 再输入 <code>sh update.sh</code>运行之前写好的bash脚本，以完成博客源文件推送到gitee目标仓库hexo分支上实现备份</p>
-<blockquote>
-<p>可以在update.sh文件中更改info=”~“中的~来描述此次要在仓库中显示的更新说明</p>
-</blockquote>
-<p><strong>step7:</strong> 打开码云的<a href="https://gitee.com/jollylight/jollylight/pages">gitee page页面</a>，点击更新，等待片刻<br> <strong>step8:</strong> 就OK啦！</p>
-<p>（这么简单为什么写出来，因为我真的是小白啊QAQ）</p>
-<p><del>（主要也怕自己太久没写博客忘了）</del></p>
-<h1 id="linux常用命令-即git-bash下"><a href="#linux常用命令-即git-bash下" class="headerlink" title="linux常用命令(即git bash下)"></a>linux常用命令(即git bash下)</h1><p><kbd>Ctrl</kbd>+<kbd>Insert </kbd>: 复制</p>
-<p><kbd>Shift</kbd>+<kbd>Insert </kbd>: 粘贴</p>
-<h1 id="其他常用"><a href="#其他常用" class="headerlink" title="其他常用"></a>其他常用</h1><p><strong>blog主颜色</strong>：<font color=#FFCC66>#FFCC66</font></p>
+
+    <div id="aplayer-JTrhUjxB" class="aplayer aplayer-tag-marker meting-tag-marker"
+         data-id="1413374282" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FFCC66"
+    ></div>
+
+<h2 id="大学"><a href="#大学" class="headerlink" title="大学"></a>大学</h2><h3 id="独来独往"><a href="#独来独往" class="headerlink" title="独来独往"></a>独来独往</h3><p>如果要我说出能够贯穿我大学生活的几个字的话，我一定会选择【独来独往】这四个字，并不是因为身边的人不好才选择总是独来独往的，而是因为我自己的一种奇怪的感觉。</p>
+<p>说实话，这四年里，我自认为和周围的人相处的还不错，虽然几乎所有人都是点头之交，但大家对我都挺好的，是我性格的原因，也可能还有我身上的其他因素，我常常会因为和别人交际后而感到不安，能够明显感受到心脏会有种受到压迫的感觉，这是一种很不舒服的感觉，而且交际的对象是熟悉的人时这种感觉才更容易被激活，于是能不与人交流的地方我尽量不与人交流。<del>（大概我就是社恐本恐了吧）</del></p>
+<p>很多时候我甚至一天里除了打饭阿姨没和其他人说过一句话，每次上宿舍楼梯时是这种感觉最强烈的时候，因为知道马上要遇到舍友了，以至于我对上楼梯都有了条件反射，上其他楼梯时也总产生了这种感觉，有时我又会对这种不安的感觉本身而感到不安，有时我又会想到以人的普遍性来讲，世界上一定还有人和我有相同的感受，这样想来心中的不安也会消减一些。</p>
+<p>于是，四年里，一个人去图书馆，一个人去上课，一个人在操场夜跑，一个人去校外的湖边看风景……这些独属于我一个人的时间就慢慢遍布了我的大学生活。</p>
+<p>班级或是宿舍有什么聚餐或游玩之类的活动时我常常会纠结一番，我不想去，但时常又会想到身边的人对自己的一些看法，我知道我最终一定会选择不去的，但纠结时产生的不安感总会存在许久，只好用一些要遵从自己内心想法之类的话来试着说服自己。</p>
+<p>不和别人交流少不了会带来一些麻烦，记得大二的一次期末考试里，有门课的考试原来是有范围的，我没了解到，结果分挺低的，还有一门课因为报名参加小组合作的作业可以加分，我不喜欢小组任务，自然也没有这些分，<del>从那个学期以后，就没拿过年级第一了</del>。</p>
+<p>但其实，大部分的时间里，我是很喜欢一个人的世界的，离开宿舍，不用顾及其他人的意愿就可以去自己想去的地方，图书馆、森林小径或是湖边，不用理会多余的话语就可以学自己想学的东西，发展自己的兴趣爱好，不必和别人费劲的解释为什么你要做这个，为什么你要去那里，只要做自己当下想做的事就好。</p>
+<p>我可以午后捧着一本书，沉浸在另一个世界中，发觉天色黯淡时望向窗外，合上书本欣赏薄暮的晚霞；可以放着喜欢的歌，在操场夜跑，或是躺在操场的草坪上，一边看着猎户座的参宿一二三排成一条小直线，一边感叹宇宙的宏大和身边事物的微不足道；可以在心情不好的时候跑来人少的湖边，倚着栏杆吹着风，看着不知所求的鸭子游来游去……似乎这些就足够美好了。</p>
+<h3 id="图书馆"><a href="#图书馆" class="headerlink" title="图书馆"></a>图书馆</h3><p>大学四年里，除去睡觉时间的话，我呆在图书馆里的时间应该比在宿舍里的时间多些<del>（以至于莫名拿了个什么年度入馆前十证书）</del>，仔细想了想，上大学之前我的确是没有去过图书馆的，最多在某些商城的书店里呆过<del>（记得小时候在老家书店只看书不买书还会赶你走）</del>，所以当我第一次来到大学里的图书馆时，看着几楼各式各样的图书，是有不少震惊和激动的，当时就想着应该会在图书馆度过我的大部分校园时光（的确也实现了）。</p>
+<p>像个小孩一样，有空闲的时间就兴致勃勃的跑来图书馆，找到自己喜欢的书读起来，在<a href="https://www.douban.com/tag/BrianCox/book" style="color: black">Brian Cox</a>的宇宙里探寻世界之外的奇迹，在<a href="https://book.douban.com/author/4561353/books?sortby=collect&format=pic" style="color: black">大刘</a>的科幻中脱离现实的禁锢放空自己，在<a href="https://book.douban.com/author/4537266/books?sortby=collect&format=pic" style="color: black">东野圭吾</a>的小说中体会其他灵魂的人生……</p>
+<p>时而会觉得图书馆不是一座建筑那么简单，里面还存在着无数个世界。</p>
+<p>可能是出于一种不甘心或是其他什么类似的心理，尽管上了大学，却仍不想太过放松，学校课程的知识还是会好好学，学校课程的学习是在图书馆里要干的一大主事，老实说，我并没有什么学习的天赋，学习效率也不高，只能通过花比别人更多的时间来换取与投入不成比例的些许提升。</p>
+<p>其实早在大一的时候，我就已经确定毕业后想去更好的学校继续研读，而且傻乎乎的在四年里把一个可望而不可及的学校当成非去不可的奋斗目标，大二大三就疯狂收集那所学校的各种资料，了解各种文化，甚至打入其内部（指加入该学校社团等各种内部群），用他们的课本，听他们的网课……</p>
+<p>考研也是早早准备，只能说现实中不确定的因素太多了吧，没有能绝对成功的事，尽管自己已经对目标学校的部分选择放低了标准，还是未能如意，部分原因大概是过程中许多不好的事情我不能及时对自己的心理进行调解吧，有时会希望自己在现实中有一个朋友，能够彼此真心倾诉学习生活中不如意的事，但时而转念想到自己的性格，要包容我的独来独往与各种缺点，那该是个多完美的朋友才能恰好与我兼容呢。</p>
+<h3 id="操场"><a href="#操场" class="headerlink" title="操场"></a>操场</h3><p>我在大学里除了图书馆之外的第二个地方大概就是操场了，我的体质比较弱，上大学之前去医院是家常便饭了，经常扁桃体发炎，头晕，过敏什么的，但上大学以后感觉确实好了很多，整个四年下来也没几次感冒，就算有不舒服，吃点药也就好了，我把这归功于每天晚上的夜跑，于是就肯坚持一些了，记得在很长一段时间里，在操场跑够十圈再回宿舍，有音乐和星空的夜跑不会累。</p>
+<p>有时拿出手机对着夜空中的星星，笨拙地认识着这颗、那颗星星的名字，有时坐在或躺在草坪上，什么也不去想，放空自己，会意识到最近的烦心事都不算什么，能够衣食无忧地生活在这颗小星球上已经是件很幸运的事了呀。</p>
+<h2 id="毕业"><a href="#毕业" class="headerlink" title="毕业"></a>毕业</h2><p>每年看着学长学姐在毕业季围成一个弧形，穿着学士服拍毕业照，总会心生许多感慨，今年轮到自己了，却似乎并没有什么特别的感觉，只是心里想着：嗯，毕业就是这样嘛。</p>
+<p>只是还是会想到入学时在体育馆开的毕业典礼，军训时被大雨淋湿的衣服……四年里所有美好的瞬间应该都刻进了永恒的回忆了吧，虽然，不再是学生了，但求今后也别褪去那份稚气吧。</p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/main_interface/1632569128356.jpg" loading="lazy"></p>
 ]]></content>
       <categories>
-        <category>备忘笔记</category>
+        <category>时间沙漏</category>
       </categories>
       <tags>
-        <tag>笔记</tag>
-        <tag>blog</tag>
+        <tag>时光</tag>
+        <tag>毕业</tag>
       </tags>
   </entry>
   <entry>
@@ -240,12 +240,6 @@
         <tag>写歌</tag>
         <tag>爱好</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>你好！银河系第三旋臂上的小星星！</title>
-    <url>/posts/hello-galaxy/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天是10月29日，第一篇博客文章呢！</p>
-]]></content>
   </entry>
   <entry>
     <title>兴趣爱好浅思</title>
@@ -288,6 +282,44 @@
       <tags>
         <tag>生活</tag>
         <tag>爱好</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>你好！银河系第三旋臂上的小星星！</title>
+    <url>/posts/hello-galaxy/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天是10月29日，第一篇博客文章呢！</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>天体模型收藏盒</title>
+    <url>/posts/summary-of-celestial-models/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
+<p>3D模型取自NASA</p>
+<p>加载可能需要一些时间，请耐心等待~</p>
+</blockquote>
+<h2 id="月球"><a href="#月球" class="headerlink" title="月球"></a>月球</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2366' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="水星"><a href="#水星" class="headerlink" title="水星"></a>水星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2369' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="金星"><a href="#金星" class="headerlink" title="金星"></a>金星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2343' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="火星"><a href="#火星" class="headerlink" title="火星"></a>火星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2372' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="木星"><a href="#木星" class="headerlink" title="木星"></a>木星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2375' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="土星"><a href="#土星" class="headerlink" title="土星"></a>土星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2355' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="天王星"><a href="#天王星" class="headerlink" title="天王星"></a>天王星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2344' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="海王星"><a href="#海王星" class="headerlink" title="海王星"></a>海王星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2364' width='100%' height='400px' frameborder='0'></iframe>
+
+]]></content>
+      <categories>
+        <category>收藏小间</category>
+      </categories>
+      <tags>
+        <tag>天体</tag>
+        <tag>三维</tag>
       </tags>
   </entry>
   <entry>
@@ -389,131 +421,6 @@
       </tags>
   </entry>
   <entry>
-    <title>小发现</title>
-    <url>/posts/little-discoveries/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><script
-  type="text/javascript"
-  color="246,178,43"
-  pointColor="246,178,43"
-  opacity="0.7"
-  zIndex="2"
-  count="72"
-  src="https://gcore.jsdelivr.net/npm/canvas-nest.js/dist/canvas-nest.js"
-></script>
-
-
-
-<p>这篇文章记录了我的一些有点儿意思的小发现，并且会不断更新</p>
-<h3 id="直达QQ对话框的链接"><a href="#直达QQ对话框的链接" class="headerlink" title="直达QQ对话框的链接"></a>直达QQ对话框的链接</h3><p><code>http://wpa.qq.com/msgrd?v=3&amp;uin= 你的 QQ 号 &amp;site=qq&amp;menu=yes</code></p>
-<p>或者这个</p>
-<p><code>tencent://message/?uin= 你的 QQ 号 </code></p>
-<p>点击链接就会自动跳转到对应QQ号的对话框啦！</p>
-<p>（这是从<a href="https://idealclover.top/archives/545/">翠翠这</a>发现的）</p>
-<h3 id="实现网页背景线条效果（如此页效果）"><a href="#实现网页背景线条效果（如此页效果）" class="headerlink" title="实现网页背景线条效果（如此页效果）"></a>实现网页背景线条效果（如此页效果）</h3><p>将下面的代码插入到html的 <code>&lt;body&gt;</code> 和 <code>&lt;/body&gt;</code> 标签之间</p>
-<p>（也可直接粘贴至md文件中，本页就是如此）</p>
-<pre class="language-none"><code class="language-none">&lt;script
-  type&#x3D;&quot;text&#x2F;javascript&quot;
-  color&#x3D;&quot;246,178,43&quot;
-  pointColor&#x3D;&quot;246,178,43&quot;
-  opacity&#x3D;&quot;0.7&quot;
-  zIndex&#x3D;&quot;2&quot;
-  count&#x3D;&quot;72&quot;
-  src&#x3D;&quot;https:&#x2F;&#x2F;gcore.jsdelivr.net&#x2F;npm&#x2F;canvas-nest.js&#x2F;dist&#x2F;canvas-nest.js&quot;
-&gt;&lt;&#x2F;script&gt;</code></pre>
-
-<p>可配置：</p>
-<ul>
-<li><strong><code>color</code></strong> : 线条颜色, 默认: <code>&#39;0,0,0&#39;</code>；三个数字分别为(R,G,B)，注意用 <code>,</code> 分割</li>
-<li><strong><code>pointColor</code></strong>: 点颜色, 默认：<code>&#39;0,0,0&#39;</code>; RGB 格式.（注意：使用 <code>,</code> 分割）</li>
-<li><strong><code>opacity</code></strong> : 线条透明度（0~1）, 默认: <code>0.5</code></li>
-<li><strong><code>count</code></strong> : 线条的总数量, 默认: <code>99</code></li>
-<li><strong><code>zIndex</code></strong> : 背景的 <code>z-index</code> 属性，css 属性用于控制所在层的位置, 默认: <code>-1</code></li>
-</ul>
-<p>（这是从<a href="https://www.yunyoujun.cn/share/html5-canvas-nest-js/">云游这</a>发现的，最终来源于github的<a href="https://github.com/hustcc/canvas-nest.js/blob/master/README-zh.md">canvas-nest.js</a>）</p>
-]]></content>
-      <categories>
-        <category>收藏小间</category>
-      </categories>
-      <tags>
-        <tag>发现</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>天体模型收藏盒</title>
-    <url>/posts/summary-of-celestial-models/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
-<p>3D模型取自NASA</p>
-<p>加载可能需要一些时间，请耐心等待~</p>
-</blockquote>
-<h2 id="月球"><a href="#月球" class="headerlink" title="月球"></a>月球</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2366' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="水星"><a href="#水星" class="headerlink" title="水星"></a>水星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2369' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="金星"><a href="#金星" class="headerlink" title="金星"></a>金星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2343' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="火星"><a href="#火星" class="headerlink" title="火星"></a>火星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2372' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="木星"><a href="#木星" class="headerlink" title="木星"></a>木星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2375' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="土星"><a href="#土星" class="headerlink" title="土星"></a>土星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2355' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="天王星"><a href="#天王星" class="headerlink" title="天王星"></a>天王星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2344' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="海王星"><a href="#海王星" class="headerlink" title="海王星"></a>海王星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2364' width='100%' height='400px' frameborder='0'></iframe>
-
-]]></content>
-      <categories>
-        <category>收藏小间</category>
-      </categories>
-      <tags>
-        <tag>天体</tag>
-        <tag>三维</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>收藏的博客</title>
-    <url>/posts/Bookmarked-Blog/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
-<p>记录自己收藏的一些博客，嗯</p>
-</blockquote>
-<h2 id="常看的博客"><a href="#常看的博客" class="headerlink" title="常看的博客"></a>常看的博客</h2><ul>
-<li><a href="https://tianheg.xyz/posts/"> 一大加贝 </a></li>
-<li><a href="https://conge.github.io/">Conge</a></li>
-<li><a href="https://guanqr.com/">荷戟独彷徨</a></li>
-<li><a href="https://www.fanyiming.life/">Eamon ‘s Blog - 生活嘛~那么矫情 </a></li>
-<li><a href="https://blog.liugezhou.online/">六个周 | enjoy day </a></li>
-</ul>
-<h2 id="喜欢的博客"><a href="#喜欢的博客" class="headerlink" title="喜欢的博客"></a>喜欢的博客</h2><ul>
-<li><a href="https://blog.dorakika.cn/">DoraKika</a></li>
-<li><a href="https://kisstime.top/">银河漫游KK </a></li>
-<li><a href="https://chanshiyu.com/">蝉時雨 </a></li>
-<li><a href="https://www.fomal.cc/">Fomalhaut🥝</a></li>
-<li><a href="https://blog.xecades.xyz/">Xecades</a></li>
-<li><a href="https://write.skywt.cn/">SkyWrite</a></li>
-<li><a href="https://whisper.skywt.cn/">SkyWhisper – 低语 (skywt.cn)</a></li>
-<li><a href="https://timegg.top/">TIMEGG ｜ 放进时光蛋里</a></li>
-</ul>
-<h2 id="博客集合站"><a href="#博客集合站" class="headerlink" title="博客集合站"></a>博客集合站</h2><ul>
-<li><a href="http://www.jetli.com.cn/">博客志 - 优秀个人独立博客导航 </a></li>
-<li><a href="https://www.foreverblog.cn/go.html">虫洞-随机访问十年之约成员博客 </a></li>
-<li><a href="https://512kb.club/">512KB Club | A showcase of lightweight websites.</a></li>
-<li><a href="https://blogroll.icl.moe/">友链屋 | idealclover </a></li>
-<li><a href="https://travellings.cn/">开往-友链接力 </a></li>
-</ul>
-<h2 id="博客之始"><a href="#博客之始" class="headerlink" title="博客之始"></a>博客之始</h2><ul>
-<li><a href="https://maorx.cn/">毛若昕丨静水流深 </a></li>
-<li><a href="https://idealclover.top/">idealclover</a></li>
-<li><a href="https://www.yunyoujun.cn/">云游君的小站</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>收藏小间</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>天体物理学习笔记（二）——基本天体物理量</title>
     <url>/posts/note-for-astrophysics-learning-2/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="一、基本天体物理量"><a href="#一、基本天体物理量" class="headerlink" title="一、基本天体物理量"></a>一、基本天体物理量</h2><h3 id="1-星等"><a href="#1-星等" class="headerlink" title="1.星等"></a>1.星等</h3><p>（1）<strong>【视星等】</strong>：m<br>$$\frac{E_1}{E_2}=100^{\frac{ {m_2}-{m_1} }5}$$</p>
@@ -576,6 +483,56 @@
       </tags>
   </entry>
   <entry>
+    <title>小发现</title>
+    <url>/posts/little-discoveries/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><script
+  type="text/javascript"
+  color="246,178,43"
+  pointColor="246,178,43"
+  opacity="0.7"
+  zIndex="2"
+  count="72"
+  src="https://gcore.jsdelivr.net/npm/canvas-nest.js/dist/canvas-nest.js"
+></script>
+
+
+
+<p>这篇文章记录了我的一些有点儿意思的小发现，并且会不断更新</p>
+<h3 id="直达QQ对话框的链接"><a href="#直达QQ对话框的链接" class="headerlink" title="直达QQ对话框的链接"></a>直达QQ对话框的链接</h3><p><code>http://wpa.qq.com/msgrd?v=3&amp;uin= 你的 QQ 号 &amp;site=qq&amp;menu=yes</code></p>
+<p>或者这个</p>
+<p><code>tencent://message/?uin= 你的 QQ 号 </code></p>
+<p>点击链接就会自动跳转到对应QQ号的对话框啦！</p>
+<p>（这是从<a href="https://idealclover.top/archives/545/">翠翠这</a>发现的）</p>
+<h3 id="实现网页背景线条效果（如此页效果）"><a href="#实现网页背景线条效果（如此页效果）" class="headerlink" title="实现网页背景线条效果（如此页效果）"></a>实现网页背景线条效果（如此页效果）</h3><p>将下面的代码插入到html的 <code>&lt;body&gt;</code> 和 <code>&lt;/body&gt;</code> 标签之间</p>
+<p>（也可直接粘贴至md文件中，本页就是如此）</p>
+<pre class="language-none"><code class="language-none">&lt;script
+  type&#x3D;&quot;text&#x2F;javascript&quot;
+  color&#x3D;&quot;246,178,43&quot;
+  pointColor&#x3D;&quot;246,178,43&quot;
+  opacity&#x3D;&quot;0.7&quot;
+  zIndex&#x3D;&quot;2&quot;
+  count&#x3D;&quot;72&quot;
+  src&#x3D;&quot;https:&#x2F;&#x2F;gcore.jsdelivr.net&#x2F;npm&#x2F;canvas-nest.js&#x2F;dist&#x2F;canvas-nest.js&quot;
+&gt;&lt;&#x2F;script&gt;</code></pre>
+
+<p>可配置：</p>
+<ul>
+<li><strong><code>color</code></strong> : 线条颜色, 默认: <code>&#39;0,0,0&#39;</code>；三个数字分别为(R,G,B)，注意用 <code>,</code> 分割</li>
+<li><strong><code>pointColor</code></strong>: 点颜色, 默认：<code>&#39;0,0,0&#39;</code>; RGB 格式.（注意：使用 <code>,</code> 分割）</li>
+<li><strong><code>opacity</code></strong> : 线条透明度（0~1）, 默认: <code>0.5</code></li>
+<li><strong><code>count</code></strong> : 线条的总数量, 默认: <code>99</code></li>
+<li><strong><code>zIndex</code></strong> : 背景的 <code>z-index</code> 属性，css 属性用于控制所在层的位置, 默认: <code>-1</code></li>
+</ul>
+<p>（这是从<a href="https://www.yunyoujun.cn/share/html5-canvas-nest-js/">云游这</a>发现的，最终来源于github的<a href="https://github.com/hustcc/canvas-nest.js/blob/master/README-zh.md">canvas-nest.js</a>）</p>
+]]></content>
+      <categories>
+        <category>收藏小间</category>
+      </categories>
+      <tags>
+        <tag>发现</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>常用快捷键小记</title>
     <url>/posts/Notes-on-common-shortcut-keys/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>这篇文章可能对你没什么帮助，_(:з)∠)_主要是记给自己看的，只记录了我个人觉得应该常用但我不常用的快捷键(*/ω＼*)，没有列出我很熟悉的与很不熟悉的快捷键<del>(如果你真那么巧恰好和我熟悉的和不熟悉的快捷键一样那就应该对你也有很大帮助)</del> </p>
@@ -624,6 +581,49 @@
       </tags>
   </entry>
   <entry>
+    <title>收藏的博客</title>
+    <url>/posts/Bookmarked-Blog/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
+<p>记录自己收藏的一些博客，嗯</p>
+</blockquote>
+<h2 id="常看的博客"><a href="#常看的博客" class="headerlink" title="常看的博客"></a>常看的博客</h2><ul>
+<li><a href="https://tianheg.xyz/posts/"> 一大加贝 </a></li>
+<li><a href="https://conge.github.io/">Conge</a></li>
+<li><a href="https://guanqr.com/">荷戟独彷徨</a></li>
+<li><a href="https://www.fanyiming.life/">Eamon ‘s Blog - 生活嘛~那么矫情 </a></li>
+<li><a href="https://blog.liugezhou.online/">六个周 | enjoy day </a></li>
+</ul>
+<h2 id="喜欢的博客"><a href="#喜欢的博客" class="headerlink" title="喜欢的博客"></a>喜欢的博客</h2><ul>
+<li><a href="https://blog.dorakika.cn/">DoraKika</a></li>
+<li><a href="https://kisstime.top/">银河漫游KK </a></li>
+<li><a href="https://chanshiyu.com/">蝉時雨 </a></li>
+<li><a href="https://www.fomal.cc/">Fomalhaut🥝</a></li>
+<li><a href="https://blog.xecades.xyz/">Xecades</a></li>
+<li><a href="https://write.skywt.cn/">SkyWrite</a></li>
+<li><a href="https://whisper.skywt.cn/">SkyWhisper – 低语 (skywt.cn)</a></li>
+<li><a href="https://timegg.top/">TIMEGG ｜ 放进时光蛋里</a></li>
+</ul>
+<h2 id="博客集合站"><a href="#博客集合站" class="headerlink" title="博客集合站"></a>博客集合站</h2><ul>
+<li><a href="http://www.jetli.com.cn/">博客志 - 优秀个人独立博客导航 </a></li>
+<li><a href="https://www.foreverblog.cn/go.html">虫洞-随机访问十年之约成员博客 </a></li>
+<li><a href="https://512kb.club/">512KB Club | A showcase of lightweight websites.</a></li>
+<li><a href="https://blogroll.icl.moe/">友链屋 | idealclover </a></li>
+<li><a href="https://travellings.cn/">开往-友链接力 </a></li>
+</ul>
+<h2 id="博客之始"><a href="#博客之始" class="headerlink" title="博客之始"></a>博客之始</h2><ul>
+<li><a href="https://maorx.cn/">毛若昕丨静水流深 </a></li>
+<li><a href="https://idealclover.top/">idealclover</a></li>
+<li><a href="https://www.yunyoujun.cn/">云游君的小站</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>收藏小间</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>状态与感受小记——2023.02.26</title>
     <url>/posts/feeling%20notes230226/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="一些杂谈"><a href="#一些杂谈" class="headerlink" title="一些杂谈"></a>一些杂谈</h2><p>从高中开始，我一直这么认为：记录当下发生的事情和即时产生的感受是一件很有意义的事情，某天翻起这些记录的时候会很容易将自己带入到当时的场景中，或开心、或难过、或再一次感同身受、亦或能以一种局外人的视角来看待当时这件事情本身，也不失为一种对过往的总结。</p>
@@ -660,14 +660,15 @@
       </tags>
   </entry>
   <entry>
-    <title>生活小记（2）</title>
-    <url>/posts/the-life-of-neutrino-2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>2023年8月9日</p>
-<p>最近的心情很糟，我需要重新思考工作、生活还有自己的未来了。</p>
-<p>不得不承认，这份工作教会了我很多东西，甚至自己的性格也产生了一些积极的改变，很长一段时间里我都觉得，尽管这份工作称不上是十分喜欢，但至少自己可以胜任，工作内容也并非乏味不堪，也算是自己可以接受的程度。但这次的绩效结果让我必须重新思考这份工作，绩效的规则十分荒谬，在该套规则下，无论你多努力工作，多认真负责，能力多强，即使没有任何工作失误，都可能需要承担差绩效的结果。尽管所有人都明白这一点，绩效差并不意味着什么，但差绩效给自己带来的负面影响却是真实存在的，除了这个季度少几千块钱，还将限制一年的发展机会。</p>
-<p>或许正是因为这次的事情，我才开始思考早该思考的一些问题，我到底想过一种怎样的生活，这个问题我很早就给过自己答案：平淡，波澜不惊的生活，有足够的空余时间做自己喜欢的事情。但我之前并没有思考这样的生活需要怎样具体的工作，我现在的想法是，我可以接受两种工作，一种是自己可能不算太喜欢，但也不讨厌的工作，不用加班，薪资不用太高；另一种是自己热爱的工作，所做的事情能够激发自己的热情，展现自己的想法和创造性的思维，完成之后的成品是会让自己觉得付出是值得的，有成就感的，加班与否取决于自己的工作效率，并且可以真实的通过提升自己的效率实现不加班或极少数情况加班，薪资比前者高。我认为这两种工作一定存在的，但没有把握自己能够找到。</p>
-<p>得到这个结果让自己心情很差的另一个重要原因是，在这个加班成常态的环境里，事实上自己已经牺牲了大量生活的时间，嗯，实在不值得。我很喜欢一个名为“如果没有加班，世界将会怎样”的问题的回答：回到家的时候，天还没全黑，楼道里都是香气，有的人家炒鸡，有的人家烧鱼。吃了饭，还有时间遛遛弯，公园里爸爸在教孩子骑车，还有几个小孩拿着手电筒跑，光柱扫过树丛，叶子沙沙的响。</p>
-<p>现在，自己并没有明确的方向，可以说还处在一丝迷茫之中，但做自己喜欢的事情不会停下，生活也不会停下，一边前进，一边寻找到达自己想要的未来的方法。</p>
+    <title>生活小记（3）</title>
+    <url>/posts/the-life-of-neutrino-3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>2023年9月10日</p>
+<p>今天是周日，不过早上五点多就醒了，发现天还没亮，接着躺在床上半睡半醒，想着今天自己的计划，似乎什么也不想做，心里有些乱，突然就想弹会儿琴平静一下浮躁的心，于是立刻起床洗漱弹了起来，其实自己也因为各种借口连续几天没有练琴了，大清早的估计附近的人还没起，戴上了很久没带的有线耳机，耳机的音质的确比外放的琴声要好一些，弹起来，感觉虽然闲置了几天，但弹的比之前更顺了，手指也灵活了一些，联想到坏的机器不去动它，放一段时间自然会好的神奇现象。</p>
+<p>之后觉得心情不错，看着外面天气是阴天，十分凉爽，想骑单车，于是又骑了快十公里去了图书馆，来之前看好一本书叫《像哲学家一样生活》，不过没有找到，但还是想看关于哲学的书，于是找来之前一直想看又因为形式是对话而不想看的柏拉图的《理想国》，看了前面两卷，主要想探讨什么是正义的问题，又引申到对”不正义比正义更快乐”这个命题的辩驳。也让自己思考了一些事情，难以想象，两千多年前就有人开始思考这些深奥的哲学问题，思考着怎么让人类社会变得更好。但时间过去了两千多年，社会仍然存在着大量的问题没有解决，人类已经发展了这么长时间，还是现在这个样子，歧视、偏见、贫富差距以及各种不平等……虽然很傲慢但还是忍不住想说，个人对此真的很失望，或许的确像许多科幻小说中描述的那样，人性使然，即使再过几千年几万年甚至在宇宙的时间尺度上，人类依然是这样，但我还是更愿倾向相信在更长的时间之后，我们能够真的实现所谓的乌托邦。</p>
+<p>扯远了，回到自己的生活，之后，突然想在这周边骑车转转，这边的环境的确不错，绿树成荫，空气清新，道路规划分明，骑回去的路上也在想，上班的地方离图书馆不远，或是在交通能够便利到达的地方，确实是一件不错的事情。回去之后在附近的商场买了些东西然后回来煮面，是很简单的一天……</p>
+<p>最近自己的状态已经不一样了，这周可以说是轻松的一周，因为我几乎都没加班，六点多就回去了，最近的事情少是原因之一，但不足以作为支撑六点下班的理由，主要是自己心态的变化，并且开始真的找新的工作了，想到之前自己定义的自己能够接受的那两种工作（“平淡、不加班、工资一般”和“热爱、存在但少加班、工资较高”），实际上到现在我的想法依然没有变，还是这样，但可能更偏向于像前者那样的工作了。自己现在这种不加班的状态，仔细想来，已经在接近自己想要的生活了，的确会让自己产生我还可以继续在这里待下去的错觉，但必须清醒这只是暂时的，无法长期这样下去，必须找新的出路。目前只投了一些门槛很高的公司，不出意料都石沉大海了，今天又明确了自己的预期，筛选了一些过后发现其实还是有很多机会的。</p>
+<p>最近补了一部旧番《只有我不在的街道》，印象很深，耐人寻味，其想要表达的主题有很多，但最让我有所启发的是原本平凡的主角在之后的一系列充满勇气的行为，以及那句或许不完全正确，但我仍十分喜欢的话：“充满勇气的行为一定会迎来美满的结局。”</p>
+<p>前一阵子感冒了，持续了差不多两周，通常自己感冒都能在两三天内自愈，而这次甚至吃了药还持续了这么久，想到可能和运动减少了有关，之前在大学里每天跑步，而现在几乎没有。我深刻地意识到，健康真的很重要，于是给自己定了一些计划 <del>（嗯我是infj本j）</del>，主要是作息和运动两个方面，还有一些生活中的小事，希望自己能够享受其中而不是觉得受其限制。整理好房间，健康的作息，适当的运动，一个人安静的弹琴，书海里阅读，看好看的风景……想来，能够好好生活真的是一件很幸福的事情，甚至想要补充之前自己<a href="../the-goal-of-my-life" target="_blank">布局</a>下缺失的主线任务为：<strong>享受生活中美好的事物</strong>。这样的话，很多决定或许做起来会容易一些。</p>
 ]]></content>
       <categories>
         <category>时间沙漏</category>
@@ -705,21 +706,38 @@
       </tags>
   </entry>
   <entry>
-    <title>生活小记（3）</title>
-    <url>/posts/the-life-of-neutrino-3/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>2023年9月10日</p>
-<p>今天是周日，不过早上五点多就醒了，发现天还没亮，接着躺在床上半睡半醒，想着今天自己的计划，似乎什么也不想做，心里有些乱，突然就想弹会儿琴平静一下浮躁的心，于是立刻起床洗漱弹了起来，其实自己也因为各种借口连续几天没有练琴了，大清早的估计附近的人还没起，戴上了很久没带的有线耳机，耳机的音质的确比外放的琴声要好一些，弹起来，感觉虽然闲置了几天，但弹的比之前更顺了，手指也灵活了一些，联想到坏的机器不去动它，放一段时间自然会好的神奇现象。</p>
-<p>之后觉得心情不错，看着外面天气是阴天，十分凉爽，想骑单车，于是又骑了快十公里去了图书馆，来之前看好一本书叫《像哲学家一样生活》，不过没有找到，但还是想看关于哲学的书，于是找来之前一直想看又因为形式是对话而不想看的柏拉图的《理想国》，看了前面两卷，主要想探讨什么是正义的问题，又引申到对”不正义比正义更快乐”这个命题的辩驳。也让自己思考了一些事情，难以想象，两千多年前就有人开始思考这些深奥的哲学问题，思考着怎么让人类社会变得更好。但时间过去了两千多年，社会仍然存在着大量的问题没有解决，人类已经发展了这么长时间，还是现在这个样子，歧视、偏见、贫富差距以及各种不平等……虽然很傲慢但还是忍不住想说，个人对此真的很失望，或许的确像许多科幻小说中描述的那样，人性使然，即使再过几千年几万年甚至在宇宙的时间尺度上，人类依然是这样，但我还是更愿倾向相信在更长的时间之后，我们能够真的实现所谓的乌托邦。</p>
-<p>扯远了，回到自己的生活，之后，突然想在这周边骑车转转，这边的环境的确不错，绿树成荫，空气清新，道路规划分明，骑回去的路上也在想，上班的地方离图书馆不远，或是在交通能够便利到达的地方，确实是一件不错的事情。回去之后在附近的商场买了些东西然后回来煮面，是很简单的一天……</p>
-<p>最近自己的状态已经不一样了，这周可以说是轻松的一周，因为我几乎都没加班，六点多就回去了，最近的事情少是原因之一，但不足以作为支撑六点下班的理由，主要是自己心态的变化，并且开始真的找新的工作了，想到之前自己定义的自己能够接受的那两种工作（“平淡、不加班、工资一般”和“热爱、存在但少加班、工资较高”），实际上到现在我的想法依然没有变，还是这样，但可能更偏向于像前者那样的工作了。自己现在这种不加班的状态，仔细想来，已经在接近自己想要的生活了，的确会让自己产生我还可以继续在这里待下去的错觉，但必须清醒这只是暂时的，无法长期这样下去，必须找新的出路。目前只投了一些门槛很高的公司，不出意料都石沉大海了，今天又明确了自己的预期，筛选了一些过后发现其实还是有很多机会的。</p>
-<p>最近补了一部旧番《只有我不在的街道》，印象很深，耐人寻味，其想要表达的主题有很多，但最让我有所启发的是原本平凡的主角在之后的一系列充满勇气的行为，以及那句或许不完全正确，但我仍十分喜欢的话：“充满勇气的行为一定会迎来美满的结局。”</p>
-<p>前一阵子感冒了，持续了差不多两周，通常自己感冒都能在两三天内自愈，而这次甚至吃了药还持续了这么久，想到可能和运动减少了有关，之前在大学里每天跑步，而现在几乎没有。我深刻地意识到，健康真的很重要，于是给自己定了一些计划 <del>（嗯我是infj本j）</del>，主要是作息和运动两个方面，还有一些生活中的小事，希望自己能够享受其中而不是觉得受其限制。整理好房间，健康的作息，适当的运动，一个人安静的弹琴，书海里阅读，看好看的风景……想来，能够好好生活真的是一件很幸福的事情，甚至想要补充之前自己<a href="../the-goal-of-my-life" target="_blank">布局</a>下缺失的主线任务为：<strong>享受生活中美好的事物</strong>。这样的话，很多决定或许做起来会容易一些。</p>
+    <title>生活小记（2）</title>
+    <url>/posts/the-life-of-neutrino-2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>2023年8月9日</p>
+<p>最近的心情很糟，我需要重新思考工作、生活还有自己的未来了。</p>
+<p>不得不承认，这份工作教会了我很多东西，甚至自己的性格也产生了一些积极的改变，很长一段时间里我都觉得，尽管这份工作称不上是十分喜欢，但至少自己可以胜任，工作内容也并非乏味不堪，也算是自己可以接受的程度。但这次的绩效结果让我必须重新思考这份工作，绩效的规则十分荒谬，在该套规则下，无论你多努力工作，多认真负责，能力多强，即使没有任何工作失误，都可能需要承担差绩效的结果。尽管所有人都明白这一点，绩效差并不意味着什么，但差绩效给自己带来的负面影响却是真实存在的，除了这个季度少几千块钱，还将限制一年的发展机会。</p>
+<p>或许正是因为这次的事情，我才开始思考早该思考的一些问题，我到底想过一种怎样的生活，这个问题我很早就给过自己答案：平淡，波澜不惊的生活，有足够的空余时间做自己喜欢的事情。但我之前并没有思考这样的生活需要怎样具体的工作，我现在的想法是，我可以接受两种工作，一种是自己可能不算太喜欢，但也不讨厌的工作，不用加班，薪资不用太高；另一种是自己热爱的工作，所做的事情能够激发自己的热情，展现自己的想法和创造性的思维，完成之后的成品是会让自己觉得付出是值得的，有成就感的，加班与否取决于自己的工作效率，并且可以真实的通过提升自己的效率实现不加班或极少数情况加班，薪资比前者高。我认为这两种工作一定存在的，但没有把握自己能够找到。</p>
+<p>得到这个结果让自己心情很差的另一个重要原因是，在这个加班成常态的环境里，事实上自己已经牺牲了大量生活的时间，嗯，实在不值得。我很喜欢一个名为“如果没有加班，世界将会怎样”的问题的回答：回到家的时候，天还没全黑，楼道里都是香气，有的人家炒鸡，有的人家烧鱼。吃了饭，还有时间遛遛弯，公园里爸爸在教孩子骑车，还有几个小孩拿着手电筒跑，光柱扫过树丛，叶子沙沙的响。</p>
+<p>现在，自己并没有明确的方向，可以说还处在一丝迷茫之中，但做自己喜欢的事情不会停下，生活也不会停下，一边前进，一边寻找到达自己想要的未来的方法。</p>
 ]]></content>
       <categories>
         <category>时间沙漏</category>
       </categories>
       <tags>
         <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>雨</title>
+    <url>/posts/rain-in-peace/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>从这几天开始，我在的城市就要进入一段雨季了，我的内心油然出现了一种久违的平静。</p>
+<p>这阵子以来，一直都是，上班，处理琐碎的事情，浏览碎片化的信息，时而盲目投入，时而乏味不堪，下班，回到独居的单人间，对着冰冷的电脑屏幕，时而欢喜，时而悲伤，时而感到孤独，时而庆幸当下，我的内心总是充斥着难以挥去的浮躁，我的行动总是与我的认知背道而驰。</p>
+<p>或许是阳光太过耀眼，让尘埃无所遁形，反而让眼中的世界混沌不堪。</p>
+<p>那天早上在去上班的路上，乌云密布，天色黯淡，这场景像世界末日一般，好像地球上的一切即将毁灭，但我反而产生一种心安的感觉，不如一切就归于生命诞生之初，让蓝藻再重新进化一次，若还将出现人类，或许社会与个体之间的矛盾在如此漫长的演化中应不那么明显。</p>
+<p>周末，天气微凉，依然下着小雨，乘着337路公交，我独自去往图书馆找之前未读完的《神们自己》，走出站台，绕着路走到一处湖边，湖里稀疏地排布着各种大小的荷叶，小雨淅淅沥沥，每一滴在湖面上漾起一圈圈的波纹，向外散开，四野无人，我撑着伞，走近了一些，被惊扰的蝌蚪向四处游开。我摘下耳机，内心有一种久违的平静，听着雨滴拍打雨伞的声音，看着湖面上荷叶与波纹相互交错，远处几座青山依次排开，似乎体会到了九百多年前苏轼写下“耳得之而为声，目遇之而成色”时的感觉。</p>
+<p>或许我终将被浮躁的日常所淹没，但人生之于宇宙本就须臾一瞬，与片刻的宁静之于人生一样别无二致，故即便如此，也不必感伤。</p>
+]]></content>
+      <categories>
+        <category>时间沙漏</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+        <tag>雨</tag>
       </tags>
   </entry>
   <entry>
@@ -760,24 +778,6 @@
       </categories>
       <tags>
         <tag>阅读</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>雨</title>
-    <url>/posts/rain-in-peace/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>从这几天开始，我在的城市就要进入一段雨季了，我的内心油然出现了一种久违的平静。</p>
-<p>这阵子以来，一直都是，上班，处理琐碎的事情，浏览碎片化的信息，时而盲目投入，时而乏味不堪，下班，回到独居的单人间，对着冰冷的电脑屏幕，时而欢喜，时而悲伤，时而感到孤独，时而庆幸当下，我的内心总是充斥着难以挥去的浮躁，我的行动总是与我的认知背道而驰。</p>
-<p>或许是阳光太过耀眼，让尘埃无所遁形，反而让眼中的世界混沌不堪。</p>
-<p>那天早上在去上班的路上，乌云密布，天色黯淡，这场景像世界末日一般，好像地球上的一切即将毁灭，但我反而产生一种心安的感觉，不如一切就归于生命诞生之初，让蓝藻再重新进化一次，若还将出现人类，或许社会与个体之间的矛盾在如此漫长的演化中应不那么明显。</p>
-<p>周末，天气微凉，依然下着小雨，乘着337路公交，我独自去往图书馆找之前未读完的《神们自己》，走出站台，绕着路走到一处湖边，湖里稀疏地排布着各种大小的荷叶，小雨淅淅沥沥，每一滴在湖面上漾起一圈圈的波纹，向外散开，四野无人，我撑着伞，走近了一些，被惊扰的蝌蚪向四处游开。我摘下耳机，内心有一种久违的平静，听着雨滴拍打雨伞的声音，看着湖面上荷叶与波纹相互交错，远处几座青山依次排开，似乎体会到了九百多年前苏轼写下“耳得之而为声，目遇之而成色”时的感觉。</p>
-<p>或许我终将被浮躁的日常所淹没，但人生之于宇宙本就须臾一瞬，与片刻的宁静之于人生一样别无二致，故即便如此，也不必感伤。</p>
-]]></content>
-      <categories>
-        <category>时间沙漏</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-        <tag>雨</tag>
       </tags>
   </entry>
 </search>
