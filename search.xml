@@ -108,36 +108,6 @@
       </tags>
   </entry>
   <entry>
-    <title>blog运行小笔记</title>
-    <url>/posts/note-for-blog-working/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p><strong>写文章</strong><br> <strong>step1:</strong> 打开blog文件夹，并在里面空白处右击选择<code>Git Bash Here</code><br> <strong>step2:</strong> 在里面输入<code>hexo n 新文章名</code>，再回车<br> <strong>step3:</strong> 在blog文件夹中，进入source文件夹，再进入_posts文件夹，用宇宙最强编辑器vs code打开新建的文章</p>
-<blockquote>
-<p>其实也可以直接在source/_posts文件夹内新建markdown文件（可以先新建一个记事本txt文件再改后缀为md），然后直接在里面写文章，推荐Typora编辑器</p>
-</blockquote>
-<p> <strong>step4:</strong> 就可以可以开始写啦！写完后记得保存<br> <strong>step5:</strong> 再打开Git Bash，依次输入<code>hexo c</code> <code>hexo g</code> <code>hexo d</code>(注意看有没有报错或警告啊)</p>
-<blockquote>
-<p>当然也可以随时在输入<code>hexo s</code>后在<a href="http://localhost:4000/">本地</a>查看自己的网站</p>
-</blockquote>
-<p><strong>step6:</strong> 再输入 <code>sh update.sh</code>运行之前写好的bash脚本，以完成博客源文件推送到gitee目标仓库hexo分支上实现备份</p>
-<blockquote>
-<p>可以在update.sh文件中更改info=”~“中的~来描述此次要在仓库中显示的更新说明</p>
-</blockquote>
-<p><strong>step7:</strong> 打开码云的<a href="https://gitee.com/jollylight/jollylight/pages">gitee page页面</a>，点击更新，等待片刻<br> <strong>step8:</strong> 就OK啦！</p>
-<p>（这么简单为什么写出来，因为我真的是小白啊QAQ）</p>
-<p><del>（主要也怕自己太久没写博客忘了）</del></p>
-<h1 id="linux常用命令-即git-bash下"><a href="#linux常用命令-即git-bash下" class="headerlink" title="linux常用命令(即git bash下)"></a>linux常用命令(即git bash下)</h1><p><kbd>Ctrl</kbd>+<kbd>Insert </kbd>: 复制</p>
-<p><kbd>Shift</kbd>+<kbd>Insert </kbd>: 粘贴</p>
-<h1 id="其他常用"><a href="#其他常用" class="headerlink" title="其他常用"></a>其他常用</h1><p><strong>blog主颜色</strong>：<font color=#FFCC66>#FFCC66</font></p>
-]]></content>
-      <categories>
-        <category>备忘笔记</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>七号中微子的地球旅行</title>
     <url>/posts/the-goal-of-my-life/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/others/idijsaiodiodeu.jpg" loading="lazy"></p>
@@ -185,13 +155,43 @@
       </tags>
   </entry>
   <entry>
+    <title>blog运行小笔记</title>
+    <url>/posts/note-for-blog-working/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p><strong>写文章</strong><br> <strong>step1:</strong> 打开blog文件夹，并在里面空白处右击选择<code>Git Bash Here</code><br> <strong>step2:</strong> 在里面输入<code>hexo n 新文章名</code>，再回车<br> <strong>step3:</strong> 在blog文件夹中，进入source文件夹，再进入_posts文件夹，用宇宙最强编辑器vs code打开新建的文章</p>
+<blockquote>
+<p>其实也可以直接在source/_posts文件夹内新建markdown文件（可以先新建一个记事本txt文件再改后缀为md），然后直接在里面写文章，推荐Typora编辑器</p>
+</blockquote>
+<p> <strong>step4:</strong> 就可以可以开始写啦！写完后记得保存<br> <strong>step5:</strong> 再打开Git Bash，依次输入<code>hexo c</code> <code>hexo g</code> <code>hexo d</code>(注意看有没有报错或警告啊)</p>
+<blockquote>
+<p>当然也可以随时在输入<code>hexo s</code>后在<a href="http://localhost:4000/">本地</a>查看自己的网站</p>
+</blockquote>
+<p><strong>step6:</strong> 再输入 <code>sh update.sh</code>运行之前写好的bash脚本，以完成博客源文件推送到gitee目标仓库hexo分支上实现备份</p>
+<blockquote>
+<p>可以在update.sh文件中更改info=”~“中的~来描述此次要在仓库中显示的更新说明</p>
+</blockquote>
+<p><strong>step7:</strong> 打开码云的<a href="https://gitee.com/jollylight/jollylight/pages">gitee page页面</a>，点击更新，等待片刻<br> <strong>step8:</strong> 就OK啦！</p>
+<p>（这么简单为什么写出来，因为我真的是小白啊QAQ）</p>
+<p><del>（主要也怕自己太久没写博客忘了）</del></p>
+<h1 id="linux常用命令-即git-bash下"><a href="#linux常用命令-即git-bash下" class="headerlink" title="linux常用命令(即git bash下)"></a>linux常用命令(即git bash下)</h1><p><kbd>Ctrl</kbd>+<kbd>Insert </kbd>: 复制</p>
+<p><kbd>Shift</kbd>+<kbd>Insert </kbd>: 粘贴</p>
+<h1 id="其他常用"><a href="#其他常用" class="headerlink" title="其他常用"></a>其他常用</h1><p><strong>blog主颜色</strong>：<font color=#FFCC66>#FFCC66</font></p>
+]]></content>
+      <categories>
+        <category>备忘笔记</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>不是学生了呀</title>
     <url>/posts/for-the-past-four-years/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
 <p>终于还是毕业了，这篇文章就当是我四年生活的一个句点吧。</p>
 </blockquote>
 
-    <div id="aplayer-JTrhUjxB" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-fZlNoNKX" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1413374282" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FFCC66"
     ></div>
 
@@ -222,6 +222,12 @@
         <tag>时光</tag>
         <tag>毕业</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>你好！银河系第三旋臂上的小星星！</title>
+    <url>/posts/hello-galaxy/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天是10月29日，第一篇博客文章呢！</p>
+]]></content>
   </entry>
   <entry>
     <title>兴趣爱好在平淡生活中泛起的涟漪——写歌</title>
@@ -282,44 +288,6 @@
       <tags>
         <tag>生活</tag>
         <tag>爱好</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>你好！银河系第三旋臂上的小星星！</title>
-    <url>/posts/hello-galaxy/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天是10月29日，第一篇博客文章呢！</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>天体模型收藏盒</title>
-    <url>/posts/summary-of-celestial-models/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
-<p>3D模型取自NASA</p>
-<p>加载可能需要一些时间，请耐心等待~</p>
-</blockquote>
-<h2 id="月球"><a href="#月球" class="headerlink" title="月球"></a>月球</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2366' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="水星"><a href="#水星" class="headerlink" title="水星"></a>水星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2369' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="金星"><a href="#金星" class="headerlink" title="金星"></a>金星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2343' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="火星"><a href="#火星" class="headerlink" title="火星"></a>火星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2372' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="木星"><a href="#木星" class="headerlink" title="木星"></a>木星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2375' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="土星"><a href="#土星" class="headerlink" title="土星"></a>土星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2355' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="天王星"><a href="#天王星" class="headerlink" title="天王星"></a>天王星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2344' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="海王星"><a href="#海王星" class="headerlink" title="海王星"></a>海王星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2364' width='100%' height='400px' frameborder='0'></iframe>
-
-]]></content>
-      <categories>
-        <category>收藏小间</category>
-      </categories>
-      <tags>
-        <tag>天体</tag>
-        <tag>三维</tag>
       </tags>
   </entry>
   <entry>
@@ -390,6 +358,38 @@
       <tags>
         <tag>诗句</tag>
         <tag>段落</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>天体模型收藏盒</title>
+    <url>/posts/summary-of-celestial-models/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
+<p>3D模型取自NASA</p>
+<p>加载可能需要一些时间，请耐心等待~</p>
+</blockquote>
+<h2 id="月球"><a href="#月球" class="headerlink" title="月球"></a>月球</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2366' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="水星"><a href="#水星" class="headerlink" title="水星"></a>水星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2369' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="金星"><a href="#金星" class="headerlink" title="金星"></a>金星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2343' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="火星"><a href="#火星" class="headerlink" title="火星"></a>火星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2372' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="木星"><a href="#木星" class="headerlink" title="木星"></a>木星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2375' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="土星"><a href="#土星" class="headerlink" title="土星"></a>土星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2355' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="天王星"><a href="#天王星" class="headerlink" title="天王星"></a>天王星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2344' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="海王星"><a href="#海王星" class="headerlink" title="海王星"></a>海王星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2364' width='100%' height='400px' frameborder='0'></iframe>
+
+]]></content>
+      <categories>
+        <category>收藏小间</category>
+      </categories>
+      <tags>
+        <tag>天体</tag>
+        <tag>三维</tag>
       </tags>
   </entry>
   <entry>
@@ -480,56 +480,6 @@
       <tags>
         <tag>笔记</tag>
         <tag>天体物理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>小发现</title>
-    <url>/posts/little-discoveries/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><script
-  type="text/javascript"
-  color="246,178,43"
-  pointColor="246,178,43"
-  opacity="0.7"
-  zIndex="2"
-  count="72"
-  src="https://gcore.jsdelivr.net/npm/canvas-nest.js/dist/canvas-nest.js"
-></script>
-
-
-
-<p>这篇文章记录了我的一些有点儿意思的小发现，并且会不断更新</p>
-<h3 id="直达QQ对话框的链接"><a href="#直达QQ对话框的链接" class="headerlink" title="直达QQ对话框的链接"></a>直达QQ对话框的链接</h3><p><code>http://wpa.qq.com/msgrd?v=3&amp;uin= 你的 QQ 号 &amp;site=qq&amp;menu=yes</code></p>
-<p>或者这个</p>
-<p><code>tencent://message/?uin= 你的 QQ 号 </code></p>
-<p>点击链接就会自动跳转到对应QQ号的对话框啦！</p>
-<p>（这是从<a href="https://idealclover.top/archives/545/">翠翠这</a>发现的）</p>
-<h3 id="实现网页背景线条效果（如此页效果）"><a href="#实现网页背景线条效果（如此页效果）" class="headerlink" title="实现网页背景线条效果（如此页效果）"></a>实现网页背景线条效果（如此页效果）</h3><p>将下面的代码插入到html的 <code>&lt;body&gt;</code> 和 <code>&lt;/body&gt;</code> 标签之间</p>
-<p>（也可直接粘贴至md文件中，本页就是如此）</p>
-<pre class="language-none"><code class="language-none">&lt;script
-  type&#x3D;&quot;text&#x2F;javascript&quot;
-  color&#x3D;&quot;246,178,43&quot;
-  pointColor&#x3D;&quot;246,178,43&quot;
-  opacity&#x3D;&quot;0.7&quot;
-  zIndex&#x3D;&quot;2&quot;
-  count&#x3D;&quot;72&quot;
-  src&#x3D;&quot;https:&#x2F;&#x2F;gcore.jsdelivr.net&#x2F;npm&#x2F;canvas-nest.js&#x2F;dist&#x2F;canvas-nest.js&quot;
-&gt;&lt;&#x2F;script&gt;</code></pre>
-
-<p>可配置：</p>
-<ul>
-<li><strong><code>color</code></strong> : 线条颜色, 默认: <code>&#39;0,0,0&#39;</code>；三个数字分别为(R,G,B)，注意用 <code>,</code> 分割</li>
-<li><strong><code>pointColor</code></strong>: 点颜色, 默认：<code>&#39;0,0,0&#39;</code>; RGB 格式.（注意：使用 <code>,</code> 分割）</li>
-<li><strong><code>opacity</code></strong> : 线条透明度（0~1）, 默认: <code>0.5</code></li>
-<li><strong><code>count</code></strong> : 线条的总数量, 默认: <code>99</code></li>
-<li><strong><code>zIndex</code></strong> : 背景的 <code>z-index</code> 属性，css 属性用于控制所在层的位置, 默认: <code>-1</code></li>
-</ul>
-<p>（这是从<a href="https://www.yunyoujun.cn/share/html5-canvas-nest-js/">云游这</a>发现的，最终来源于github的<a href="https://github.com/hustcc/canvas-nest.js/blob/master/README-zh.md">canvas-nest.js</a>）</p>
-]]></content>
-      <categories>
-        <category>收藏小间</category>
-      </categories>
-      <tags>
-        <tag>发现</tag>
       </tags>
   </entry>
   <entry>
@@ -624,6 +574,56 @@
       </tags>
   </entry>
   <entry>
+    <title>小发现</title>
+    <url>/posts/little-discoveries/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><script
+  type="text/javascript"
+  color="246,178,43"
+  pointColor="246,178,43"
+  opacity="0.7"
+  zIndex="2"
+  count="72"
+  src="https://gcore.jsdelivr.net/npm/canvas-nest.js/dist/canvas-nest.js"
+></script>
+
+
+
+<p>这篇文章记录了我的一些有点儿意思的小发现，并且会不断更新</p>
+<h3 id="直达QQ对话框的链接"><a href="#直达QQ对话框的链接" class="headerlink" title="直达QQ对话框的链接"></a>直达QQ对话框的链接</h3><p><code>http://wpa.qq.com/msgrd?v=3&amp;uin= 你的 QQ 号 &amp;site=qq&amp;menu=yes</code></p>
+<p>或者这个</p>
+<p><code>tencent://message/?uin= 你的 QQ 号 </code></p>
+<p>点击链接就会自动跳转到对应QQ号的对话框啦！</p>
+<p>（这是从<a href="https://idealclover.top/archives/545/">翠翠这</a>发现的）</p>
+<h3 id="实现网页背景线条效果（如此页效果）"><a href="#实现网页背景线条效果（如此页效果）" class="headerlink" title="实现网页背景线条效果（如此页效果）"></a>实现网页背景线条效果（如此页效果）</h3><p>将下面的代码插入到html的 <code>&lt;body&gt;</code> 和 <code>&lt;/body&gt;</code> 标签之间</p>
+<p>（也可直接粘贴至md文件中，本页就是如此）</p>
+<pre class="language-none"><code class="language-none">&lt;script
+  type&#x3D;&quot;text&#x2F;javascript&quot;
+  color&#x3D;&quot;246,178,43&quot;
+  pointColor&#x3D;&quot;246,178,43&quot;
+  opacity&#x3D;&quot;0.7&quot;
+  zIndex&#x3D;&quot;2&quot;
+  count&#x3D;&quot;72&quot;
+  src&#x3D;&quot;https:&#x2F;&#x2F;gcore.jsdelivr.net&#x2F;npm&#x2F;canvas-nest.js&#x2F;dist&#x2F;canvas-nest.js&quot;
+&gt;&lt;&#x2F;script&gt;</code></pre>
+
+<p>可配置：</p>
+<ul>
+<li><strong><code>color</code></strong> : 线条颜色, 默认: <code>&#39;0,0,0&#39;</code>；三个数字分别为(R,G,B)，注意用 <code>,</code> 分割</li>
+<li><strong><code>pointColor</code></strong>: 点颜色, 默认：<code>&#39;0,0,0&#39;</code>; RGB 格式.（注意：使用 <code>,</code> 分割）</li>
+<li><strong><code>opacity</code></strong> : 线条透明度（0~1）, 默认: <code>0.5</code></li>
+<li><strong><code>count</code></strong> : 线条的总数量, 默认: <code>99</code></li>
+<li><strong><code>zIndex</code></strong> : 背景的 <code>z-index</code> 属性，css 属性用于控制所在层的位置, 默认: <code>-1</code></li>
+</ul>
+<p>（这是从<a href="https://www.yunyoujun.cn/share/html5-canvas-nest-js/">云游这</a>发现的，最终来源于github的<a href="https://github.com/hustcc/canvas-nest.js/blob/master/README-zh.md">canvas-nest.js</a>）</p>
+]]></content>
+      <categories>
+        <category>收藏小间</category>
+      </categories>
+      <tags>
+        <tag>发现</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>状态与感受小记——2023.02.26</title>
     <url>/posts/feeling%20notes230226/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="一些杂谈"><a href="#一些杂谈" class="headerlink" title="一些杂谈"></a>一些杂谈</h2><p>从高中开始，我一直这么认为：记录当下发生的事情和即时产生的感受是一件很有意义的事情，某天翻起这些记录的时候会很容易将自己带入到当时的场景中，或开心、或难过、或再一次感同身受、亦或能以一种局外人的视角来看待当时这件事情本身，也不失为一种对过往的总结。</p>
@@ -678,6 +678,23 @@
       </tags>
   </entry>
   <entry>
+    <title>生活小记（2）</title>
+    <url>/posts/the-life-of-neutrino-2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>2023年8月9日</p>
+<p>最近的心情很糟，我需要重新思考工作、生活还有自己的未来了。</p>
+<p>不得不承认，这份工作教会了我很多东西，甚至自己的性格也产生了一些积极的改变，很长一段时间里我都觉得，尽管这份工作称不上是十分喜欢，但至少自己可以胜任，工作内容也并非乏味不堪，也算是自己可以接受的程度。但这次的绩效结果让我必须重新思考这份工作，绩效的规则十分荒谬，在该套规则下，无论你多努力工作，多认真负责，能力多强，即使没有任何工作失误，都可能需要承担差绩效的结果。尽管所有人都明白这一点，绩效差并不意味着什么，但差绩效给自己带来的负面影响却是真实存在的，除了这个季度少几千块钱，还将限制一年的发展机会。</p>
+<p>或许正是因为这次的事情，我才开始思考早该思考的一些问题，我到底想过一种怎样的生活，这个问题我很早就给过自己答案：平淡，波澜不惊的生活，有足够的空余时间做自己喜欢的事情。但我之前并没有思考这样的生活需要怎样具体的工作，我现在的想法是，我可以接受两种工作，一种是自己可能不算太喜欢，但也不讨厌的工作，不用加班，薪资不用太高；另一种是自己热爱的工作，所做的事情能够激发自己的热情，展现自己的想法和创造性的思维，完成之后的成品是会让自己觉得付出是值得的，有成就感的，加班与否取决于自己的工作效率，并且可以真实的通过提升自己的效率实现不加班或极少数情况加班，薪资比前者高。我认为这两种工作一定存在的，但没有把握自己能够找到。</p>
+<p>得到这个结果让自己心情很差的另一个重要原因是，在这个加班成常态的环境里，事实上自己已经牺牲了大量生活的时间，嗯，实在不值得。我很喜欢一个名为“如果没有加班，世界将会怎样”的问题的回答：回到家的时候，天还没全黑，楼道里都是香气，有的人家炒鸡，有的人家烧鱼。吃了饭，还有时间遛遛弯，公园里爸爸在教孩子骑车，还有几个小孩拿着手电筒跑，光柱扫过树丛，叶子沙沙的响。</p>
+<p>现在，自己并没有明确的方向，可以说还处在一丝迷茫之中，但做自己喜欢的事情不会停下，生活也不会停下，一边前进，一边寻找到达自己想要的未来的方法。</p>
+]]></content>
+      <categories>
+        <category>时间沙漏</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>空间小画</title>
     <url>/posts/space-little-drawing/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>如何把一个无聊的制图软件玩出花来……</p>
@@ -703,41 +720,6 @@
       </categories>
       <tags>
         <tag>Solidworks</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>生活小记（2）</title>
-    <url>/posts/the-life-of-neutrino-2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>2023年8月9日</p>
-<p>最近的心情很糟，我需要重新思考工作、生活还有自己的未来了。</p>
-<p>不得不承认，这份工作教会了我很多东西，甚至自己的性格也产生了一些积极的改变，很长一段时间里我都觉得，尽管这份工作称不上是十分喜欢，但至少自己可以胜任，工作内容也并非乏味不堪，也算是自己可以接受的程度。但这次的绩效结果让我必须重新思考这份工作，绩效的规则十分荒谬，在该套规则下，无论你多努力工作，多认真负责，能力多强，即使没有任何工作失误，都可能需要承担差绩效的结果。尽管所有人都明白这一点，绩效差并不意味着什么，但差绩效给自己带来的负面影响却是真实存在的，除了这个季度少几千块钱，还将限制一年的发展机会。</p>
-<p>或许正是因为这次的事情，我才开始思考早该思考的一些问题，我到底想过一种怎样的生活，这个问题我很早就给过自己答案：平淡，波澜不惊的生活，有足够的空余时间做自己喜欢的事情。但我之前并没有思考这样的生活需要怎样具体的工作，我现在的想法是，我可以接受两种工作，一种是自己可能不算太喜欢，但也不讨厌的工作，不用加班，薪资不用太高；另一种是自己热爱的工作，所做的事情能够激发自己的热情，展现自己的想法和创造性的思维，完成之后的成品是会让自己觉得付出是值得的，有成就感的，加班与否取决于自己的工作效率，并且可以真实的通过提升自己的效率实现不加班或极少数情况加班，薪资比前者高。我认为这两种工作一定存在的，但没有把握自己能够找到。</p>
-<p>得到这个结果让自己心情很差的另一个重要原因是，在这个加班成常态的环境里，事实上自己已经牺牲了大量生活的时间，嗯，实在不值得。我很喜欢一个名为“如果没有加班，世界将会怎样”的问题的回答：回到家的时候，天还没全黑，楼道里都是香气，有的人家炒鸡，有的人家烧鱼。吃了饭，还有时间遛遛弯，公园里爸爸在教孩子骑车，还有几个小孩拿着手电筒跑，光柱扫过树丛，叶子沙沙的响。</p>
-<p>现在，自己并没有明确的方向，可以说还处在一丝迷茫之中，但做自己喜欢的事情不会停下，生活也不会停下，一边前进，一边寻找到达自己想要的未来的方法。</p>
-]]></content>
-      <categories>
-        <category>时间沙漏</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>雨</title>
-    <url>/posts/rain-in-peace/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>从这几天开始，我在的城市就要进入一段雨季了，我的内心油然出现了一种久违的平静。</p>
-<p>这阵子以来，一直都是，上班，处理琐碎的事情，浏览碎片化的信息，时而盲目投入，时而乏味不堪，下班，回到独居的单人间，对着冰冷的电脑屏幕，时而欢喜，时而悲伤，时而感到孤独，时而庆幸当下，我的内心总是充斥着难以挥去的浮躁，我的行动总是与我的认知背道而驰。</p>
-<p>或许是阳光太过耀眼，让尘埃无所遁形，反而让眼中的世界混沌不堪。</p>
-<p>那天早上在去上班的路上，乌云密布，天色黯淡，这场景像世界末日一般，好像地球上的一切即将毁灭，但我反而产生一种心安的感觉，不如一切就归于生命诞生之初，让蓝藻再重新进化一次，若还将出现人类，或许社会与个体之间的矛盾在如此漫长的演化中应不那么明显。</p>
-<p>周末，天气微凉，依然下着小雨，乘着337路公交，我独自去往图书馆找之前未读完的《神们自己》，走出站台，绕着路走到一处湖边，湖里稀疏地排布着各种大小的荷叶，小雨淅淅沥沥，每一滴在湖面上漾起一圈圈的波纹，向外散开，四野无人，我撑着伞，走近了一些，被惊扰的蝌蚪向四处游开。我摘下耳机，内心有一种久违的平静，听着雨滴拍打雨伞的声音，看着湖面上荷叶与波纹相互交错，远处几座青山依次排开，似乎体会到了九百多年前苏轼写下“耳得之而为声，目遇之而成色”时的感觉。</p>
-<p>或许我终将被浮躁的日常所淹没，但人生之于宇宙本就须臾一瞬，与片刻的宁静之于人生一样别无二致，故即便如此，也不必感伤。</p>
-]]></content>
-      <categories>
-        <category>时间沙漏</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-        <tag>雨</tag>
       </tags>
   </entry>
   <entry>
@@ -778,6 +760,24 @@
       </categories>
       <tags>
         <tag>阅读</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>雨</title>
+    <url>/posts/rain-in-peace/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>从这几天开始，我在的城市就要进入一段雨季了，我的内心油然出现了一种久违的平静。</p>
+<p>这阵子以来，一直都是，上班，处理琐碎的事情，浏览碎片化的信息，时而盲目投入，时而乏味不堪，下班，回到独居的单人间，对着冰冷的电脑屏幕，时而欢喜，时而悲伤，时而感到孤独，时而庆幸当下，我的内心总是充斥着难以挥去的浮躁，我的行动总是与我的认知背道而驰。</p>
+<p>或许是阳光太过耀眼，让尘埃无所遁形，反而让眼中的世界混沌不堪。</p>
+<p>那天早上在去上班的路上，乌云密布，天色黯淡，这场景像世界末日一般，好像地球上的一切即将毁灭，但我反而产生一种心安的感觉，不如一切就归于生命诞生之初，让蓝藻再重新进化一次，若还将出现人类，或许社会与个体之间的矛盾在如此漫长的演化中应不那么明显。</p>
+<p>周末，天气微凉，依然下着小雨，乘着337路公交，我独自去往图书馆找之前未读完的《神们自己》，走出站台，绕着路走到一处湖边，湖里稀疏地排布着各种大小的荷叶，小雨淅淅沥沥，每一滴在湖面上漾起一圈圈的波纹，向外散开，四野无人，我撑着伞，走近了一些，被惊扰的蝌蚪向四处游开。我摘下耳机，内心有一种久违的平静，听着雨滴拍打雨伞的声音，看着湖面上荷叶与波纹相互交错，远处几座青山依次排开，似乎体会到了九百多年前苏轼写下“耳得之而为声，目遇之而成色”时的感觉。</p>
+<p>或许我终将被浮躁的日常所淹没，但人生之于宇宙本就须臾一瞬，与片刻的宁静之于人生一样别无二致，故即便如此，也不必感伤。</p>
+]]></content>
+      <categories>
+        <category>时间沙漏</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+        <tag>雨</tag>
       </tags>
   </entry>
 </search>
