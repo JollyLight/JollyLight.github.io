@@ -6,7 +6,7 @@
   <link href="https://jollylight.github.io/atom.xml" rel="self"/>
   
   <link href="https://jollylight.github.io/"/>
-  <updated>2023-09-10T13:44:41.707Z</updated>
+  <updated>2023-11-05T14:56:26.700Z</updated>
   <id>https://jollylight.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>生活小记（4）</title>
+    <link href="https://jollylight.github.io/posts/the-life-of-neutrino-4/"/>
+    <id>https://jollylight.github.io/posts/the-life-of-neutrino-4/</id>
+    <published>2023-11-04T16:00:00.000Z</published>
+    <updated>2023-11-05T14:56:26.700Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>2023年11月5日</p><p>国庆之后自己对找新的工作的脚步放缓了许多，可能是因为放假太久了，想先让自己恢复到正常的状态，从上周开始，我试着记录下每天工作的主要内容，并记下当天的繁忙程度与下班时间，想看看自己在一段较长的时间里自己认为忙碌与不那么忙碌的时间具体占了多少，从记录来看，上周一整周都是十分忙碌的状态，下班时间也较晚，每天心情也更差，而这周则相对正常一些，虽有事情，但不算紧急，并且回看这周在下班之后的生活里的确也做了不少事情。</p><p>时间过得很快，距离上次被打差绩效又过了一个季度了，这次的结果相反，是优秀，我无法评价这种规则，在我看来，我上个季度不应该得差，这个季度也不该得优秀，两次造成的影响可以相互抵消，但一切像是中层在迎合上层的规则完成任务罢了，上层意图通过对员工采取与个人利益挂钩的评价体系来对员工进行掌控，而这套评价体系本身就不合理，中层没有权利也没有意愿去变更规则，于是产生这样的结果。</p><p>今年的应届生最近进行了转正答辩，有一个应届生学弟被辞退了，从来没听说答辩会有这样的结果，也没有人被事先告知会有这样结果的出现，辞退的理由更是让人无法接受：不够积极。他坐在我的工位后面，所以也算有些交流，会聊些工作生活的事情，他性格比较内敛，话比较少，但绝不至于因此被辞退，被置于无应届生身份、无工作经验的两难境地，内敛的性格我和他很像，所以更能体会到那种感受，作为一个独立的个体，能做的和改变的事情实在太少了……</p><p>过去的一周时间里，无论是练琴、运动还是其他，都在按照计划可控的进行着，生活看起来规律并按照自己预定的轨迹进行着，但是心情并不算太好，有种 lost in space 的感觉，但 lost 归 lost，最近还是有一些让自己开心的事情的，《Rick and Morty》第七季开播了，时间流逝得很快，上一次追第六季的时候是才刚开始工作的时候，上上次追则是在毕业之前了，以及在看现在很喜欢的一部老情景电视剧《The Big Bang Theory》，有很多季，能看很久。</p><p>今天是周日，在图书馆里看的书没有留下什么印象特别深刻的内容，但我正要离开的时候，看到几个穿着志愿服的学生聚在书架旁边讨论着什么，我恰好从旁边路过，看到志愿服上写着我学校和对应的系组织，顿时感觉十分亲切，将我的思绪瞬间带回了还在大学时的时光，穿着志愿服完成今天的志愿活动，和同伴讨论安排各个事项，结束后回到学校里，在林荫和树影的路上穿行，来到学校的图书馆里找个地方坐下，完成这周的课程作业，有种单纯的美好……</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="时间沙漏" scheme="https://jollylight.github.io/categories/%E6%97%B6%E9%97%B4%E6%B2%99%E6%BC%8F/"/>
+    
+    
+    <category term="生活" scheme="https://jollylight.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>生活小记（3）</title>
@@ -290,9 +317,9 @@
     <category term="备忘笔记" scheme="https://jollylight.github.io/categories/%E5%A4%87%E5%BF%98%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="笔记" scheme="https://jollylight.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="blog" scheme="https://jollylight.github.io/tags/blog/"/>
+    
+    <category term="笔记" scheme="https://jollylight.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -346,9 +373,9 @@
     <category term="时间沙漏" scheme="https://jollylight.github.io/categories/%E6%97%B6%E9%97%B4%E6%B2%99%E6%BC%8F/"/>
     
     
-    <category term="写歌" scheme="https://jollylight.github.io/tags/%E5%86%99%E6%AD%8C/"/>
-    
     <category term="爱好" scheme="https://jollylight.github.io/tags/%E7%88%B1%E5%A5%BD/"/>
+    
+    <category term="写歌" scheme="https://jollylight.github.io/tags/%E5%86%99%E6%AD%8C/"/>
     
   </entry>
   
@@ -402,9 +429,9 @@
     <category term="备忘笔记" scheme="https://jollylight.github.io/categories/%E5%A4%87%E5%BF%98%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="魔方" scheme="https://jollylight.github.io/tags/%E9%AD%94%E6%96%B9/"/>
-    
     <category term="笔记" scheme="https://jollylight.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="魔方" scheme="https://jollylight.github.io/tags/%E9%AD%94%E6%96%B9/"/>
     
   </entry>
   
@@ -500,7 +527,7 @@
     <published>2021-07-16T15:29:51.000Z</published>
     <updated>2023-08-09T12:45:54.204Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote><p>终于还是毕业了，这篇文章就当是我四年生活的一个句点吧。</p></blockquote>    <div id="aplayer-fZlNoNKX" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1413374282" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FFCC66"    ></div><h2 id="大学"><a href="#大学" class="headerlink" title="大学"></a>大学</h2><h3 id="独来独往"><a href="#独来独往" class="headerlink" title="独来独往"></a>独来独往</h3><p>如果要我说出能够贯穿我大学生活的几个字的话，我一定会选择【独来独往】这四个字，并不是因为身边的人不好才选择总是独来独往的，而是因为我自己的一种奇怪的感觉。</p><p>说实话，这四年里，我自认为和周围的人相处的还不错，虽然几乎所有人都是点头之交，但大家对我都挺好的，是我性格的原因，也可能还有我身上的其他因素，我常常会因为和别人交际后而感到不安，能够明显感受到心脏会有种受到压迫的感觉，这是一种很不舒服的感觉，而且交际的对象是熟悉的人时这种感觉才更容易被激活，于是能不与人交流的地方我尽量不与人交流。<del>（大概我就是社恐本恐了吧）</del></p><p>很多时候我甚至一天里除了打饭阿姨没和其他人说过一句话，每次上宿舍楼梯时是这种感觉最强烈的时候，因为知道马上要遇到舍友了，以至于我对上楼梯都有了条件反射，上其他楼梯时也总产生了这种感觉，有时我又会对这种不安的感觉本身而感到不安，有时我又会想到以人的普遍性来讲，世界上一定还有人和我有相同的感受，这样想来心中的不安也会消减一些。</p><p>于是，四年里，一个人去图书馆，一个人去上课，一个人在操场夜跑，一个人去校外的湖边看风景……这些独属于我一个人的时间就慢慢遍布了我的大学生活。</p><p>班级或是宿舍有什么聚餐或游玩之类的活动时我常常会纠结一番，我不想去，但时常又会想到身边的人对自己的一些看法，我知道我最终一定会选择不去的，但纠结时产生的不安感总会存在许久，只好用一些要遵从自己内心想法之类的话来试着说服自己。</p><p>不和别人交流少不了会带来一些麻烦，记得大二的一次期末考试里，有门课的考试原来是有范围的，我没了解到，结果分挺低的，还有一门课因为报名参加小组合作的作业可以加分，我不喜欢小组任务，自然也没有这些分，<del>从那个学期以后，就没拿过年级第一了</del>。</p><p>但其实，大部分的时间里，我是很喜欢一个人的世界的，离开宿舍，不用顾及其他人的意愿就可以去自己想去的地方，图书馆、森林小径或是湖边，不用理会多余的话语就可以学自己想学的东西，发展自己的兴趣爱好，不必和别人费劲的解释为什么你要做这个，为什么你要去那里，只要做自己当下想做的事就好。</p><p>我可以午后捧着一本书，沉浸在另一个世界中，发觉天色黯淡时望向窗外，合上书本欣赏薄暮的晚霞；可以放着喜欢的歌，在操场夜跑，或是躺在操场的草坪上，一边看着猎户座的参宿一二三排成一条小直线，一边感叹宇宙的宏大和身边事物的微不足道；可以在心情不好的时候跑来人少的湖边，倚着栏杆吹着风，看着不知所求的鸭子游来游去……似乎这些就足够美好了。</p><h3 id="图书馆"><a href="#图书馆" class="headerlink" title="图书馆"></a>图书馆</h3><p>大学四年里，除去睡觉时间的话，我呆在图书馆里的时间应该比在宿舍里的时间多些<del>（以至于莫名拿了个什么年度入馆前十证书）</del>，仔细想了想，上大学之前我的确是没有去过图书馆的，最多在某些商城的书店里呆过<del>（记得小时候在老家书店只看书不买书还会赶你走）</del>，所以当我第一次来到大学里的图书馆时，看着几楼各式各样的图书，是有不少震惊和激动的，当时就想着应该会在图书馆度过我的大部分校园时光（的确也实现了）。</p><p>像个小孩一样，有空闲的时间就兴致勃勃的跑来图书馆，找到自己喜欢的书读起来，在<a href="https://www.douban.com/tag/BrianCox/book" style="color: black">Brian Cox</a>的宇宙里探寻世界之外的奇迹，在<a href="https://book.douban.com/author/4561353/books?sortby=collect&format=pic" style="color: black">大刘</a>的科幻中脱离现实的禁锢放空自己，在<a href="https://book.douban.com/author/4537266/books?sortby=collect&format=pic" style="color: black">东野圭吾</a>的小说中体会其他灵魂的人生……</p><p>时而会觉得图书馆不是一座建筑那么简单，里面还存在着无数个世界。</p><p>可能是出于一种不甘心或是其他什么类似的心理，尽管上了大学，却仍不想太过放松，学校课程的知识还是会好好学，学校课程的学习是在图书馆里要干的一大主事，老实说，我并没有什么学习的天赋，学习效率也不高，只能通过花比别人更多的时间来换取与投入不成比例的些许提升。</p><p>其实早在大一的时候，我就已经确定毕业后想去更好的学校继续研读，而且傻乎乎的在四年里把一个可望而不可及的学校当成非去不可的奋斗目标，大二大三就疯狂收集那所学校的各种资料，了解各种文化，甚至打入其内部（指加入该学校社团等各种内部群），用他们的课本，听他们的网课……</p><p>考研也是早早准备，只能说现实中不确定的因素太多了吧，没有能绝对成功的事，尽管自己已经对目标学校的部分选择放低了标准，还是未能如意，部分原因大概是过程中许多不好的事情我不能及时对自己的心理进行调解吧，有时会希望自己在现实中有一个朋友，能够彼此真心倾诉学习生活中不如意的事，但时而转念想到自己的性格，要包容我的独来独往与各种缺点，那该是个多完美的朋友才能恰好与我兼容呢。</p><h3 id="操场"><a href="#操场" class="headerlink" title="操场"></a>操场</h3><p>我在大学里除了图书馆之外的第二个地方大概就是操场了，我的体质比较弱，上大学之前去医院是家常便饭了，经常扁桃体发炎，头晕，过敏什么的，但上大学以后感觉确实好了很多，整个四年下来也没几次感冒，就算有不舒服，吃点药也就好了，我把这归功于每天晚上的夜跑，于是就肯坚持一些了，记得在很长一段时间里，在操场跑够十圈再回宿舍，有音乐和星空的夜跑不会累。</p><p>有时拿出手机对着夜空中的星星，笨拙地认识着这颗、那颗星星的名字，有时坐在或躺在草坪上，什么也不去想，放空自己，会意识到最近的烦心事都不算什么，能够衣食无忧地生活在这颗小星球上已经是件很幸运的事了呀。</p><h2 id="毕业"><a href="#毕业" class="headerlink" title="毕业"></a>毕业</h2><p>每年看着学长学姐在毕业季围成一个弧形，穿着学士服拍毕业照，总会心生许多感慨，今年轮到自己了，却似乎并没有什么特别的感觉，只是心里想着：嗯，毕业就是这样嘛。</p><p>只是还是会想到入学时在体育馆开的毕业典礼，军训时被大雨淋湿的衣服……四年里所有美好的瞬间应该都刻进了永恒的回忆了吧，虽然，不再是学生了，但求今后也别褪去那份稚气吧。</p><p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/main_interface/1632569128356.jpg" loading="lazy"></p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote><p>终于还是毕业了，这篇文章就当是我四年生活的一个句点吧。</p></blockquote>    <div id="aplayer-SFnBNdYW" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="1413374282" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FFCC66"    ></div><h2 id="大学"><a href="#大学" class="headerlink" title="大学"></a>大学</h2><h3 id="独来独往"><a href="#独来独往" class="headerlink" title="独来独往"></a>独来独往</h3><p>如果要我说出能够贯穿我大学生活的几个字的话，我一定会选择【独来独往】这四个字，并不是因为身边的人不好才选择总是独来独往的，而是因为我自己的一种奇怪的感觉。</p><p>说实话，这四年里，我自认为和周围的人相处的还不错，虽然几乎所有人都是点头之交，但大家对我都挺好的，是我性格的原因，也可能还有我身上的其他因素，我常常会因为和别人交际后而感到不安，能够明显感受到心脏会有种受到压迫的感觉，这是一种很不舒服的感觉，而且交际的对象是熟悉的人时这种感觉才更容易被激活，于是能不与人交流的地方我尽量不与人交流。<del>（大概我就是社恐本恐了吧）</del></p><p>很多时候我甚至一天里除了打饭阿姨没和其他人说过一句话，每次上宿舍楼梯时是这种感觉最强烈的时候，因为知道马上要遇到舍友了，以至于我对上楼梯都有了条件反射，上其他楼梯时也总产生了这种感觉，有时我又会对这种不安的感觉本身而感到不安，有时我又会想到以人的普遍性来讲，世界上一定还有人和我有相同的感受，这样想来心中的不安也会消减一些。</p><p>于是，四年里，一个人去图书馆，一个人去上课，一个人在操场夜跑，一个人去校外的湖边看风景……这些独属于我一个人的时间就慢慢遍布了我的大学生活。</p><p>班级或是宿舍有什么聚餐或游玩之类的活动时我常常会纠结一番，我不想去，但时常又会想到身边的人对自己的一些看法，我知道我最终一定会选择不去的，但纠结时产生的不安感总会存在许久，只好用一些要遵从自己内心想法之类的话来试着说服自己。</p><p>不和别人交流少不了会带来一些麻烦，记得大二的一次期末考试里，有门课的考试原来是有范围的，我没了解到，结果分挺低的，还有一门课因为报名参加小组合作的作业可以加分，我不喜欢小组任务，自然也没有这些分，<del>从那个学期以后，就没拿过年级第一了</del>。</p><p>但其实，大部分的时间里，我是很喜欢一个人的世界的，离开宿舍，不用顾及其他人的意愿就可以去自己想去的地方，图书馆、森林小径或是湖边，不用理会多余的话语就可以学自己想学的东西，发展自己的兴趣爱好，不必和别人费劲的解释为什么你要做这个，为什么你要去那里，只要做自己当下想做的事就好。</p><p>我可以午后捧着一本书，沉浸在另一个世界中，发觉天色黯淡时望向窗外，合上书本欣赏薄暮的晚霞；可以放着喜欢的歌，在操场夜跑，或是躺在操场的草坪上，一边看着猎户座的参宿一二三排成一条小直线，一边感叹宇宙的宏大和身边事物的微不足道；可以在心情不好的时候跑来人少的湖边，倚着栏杆吹着风，看着不知所求的鸭子游来游去……似乎这些就足够美好了。</p><h3 id="图书馆"><a href="#图书馆" class="headerlink" title="图书馆"></a>图书馆</h3><p>大学四年里，除去睡觉时间的话，我呆在图书馆里的时间应该比在宿舍里的时间多些<del>（以至于莫名拿了个什么年度入馆前十证书）</del>，仔细想了想，上大学之前我的确是没有去过图书馆的，最多在某些商城的书店里呆过<del>（记得小时候在老家书店只看书不买书还会赶你走）</del>，所以当我第一次来到大学里的图书馆时，看着几楼各式各样的图书，是有不少震惊和激动的，当时就想着应该会在图书馆度过我的大部分校园时光（的确也实现了）。</p><p>像个小孩一样，有空闲的时间就兴致勃勃的跑来图书馆，找到自己喜欢的书读起来，在<a href="https://www.douban.com/tag/BrianCox/book" style="color: black">Brian Cox</a>的宇宙里探寻世界之外的奇迹，在<a href="https://book.douban.com/author/4561353/books?sortby=collect&format=pic" style="color: black">大刘</a>的科幻中脱离现实的禁锢放空自己，在<a href="https://book.douban.com/author/4537266/books?sortby=collect&format=pic" style="color: black">东野圭吾</a>的小说中体会其他灵魂的人生……</p><p>时而会觉得图书馆不是一座建筑那么简单，里面还存在着无数个世界。</p><p>可能是出于一种不甘心或是其他什么类似的心理，尽管上了大学，却仍不想太过放松，学校课程的知识还是会好好学，学校课程的学习是在图书馆里要干的一大主事，老实说，我并没有什么学习的天赋，学习效率也不高，只能通过花比别人更多的时间来换取与投入不成比例的些许提升。</p><p>其实早在大一的时候，我就已经确定毕业后想去更好的学校继续研读，而且傻乎乎的在四年里把一个可望而不可及的学校当成非去不可的奋斗目标，大二大三就疯狂收集那所学校的各种资料，了解各种文化，甚至打入其内部（指加入该学校社团等各种内部群），用他们的课本，听他们的网课……</p><p>考研也是早早准备，只能说现实中不确定的因素太多了吧，没有能绝对成功的事，尽管自己已经对目标学校的部分选择放低了标准，还是未能如意，部分原因大概是过程中许多不好的事情我不能及时对自己的心理进行调解吧，有时会希望自己在现实中有一个朋友，能够彼此真心倾诉学习生活中不如意的事，但时而转念想到自己的性格，要包容我的独来独往与各种缺点，那该是个多完美的朋友才能恰好与我兼容呢。</p><h3 id="操场"><a href="#操场" class="headerlink" title="操场"></a>操场</h3><p>我在大学里除了图书馆之外的第二个地方大概就是操场了，我的体质比较弱，上大学之前去医院是家常便饭了，经常扁桃体发炎，头晕，过敏什么的，但上大学以后感觉确实好了很多，整个四年下来也没几次感冒，就算有不舒服，吃点药也就好了，我把这归功于每天晚上的夜跑，于是就肯坚持一些了，记得在很长一段时间里，在操场跑够十圈再回宿舍，有音乐和星空的夜跑不会累。</p><p>有时拿出手机对着夜空中的星星，笨拙地认识着这颗、那颗星星的名字，有时坐在或躺在草坪上，什么也不去想，放空自己，会意识到最近的烦心事都不算什么，能够衣食无忧地生活在这颗小星球上已经是件很幸运的事了呀。</p><h2 id="毕业"><a href="#毕业" class="headerlink" title="毕业"></a>毕业</h2><p>每年看着学长学姐在毕业季围成一个弧形，穿着学士服拍毕业照，总会心生许多感慨，今年轮到自己了，却似乎并没有什么特别的感觉，只是心里想着：嗯，毕业就是这样嘛。</p><p>只是还是会想到入学时在体育馆开的毕业典礼，军训时被大雨淋湿的衣服……四年里所有美好的瞬间应该都刻进了永恒的回忆了吧，虽然，不再是学生了，但求今后也别褪去那份稚气吧。</p><p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/main_interface/1632569128356.jpg" loading="lazy"></p>]]></content>
     
     
       
@@ -546,33 +573,6 @@
     
     
     <category term="Solidworks" scheme="https://jollylight.github.io/tags/Solidworks/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>常用快捷键小记</title>
-    <link href="https://jollylight.github.io/posts/Notes-on-common-shortcut-keys/"/>
-    <id>https://jollylight.github.io/posts/Notes-on-common-shortcut-keys/</id>
-    <published>2020-11-05T16:00:00.000Z</published>
-    <updated>2022-10-18T15:41:58.870Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>这篇文章可能对你没什么帮助，_(:з)∠)_主要是记给自己看的，只记录了我个人觉得应该常用但我不常用的快捷键(*/ω＼*)，没有列出我很熟悉的与很不熟悉的快捷键<del>(如果你真那么巧恰好和我熟悉的和不熟悉的快捷键一样那就应该对你也有很大帮助)</del> </p><h3 id="微软输入法（拼音）"><a href="#微软输入法（拼音）" class="headerlink" title="微软输入法（拼音）"></a>微软输入法（拼音）</h3><p><kbd>，</kbd>：<strong>上翻页</strong></p><p><kbd>。</kbd>：<strong>下翻页</strong></p><p><kbd>↓ </kbd>：下一个字</p><p><kbd>↑</kbd>  ：上一个字</p><p><kbd>win</kbd> + <kbd>.</kbd> ：表情（包含各种符号）</p><p><kbd>Ctrl </kbd>+ <kbd>←</kbd> / <kbd>↑</kbd> / <kbd>→</kbd>/ <kbd>↓</kbd> ：切换表情（包含各种符号）</p><h3 id="Edge浏览器"><a href="#Edge浏览器" class="headerlink" title="Edge浏览器"></a>Edge浏览器</h3><p><kbd>Ctrl</kbd> + <kbd>Tab</kbd>：<strong>切换到下一个标签页</strong></p><p><kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Tab</kbd>：切换到上一个标签页</p><p><kbd>Ctrl </kbd>+ <kbd>T</kbd>：新建标签页</p><p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>T</kbd>：<strong>恢复上一个关闭的标签页</strong></p><p><kbd>Alt</kbd> + <kbd>←</kbd>/<kbd>→</kbd>：对同一标签页的返回与前进操作</p><p><kbd>Ctrl</kbd> + <kbd>E</kbd>：在当前标签打开搜索引擎查询</p><p><kbd>Ctrl</kbd> + <kbd>H</kbd>：历史记录</p><p><kbd>Ctrl</kbd> + <kbd>W</kbd>：<strong>关闭当前标签页</strong></p><p><kbd>Ctrl</kbd> + <kbd>F5</kbd>：<strong>强制刷新当前页面</strong>（部署了博客后页面没更新可以试试这个）</p><p><kbd>空格键</kbd>：<strong>向下滚动网页</strong>（浏览学校的pdf非常好用）</p><p><kbd>Shift</kbd>+ <kbd>空格键</kbd>：<strong>向上滚动网页</strong></p><p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>S</kbd>：网页截图（可截自动滚动后的整页）</p><p><kbd>Shift</kbd> + <kbd>Esc</kbd>：浏览器资源管理器</p><p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>U</kbd>：语音朗读</p><h3 id="Windows-10-11"><a href="#Windows-10-11" class="headerlink" title="Windows 10/11"></a>Windows 10/11</h3><p><kbd>win</kbd> + <kbd>V</kbd>：<strong>打开剪贴板</strong>（可以省去一些情况下需要2个页面来回跳转复制粘贴的麻烦)</p><p>（以下截图的前提是将<code>设置</code>→<code>轻松使用</code>→<code>键盘</code>→<code>屏幕截图快捷方式</code>中的<code>使用PrtScn按键打开截图</code>打开）</p><p><kbd>PrtSc</kbd>：<strong>截图（可选范围）并保存至剪贴板</strong></p><p><kbd>win</kbd> + <kbd>PrtSc</kbd>：<strong>截图整屏保存至剪贴板并保存至文件夹</strong>（默认保存在了<code>C:\Users\你的用户名\Pictures\屏幕截图</code>文件夹下，你可以右击该文件夹选择<code>属性</code>→<code>位置</code>→<code>移动…</code>来选择你想保存在的文件夹，这是我找到的最舒服的截图方式了[]<del>(￣▽￣)</del>*）</p><p><kbd>Alt</kbd> + <kbd>F4</kbd>：关闭当前页面</p><blockquote><p>用<kbd>Fn</kbd>键控制时按键的顺序是<kbd>Fn</kbd> + <kbd>Alt</kbd> + <kbd>F4</kbd></p></blockquote><p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>D</kbd>：新建虚拟桌面</p><p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>←</kbd>/<kbd>→</kbd>：左右切换虚拟桌面</p><p><kbd>Ctrl </kbd>+ <kbd>win</kbd> + <kbd>F4</kbd>：关闭当前虚拟桌面</p><p><kbd>win</kbd> + <kbd>N</kbd>：打开通知面板/日历面板</p><p><kbd>win</kbd> + <kbd>W</kbd>：打开小组件（win11，虽然不用小组件，还是列这，<del>说不定以后小组件会改善</del>）</p><p><kbd>win</kbd> + <kbd>A</kbd>：<strong>打开快速设置面板</strong></p><p><kbd>win</kbd> + <kbd>H</kbd>：语音输入</p><p><kbd>Ctrl </kbd>+ <kbd>Shift</kbd> + <kbd>Esc</kbd>：任务管理器</p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="备忘笔记" scheme="https://jollylight.github.io/categories/%E5%A4%87%E5%BF%98%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="快捷键" scheme="https://jollylight.github.io/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     
   </entry>
   
