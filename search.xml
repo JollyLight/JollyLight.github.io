@@ -1,54 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>CFOP练习笔记</title>
-    <url>/posts/note-of-CFOP/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><details><summary>介绍</summary>
-    学习CFOP时参考了很多网上的教程，久而久之总结出了一套适合自己的方法，记个小笔记备忘。<br>
-
-<p>参考资料：</p>
-<ul>
-<li><p><a href="https://www.zhihu.com/column/c_1013368685897101312">@小狼啊小狼</a></p>
-</li>
-<li><p><a href="https://www.bilibili.com/video/BV1U741167d2/?spm_id_from=333.999.0.0">@魔方棋士jqx</a></p>
-</li>
-<li><p><a href="http://www.rubik.com.cn/">魔方小站</a></p>
-</details>
-
-
-
-</li>
-</ul>
-<h2 id="第一阶段"><a href="#第一阶段" class="headerlink" title="第一阶段"></a>第一阶段</h2><ul>
-<li><p><strong>OLL</strong></p>
-<p>7种顶面十字情况</p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/posts/cube/f1.jpg" loading="lazy"></p>
-</li>
-<li><p><strong>PLL</strong></p>
-<p>4种基本情况</p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/posts/cube/p1.jpg" loading="lazy"></p>
-</li>
-</ul>
-<h2 id="第二阶段"><a href="#第二阶段" class="headerlink" title="第二阶段"></a>第二阶段</h2><ul>
-<li><p><strong>PLL</strong></p>
-<p>13个一般情况</p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/posts/cube/p2a.jpg" loading="lazy"></p>
-<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/posts/cube/p2b.jpg" loading="lazy"></p>
-</li>
-<li><p><strong>F2L</strong></p>
-<p>总结中……</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>备忘笔记</category>
-      </categories>
-      <tags>
-        <tag>魔方</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>🔒2022.03.26</title>
     <url>/posts/2022.03.26/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码不对呢" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -103,8 +55,56 @@
         <category>备忘笔记</category>
       </categories>
       <tags>
-        <tag>笔记</tag>
         <tag>blog</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CFOP练习笔记</title>
+    <url>/posts/note-of-CFOP/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><details><summary>介绍</summary>
+    学习CFOP时参考了很多网上的教程，久而久之总结出了一套适合自己的方法，记个小笔记备忘。<br>
+
+<p>参考资料：</p>
+<ul>
+<li><p><a href="https://www.zhihu.com/column/c_1013368685897101312">@小狼啊小狼</a></p>
+</li>
+<li><p><a href="https://www.bilibili.com/video/BV1U741167d2/?spm_id_from=333.999.0.0">@魔方棋士jqx</a></p>
+</li>
+<li><p><a href="http://www.rubik.com.cn/">魔方小站</a></p>
+</details>
+
+
+
+</li>
+</ul>
+<h2 id="第一阶段"><a href="#第一阶段" class="headerlink" title="第一阶段"></a>第一阶段</h2><ul>
+<li><p><strong>OLL</strong></p>
+<p>7种顶面十字情况</p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/posts/cube/f1.jpg" loading="lazy"></p>
+</li>
+<li><p><strong>PLL</strong></p>
+<p>4种基本情况</p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/posts/cube/p1.jpg" loading="lazy"></p>
+</li>
+</ul>
+<h2 id="第二阶段"><a href="#第二阶段" class="headerlink" title="第二阶段"></a>第二阶段</h2><ul>
+<li><p><strong>PLL</strong></p>
+<p>13个一般情况</p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/posts/cube/p2a.jpg" loading="lazy"></p>
+<p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/posts/cube/p2b.jpg" loading="lazy"></p>
+</li>
+<li><p><strong>F2L</strong></p>
+<p>总结中……</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>备忘笔记</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>魔方</tag>
       </tags>
   </entry>
   <entry>
@@ -133,8 +133,8 @@
         <category>备忘笔记</category>
       </categories>
       <tags>
-        <tag>笔记</tag>
         <tag>blog</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -185,19 +185,13 @@
       </tags>
   </entry>
   <entry>
-    <title>你好！银河系第三旋臂上的小星星！</title>
-    <url>/posts/hello-galaxy/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天是10月29日，第一篇博客文章呢！</p>
-]]></content>
-  </entry>
-  <entry>
     <title>不是学生了呀</title>
     <url>/posts/for-the-past-four-years/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
 <p>终于还是毕业了，这篇文章就当是我四年生活的一个句点吧。</p>
 </blockquote>
 
-    <div id="aplayer-GNDMgmZi" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-ZagwOuvB" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1413374282" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FFCC66"
     ></div>
 
@@ -248,36 +242,10 @@
       </tags>
   </entry>
   <entry>
-    <title>天体模型收藏盒</title>
-    <url>/posts/summary-of-celestial-models/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
-<p>3D模型取自NASA</p>
-<p>加载可能需要一些时间，请耐心等待~</p>
-</blockquote>
-<h2 id="月球"><a href="#月球" class="headerlink" title="月球"></a>月球</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2366' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="水星"><a href="#水星" class="headerlink" title="水星"></a>水星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2369' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="金星"><a href="#金星" class="headerlink" title="金星"></a>金星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2343' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="火星"><a href="#火星" class="headerlink" title="火星"></a>火星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2372' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="木星"><a href="#木星" class="headerlink" title="木星"></a>木星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2375' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="土星"><a href="#土星" class="headerlink" title="土星"></a>土星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2355' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="天王星"><a href="#天王星" class="headerlink" title="天王星"></a>天王星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2344' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="海王星"><a href="#海王星" class="headerlink" title="海王星"></a>海王星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2364' width='100%' height='400px' frameborder='0'></iframe>
-
+    <title>你好！银河系第三旋臂上的小星星！</title>
+    <url>/posts/hello-galaxy/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天是10月29日，第一篇博客文章呢！</p>
 ]]></content>
-      <categories>
-        <category>收藏小间</category>
-      </categories>
-      <tags>
-        <tag>天体</tag>
-        <tag>三维</tag>
-      </tags>
   </entry>
   <entry>
     <title>兴趣爱好浅思</title>
@@ -320,34 +288,6 @@
       <tags>
         <tag>生活</tag>
         <tag>爱好</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>天体物理学习笔记（一）——方向与参考资料</title>
-    <url>/posts/note-for-astrophysics-learning/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="学习方向"><a href="#学习方向" class="headerlink" title="学习方向"></a>学习方向</h2><h3 id="学习方向参考："><a href="#学习方向参考：" class="headerlink" title="学习方向参考："></a>学习方向参考：</h3><p>1.中科大本科<a href="https://astro.ustc.edu.cn/2015/1228/c27261a259601/page.htm">天文英才班培养方案</a></p>
-<p>2.中科大天文学<a href="https://astro.ustc.edu.cn/yjsjy/list.htm">研究生培养方案</a></p>
-<h3 id="学习方向总结："><a href="#学习方向总结：" class="headerlink" title="学习方向总结："></a>学习方向总结：</h3><p>基础课程补充：电动力学、热力学与统计物理、量子力学B、天文学导论</p>
-<p>专业核心课程：天体物理概论、实测天体物理学、恒星物理基础</p>
-<p>专业方向课程：星系天文学、广义相对论 A、天体力学与天体测量</p>
-<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p>1.在线课程：中科大<a href="https://www.bilibili.com/video/BV1Zy4y197Cf">天体物理概论</a></p>
-<p>配套教材：《<a href="https://book.douban.com/subject/3353501/">天体物理概论</a>》</p>
-<h2 id="相关网站推荐"><a href="#相关网站推荐" class="headerlink" title="相关网站推荐"></a>相关网站推荐</h2><p>1.诺奖得主/理论物理学家Gerard ‘t Hooft建立网站——<a href="https://www.goodtheorist.science/index.html">How to become a GOOD Theoretical Physicist</a></p>
-<p>2.NASA系列网站：</p>
-<ul>
-<li><a href="https://www.nasa.gov/">NASA官网</a></li>
-<li><a href="https://science.nasa.gov/">NASA科学主题网站</a></li>
-<li><a href="https://solarsystem.nasa.gov/">NASA太阳系科普网站</a></li>
-<li><a href="https://mars.nasa.gov/">NASA火星主题网站</a></li>
-<li><a href="https://eyes.nasa.gov/">NASA’s Eyes</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>备忘笔记</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>天体物理</tag>
       </tags>
   </entry>
   <entry>
@@ -418,6 +358,38 @@
       <tags>
         <tag>诗句</tag>
         <tag>段落</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>天体模型收藏盒</title>
+    <url>/posts/summary-of-celestial-models/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
+<p>3D模型取自NASA</p>
+<p>加载可能需要一些时间，请耐心等待~</p>
+</blockquote>
+<h2 id="月球"><a href="#月球" class="headerlink" title="月球"></a>月球</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2366' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="水星"><a href="#水星" class="headerlink" title="水星"></a>水星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2369' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="金星"><a href="#金星" class="headerlink" title="金星"></a>金星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2343' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="火星"><a href="#火星" class="headerlink" title="火星"></a>火星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2372' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="木星"><a href="#木星" class="headerlink" title="木星"></a>木星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2375' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="土星"><a href="#土星" class="headerlink" title="土星"></a>土星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2355' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="天王星"><a href="#天王星" class="headerlink" title="天王星"></a>天王星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2344' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="海王星"><a href="#海王星" class="headerlink" title="海王星"></a>海王星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2364' width='100%' height='400px' frameborder='0'></iframe>
+
+]]></content>
+      <categories>
+        <category>收藏小间</category>
+      </categories>
+      <tags>
+        <tag>天体</tag>
+        <tag>三维</tag>
       </tags>
   </entry>
   <entry>
@@ -533,25 +505,6 @@
       </tags>
   </entry>
   <entry>
-    <title>状态与感受小记——2023.02.26</title>
-    <url>/posts/feeling%20notes230226/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="一些杂谈"><a href="#一些杂谈" class="headerlink" title="一些杂谈"></a>一些杂谈</h2><p>从高中开始，我一直这么认为：记录当下发生的事情和即时产生的感受是一件很有意义的事情，某天翻起这些记录的时候会很容易将自己带入到当时的场景中，或开心、或难过、或再一次感同身受、亦或能以一种局外人的视角来看待当时这件事情本身，也不失为一种对过往的总结。</p>
-<p>事实上也的确如此，在一段接近4年的时间里，每天一页日记雷打不动，如果当天有不可预料的情况发生，在第二天也会将前一天的日记补上，尽管有时日子稀疏平常，也会多少记下当天的一些感受，我把它们都放回了老家，每次在那个隐蔽的角落里看到厚厚的几十本时，也会偶有感慨自己当时的那番状态。</p>
-<p>后来记得少了，有时一两周一次，有时几个月一次，但基本能够确保，所有日记除了自己之外没有第二个人翻阅过，直到拥有了个人博客，就有过打算将自己的记录转移到博客上来，但尽管几乎没有人阅读，还是会多少有些顾虑，落笔时不能尽想所言，于是便没有实现，如今尝试在博客上记录，或许会将一些事物或想法过滤掉，若是总能提醒自己“who cares？”，或许就不会。</p>
-<h2 id="关于工作"><a href="#关于工作" class="headerlink" title="关于工作"></a>关于工作</h2><p>我本科的专业是机械设计，现在的工作也算是和专业高度对口，毕业后刚进公司的时候，的确感觉一切都很不错，那时候分配到自己头上的事情很少，主要的任务其实是学习，对一个当了16年学生的学生来说，最擅长的也就是学习了，那会儿几乎没有压力，加班与否全看自己心情。直到第一次被要求处理一些杂事不得不加班到凌晨一点多，直到第一次担心自己的项目不能在年前完成影响回家过年，直到第一次意识到项目交期紧不是偶然事件而是常态，工作的积极性主动性开始在不断消减。当然，实事求是，我现在的工作强度放在自己学生时代来看不值一提，但问题的本质在于，所消耗的时间不是用在提升自己上，而是提高所谓公司的利益，这绝不值。写到这里不由得想贴上马克思在《工资，价格和利润》里的一段话：“<em>资本的经常趋势就是把工作日延长到体力可能达到的极限，因为随着工作日长度的增加，剩余劳动，从而这劳动所创造的利润也将同样增长。资本把工作日越延长，它占有他人的劳动量也越多……时间是人类发展的空间。一个人如果没有自己处置的自由时间，一生中除睡眠饮食等纯生理上必需的间断以外，都是替资本家服务，那么，他就还不如一头载重的牲畜。他不过是一架为别人生产财富的机器，身体垮了，心智也狂野了</em>”。尽管这话看起来更像是在指当时的体力劳动，但其所要表达的想法放在现在的资本雇佣关系依然合适。我仍相信，若愿探寻，世界便有趣，大好时光实在该用来体验世界上更多美好的东西，而不该任由思想被禁锢。当然，漂亮话谁都会说，行与知又有几人能做到一致呢。</p>
-<p>所幸的是，尽管所在公司部门的压力氛围浓厚，但共同相处的人还行，每个前辈都会耐心解答你的问题，平时大家也都互帮互助，带自己入门的导师也无疑也是让自己受益匪浅，想到这些，偶尔会想如果换了其他公司是否还会是这样，偶尔会想若非一切资本利益驱使，本氛围大可不必充斥如此大的压力，一切也会和谐许多。</p>
-<h2 id="关于寻找知己"><a href="#关于寻找知己" class="headerlink" title="关于寻找知己"></a>关于寻找知己</h2><p>用“知己”这个词可能欠妥，这里其实想指的是彼此共度余生的另一半，但的确想不到其他合适的词。在过去的时间里，我从来没有因为此事而困扰过，从来没有因为别人有而自己没有而产生一丝一毫内心的波动，从来没有意识到找一个合适的知己需要当成一件事放在心上。但现在不同了，在家庭与自己内心的双双寄予下，甚至公司的导师也提醒自己该把这件事放上日程，我意识到自己可能该做些什么了，可……我该做些什么呢。我开始把这件事当成一件事来处理，并列上可以实施的行动，尝试着做一些计划和改变，却完全无济于事，加之现实中自己性格内敛，我由衷想说：这件事对我来说比想象中要难很多。</p>
-<p>但随着自己越来越关注这件事情本身，也慢慢产生了很多关于另一半的想法，难免会幻想生活中的种种细节，难免会幻想ta应该是怎样的性格，应该会有怎样的兴趣爱好和想法，我也同样明白，一切更多的该是建立在相互包容的基础之上，而非一定要拥有怎样明确的性格或特定的想法。我所理解的这种亲密关系应该是：相互欣赏，共同体验世界上各种美好的事物，快乐与生活中的确幸相互分享，困难时相互给予鼓励和支持，心情低落时给予安慰，若是有共同的兴趣爱好则更好了……</p>
-<h2 id="关于现状"><a href="#关于现状" class="headerlink" title="关于现状"></a>关于现状</h2><p>如上所述，自己多少正在被上面那两件事所困扰，说是困扰或许有些过头，但的确是对我现在的生活产生了一些影响，我现在大可以把上面两个问题抛之脑后，但也只能是一时。改变现状不是一件容易的事情，还是不由得想到了这句话：“人若不能有所舍弃，就无法改变现状”</p>
-]]></content>
-      <categories>
-        <category>时间沙漏</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>收藏的博客</title>
     <url>/posts/Bookmarked-Blog/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
@@ -595,20 +548,31 @@
       </tags>
   </entry>
   <entry>
-    <title>生活小记（1）</title>
-    <url>/posts/the-life-of-neutrino-1/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>2023年6月29日</p>
-<p>今天是我入职两周年，意味着我已经不是学生2年了，2年前的我不会想到我居然能够在这里待这么久，这里的加班氛围我早有耳闻，本着先干一段时间试试看的态度来到这里，期间有无数次要离职的想法，到现在，不能说是适应，只能说是心态基本稳定了。</p>
-<p>这几天的空余时间比较多，紧急的事情不算多，因此时间上还算比较自由，只是最近自己对一切都提不起兴趣，感到十分无聊，已经有好几天没有练琴了，常玩的游戏也没有登录的动力，在学的天体物理课程也没看几次，喜欢的电视剧看着也觉得这几集没那么好看了……但这种无欲无求的状态从昨天开始有了一些好转，我在想，如果我是期望自己仍能对世界的某些东西保持兴趣，我就可以试着做出一些改变，小的改变、大的改变、什么都行，无所谓，反正一切都没意思，破釜沉舟，怎样都好。</p>
-<p>今天写了一份技术交底书，是导师让我把之前我参与的项目中的一个机构申请专利，我想着也不错吧，想到之前自己还挺热衷于研究专利相关的东西，第一次写这玩意儿，开始下笔就停不下来，很快就写完了，发明人我填了4个人的名字，把自己放在了后面，导师来检查的时候，坐在我的旁边，握着我的鼠标把我的名字剪切粘贴放在了第一个，说第一发明人写我的名字，然后继续看着后面应该修改下哪些内容。导师确实对我一直很好，今天脑子里想了好几次这件事。</p>
-<p>晚上下班后，我骑着自行车来到以前常来的湖边，第一次在晚上骑着自行车绕着湖骑了很大的一圈，这一圈印象中很大，走路需要一个小时左右，但我骑着单车，晚风很清凉，散步的人很多、跑步的人也不少，时间很快，第一次觉得这一圈也没有多大。骑完一圈后在附近的那家24小时小图书室看了一会儿书，就回去了。突然想换个微信头像，就换了，想到上次换头像还是两年多前，大四的时候在图书馆里那个一个人过的元旦……</p>
-<p>回到宿舍把前几天洗好晒干的鞋子穿上鞋带、洗澡、写下这篇日记，嗯，又过了一天。</p>
+    <title>天体物理学习笔记（一）——方向与参考资料</title>
+    <url>/posts/note-for-astrophysics-learning/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="学习方向"><a href="#学习方向" class="headerlink" title="学习方向"></a>学习方向</h2><h3 id="学习方向参考："><a href="#学习方向参考：" class="headerlink" title="学习方向参考："></a>学习方向参考：</h3><p>1.中科大本科<a href="https://astro.ustc.edu.cn/2015/1228/c27261a259601/page.htm">天文英才班培养方案</a></p>
+<p>2.中科大天文学<a href="https://astro.ustc.edu.cn/yjsjy/list.htm">研究生培养方案</a></p>
+<h3 id="学习方向总结："><a href="#学习方向总结：" class="headerlink" title="学习方向总结："></a>学习方向总结：</h3><p>基础课程补充：电动力学、热力学与统计物理、量子力学B、天文学导论</p>
+<p>专业核心课程：天体物理概论、实测天体物理学、恒星物理基础</p>
+<p>专业方向课程：星系天文学、广义相对论 A、天体力学与天体测量</p>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p>1.在线课程：中科大<a href="https://www.bilibili.com/video/BV1Zy4y197Cf">天体物理概论</a></p>
+<p>配套教材：《<a href="https://book.douban.com/subject/3353501/">天体物理概论</a>》</p>
+<h2 id="相关网站推荐"><a href="#相关网站推荐" class="headerlink" title="相关网站推荐"></a>相关网站推荐</h2><p>1.诺奖得主/理论物理学家Gerard ‘t Hooft建立网站——<a href="https://www.goodtheorist.science/index.html">How to become a GOOD Theoretical Physicist</a></p>
+<p>2.NASA系列网站：</p>
+<ul>
+<li><a href="https://www.nasa.gov/">NASA官网</a></li>
+<li><a href="https://science.nasa.gov/">NASA科学主题网站</a></li>
+<li><a href="https://solarsystem.nasa.gov/">NASA太阳系科普网站</a></li>
+<li><a href="https://mars.nasa.gov/">NASA火星主题网站</a></li>
+<li><a href="https://eyes.nasa.gov/">NASA’s Eyes</a></li>
+</ul>
 ]]></content>
       <categories>
-        <category>时间沙漏</category>
+        <category>备忘笔记</category>
       </categories>
       <tags>
-        <tag>生活</tag>
+        <tag>笔记</tag>
+        <tag>天体物理</tag>
       </tags>
   </entry>
   <entry>
@@ -660,6 +624,42 @@
       </tags>
   </entry>
   <entry>
+    <title>生活小记（1）</title>
+    <url>/posts/the-life-of-neutrino-1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>2023年6月29日</p>
+<p>今天是我入职两周年，意味着我已经不是学生2年了，2年前的我不会想到我居然能够在这里待这么久，这里的加班氛围我早有耳闻，本着先干一段时间试试看的态度来到这里，期间有无数次要离职的想法，到现在，不能说是适应，只能说是心态基本稳定了。</p>
+<p>这几天的空余时间比较多，紧急的事情不算多，因此时间上还算比较自由，只是最近自己对一切都提不起兴趣，感到十分无聊，已经有好几天没有练琴了，常玩的游戏也没有登录的动力，在学的天体物理课程也没看几次，喜欢的电视剧看着也觉得这几集没那么好看了……但这种无欲无求的状态从昨天开始有了一些好转，我在想，如果我是期望自己仍能对世界的某些东西保持兴趣，我就可以试着做出一些改变，小的改变、大的改变、什么都行，无所谓，反正一切都没意思，破釜沉舟，怎样都好。</p>
+<p>今天写了一份技术交底书，是导师让我把之前我参与的项目中的一个机构申请专利，我想着也不错吧，想到之前自己还挺热衷于研究专利相关的东西，第一次写这玩意儿，开始下笔就停不下来，很快就写完了，发明人我填了4个人的名字，把自己放在了后面，导师来检查的时候，坐在我的旁边，握着我的鼠标把我的名字剪切粘贴放在了第一个，说第一发明人写我的名字，然后继续看着后面应该修改下哪些内容。导师确实对我一直很好，今天脑子里想了好几次这件事。</p>
+<p>晚上下班后，我骑着自行车来到以前常来的湖边，第一次在晚上骑着自行车绕着湖骑了很大的一圈，这一圈印象中很大，走路需要一个小时左右，但我骑着单车，晚风很清凉，散步的人很多、跑步的人也不少，时间很快，第一次觉得这一圈也没有多大。骑完一圈后在附近的那家24小时小图书室看了一会儿书，就回去了。突然想换个微信头像，就换了，想到上次换头像还是两年多前，大四的时候在图书馆里那个一个人过的元旦……</p>
+<p>回到宿舍把前几天洗好晒干的鞋子穿上鞋带、洗澡、写下这篇日记，嗯，又过了一天。</p>
+]]></content>
+      <categories>
+        <category>时间沙漏</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>状态与感受小记——2023.02.26</title>
+    <url>/posts/feeling%20notes230226/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="一些杂谈"><a href="#一些杂谈" class="headerlink" title="一些杂谈"></a>一些杂谈</h2><p>从高中开始，我一直这么认为：记录当下发生的事情和即时产生的感受是一件很有意义的事情，某天翻起这些记录的时候会很容易将自己带入到当时的场景中，或开心、或难过、或再一次感同身受、亦或能以一种局外人的视角来看待当时这件事情本身，也不失为一种对过往的总结。</p>
+<p>事实上也的确如此，在一段接近4年的时间里，每天一页日记雷打不动，如果当天有不可预料的情况发生，在第二天也会将前一天的日记补上，尽管有时日子稀疏平常，也会多少记下当天的一些感受，我把它们都放回了老家，每次在那个隐蔽的角落里看到厚厚的几十本时，也会偶有感慨自己当时的那番状态。</p>
+<p>后来记得少了，有时一两周一次，有时几个月一次，但基本能够确保，所有日记除了自己之外没有第二个人翻阅过，直到拥有了个人博客，就有过打算将自己的记录转移到博客上来，但尽管几乎没有人阅读，还是会多少有些顾虑，落笔时不能尽想所言，于是便没有实现，如今尝试在博客上记录，或许会将一些事物或想法过滤掉，若是总能提醒自己“who cares？”，或许就不会。</p>
+<h2 id="关于工作"><a href="#关于工作" class="headerlink" title="关于工作"></a>关于工作</h2><p>我本科的专业是机械设计，现在的工作也算是和专业高度对口，毕业后刚进公司的时候，的确感觉一切都很不错，那时候分配到自己头上的事情很少，主要的任务其实是学习，对一个当了16年学生的学生来说，最擅长的也就是学习了，那会儿几乎没有压力，加班与否全看自己心情。直到第一次被要求处理一些杂事不得不加班到凌晨一点多，直到第一次担心自己的项目不能在年前完成影响回家过年，直到第一次意识到项目交期紧不是偶然事件而是常态，工作的积极性主动性开始在不断消减。当然，实事求是，我现在的工作强度放在自己学生时代来看不值一提，但问题的本质在于，所消耗的时间不是用在提升自己上，而是提高所谓公司的利益，这绝不值。写到这里不由得想贴上马克思在《工资，价格和利润》里的一段话：“<em>资本的经常趋势就是把工作日延长到体力可能达到的极限，因为随着工作日长度的增加，剩余劳动，从而这劳动所创造的利润也将同样增长。资本把工作日越延长，它占有他人的劳动量也越多……时间是人类发展的空间。一个人如果没有自己处置的自由时间，一生中除睡眠饮食等纯生理上必需的间断以外，都是替资本家服务，那么，他就还不如一头载重的牲畜。他不过是一架为别人生产财富的机器，身体垮了，心智也狂野了</em>”。尽管这话看起来更像是在指当时的体力劳动，但其所要表达的想法放在现在的资本雇佣关系依然合适。我仍相信，若愿探寻，世界便有趣，大好时光实在该用来体验世界上更多美好的东西，而不该任由思想被禁锢。当然，漂亮话谁都会说，行与知又有几人能做到一致呢。</p>
+<p>所幸的是，尽管所在公司部门的压力氛围浓厚，但共同相处的人还行，每个前辈都会耐心解答你的问题，平时大家也都互帮互助，带自己入门的导师也无疑也是让自己受益匪浅，想到这些，偶尔会想如果换了其他公司是否还会是这样，偶尔会想若非一切资本利益驱使，本氛围大可不必充斥如此大的压力，一切也会和谐许多。</p>
+<h2 id="关于寻找知己"><a href="#关于寻找知己" class="headerlink" title="关于寻找知己"></a>关于寻找知己</h2><p>用“知己”这个词可能欠妥，这里其实想指的是彼此共度余生的另一半，但的确想不到其他合适的词。在过去的时间里，我从来没有因为此事而困扰过，从来没有因为别人有而自己没有而产生一丝一毫内心的波动，从来没有意识到找一个合适的知己需要当成一件事放在心上。但现在不同了，在家庭与自己内心的双双寄予下，甚至公司的导师也提醒自己该把这件事放上日程，我意识到自己可能该做些什么了，可……我该做些什么呢。我开始把这件事当成一件事来处理，并列上可以实施的行动，尝试着做一些计划和改变，却完全无济于事，加之现实中自己性格内敛，我由衷想说：这件事对我来说比想象中要难很多。</p>
+<p>但随着自己越来越关注这件事情本身，也慢慢产生了很多关于另一半的想法，难免会幻想生活中的种种细节，难免会幻想ta应该是怎样的性格，应该会有怎样的兴趣爱好和想法，我也同样明白，一切更多的该是建立在相互包容的基础之上，而非一定要拥有怎样明确的性格或特定的想法。我所理解的这种亲密关系应该是：相互欣赏，共同体验世界上各种美好的事物，快乐与生活中的确幸相互分享，困难时相互给予鼓励和支持，心情低落时给予安慰，若是有共同的兴趣爱好则更好了……</p>
+<h2 id="关于现状"><a href="#关于现状" class="headerlink" title="关于现状"></a>关于现状</h2><p>如上所述，自己多少正在被上面那两件事所困扰，说是困扰或许有些过头，但的确是对我现在的生活产生了一些影响，我现在大可以把上面两个问题抛之脑后，但也只能是一时。改变现状不是一件容易的事情，还是不由得想到了这句话：“人若不能有所舍弃，就无法改变现状”</p>
+]]></content>
+      <categories>
+        <category>时间沙漏</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>生活小记（3）</title>
     <url>/posts/the-life-of-neutrino-3/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>2023年9月10日</p>
@@ -695,14 +695,29 @@
       </tags>
   </entry>
   <entry>
-    <title>生活小记（4）</title>
-    <url>/posts/the-life-of-neutrino-4/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>2023年11月5日</p>
-<p>国庆之后自己对找新的工作的脚步放缓了许多，可能是因为放假太久了，想先让自己恢复到正常的状态，从上周开始，我试着记录下每天工作的主要内容，并记下当天的繁忙程度与下班时间，想看看自己在一段较长的时间里自己认为忙碌与不那么忙碌的时间具体占了多少，从记录来看，上周一整周都是十分忙碌的状态，下班时间也较晚，每天心情也更差，而这周则相对正常一些，虽有事情，但不算紧急，并且回看这周在下班之后的生活里的确也做了不少事情。</p>
-<p>时间过得很快，距离上次被打差绩效又过了一个季度了，这次的结果相反，是优秀，我无法评价这种规则，在我看来，我上个季度不应该得差，这个季度也不该得优秀，两次造成的影响可以相互抵消，但一切像是中层在迎合上层的规则完成任务罢了，上层意图通过对员工采取与个人利益挂钩的评价体系来对员工进行掌控，而这套评价体系本身就不合理，中层没有权利也没有意愿去变更规则，于是产生这样的结果。</p>
-<p>今年的应届生最近进行了转正答辩，有一个应届生学弟被辞退了，从来没听说答辩会有这样的结果，也没有人被事先告知会有这样结果的出现，辞退的理由更是让人无法接受：不够积极。他坐在我的工位后面，所以也算有些交流，会聊些工作生活的事情，他性格比较内敛，话比较少，但绝不至于因此被辞退，被置于无应届生身份、无工作经验的两难境地，内敛的性格我和他很像，所以更能体会到那种感受，作为一个独立的个体，能做的和改变的事情实在太少了……</p>
-<p>过去的一周时间里，无论是练琴、运动还是其他，都在按照计划可控的进行着，生活看起来规律并按照自己预定的轨迹进行着，但是心情并不算太好，有种 lost in space 的感觉，但 lost 归 lost，最近还是有一些让自己开心的事情的，《Rick and Morty》第七季开播了，时间流逝得很快，上一次追第六季的时候是才刚开始工作的时候，上上次追则是在毕业之前了，以及在看现在很喜欢的一部老情景电视剧《The Big Bang Theory》，有很多季，能看很久。</p>
-<p>今天是周日，在图书馆里看的书没有留下什么印象特别深刻的内容，但我正要离开的时候，看到几个穿着志愿服的学生聚在书架旁边讨论着什么，我恰好从旁边路过，看到志愿服上写着我学校和对应的系组织，顿时感觉十分亲切，将我的思绪瞬间带回了还在大学时的时光，穿着志愿服完成今天的志愿活动，和同伴讨论安排各个事项，结束后回到学校里，在林荫和树影的路上穿行，来到学校的图书馆里找个地方坐下，完成这周的课程作业，有种单纯的美好……</p>
+    <title>生活小记（5）——节气、星空和阳历新年</title>
+    <url>/posts/the-life-of-neutrino-5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h5 id="2023年12月24日-星期天"><a href="#2023年12月24日-星期天" class="headerlink" title="2023年12月24日 星期天"></a>2023年12月24日 星期天</h5><p>平安夜</p>
+<p>今天周末，睡得也比较晚，起来后看了万神殿第二集，最后一段把自己看哭了。upload intelligence，令自己也产生了许多遐想，想到和自己一直以来有过的“如果世界上仅存在精神交流不存在实体”的想法不谋而合，也觉得这或许是自己近来看的最可能实现的科幻了。中午吃了方便面，做这个决定的确也纠结了一番。下午去图书馆，主要是看《天文学新概论》，这本看上去更像是教材的书，算是速览吧，快速获取自己不知道但想要知道的内容，还是有所收获的。晚上赶337路公交的时候就差了几秒钟，于是等下一班，本来是因此有点不开心的，但后来转头回去图书馆等的时候看到了好大一轮明月，当时才下午五点多，看着今天的日落时间17：47，我等到这个时间，一边看着现实里被树丛挡住的太阳发出的散开的光，一边看着star walk2里的太阳一点一点落下直到低于地平线，颇有意思。回来宿舍，我还是很喜欢自己煮的面，味道一直很不错，一边看着今晚80后脱口秀，很棒~今天发现在毛绒睡衣睡裤里面再穿一件薄睡衣和睡裤会更舒服，还能减少静电直接接触，也更清爽些。嗯，看了会儿B站，看2集生活大爆炸，睡觉。</p>
+<h5 id="2023年12月25日-星期一"><a href="#2023年12月25日-星期一" class="headerlink" title="2023年12月25日 星期一"></a>2023年12月25日 星期一</h5><p>圣诞节</p>
+<p>今天公司的伴手礼到了，我选的是冲牙器，那2个盒子没有袋子我骑着自行车的确不好拿回来，当然我还是拿回来了，打开包装，挺新鲜的，毕竟之前从没用过这玩意，主要是为了口腔健康吧，搜了很多相关的视频，也自己试着用了一下，嗯，后来还自己买了个牙刷，因为现在的也用了挺久的了。看2集生活大爆炸，sleep。</p>
+<h5 id="2023年12月26日-星期二"><a href="#2023年12月26日-星期二" class="headerlink" title="2023年12月26日 星期二"></a>2023年12月26日 星期二</h5><p>今天的天气很不错，而且气温也回升了，我很喜欢今天的天气，其实比起冬天，我更喜欢夏天，当然更喜欢更合适的温度，因为寒冷的确挺不舒服的，而且会在一定程度上降低自己做一些喜欢事情的热情。今天摸鱼的时候背了下24节气，觉得按照地球绕太阳一圈均分成24等分的想法挺有意思的，也想到之前友链里那个博客使用24节气来表示日期，以替代精准的日期计算这种方式真的很不错，这才是该有的慢节奏生活。提都提到了就默写下吧~立春 雨水 惊蛰 春分 清明 谷雨 立夏 小满 芒种 夏至 小暑 大暑 立秋 处暑 白露 秋分 寒露 霜降 立冬 小雪 大雪 冬至 小寒 大寒。晚上绕着月荷湖骑了一圈，因为今天也不冷，所以还挺舒服的，骑到一个小台子处停了下来，看着湖面上楼房灯光的倒影，真的挺美的，想到倒影这种和现实事物一样的东西自然界居然也会创造出来，真是有趣。后来看着夜空，有些陶醉其中了，今天农历十四，月亮还挺圆的，而且很亮，但是星星还是能够看到不少，虽然有一些云，但依然可以看清，边看着星空，边看着star walk2了解，冬季大三角、猎户座、天狼星、毕宿五……能看到星星的夜空真的太棒了。</p>
+<h5 id="2023年12月27日-星期三"><a href="#2023年12月27日-星期三" class="headerlink" title="2023年12月27日 星期三"></a>2023年12月27日 星期三</h5><p>今天好像没有什么特别的事情，晚上练了会儿琴，《三叶的主题曲》这个曲子已经不知道断断续续练了多久了，最后一段还是并不太熟练。天气回暖了之后蚊子也出来了，不过这个温度下好像并不会吸血。</p>
+<h5 id="2023年12月28日-星期四"><a href="#2023年12月28日-星期四" class="headerlink" title="2023年12月28日 星期四"></a>2023年12月28日 星期四</h5><p>今天公司年会，年会应该还挺不错的，但因为这个，今天的社交时间溢出了，需要一个人做一些自己喜欢的事情恢复下，结束后我再次骑车到之前的湖畔，今晚没有云，那几颗比较亮的星星看得很清楚，又认识了几颗星星，五车二、五车五、五车三、都是能够看到的，参宿四距离我们724光年，天狼星距离地球9光年……今天还找了下24节气的口诀，像诗一样，也不太难记，春雨惊春清谷天，夏满芒夏暑相连，秋处露秋寒霜降，冬雪雪冬小大寒。对了，现在了解的和人类文化无关而与天体位置有关的特殊日子有：夏至、冬至、近日点、远日点</p>
+<h5 id="2023年12月29日-星期五"><a href="#2023年12月29日-星期五" class="headerlink" title="2023年12月29日 星期五"></a>2023年12月29日 星期五</h5><p>今天是元旦假期的前一天，因为原本打算是去父母那边的，但是我似乎依然没有处理好这之间的关系，所以事实上我可能更想一个人待在这里不回去，我想到如果我不回去我能够利用这次假期做的事情，十分丰富多彩，让我更想这样度过这三天假期了，我接着又列举了如果去那边我可以做的事情，我这样想着，在这里我做的事情大多和之前的周末一样，但其实让生活偶尔有一些新鲜的事物也是一件不错的事，于是在对比了之后，我又想到自己该怎么去调整自己的心态，这一切都应该有所准备，而不能过于稀里糊涂了，于是还是决定明天早上回去，嗯。晚上过了原神这次的活动，一边浏览着之前收藏的博客，很有意思。</p>
+<h5 id="2023年12月30日-星期六"><a href="#2023年12月30日-星期六" class="headerlink" title="2023年12月30日 星期六"></a>2023年12月30日 星期六</h5><p>今天是元旦假期的第一天，早上八点多起床，吃完早餐整理下东西，9:25从宿舍出门回家，先打快车到城轨站，接着坐城轨转公交到家，11:35到家，差不多两个小时左右吧，不过城轨坐得的确很舒服，几乎一点没有晕车的感觉，十分平稳，望着窗外快速移动的景色，我好像明白谢尔顿为什么会喜欢火车了。今天妈妈上班，所以中午和爸爸一起吃饭，嗯。<br>吃完饭我决定去趟这附近的一个图书馆，骑共享电动车去的，不得不说，路确实绕，根本记不住，全听导航里派蒙的指挥。到了图书馆之后发现这里的书的确挺少的，虽然貌似是这一带最大的图书馆了，但还是有点小失望，只大概看了一些书就准备回去了，但就在这时，手机突然抽风，屏幕的一小部分出现花屏并卡住，接着黑屏，然后就是无论怎么试都开不了机了，带了充电宝插上没用，因为确实还有50多电量，不是电量原因。还好我沉着冷静，立刻先想到如果手机一直开不了机我该怎么回去的问题，这里离家接近10公里，像来的时候骑共享电车回去没有手机扫码是没办法的，于是想到坐公交，但是身上根本没有现金，钱全在手机里，也没办法直接和陌生人交换零钱，我突然想到刷脸支付，于是寻找有刷脸支付的便利店，买了瓶水并刷脸换了2张5元纸币（这家店说自己也没有多少一块的现金，所以不愿给1元散钱），又去另一家店买了瓶1元的水找了4个一块钱，这样一来，我手上有了一张5元纸币和四张1元纸币，无论公交的费用是1-9元中的任何一个数，我都可以直接付出去，第二家店的老板很好，还帮忙查了公交线路，虽然很折腾，但终于回到家了。<br>我想到之前逛论坛时这个型号经常被诟病虚焊的问题，晚上又看了下，果然很多手机都是这个现象。晚上吃完饭，和父母一起出去逛了下，顺便找修手机的店，不得不说确实挺贵的，最后还是在一家修理店修了，明天下午来拿，修手机的最后要了我手机的解锁密码，这一点我还挺不放心的，有点担心会对我的手机做什么手脚。晚上也开始想可能要换个新手机了，这个问题修好了之后是否还会复现还不知道，总之对小米印象直接跌到谷底了，自己在社区里又看了下小米的虚焊问题，加上修理的人也提到小米很多系列都是一样的毛病，想到大学时自己还是很喜欢小米的，失望失望。<br>话说回来，的确是次难忘的经历呢。</p>
+<h5 id="2023年12月31日-星期天"><a href="#2023年12月31日-星期天" class="headerlink" title="2023年12月31日 星期天"></a>2023年12月31日 星期天</h5><p>上午姐姐一家来我们家里做客，中午吃完饭我休息了一会儿后骑车去昨天的地方拿我的手机，又等了挺长时间，看着修好了就拿回来了，回来发现我原来的充电器充不了这个手机了，奇怪的是，经过我的多个试验，任何其他的充电头都可以对我的手机正常充电，而我的手机头也可以给其他任何手机正常充电，但是只有我的充电头充不了我的手机了，也不想再折腾来回跑去找修手机的了，以后只能用其他的头给这个手机充电了。<br>晚上吃完饭和父母在楼下走了走，这里几乎没什么人，很安静，环境的确也不错。其实我在回家之前特地查了这边的光污染地图，是比我上班的地方要低一级的，光污染会好一些，但是这两天晚上都是多云，几乎看不到星星，所以有点可惜。散步回来后看跨年晚会，零点的时候能看到外面很多地方在放烟花，随口提了下一起去楼顶天台看烟花，于是立刻就一起上了天台，这个角度的确很漂亮，烟花结束后我注意到夜空的云已经消散很多了，看着满天的星星，真的太美了，这里的这个天台真是个绝佳的观星地点，比之前看的那个地方看到的星星更多更亮，很难不喜欢啊。</p>
+<h5 id="2024年1月1日-星期一"><a href="#2024年1月1日-星期一" class="headerlink" title="2024年1月1日 星期一"></a>2024年1月1日 星期一</h5><p>元旦</p>
+<p>上午看了下昨晚开始没看的Bilibili晚会，都是童年的一些歌曲，B站还是挺会的，还挺不错的，午饭后和父母去附近的公园走了走，之后又开车去了市区的植物园，这个植物园的确还挺不错的，是个游览的好地方呢，里面各种植物，有不少植物还挺新奇的，里面的人工小瀑布也挺不错的，十分凉爽，里面的科普馆也很不错，里面还有一些植物和蝴蝶的标本，看到里面写着各种植物的各种信息，让我觉得人类的确在这颗星球上做了不少的事情，对地球了解研究的信息不断的在人类文明中流传下去，是一件挺不错的事。晚上回家吃饭，吃完饭后爸爸开车送我去城轨站，嗯就这样坐车回去我自己住的地方了。以防万一，今晚把手机里本地的照片等文件备份到电脑里，而且也在考虑换手机的事了。</p>
+<h5 id="2024年1月2日-星期二"><a href="#2024年1月2日-星期二" class="headerlink" title="2024年1月2日 星期二"></a>2024年1月2日 星期二</h5><p>短假后回来上班心里总会平静一些，会更容易专心做一些事情。晚上回来后把手机微信的聊天记录也都备份了一下，然后开始看新手机，看测评和各种评价，系统的话可能更想在origin OS 和MIUI（或者叫hyper OS）之间做选择了，了解了下虚焊和手机发热有一定关系，所以或许可以注意下，现在还是比较偏向于不选择小米或红米了，当然或许还需要了解更多再下结论，筛选后型号基本在iqoo neo9、一加ACE2 pro和redmi k70之间选择了，现在更偏向于iqoo neo9，评分目前也最高，但这款才发布没几天，所以可能很多问题没有暴露出来，而且刚发布也说不定过段时间会跳水，所以可以在后天一加发布ACE3之后再做判断。</p>
+<h5 id="2024年1月3日-星期三"><a href="#2024年1月3日-星期三" class="headerlink" title="2024年1月3日 星期三"></a>2024年1月3日 星期三</h5><p>最近发觉自己身为一个普通人类，虽然的确拥有较长时间记忆的能力，但是往往对于不经意间经历的事情只有短短一两天的记忆，如果不是发生什么令人印象深刻的事件，很难想起前天以及更久之前自己究竟具体做了哪些事情。今天感觉降温了，骑车的风也不小，可能今天看手机的各种信息有些多，下班的时候直接没电关机了，而且自己感觉也没有什么重度使用的行为，所以也更想快些换个新手机了。回到宿舍后弹了下有几天没碰的琴，看看B站，看了2集《生活大爆炸》，睡觉。</p>
+<h5 id="2024年1月4日-星期四"><a href="#2024年1月4日-星期四" class="headerlink" title="2024年1月4日 星期四"></a>2024年1月4日 星期四</h5><p>今天换手机的想法似乎没有那么强烈了，在一天的轻度使用之后，下班时还有接近50%的电量，所以其实貌似还是可以接受的，而且本来自己也不想花太多时间在手机上。晚上看了一晚上博客相关的东西，越来越觉得ayu的网站做的真不错啊，按照自己的想法布置，而不是直接套用现有的框架，放上自己想放的东西。我自己也整理了下自己对博客的想法，并且也在想自己是不是可以换一个博客主题或者实现自己很久之前自己制作博客主题的想法，当然，其实这些还有一个前提，就是自己整理的事物是自己愿意坚持并真正做到坚持的。其实晚上看到Shiro主题也很好看，似乎也比较接近自己的布局想法，或许可以通过魔改这个主题来实现自己的想法。</p>
+<h5 id="2024年1月5日-星期五"><a href="#2024年1月5日-星期五" class="headerlink" title="2024年1月5日 星期五"></a>2024年1月5日 星期五</h5><p>这一周过得很快，可能是因为少了一个工作日吧，挺好的。</p>
+<h5 id="2024年1月6日-星期六"><a href="#2024年1月6日-星期六" class="headerlink" title="2024年1月6日 星期六"></a>2024年1月6日 星期六</h5><p>小寒</p>
+<p>早上起来看了一集万神殿，然后看了一些前端的视频，还有之前手机的一些有趣的前端技巧，觉得自己还是挺感兴趣的。这两天时不时的会想一件事情，作为一个普通的人类，我可能真的只能在地球上存在这几十年，在我的意识和肉体存在的这段时间里，我是不是应该好好想清楚我到底想要什么，现在的自己一方面遵循地球生物的本能满足自己生命最基础的需求，另一方面随波逐流的做着人类社会这套体系里普遍在做的事，我可能永远不会找到这个问题的答案，但是我的确会在很多时候有着自己想要去做的事情，人类文明经过漫长的时间积累下来的科学知识，技术经验，艺术创造我始终觉得宝贵，令人着迷，每当想到这时，我总觉得生命不应该这样度过，不应该将大部分的时间交给别人，只能在工作社交和正常生理规律的夹缝中挤出时间做自己真正想做的事情，但我不会有所改变，有一套无形的枷锁在左右自己的判断，我只能写下自己的想法而无法做出任何实质性的决定，或许也未必。</p>
+<h5 id="2024年1月7日-星期日"><a href="#2024年1月7日-星期日" class="headerlink" title="2024年1月7日 星期日"></a>2024年1月7日 星期日</h5><p>周末，上午看完一集万神殿之后就开始练琴，很久没有专注这么久练琴了，感觉挺不错的，用更合适的指法练习了《genshin impact main theme song》。中午午休了下，起来后帮父母远程操控哥哥那边的电脑打印标签，搞了还挺久的，但还好终于搞好了，但已经三点多了，但我还是按照自己的原计划骑车去了图书馆，没看什么书，主要是构思了下自己博客的布局和结构，虽然没有什么结论，但也对此有了一些方向。晚上回来还是通常周末那一套，楼下买好食材，自己煮面，一边看今晚80后脱口秀，我煮的面味道还是很棒的，是比较舒服的时刻，接着又看了会儿钢琴的视频，练了一会儿琴，然后抓着原神这次活动的尾巴，过了下活动，很有意思！今天晚上在小店里买完煮面的食材出来时，我的耳机里放着平静的音乐，手里提着一袋刚从小店里买的食物，天色已经暗下，我正朝着自己公寓的方向走去，脑海里映射着此刻的自己正做着的这件稀疏平常的事情，视角慢慢放大到整个地球，想象是一部科幻的开场……</p>
+<h5 id="2024年1月8日-星期一"><a href="#2024年1月8日-星期一" class="headerlink" title="2024年1月8日 星期一"></a>2024年1月8日 星期一</h5><p>下班后，练琴——原神主题曲、生活大爆炸、今天过于简单了。</p>
+<h5 id="2024年1月9日-星期二"><a href="#2024年1月9日-星期二" class="headerlink" title="2024年1月9日 星期二"></a>2024年1月9日 星期二</h5><p>最近觉得情绪在一个较低的水平，想要做一些事情改变下，列举了一些好好生活的事项，嗯。练原神主题曲的低音部分，低音的确比高音似乎要难一些，还是需要一些时间的。继续2集生活大爆炸，已经看到第七季了，真的很喜欢这部剧。晚上无意间刷到2014年春晚的完整视频，有种回到十年前的感觉，好想回到那时候，好想……</p>
 ]]></content>
       <categories>
         <category>时间沙漏</category>
@@ -712,29 +727,14 @@
       </tags>
   </entry>
   <entry>
-    <title>生活小记（5）——节气、星空和阳历新年</title>
-    <url>/posts/the-life-of-neutrino-5/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h5 id="2023年12月24日-星期天"><a href="#2023年12月24日-星期天" class="headerlink" title="2023年12月24日 星期天"></a>2023年12月24日 星期天</h5><p>平安夜</p>
-<p>今天周末，睡得也比较晚，起来后看了万神殿第二集，最后一段把自己看哭了。upload intelligence，令自己也产生了许多遐想，想到和自己一直以来有过的“如果世界上仅存在精神交流不存在实体”想法不谋而合，也觉得这或许是自己近来看的最可能实现的科幻了。中午吃了方便面，做这个决定的确也纠结了一番。下午去图书馆，主要是看《天文学新概论》，这本看上去更像是教材的书，算是速览吧，快速获取自己不知道但想要知道的内容，还是有所收获的。晚上赶337路公交的时候就差了几秒钟，于是等下一班，本来是因此有点不开心的，但后来转头回去图书馆等的时候看到了好大一轮明月，当时才下午五点多，看着今天的日落时间17：47，我等到这个时间，一边看着现实里被树丛挡住的太阳发出的散开的光，一边看着star walk2里的太阳一点一点落下直到低于地平线，颇有意思。回来宿舍，我还是很喜欢自己煮的面，味道一直很不错，一边看着今晚80后脱口秀，很棒~今天发现在毛绒睡衣睡裤里面再穿一件薄睡衣和睡裤会更舒服，还能减少静电直接接触，也更清爽些。嗯，看了会儿B站，看2集生活大爆炸，睡觉。</p>
-<h5 id="2023年12月25日-星期一"><a href="#2023年12月25日-星期一" class="headerlink" title="2023年12月25日 星期一"></a>2023年12月25日 星期一</h5><p>圣诞节</p>
-<p>今天公司的伴手礼到了，我选的是冲牙器，那2个盒子没有袋子我骑着自行车的确不好拿回来，当然我还是拿回来了，打开包装，挺新鲜的，毕竟之前从没用过这玩意，主要是为了口腔健康吧，搜了很多相关的视频，也自己试着用了一下，嗯，后来还自己买了个牙刷，因为现在的也用了挺久的了。看2集生活大爆炸，sleep。</p>
-<h5 id="2023年12月26日-星期二"><a href="#2023年12月26日-星期二" class="headerlink" title="2023年12月26日 星期二"></a>2023年12月26日 星期二</h5><p>今天的天气很不错，而且气温也回升了，我很喜欢今天的天气，其实比起冬天，我更喜欢夏天，当然更喜欢更合适的温度，因为寒冷的确挺不舒服的，而且会在一定程度上降低自己做一些喜欢事情的热情。今天摸鱼的时候背了下24节气，觉得按照地球绕太阳一圈均分成24等分的想法挺有意思的，也想到之前友链里那个博客使用24节气来表示日期，以替代精准的日期计算这种方式真的很不错，这才是该有的慢节奏生活。提都提到了就默写下吧~立春 雨水 惊蛰 春分 清明 谷雨 立夏 小满 芒种 夏至 小暑 大暑 立秋 处暑 白露 秋分 寒露 霜降 立冬 小雪 大雪 冬至 小寒 大寒。晚上绕着月荷湖骑了一圈，因为今天也不冷，所以还挺舒服的，骑到一个小台子处停了下来，看着湖面上楼房灯光的倒影，真的挺美的，想到倒影这种和现实事物一样的东西自然界居然也会创造出来，真是有趣。后来看着夜空，有些陶醉其中了，今天农历十四，月亮还挺圆的，而且很亮，但是星星还是能够看到不少，虽然有一些云，但依然可以看清，边看着星空，边看着star walk2了解，冬季大三角、猎户座、天狼星、毕宿五……能看到星星的夜空真的太棒了。</p>
-<h5 id="2023年12月27日-星期三"><a href="#2023年12月27日-星期三" class="headerlink" title="2023年12月27日 星期三"></a>2023年12月27日 星期三</h5><p>今天好像没有什么特别的事情，晚上练了会儿琴，《三叶的主题曲》这个曲子已经不知道断断续续练了多久了，最后一段还是并不太熟练。天气回暖了之后蚊子也出来了，不过这个温度下好像并不会吸血。</p>
-<h5 id="2023年12月28日-星期四"><a href="#2023年12月28日-星期四" class="headerlink" title="2023年12月28日 星期四"></a>2023年12月28日 星期四</h5><p>今天公司年会，年会应该还挺不错的，但因为这个，今天的社交时间溢出了，需要一个人做一些自己喜欢的事情恢复下，结束后我再次骑车到之前的湖畔，今晚没有云，那几颗比较亮的星星看得很清楚，又认识了几颗星星，五车二、五车五、五车三、都是能够看到的，参宿四距离我们724光年，天狼星距离地球9光年……今天还找了下24节气的口诀，像诗一样，也不太难记，春雨惊春清谷天，夏满芒夏暑相连，秋处露秋寒霜降，冬雪雪冬小大寒。对了，现在了解的和人类文化无关而与天体位置有关的特殊日子有：夏至、冬至、近日点、远日点</p>
-<h5 id="2023年12月29日-星期五"><a href="#2023年12月29日-星期五" class="headerlink" title="2023年12月29日 星期五"></a>2023年12月29日 星期五</h5><p>今天是元旦假期的前一天，因为原本打算是去父母那边的，但是我似乎依然没有处理好这之间的关系，所以事实上我可能更想一个人待在这里不回去，我想到如果我不回去我能够利用这次假期做的事情，十分丰富多彩，让我更想这样度过这三天假期了，我接着又列举了如果去那边我可以做的事情，我这样想着，在这里我做的事情大多和之前的周末一样，但其实让生活偶尔有一些新鲜的事物也是一件不错的事，于是在对比了之后，我又想到自己该怎么去调整自己的心态，这一切都应该有所准备，而不能过于稀里糊涂了，于是还是决定明天早上回去，嗯。晚上过了原神这次的活动，一边浏览着之前收藏的博客，很有意思。</p>
-<h5 id="2023年12月30日-星期六"><a href="#2023年12月30日-星期六" class="headerlink" title="2023年12月30日 星期六"></a>2023年12月30日 星期六</h5><p>今天是元旦假期的第一天，早上八点多起床，吃完早餐整理下东西，9:25从宿舍出门回家，先打快车到城轨站，接着坐城轨转公交到家，11:35到家，差不多两个小时左右吧，不过城轨坐得的确很舒服，几乎一点没有晕车的感觉，十分平稳，望着窗外快速移动的景色，我好像明白为什么谢尔顿为什么会喜欢火车了。今天妈妈上班，所以中午和爸爸一起吃饭，嗯。<br>吃完饭我决定去趟这附近的一个图书馆，骑共享电动车去的，不得不说，路确实绕，根本记不住，全听导航里派蒙的指挥。到了图书馆之后发现这里的书的确挺少的，虽然貌似是这一带最大的图书馆了，但还是有点小失望，只大概看了一些书就准备回去了，但就在这时，手机突然抽风，屏幕的一小部分出现花屏并卡住，接着黑屏，然后就是无论怎么试都开不了机了，带了充电宝插上没用，因为确实还有50多电量，不是电量原因。还好我沉着冷静，立刻先想到如果手机一直开不了机我该怎么回去的问题，这里离家接近10公里，像来的时候骑共享电车回去没有手机扫码是没办法的，于是想到坐公交，但是身上根本没有现金，钱全在手机里，也没办法直接和陌生人交换零钱，我突然想到刷脸支付，于是寻找有刷脸支付的便利店，买了瓶水并刷脸换了2张5元纸币（这家店说自己也没有多少一块的现金，所以不愿给1元散钱），又去另一家店买了瓶1元的水找了4个一块钱，这样一来，我手上有了一张5元纸币和四张1元纸币，无论公交的费用是1-9元中的任何一个数，我都可以直接付出去，第二家店的老板很好，还帮忙查了公交线路，虽然很折腾，但终于回到家了。<br>我想到之前逛论坛时这个型号经常被诟病虚焊的问题，晚上又看了下，果然很多手机都是这个现象。晚上吃完饭，和父母一起出去逛了下，顺便找修手机的店，不得不说确实挺贵的，最后还是在一家修理店修了，明天下午来拿，修手机的最后要了我手机的解锁密码，这一点我还挺不放心的，有点担心会对我的手机做什么手脚。晚上也开始想可能要换个新手机了，这个问题修好了之后是否还会复现还不知道，总之对小米印象直接跌到谷底了，自己在社区里又看了下小米的虚焊问题，加上修理的人也提到小米很多系列都是一样的毛病，想到大学时自己还是很喜欢小米的，失望失望。<br>话说回来，的确是次难忘的经历呢。</p>
-<h5 id="2023年12月31日-星期天"><a href="#2023年12月31日-星期天" class="headerlink" title="2023年12月31日 星期天"></a>2023年12月31日 星期天</h5><p>上午姐姐一家来我们家里做客，中午吃完饭我休息了一会儿后骑车去昨天的地方拿我的手机，又等了挺长时间，看着修好了就拿回来了，回来发现我原来的充电器充不了这个手机了，奇怪的是，经过我的多个试验，任何其他的充电头都可以对我的手机正常充电，而我的手机头也可以给其他任何手机正常充电，但是只有我的充电头充不了我的手机了，也不想再折腾来回跑去找修手机的了，以后只能用其他的头给这个手机充电了。<br>晚上吃完饭和父母在楼下走了走，这里几乎没什么人，很安静，环境的确也不错。其实我在回家之前特地查了这边的光污染地图，是比我上班的地方要低一级的，光污染会好一些，但是这两天晚上都是多云，几乎看不到星星，所以有点可惜。散步回来后看跨年晚会，零点的时候能看到外面很多地方在放烟花，随口提了下一起去楼顶天台看烟花，于是立刻就一起上了天台，这个角度的确很漂亮，烟花结束后我注意到夜空的云已经消散很多了，看着满天的星星，真的太美了，这里的这个天台真是个绝佳的观星地点，比之前看的那个地方看到的星星更多更亮，很难不喜欢啊。</p>
-<h5 id="2024年1月1日-星期一"><a href="#2024年1月1日-星期一" class="headerlink" title="2024年1月1日 星期一"></a>2024年1月1日 星期一</h5><p>元旦</p>
-<p>上午看了下昨晚开始没看的Bilibili晚会，都是童年的一些歌曲，B站还是挺会的，还挺不错的，午饭后和父母去附近的公园走了走，之后又开车去了市区的植物园，这个植物园的确还挺不错的，是个游览的好地方呢，里面各种植物，有不少植物还挺新奇的，里面的人工小瀑布也挺不错的，十分凉爽，里面的科普馆也很不错，里面还有一些植物和蝴蝶的标本，看到里面写着各种植物的各种信息，让我觉得人类的确在这颗星球上做了不少的事情，对地球了解研究的信息不断的在人类文明中流传下去，是一件挺不错的事。晚上回家吃饭，吃完饭后爸爸开车送我去城轨站，嗯就这样坐车回去我自己住的地方了。以防万一，今晚把手机里本地的照片等文件备份到电脑里，而且也在考虑换手机的事了。</p>
-<h5 id="2024年1月2日-星期二"><a href="#2024年1月2日-星期二" class="headerlink" title="2024年1月2日 星期二"></a>2024年1月2日 星期二</h5><p>短假后回来上班心里总会平静一些，会更容易专心做一些事情。晚上回来后把手机微信的聊天记录也都备份了一下，然后开始看新手机，看测评和各种评价，系统的话可能更想在origin OS 和MIUI（或者叫hyper OS）之间做选择了，了解了下虚焊和手机发热有一定关系，所以或许可以注意下，现在还是比较偏向于不选择小米或红米了，当然或许还需要了解更多再下结论，筛选后型号基本在iqoo neo9、一加ACE2 pro和redmi k70之间选择了，现在更偏向于iqoo neo9，评分目前也最高，但这款才发布没几天，所以可能很多问题没有暴露出来，而且刚发布也说不定过段时间会跳水，所以可以在后天一加发布ACE3之后再做判断。</p>
-<h5 id="2024年1月3日-星期三"><a href="#2024年1月3日-星期三" class="headerlink" title="2024年1月3日 星期三"></a>2024年1月3日 星期三</h5><p>最近发觉自己身为一个普通人类，虽然的确拥有较长时间记忆的能力，但是往往对于不经意间经历的事情只有短短一两天的记忆，如果不是发生什么令人印象深刻的事件，很难想起前天以及更久之前自己究竟具体做了哪些事情。今天感觉降温了，骑车的风也不小，可能今天看手机的各种信息有些多，下班的时候直接没电关机了，而且自己感觉也没有什么重度使用的行为，所以也更想快些换个新手机了。回到宿舍后弹了下有几天没碰的琴，看看B站，看了2集《生活大爆炸》，睡觉。</p>
-<h5 id="2024年1月4日-星期四"><a href="#2024年1月4日-星期四" class="headerlink" title="2024年1月4日 星期四"></a>2024年1月4日 星期四</h5><p>今天换手机的想法似乎没有那么强烈了，在一天的轻度使用之后，下班时还有接近50%的电量，所以其实貌似还是可以接受的，而且本来自己也不想花太多时间在手机上。晚上看了一晚上博客相关的东西，越来越觉得ayu的网站做的真不错啊，按照自己的想法布置，而不是直接套用现有的框架，放上自己想放点东西。我自己也整理了下自己对博客的想法，并且也在想自己是不是可以换一个博客主题或者实现自己很久之前自己制作博客主题的想法，当然，其实这些还有一个前提，就是自己整理的事物是自己愿意坚持并真正做到坚持的。其实晚上看到Shiro主题也很好看，似乎也比较接近自己的布局想法，或许可以通过魔改这个主题来实现自己的想法。</p>
-<h5 id="2024年1月5日-星期五"><a href="#2024年1月5日-星期五" class="headerlink" title="2024年1月5日 星期五"></a>2024年1月5日 星期五</h5><p>这一周过得很快，可能是因为少了一个工作日吧，挺好的。</p>
-<h5 id="2024年1月6日-星期六"><a href="#2024年1月6日-星期六" class="headerlink" title="2024年1月6日 星期六"></a>2024年1月6日 星期六</h5><p>小寒</p>
-<p>早上起来看了一集万神殿，然后看了一些前端的视频，还有之前手机的一些有趣的前端技巧，觉得自己还是挺感兴趣的。这两天时不时的会想一件事情，作为一个普通的人类，我可能真的只能在地球上存在这几十年，在我的意识和肉体存在的这段时间里，我是不是应该好好想清楚我到底想要什么，现在的自己一方面遵循地球生物的本能满足自己生命最基础的需求，另一方面随波逐流的做着人类社会这套体系里普遍在做的事，我可能永远不会找到这个问题的答案，但是我的确会在很多时候有着自己想要去做的事情，人类文明经过漫长的时间积累下来的科学知识，技术经验，艺术创造我始终觉得宝贵，令人着迷，每当想到这时，我总觉得生命不应该这样度过，不应该将大部分的时间交给别人，只能在工作社交和正常生理规律的夹缝中挤出时间做自己真正想做的事情，但我不会有所改变，有一套无形的枷锁在左右自己的判断，我只能写下自己的想法而无法做出任何实质性的决定，或许也未必。</p>
-<h5 id="2024年1月7日-星期日"><a href="#2024年1月7日-星期日" class="headerlink" title="2024年1月7日 星期日"></a>2024年1月7日 星期日</h5><p>周末，上午看完一集万神殿之后就开始练琴，很久没有专注这么久练琴了，感觉挺不错的，用更合适的指法练习了《genshin impact main theme song》。中午午休了下，起来后帮父母远程操控哥哥那边的电脑打印标签，搞了还挺久的，但还好终于搞好了，但已经三点多了，但我还是按照自己的原计划骑车去了图书馆，没看什么书，主要是构思了下自己博客的布局和结构，虽然没有什么结论，但也对此有了一些方向。晚上回来还是通常周末那一套，楼下买好食材，自己煮面，一边看今晚80后脱口秀，我煮的面味道还是很棒的，是比较舒服的时刻，接着又看了会儿钢琴的视频，练了一会儿琴，然后抓着原神这次活动的尾巴，过了下活动，很有意思！今天晚上在小店里买完煮面的食材出来时，我的耳机里放着平静的音乐，手里提着一袋刚从小店里买的食物，天色已经暗下，我正朝着自己公寓的方向走去，脑海里映射着此刻的自己正做着的这件稀疏平常的事情，视角慢慢放大到整个地球，想象是一部科幻的开场……</p>
-<h5 id="2024年1月8日-星期一"><a href="#2024年1月8日-星期一" class="headerlink" title="2024年1月8日 星期一"></a>2024年1月8日 星期一</h5><p>下班后，练琴——原神主题曲、生活大爆炸、今天过于简单了。</p>
-<h5 id="2024年1月9日-星期二"><a href="#2024年1月9日-星期二" class="headerlink" title="2024年1月9日 星期二"></a>2024年1月9日 星期二</h5><p>最近觉得情绪在一个较低的水平，想要做一些事情改变下，列举了一些好好生活的事项，嗯。练原神主题曲的低音部分，低音的确比高音似乎要难一些，还是需要一些时间的。继续2集生活大爆炸，已经看到第七季了，真的很喜欢这部剧。晚上无意间刷到2014年春晚的完整视频，有种回到十年前的感觉，好想回到那时候，好想……</p>
+    <title>生活小记（4）</title>
+    <url>/posts/the-life-of-neutrino-4/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>2023年11月5日</p>
+<p>国庆之后自己对找新的工作的脚步放缓了许多，可能是因为放假太久了，想先让自己恢复到正常的状态，从上周开始，我试着记录下每天工作的主要内容，并记下当天的繁忙程度与下班时间，想看看自己在一段较长的时间里自己认为忙碌与不那么忙碌的时间具体占了多少，从记录来看，上周一整周都是十分忙碌的状态，下班时间也较晚，每天心情也更差，而这周则相对正常一些，虽有事情，但不算紧急，并且回看这周在下班之后的生活里的确也做了不少事情。</p>
+<p>时间过得很快，距离上次被打差绩效又过了一个季度了，这次的结果相反，是优秀，我无法评价这种规则，在我看来，我上个季度不应该得差，这个季度也不该得优秀，两次造成的影响可以相互抵消，但一切像是中层在迎合上层的规则完成任务罢了，上层意图通过对员工采取与个人利益挂钩的评价体系来对员工进行掌控，而这套评价体系本身就不合理，中层没有权利也没有意愿去变更规则，于是产生这样的结果。</p>
+<p>今年的应届生最近进行了转正答辩，有一个应届生学弟被辞退了，从来没听说答辩会有这样的结果，也没有人被事先告知会有这样结果的出现，辞退的理由更是让人无法接受：不够积极。他坐在我的工位后面，所以也算有些交流，会聊些工作生活的事情，他性格比较内敛，话比较少，但绝不至于因此被辞退，被置于无应届生身份、无工作经验的两难境地，内敛的性格我和他很像，所以更能体会到那种感受，作为一个独立的个体，能做的和改变的事情实在太少了……</p>
+<p>过去的一周时间里，无论是练琴、运动还是其他，都在按照计划可控的进行着，生活看起来规律并按照自己预定的轨迹进行着，但是心情并不算太好，有种 lost in space 的感觉，但 lost 归 lost，最近还是有一些让自己开心的事情的，《Rick and Morty》第七季开播了，时间流逝得很快，上一次追第六季的时候是才刚开始工作的时候，上上次追则是在毕业之前了，以及在看现在很喜欢的一部老情景电视剧《The Big Bang Theory》，有很多季，能看很久。</p>
+<p>今天是周日，在图书馆里看的书没有留下什么印象特别深刻的内容，但我正要离开的时候，看到几个穿着志愿服的学生聚在书架旁边讨论着什么，我恰好从旁边路过，看到志愿服上写着我学校和对应的系组织，顿时感觉十分亲切，将我的思绪瞬间带回了还在大学时的时光，穿着志愿服完成今天的志愿活动，和同伴讨论安排各个事项，结束后回到学校里，在林荫和树影的路上穿行，来到学校的图书馆里找个地方坐下，完成这周的课程作业，有种单纯的美好……</p>
 ]]></content>
       <categories>
         <category>时间沙漏</category>
