@@ -24,42 +24,6 @@
       </tags>
   </entry>
   <entry>
-    <title>blog运行排障笔记</title>
-    <url>/posts/note-for-blog-problem/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
-<p>记录自己在折腾博客时遇到的一些问题及解决方法，以便日后遇到相同问题能快速解决，本文章持续更新</p>
-</blockquote>
-<h3 id="markdown文章对特定CSS引用问题"><a href="#markdown文章对特定CSS引用问题" class="headerlink" title="markdown文章对特定CSS引用问题"></a>markdown文章对特定CSS引用问题</h3><p>直接通过<code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;../css/book.css&quot; /&gt;</code>引用，引用路径根据相对路径确认好，其中<code>../</code>表示上一级</p>
-<h3 id="markdown文章中html与css不起效问题"><a href="#markdown文章中html与css不起效问题" class="headerlink" title="markdown文章中html与css不起效问题"></a>markdown文章中html与css不起效问题</h3><p>首先，markdown能运行所有html与css代码，代码不起效可能是代码中含有空行，在查找替换中用正则表达式将<code>^\s*$</code>替换为空白即可删除所有空行</p>
-<h3 id="主题外css显示正常，主题内css显示异常问题"><a href="#主题外css显示正常，主题内css显示异常问题" class="headerlink" title="主题外css显示正常，主题内css显示异常问题"></a>主题外css显示正常，主题内css显示异常问题</h3><p>可能由于主题markdown css与外部css相互影响导致，先f12调试直正常css，再在引用的css中修改对应内容</p>
-<h3 id="主题外html显示正常，主题内html显示异常问题"><a href="#主题外html显示正常，主题内html显示异常问题" class="headerlink" title="主题外html显示正常，主题内html显示异常问题"></a>主题外html显示正常，主题内html显示异常问题</h3><p>直接复制f12中正常的html内容进主题内</p>
-<h3 id="提高css优先级"><a href="#提高css优先级" class="headerlink" title="提高css优先级"></a>提高css优先级</h3><p>例：</p>
-<pre class="language-none"><code class="language-none">li &#123;
-
-  list-style-type: none !important;
-
-&#125;</code></pre>
-
-<h3 id="Picgo上传图片失败"><a href="#Picgo上传图片失败" class="headerlink" title="Picgo上传图片失败"></a>Picgo上传图片失败</h3><p>软件fastgithub的开启会导致Picgo上传图片失败，Picgo上传图片前需要关掉fastgithub</p>
-<h3 id="latex公式无法编译与显示的问题"><a href="#latex公式无法编译与显示的问题" class="headerlink" title="latex公式无法编译与显示的问题"></a>latex公式无法编译与显示的问题</h3><p>latex公式在typora中能正常显示，而无法在博客中显示，解决方案：</p>
-<p>（1）hexo转换markdown文件时遇到<code>连续两个左花括号</code>或<code>连续两个右花括号</code>时无法正常转换，需要提前将其替换为<code>&#123; &#123;</code>与<code>&#125; &#125;</code>（两个相同的花括号中间加空格）</p>
-<p>（2）hexo解析latex公式时<code>$$</code>与<code>$$</code>之间不能存在换行，否则无法正常渲染公式，需要提前将文件在vscode中打开，使用正则表达式将<code>\$\$\n(.*)\n\$\$</code>全部替换成<code>$$$$$1$$$$</code>就好</p>
-<blockquote>
-<p>注意第（1）条不使用正则表达式替换，第（2）条才使用正则表达式替换</p>
-</blockquote>
-<blockquote>
-<p>解释一下第（2）条正则表达式（研究了好久才琢磨出这个解决方法X﹏X），<code>\n</code>表示换行；<code>\n</code>表示通配符；因<code>$</code>有特殊含义，用<code>\$</code>表示<code>$</code>本身；用<code>$$</code>表示<code>$</code></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>备忘笔记</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CFOP练习笔记</title>
     <url>/posts/note-of-CFOP/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><details><summary>介绍</summary>
@@ -103,8 +67,44 @@
         <category>备忘笔记</category>
       </categories>
       <tags>
-        <tag>笔记</tag>
         <tag>魔方</tag>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>blog运行排障笔记</title>
+    <url>/posts/note-for-blog-problem/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
+<p>记录自己在折腾博客时遇到的一些问题及解决方法，以便日后遇到相同问题能快速解决，本文章持续更新</p>
+</blockquote>
+<h3 id="markdown文章对特定CSS引用问题"><a href="#markdown文章对特定CSS引用问题" class="headerlink" title="markdown文章对特定CSS引用问题"></a>markdown文章对特定CSS引用问题</h3><p>直接通过<code>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;../css/book.css&quot; /&gt;</code>引用，引用路径根据相对路径确认好，其中<code>../</code>表示上一级</p>
+<h3 id="markdown文章中html与css不起效问题"><a href="#markdown文章中html与css不起效问题" class="headerlink" title="markdown文章中html与css不起效问题"></a>markdown文章中html与css不起效问题</h3><p>首先，markdown能运行所有html与css代码，代码不起效可能是代码中含有空行，在查找替换中用正则表达式将<code>^\s*$</code>替换为空白即可删除所有空行</p>
+<h3 id="主题外css显示正常，主题内css显示异常问题"><a href="#主题外css显示正常，主题内css显示异常问题" class="headerlink" title="主题外css显示正常，主题内css显示异常问题"></a>主题外css显示正常，主题内css显示异常问题</h3><p>可能由于主题markdown css与外部css相互影响导致，先f12调试直正常css，再在引用的css中修改对应内容</p>
+<h3 id="主题外html显示正常，主题内html显示异常问题"><a href="#主题外html显示正常，主题内html显示异常问题" class="headerlink" title="主题外html显示正常，主题内html显示异常问题"></a>主题外html显示正常，主题内html显示异常问题</h3><p>直接复制f12中正常的html内容进主题内</p>
+<h3 id="提高css优先级"><a href="#提高css优先级" class="headerlink" title="提高css优先级"></a>提高css优先级</h3><p>例：</p>
+<pre class="language-none"><code class="language-none">li &#123;
+
+  list-style-type: none !important;
+
+&#125;</code></pre>
+
+<h3 id="Picgo上传图片失败"><a href="#Picgo上传图片失败" class="headerlink" title="Picgo上传图片失败"></a>Picgo上传图片失败</h3><p>软件fastgithub的开启会导致Picgo上传图片失败，Picgo上传图片前需要关掉fastgithub</p>
+<h3 id="latex公式无法编译与显示的问题"><a href="#latex公式无法编译与显示的问题" class="headerlink" title="latex公式无法编译与显示的问题"></a>latex公式无法编译与显示的问题</h3><p>latex公式在typora中能正常显示，而无法在博客中显示，解决方案：</p>
+<p>（1）hexo转换markdown文件时遇到<code>连续两个左花括号</code>或<code>连续两个右花括号</code>时无法正常转换，需要提前将其替换为<code>&#123; &#123;</code>与<code>&#125; &#125;</code>（两个相同的花括号中间加空格）</p>
+<p>（2）hexo解析latex公式时<code>$$</code>与<code>$$</code>之间不能存在换行，否则无法正常渲染公式，需要提前将文件在vscode中打开，使用正则表达式将<code>\$\$\n(.*)\n\$\$</code>全部替换成<code>$$$$$1$$$$</code>就好</p>
+<blockquote>
+<p>注意第（1）条不使用正则表达式替换，第（2）条才使用正则表达式替换</p>
+</blockquote>
+<blockquote>
+<p>解释一下第（2）条正则表达式（研究了好久才琢磨出这个解决方法X﹏X），<code>\n</code>表示换行；<code>\n</code>表示通配符；因<code>$</code>有特殊含义，用<code>\$</code>表示<code>$</code>本身；用<code>$$</code>表示<code>$</code></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>备忘笔记</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -133,8 +133,8 @@
         <category>备忘笔记</category>
       </categories>
       <tags>
-        <tag>blog</tag>
         <tag>笔记</tag>
+        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -191,7 +191,7 @@
 <p>终于还是毕业了，这篇文章就当是我四年生活的一个句点吧。</p>
 </blockquote>
 
-    <div id="aplayer-ZagwOuvB" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-tkfSHJkz" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1413374282" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FFCC66"
     ></div>
 
@@ -224,6 +224,12 @@
       </tags>
   </entry>
   <entry>
+    <title>你好！银河系第三旋臂上的小星星！</title>
+    <url>/posts/hello-galaxy/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天是10月29日，第一篇博客文章呢！</p>
+]]></content>
+  </entry>
+  <entry>
     <title>兴趣爱好在平淡生活中泛起的涟漪——写歌</title>
     <url>/posts/Interest-in-SongWriting/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>我好喜欢17岁，17岁那年我总认为17岁是最好的年纪，便想做些什么好好珍惜这个年纪，那时我决定赶在自己18岁生日之前写一首纪念自己这个年纪的歌，那时大一，自己所谓的写歌指的是指自己无比业余的作词作曲，并没有编曲混音和其他专业的东西。</p>
@@ -240,12 +246,6 @@
         <tag>写歌</tag>
         <tag>爱好</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>你好！银河系第三旋臂上的小星星！</title>
-    <url>/posts/hello-galaxy/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>今天是10月29日，第一篇博客文章呢！</p>
-]]></content>
   </entry>
   <entry>
     <title>兴趣爱好浅思</title>
@@ -393,6 +393,34 @@
       </tags>
   </entry>
   <entry>
+    <title>天体物理学习笔记（一）——方向与参考资料</title>
+    <url>/posts/note-for-astrophysics-learning/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="学习方向"><a href="#学习方向" class="headerlink" title="学习方向"></a>学习方向</h2><h3 id="学习方向参考："><a href="#学习方向参考：" class="headerlink" title="学习方向参考："></a>学习方向参考：</h3><p>1.中科大本科<a href="https://astro.ustc.edu.cn/2015/1228/c27261a259601/page.htm">天文英才班培养方案</a></p>
+<p>2.中科大天文学<a href="https://astro.ustc.edu.cn/yjsjy/list.htm">研究生培养方案</a></p>
+<h3 id="学习方向总结："><a href="#学习方向总结：" class="headerlink" title="学习方向总结："></a>学习方向总结：</h3><p>基础课程补充：电动力学、热力学与统计物理、量子力学B、天文学导论</p>
+<p>专业核心课程：天体物理概论、实测天体物理学、恒星物理基础</p>
+<p>专业方向课程：星系天文学、广义相对论 A、天体力学与天体测量</p>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p>1.在线课程：中科大<a href="https://www.bilibili.com/video/BV1Zy4y197Cf">天体物理概论</a></p>
+<p>配套教材：《<a href="https://book.douban.com/subject/3353501/">天体物理概论</a>》</p>
+<h2 id="相关网站推荐"><a href="#相关网站推荐" class="headerlink" title="相关网站推荐"></a>相关网站推荐</h2><p>1.诺奖得主/理论物理学家Gerard ‘t Hooft建立网站——<a href="https://www.goodtheorist.science/index.html">How to become a GOOD Theoretical Physicist</a></p>
+<p>2.NASA系列网站：</p>
+<ul>
+<li><a href="https://www.nasa.gov/">NASA官网</a></li>
+<li><a href="https://science.nasa.gov/">NASA科学主题网站</a></li>
+<li><a href="https://solarsystem.nasa.gov/">NASA太阳系科普网站</a></li>
+<li><a href="https://mars.nasa.gov/">NASA火星主题网站</a></li>
+<li><a href="https://eyes.nasa.gov/">NASA’s Eyes</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>备忘笔记</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>天体物理</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>天体物理学习笔记（二）——基本天体物理量</title>
     <url>/posts/note-for-astrophysics-learning-2/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="一、基本天体物理量"><a href="#一、基本天体物理量" class="headerlink" title="一、基本天体物理量"></a>一、基本天体物理量</h2><h3 id="1-星等"><a href="#1-星等" class="headerlink" title="1.星等"></a>1.星等</h3><p>（1）<strong>【视星等】</strong>：m<br>$$\frac{E_1}{E_2}=100^{\frac{ {m_2}-{m_1} }5}$$</p>
@@ -505,77 +533,6 @@
       </tags>
   </entry>
   <entry>
-    <title>收藏的博客</title>
-    <url>/posts/Bookmarked-Blog/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
-<p>记录自己收藏的一些博客，嗯</p>
-</blockquote>
-<h2 id="常看的博客"><a href="#常看的博客" class="headerlink" title="常看的博客"></a>常看的博客</h2><ul>
-<li><a href="https://tianheg.xyz/posts/"> 一大加贝 </a></li>
-<li><a href="https://conge.github.io/">Conge</a></li>
-<li><a href="https://guanqr.com/">荷戟独彷徨</a></li>
-<li><a href="https://www.fanyiming.life/">Eamon ‘s Blog - 生活嘛~那么矫情 </a></li>
-<li><a href="https://blog.liugezhou.online/">六个周 | enjoy day </a></li>
-</ul>
-<h2 id="喜欢的博客"><a href="#喜欢的博客" class="headerlink" title="喜欢的博客"></a>喜欢的博客</h2><ul>
-<li><a href="https://blog.dorakika.cn/">DoraKika</a></li>
-<li><a href="https://kisstime.top/">银河漫游KK </a></li>
-<li><a href="https://chanshiyu.com/">蝉時雨 </a></li>
-<li><a href="https://www.fomal.cc/">Fomalhaut🥝</a></li>
-<li><a href="https://blog.xecades.xyz/">Xecades</a></li>
-<li><a href="https://write.skywt.cn/">SkyWrite</a></li>
-<li><a href="https://whisper.skywt.cn/">SkyWhisper – 低语 (skywt.cn)</a></li>
-<li><a href="https://timegg.top/">TIMEGG ｜ 放进时光蛋里</a></li>
-</ul>
-<h2 id="博客集合站"><a href="#博客集合站" class="headerlink" title="博客集合站"></a>博客集合站</h2><ul>
-<li><a href="http://www.jetli.com.cn/">博客志 - 优秀个人独立博客导航 </a></li>
-<li><a href="https://www.foreverblog.cn/go.html">虫洞-随机访问十年之约成员博客 </a></li>
-<li><a href="https://512kb.club/">512KB Club | A showcase of lightweight websites.</a></li>
-<li><a href="https://blogroll.icl.moe/">友链屋 | idealclover </a></li>
-<li><a href="https://travellings.cn/">开往-友链接力 </a></li>
-</ul>
-<h2 id="博客之始"><a href="#博客之始" class="headerlink" title="博客之始"></a>博客之始</h2><ul>
-<li><a href="https://maorx.cn/">毛若昕丨静水流深 </a></li>
-<li><a href="https://idealclover.top/">idealclover</a></li>
-<li><a href="https://www.yunyoujun.cn/">云游君的小站</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>收藏小间</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>天体物理学习笔记（一）——方向与参考资料</title>
-    <url>/posts/note-for-astrophysics-learning/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="学习方向"><a href="#学习方向" class="headerlink" title="学习方向"></a>学习方向</h2><h3 id="学习方向参考："><a href="#学习方向参考：" class="headerlink" title="学习方向参考："></a>学习方向参考：</h3><p>1.中科大本科<a href="https://astro.ustc.edu.cn/2015/1228/c27261a259601/page.htm">天文英才班培养方案</a></p>
-<p>2.中科大天文学<a href="https://astro.ustc.edu.cn/yjsjy/list.htm">研究生培养方案</a></p>
-<h3 id="学习方向总结："><a href="#学习方向总结：" class="headerlink" title="学习方向总结："></a>学习方向总结：</h3><p>基础课程补充：电动力学、热力学与统计物理、量子力学B、天文学导论</p>
-<p>专业核心课程：天体物理概论、实测天体物理学、恒星物理基础</p>
-<p>专业方向课程：星系天文学、广义相对论 A、天体力学与天体测量</p>
-<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p>1.在线课程：中科大<a href="https://www.bilibili.com/video/BV1Zy4y197Cf">天体物理概论</a></p>
-<p>配套教材：《<a href="https://book.douban.com/subject/3353501/">天体物理概论</a>》</p>
-<h2 id="相关网站推荐"><a href="#相关网站推荐" class="headerlink" title="相关网站推荐"></a>相关网站推荐</h2><p>1.诺奖得主/理论物理学家Gerard ‘t Hooft建立网站——<a href="https://www.goodtheorist.science/index.html">How to become a GOOD Theoretical Physicist</a></p>
-<p>2.NASA系列网站：</p>
-<ul>
-<li><a href="https://www.nasa.gov/">NASA官网</a></li>
-<li><a href="https://science.nasa.gov/">NASA科学主题网站</a></li>
-<li><a href="https://solarsystem.nasa.gov/">NASA太阳系科普网站</a></li>
-<li><a href="https://mars.nasa.gov/">NASA火星主题网站</a></li>
-<li><a href="https://eyes.nasa.gov/">NASA’s Eyes</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>备忘笔记</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>天体物理</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>常用快捷键小记</title>
     <url>/posts/Notes-on-common-shortcut-keys/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>这篇文章可能对你没什么帮助，_(:з)∠)_主要是记给自己看的，只记录了我个人觉得应该常用但我不常用的快捷键(*/ω＼*)，没有列出我很熟悉的与很不熟悉的快捷键<del>(如果你真那么巧恰好和我熟悉的和不熟悉的快捷键一样那就应该对你也有很大帮助)</del> </p>
@@ -624,20 +581,46 @@
       </tags>
   </entry>
   <entry>
-    <title>生活小记（1）</title>
-    <url>/posts/the-life-of-neutrino-1/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>2023年6月29日</p>
-<p>今天是我入职两周年，意味着我已经不是学生2年了，2年前的我不会想到我居然能够在这里待这么久，这里的加班氛围我早有耳闻，本着先干一段时间试试看的态度来到这里，期间有无数次要离职的想法，到现在，不能说是适应，只能说是心态基本稳定了。</p>
-<p>这几天的空余时间比较多，紧急的事情不算多，因此时间上还算比较自由，只是最近自己对一切都提不起兴趣，感到十分无聊，已经有好几天没有练琴了，常玩的游戏也没有登录的动力，在学的天体物理课程也没看几次，喜欢的电视剧看着也觉得这几集没那么好看了……但这种无欲无求的状态从昨天开始有了一些好转，我在想，如果我是期望自己仍能对世界的某些东西保持兴趣，我就可以试着做出一些改变，小的改变、大的改变、什么都行，无所谓，反正一切都没意思，破釜沉舟，怎样都好。</p>
-<p>今天写了一份技术交底书，是导师让我把之前我参与的项目中的一个机构申请专利，我想着也不错吧，想到之前自己还挺热衷于研究专利相关的东西，第一次写这玩意儿，开始下笔就停不下来，很快就写完了，发明人我填了4个人的名字，把自己放在了后面，导师来检查的时候，坐在我的旁边，握着我的鼠标把我的名字剪切粘贴放在了第一个，说第一发明人写我的名字，然后继续看着后面应该修改下哪些内容。导师确实对我一直很好，今天脑子里想了好几次这件事。</p>
-<p>晚上下班后，我骑着自行车来到以前常来的湖边，第一次在晚上骑着自行车绕着湖骑了很大的一圈，这一圈印象中很大，走路需要一个小时左右，但我骑着单车，晚风很清凉，散步的人很多、跑步的人也不少，时间很快，第一次觉得这一圈也没有多大。骑完一圈后在附近的那家24小时小图书室看了一会儿书，就回去了。突然想换个微信头像，就换了，想到上次换头像还是两年多前，大四的时候在图书馆里那个一个人过的元旦……</p>
-<p>回到宿舍把前几天洗好晒干的鞋子穿上鞋带、洗澡、写下这篇日记，嗯，又过了一天。</p>
+    <title>收藏的博客</title>
+    <url>/posts/Bookmarked-Blog/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
+<p>记录自己收藏的一些博客，嗯</p>
+</blockquote>
+<h2 id="常看的博客"><a href="#常看的博客" class="headerlink" title="常看的博客"></a>常看的博客</h2><ul>
+<li><a href="https://tianheg.xyz/posts/"> 一大加贝 </a></li>
+<li><a href="https://conge.github.io/">Conge</a></li>
+<li><a href="https://guanqr.com/">荷戟独彷徨</a></li>
+<li><a href="https://www.fanyiming.life/">Eamon ‘s Blog - 生活嘛~那么矫情 </a></li>
+<li><a href="https://blog.liugezhou.online/">六个周 | enjoy day </a></li>
+</ul>
+<h2 id="喜欢的博客"><a href="#喜欢的博客" class="headerlink" title="喜欢的博客"></a>喜欢的博客</h2><ul>
+<li><a href="https://blog.dorakika.cn/">DoraKika</a></li>
+<li><a href="https://kisstime.top/">银河漫游KK </a></li>
+<li><a href="https://chanshiyu.com/">蝉時雨 </a></li>
+<li><a href="https://www.fomal.cc/">Fomalhaut🥝</a></li>
+<li><a href="https://blog.xecades.xyz/">Xecades</a></li>
+<li><a href="https://write.skywt.cn/">SkyWrite</a></li>
+<li><a href="https://whisper.skywt.cn/">SkyWhisper – 低语 (skywt.cn)</a></li>
+<li><a href="https://timegg.top/">TIMEGG ｜ 放进时光蛋里</a></li>
+</ul>
+<h2 id="博客集合站"><a href="#博客集合站" class="headerlink" title="博客集合站"></a>博客集合站</h2><ul>
+<li><a href="http://www.jetli.com.cn/">博客志 - 优秀个人独立博客导航 </a></li>
+<li><a href="https://www.foreverblog.cn/go.html">虫洞-随机访问十年之约成员博客 </a></li>
+<li><a href="https://512kb.club/">512KB Club | A showcase of lightweight websites.</a></li>
+<li><a href="https://blogroll.icl.moe/">友链屋 | idealclover </a></li>
+<li><a href="https://travellings.cn/">开往-友链接力 </a></li>
+</ul>
+<h2 id="博客之始"><a href="#博客之始" class="headerlink" title="博客之始"></a>博客之始</h2><ul>
+<li><a href="https://maorx.cn/">毛若昕丨静水流深 </a></li>
+<li><a href="https://idealclover.top/">idealclover</a></li>
+<li><a href="https://www.yunyoujun.cn/">云游君的小站</a></li>
+</ul>
 ]]></content>
       <categories>
-        <category>时间沙漏</category>
+        <category>收藏小间</category>
       </categories>
       <tags>
-        <tag>生活</tag>
+        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -651,6 +634,23 @@
 <h2 id="关于寻找知己"><a href="#关于寻找知己" class="headerlink" title="关于寻找知己"></a>关于寻找知己</h2><p>用“知己”这个词可能欠妥，这里其实想指的是彼此共度余生的另一半，但的确想不到其他合适的词。在过去的时间里，我从来没有因为此事而困扰过，从来没有因为别人有而自己没有而产生一丝一毫内心的波动，从来没有意识到找一个合适的知己需要当成一件事放在心上。但现在不同了，在家庭与自己内心的双双寄予下，甚至公司的导师也提醒自己该把这件事放上日程，我意识到自己可能该做些什么了，可……我该做些什么呢。我开始把这件事当成一件事来处理，并列上可以实施的行动，尝试着做一些计划和改变，却完全无济于事，加之现实中自己性格内敛，我由衷想说：这件事对我来说比想象中要难很多。</p>
 <p>但随着自己越来越关注这件事情本身，也慢慢产生了很多关于另一半的想法，难免会幻想生活中的种种细节，难免会幻想ta应该是怎样的性格，应该会有怎样的兴趣爱好和想法，我也同样明白，一切更多的该是建立在相互包容的基础之上，而非一定要拥有怎样明确的性格或特定的想法。我所理解的这种亲密关系应该是：相互欣赏，共同体验世界上各种美好的事物，快乐与生活中的确幸相互分享，困难时相互给予鼓励和支持，心情低落时给予安慰，若是有共同的兴趣爱好则更好了……</p>
 <h2 id="关于现状"><a href="#关于现状" class="headerlink" title="关于现状"></a>关于现状</h2><p>如上所述，自己多少正在被上面那两件事所困扰，说是困扰或许有些过头，但的确是对我现在的生活产生了一些影响，我现在大可以把上面两个问题抛之脑后，但也只能是一时。改变现状不是一件容易的事情，还是不由得想到了这句话：“人若不能有所舍弃，就无法改变现状”</p>
+]]></content>
+      <categories>
+        <category>时间沙漏</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活小记（1）</title>
+    <url>/posts/the-life-of-neutrino-1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>2023年6月29日</p>
+<p>今天是我入职两周年，意味着我已经不是学生2年了，2年前的我不会想到我居然能够在这里待这么久，这里的加班氛围我早有耳闻，本着先干一段时间试试看的态度来到这里，期间有无数次要离职的想法，到现在，不能说是适应，只能说是心态基本稳定了。</p>
+<p>这几天的空余时间比较多，紧急的事情不算多，因此时间上还算比较自由，只是最近自己对一切都提不起兴趣，感到十分无聊，已经有好几天没有练琴了，常玩的游戏也没有登录的动力，在学的天体物理课程也没看几次，喜欢的电视剧看着也觉得这几集没那么好看了……但这种无欲无求的状态从昨天开始有了一些好转，我在想，如果我是期望自己仍能对世界的某些东西保持兴趣，我就可以试着做出一些改变，小的改变、大的改变、什么都行，无所谓，反正一切都没意思，破釜沉舟，怎样都好。</p>
+<p>今天写了一份技术交底书，是导师让我把之前我参与的项目中的一个机构申请专利，我想着也不错吧，想到之前自己还挺热衷于研究专利相关的东西，第一次写这玩意儿，开始下笔就停不下来，很快就写完了，发明人我填了4个人的名字，把自己放在了后面，导师来检查的时候，坐在我的旁边，握着我的鼠标把我的名字剪切粘贴放在了第一个，说第一发明人写我的名字，然后继续看着后面应该修改下哪些内容。导师确实对我一直很好，今天脑子里想了好几次这件事。</p>
+<p>晚上下班后，我骑着自行车来到以前常来的湖边，第一次在晚上骑着自行车绕着湖骑了很大的一圈，这一圈印象中很大，走路需要一个小时左右，但我骑着单车，晚风很清凉，散步的人很多、跑步的人也不少，时间很快，第一次觉得这一圈也没有多大。骑完一圈后在附近的那家24小时小图书室看了一会儿书，就回去了。突然想换个微信头像，就换了，想到上次换头像还是两年多前，大四的时候在图书馆里那个一个人过的元旦……</p>
+<p>回到宿舍把前几天洗好晒干的鞋子穿上鞋带、洗澡、写下这篇日记，嗯，又过了一天。</p>
 ]]></content>
       <categories>
         <category>时间沙漏</category>
@@ -695,6 +695,23 @@
       </tags>
   </entry>
   <entry>
+    <title>生活小记（4）</title>
+    <url>/posts/the-life-of-neutrino-4/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>2023年11月5日</p>
+<p>国庆之后自己对找新的工作的脚步放缓了许多，可能是因为放假太久了，想先让自己恢复到正常的状态，从上周开始，我试着记录下每天工作的主要内容，并记下当天的繁忙程度与下班时间，想看看自己在一段较长的时间里自己认为忙碌与不那么忙碌的时间具体占了多少，从记录来看，上周一整周都是十分忙碌的状态，下班时间也较晚，每天心情也更差，而这周则相对正常一些，虽有事情，但不算紧急，并且回看这周在下班之后的生活里的确也做了不少事情。</p>
+<p>时间过得很快，距离上次被打差绩效又过了一个季度了，这次的结果相反，是优秀，我无法评价这种规则，在我看来，我上个季度不应该得差，这个季度也不该得优秀，两次造成的影响可以相互抵消，但一切像是中层在迎合上层的规则完成任务罢了，上层意图通过对员工采取与个人利益挂钩的评价体系来对员工进行掌控，而这套评价体系本身就不合理，中层没有权利也没有意愿去变更规则，于是产生这样的结果。</p>
+<p>今年的应届生最近进行了转正答辩，有一个应届生学弟被辞退了，从来没听说答辩会有这样的结果，也没有人被事先告知会有这样结果的出现，辞退的理由更是让人无法接受：不够积极。他坐在我的工位后面，所以也算有些交流，会聊些工作生活的事情，他性格比较内敛，话比较少，但绝不至于因此被辞退，被置于无应届生身份、无工作经验的两难境地，内敛的性格我和他很像，所以更能体会到那种感受，作为一个独立的个体，能做的和改变的事情实在太少了……</p>
+<p>过去的一周时间里，无论是练琴、运动还是其他，都在按照计划可控的进行着，生活看起来规律并按照自己预定的轨迹进行着，但是心情并不算太好，有种 lost in space 的感觉，但 lost 归 lost，最近还是有一些让自己开心的事情的，《Rick and Morty》第七季开播了，时间流逝得很快，上一次追第六季的时候是才刚开始工作的时候，上上次追则是在毕业之前了，以及在看现在很喜欢的一部老情景电视剧《The Big Bang Theory》，有很多季，能看很久。</p>
+<p>今天是周日，在图书馆里看的书没有留下什么印象特别深刻的内容，但我正要离开的时候，看到几个穿着志愿服的学生聚在书架旁边讨论着什么，我恰好从旁边路过，看到志愿服上写着我学校和对应的系组织，顿时感觉十分亲切，将我的思绪瞬间带回了还在大学时的时光，穿着志愿服完成今天的志愿活动，和同伴讨论安排各个事项，结束后回到学校里，在林荫和树影的路上穿行，来到学校的图书馆里找个地方坐下，完成这周的课程作业，有种单纯的美好……</p>
+]]></content>
+      <categories>
+        <category>时间沙漏</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>生活小记（5）——节气、星空和阳历新年</title>
     <url>/posts/the-life-of-neutrino-5/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h5 id="2023年12月24日-星期天"><a href="#2023年12月24日-星期天" class="headerlink" title="2023年12月24日 星期天"></a>2023年12月24日 星期天</h5><p>平安夜</p>
@@ -718,23 +735,6 @@
 <h5 id="2024年1月7日-星期日"><a href="#2024年1月7日-星期日" class="headerlink" title="2024年1月7日 星期日"></a>2024年1月7日 星期日</h5><p>周末，上午看完一集万神殿之后就开始练琴，很久没有专注这么久练琴了，感觉挺不错的，用更合适的指法练习了《genshin impact main theme song》。中午午休了下，起来后帮父母远程操控哥哥那边的电脑打印标签，搞了还挺久的，但还好终于搞好了，但已经三点多了，但我还是按照自己的原计划骑车去了图书馆，没看什么书，主要是构思了下自己博客的布局和结构，虽然没有什么结论，但也对此有了一些方向。晚上回来还是通常周末那一套，楼下买好食材，自己煮面，一边看今晚80后脱口秀，我煮的面味道还是很棒的，是比较舒服的时刻，接着又看了会儿钢琴的视频，练了一会儿琴，然后抓着原神这次活动的尾巴，过了下活动，很有意思！今天晚上在小店里买完煮面的食材出来时，我的耳机里放着平静的音乐，手里提着一袋刚从小店里买的食物，天色已经暗下，我正朝着自己公寓的方向走去，脑海里映射着此刻的自己正做着的这件稀疏平常的事情，视角慢慢放大到整个地球，想象是一部科幻的开场……</p>
 <h5 id="2024年1月8日-星期一"><a href="#2024年1月8日-星期一" class="headerlink" title="2024年1月8日 星期一"></a>2024年1月8日 星期一</h5><p>下班后，练琴——原神主题曲、生活大爆炸、今天过于简单了。</p>
 <h5 id="2024年1月9日-星期二"><a href="#2024年1月9日-星期二" class="headerlink" title="2024年1月9日 星期二"></a>2024年1月9日 星期二</h5><p>最近觉得情绪在一个较低的水平，想要做一些事情改变下，列举了一些好好生活的事项，嗯。练原神主题曲的低音部分，低音的确比高音似乎要难一些，还是需要一些时间的。继续2集生活大爆炸，已经看到第七季了，真的很喜欢这部剧。晚上无意间刷到2014年春晚的完整视频，有种回到十年前的感觉，好想回到那时候，好想……</p>
-]]></content>
-      <categories>
-        <category>时间沙漏</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>生活小记（4）</title>
-    <url>/posts/the-life-of-neutrino-4/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>2023年11月5日</p>
-<p>国庆之后自己对找新的工作的脚步放缓了许多，可能是因为放假太久了，想先让自己恢复到正常的状态，从上周开始，我试着记录下每天工作的主要内容，并记下当天的繁忙程度与下班时间，想看看自己在一段较长的时间里自己认为忙碌与不那么忙碌的时间具体占了多少，从记录来看，上周一整周都是十分忙碌的状态，下班时间也较晚，每天心情也更差，而这周则相对正常一些，虽有事情，但不算紧急，并且回看这周在下班之后的生活里的确也做了不少事情。</p>
-<p>时间过得很快，距离上次被打差绩效又过了一个季度了，这次的结果相反，是优秀，我无法评价这种规则，在我看来，我上个季度不应该得差，这个季度也不该得优秀，两次造成的影响可以相互抵消，但一切像是中层在迎合上层的规则完成任务罢了，上层意图通过对员工采取与个人利益挂钩的评价体系来对员工进行掌控，而这套评价体系本身就不合理，中层没有权利也没有意愿去变更规则，于是产生这样的结果。</p>
-<p>今年的应届生最近进行了转正答辩，有一个应届生学弟被辞退了，从来没听说答辩会有这样的结果，也没有人被事先告知会有这样结果的出现，辞退的理由更是让人无法接受：不够积极。他坐在我的工位后面，所以也算有些交流，会聊些工作生活的事情，他性格比较内敛，话比较少，但绝不至于因此被辞退，被置于无应届生身份、无工作经验的两难境地，内敛的性格我和他很像，所以更能体会到那种感受，作为一个独立的个体，能做的和改变的事情实在太少了……</p>
-<p>过去的一周时间里，无论是练琴、运动还是其他，都在按照计划可控的进行着，生活看起来规律并按照自己预定的轨迹进行着，但是心情并不算太好，有种 lost in space 的感觉，但 lost 归 lost，最近还是有一些让自己开心的事情的，《Rick and Morty》第七季开播了，时间流逝得很快，上一次追第六季的时候是才刚开始工作的时候，上上次追则是在毕业之前了，以及在看现在很喜欢的一部老情景电视剧《The Big Bang Theory》，有很多季，能看很久。</p>
-<p>今天是周日，在图书馆里看的书没有留下什么印象特别深刻的内容，但我正要离开的时候，看到几个穿着志愿服的学生聚在书架旁边讨论着什么，我恰好从旁边路过，看到志愿服上写着我学校和对应的系组织，顿时感觉十分亲切，将我的思绪瞬间带回了还在大学时的时光，穿着志愿服完成今天的志愿活动，和同伴讨论安排各个事项，结束后回到学校里，在林荫和树影的路上穿行，来到学校的图书馆里找个地方坐下，完成这周的课程作业，有种单纯的美好……</p>
 ]]></content>
       <categories>
         <category>时间沙漏</category>
