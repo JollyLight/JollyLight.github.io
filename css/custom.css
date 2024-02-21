@@ -35,17 +35,15 @@ a:active {
   opacity: 0.1;
 }
 
+/* copyright左端颜色 */
 .post-copyright {
   border-left: 4px solid #FFCC66;
 }
 
-/* copyright左端颜色 */
-
+/* markdown引用块左端颜色 */
 .markdown-body blockquote {
   border-left: 4px solid #FFCC66;
 }
-
-/* markdown引用块左端颜色 */
 
 /* 以下为改girls页面为littleworld页面 */
 .girl-item .girl-avatar {
@@ -97,11 +95,12 @@ a:active {
   target: "_self";
 }
 
-
+/* 标签颜色 */
 .tag-cloud a {
   color: #FFCC66 ! important;
 }
 
+/* 表格颜色 */
 .markdown-body table>tbody>tr:hover {
   background-color: rgba(255, 204, 102, .1);
 }
@@ -111,9 +110,7 @@ a:active {
   border: 2px solid #FFCC66;
 }
 
-/* 标签颜色 */
-
-
+/* 友链hover效果 */
 .link-url {
   transition: 0.4s;
 }
@@ -123,34 +120,32 @@ a:active {
   transform: translateY(-5px)
 }
 
-/* 友链 */
-
+/* 世界页面 */
 .girl-item .girl-avatar:hover {
   transform: scale(1.1);
 }
 
-/* 世界页面 */
-
+/* 主页文章卡片 */
 .w-full {
   border-radius: 10px;
 }
 
-.w-full:hover {
-  border-radius: 10px;
+/* .w-full:hover {
+  border-radius: 20px;
   transform: scale(1.03);
-}
+} */
 
-/* 主页文章卡片 */
+/* 可爱 */
 .notice {
   border-radius: 10px;
 }
 
-/* 可爱 */
+/* 文章圆角 */
 .hty-card {
   border-radius: 10px;
 }
 
-/* 文章圆角 */
+/* 其他页面圆角 */
 #page,
 #archive,
 #tag,
@@ -158,13 +153,13 @@ a:active {
   border-radius: 10px;
 }
 
-/* 其他页面圆角 */
+/* 侧栏 */
 aside.sidebar {
   border-top-right-radius: 10px;
   /* border-bottom-right-radius: 100px; */
 }
 
-/* 侧栏 */
+/* 头像 */
 a.site-author-avatar {
   transition: 0.15s;
 }
@@ -173,7 +168,7 @@ a.site-author-avatar:hover {
   transform: scale(1.05);
 }
 
-/* 头像 */
+/* 光标bug修复 */
 .hty-icon-button:hover {
   cursor: url(https://gcore.jsdelivr.net/gh/JollyLight/images/main_interface/Hand.cur), pointer ! important;
 }
@@ -193,13 +188,13 @@ textarea {
   cursor: url(https://gcore.jsdelivr.net/gh/JollyLight/images/main_interface/IBeam.cur), pointer ! important;
 }
 
-/* 光标bug修复 */
-.sidebar .links-of-author-item:hover,
+/* 侧栏图标hover放大 */
+/* .sidebar .links-of-author-item:hover,
 .sidebar .links-item .icon:hover {
   transition: 0.2s;
-}
+} */
 
-.sidebar .links-of-author-item:hover,
+/* .sidebar .links-of-author-item:hover,
 .sidebar .links-item .icon:hover {
   transform: scale(1.2);
 }
@@ -210,9 +205,9 @@ textarea {
 
 .site-state-item-icon .icon:hover {
   transform: scale(1.2);
-}
+} */
 
-/* 侧栏图标hover放大 */
+
 
 /* .category-lists .category-list-link {
   transition: 0.5s;
@@ -223,6 +218,7 @@ textarea {
   background-image: linear-gradient(to left, black, white);
 } */
 
+/* 分类页面hover */
 .category-lists .category-list-link {
   position: relative;
 }
@@ -256,8 +252,8 @@ textarea {
   width: 100%;
 }
 
-/* 分类页面hover */
 
+/* 标签hover */
 .tag-cloud a {
   transition: 0.3s;
 }
@@ -266,4 +262,8 @@ textarea {
   transform: scale(1.5);
 }
 
-/* 标签hover */
+
+/* 侧栏图标hover变色 */
+/* .site-state-item-icon .icon:hover {
+  color: #FFCC66;
+} */
