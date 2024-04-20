@@ -108,6 +108,36 @@
       </tags>
   </entry>
   <entry>
+    <title>blog运行小笔记</title>
+    <url>/posts/note-for-blog-working/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p><strong>写文章</strong><br> <strong>step1:</strong> 打开blog文件夹，并在里面空白处右击选择<code>Git Bash Here</code><br> <strong>step2:</strong> 在里面输入<code>hexo n 新文章名</code>，再回车<br> <strong>step3:</strong> 在blog文件夹中，进入source文件夹，再进入_posts文件夹，用宇宙最强编辑器vs code打开新建的文章</p>
+<blockquote>
+<p>其实也可以直接在source/_posts文件夹内新建markdown文件（可以先新建一个记事本txt文件再改后缀为md），然后直接在里面写文章，推荐Typora编辑器</p>
+</blockquote>
+<p> <strong>step4:</strong> 就可以可以开始写啦！写完后记得保存<br> <strong>step5:</strong> 再打开Git Bash，依次输入<code>hexo c</code> <code>hexo g</code> <code>hexo d</code>(注意看有没有报错或警告啊)</p>
+<blockquote>
+<p>当然也可以随时在输入<code>hexo s</code>后在<a href="http://localhost:4000/">本地</a>查看自己的网站</p>
+</blockquote>
+<p><strong>step6:</strong> 再输入 <code>sh update.sh</code>运行之前写好的bash脚本，以完成博客源文件推送到gitee目标仓库hexo分支上实现备份</p>
+<blockquote>
+<p>可以在update.sh文件中更改info=”~“中的~来描述此次要在仓库中显示的更新说明</p>
+</blockquote>
+<p><strong>step7:</strong> 打开码云的<a href="https://gitee.com/jollylight/jollylight/pages">gitee page页面</a>，点击更新，等待片刻<br> <strong>step8:</strong> 就OK啦！</p>
+<p>（这么简单为什么写出来，因为我真的是小白啊QAQ）</p>
+<p><del>（主要也怕自己太久没写博客忘了）</del></p>
+<h1 id="linux常用命令-即git-bash下"><a href="#linux常用命令-即git-bash下" class="headerlink" title="linux常用命令(即git bash下)"></a>linux常用命令(即git bash下)</h1><p><kbd>Ctrl</kbd>+<kbd>Insert </kbd>: 复制</p>
+<p><kbd>Shift</kbd>+<kbd>Insert </kbd>: 粘贴</p>
+<h1 id="其他常用"><a href="#其他常用" class="headerlink" title="其他常用"></a>其他常用</h1><p><strong>blog主颜色</strong>：<font color=#FFCC66>#FFCC66</font></p>
+]]></content>
+      <categories>
+        <category>备忘笔记</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>七号中微子的地球旅行</title>
     <url>/posts/the-goal-of-my-life/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/others/idijsaiodiodeu.jpg" loading="lazy"></p>
@@ -161,7 +191,7 @@
 <p>终于还是毕业了，这篇文章就当是我四年生活的一个句点吧。</p>
 </blockquote>
 
-    <div id="aplayer-fagpIIai" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-kUnlYYaI" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="1413374282" data-server="netease" data-type="song" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#FFCC66"
     ></div>
 
@@ -191,36 +221,6 @@
       <tags>
         <tag>时光</tag>
         <tag>毕业</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>blog运行小笔记</title>
-    <url>/posts/note-for-blog-working/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><p><strong>写文章</strong><br> <strong>step1:</strong> 打开blog文件夹，并在里面空白处右击选择<code>Git Bash Here</code><br> <strong>step2:</strong> 在里面输入<code>hexo n 新文章名</code>，再回车<br> <strong>step3:</strong> 在blog文件夹中，进入source文件夹，再进入_posts文件夹，用宇宙最强编辑器vs code打开新建的文章</p>
-<blockquote>
-<p>其实也可以直接在source/_posts文件夹内新建markdown文件（可以先新建一个记事本txt文件再改后缀为md），然后直接在里面写文章，推荐Typora编辑器</p>
-</blockquote>
-<p> <strong>step4:</strong> 就可以可以开始写啦！写完后记得保存<br> <strong>step5:</strong> 再打开Git Bash，依次输入<code>hexo c</code> <code>hexo g</code> <code>hexo d</code>(注意看有没有报错或警告啊)</p>
-<blockquote>
-<p>当然也可以随时在输入<code>hexo s</code>后在<a href="http://localhost:4000/">本地</a>查看自己的网站</p>
-</blockquote>
-<p><strong>step6:</strong> 再输入 <code>sh update.sh</code>运行之前写好的bash脚本，以完成博客源文件推送到gitee目标仓库hexo分支上实现备份</p>
-<blockquote>
-<p>可以在update.sh文件中更改info=”~“中的~来描述此次要在仓库中显示的更新说明</p>
-</blockquote>
-<p><strong>step7:</strong> 打开码云的<a href="https://gitee.com/jollylight/jollylight/pages">gitee page页面</a>，点击更新，等待片刻<br> <strong>step8:</strong> 就OK啦！</p>
-<p>（这么简单为什么写出来，因为我真的是小白啊QAQ）</p>
-<p><del>（主要也怕自己太久没写博客忘了）</del></p>
-<h1 id="linux常用命令-即git-bash下"><a href="#linux常用命令-即git-bash下" class="headerlink" title="linux常用命令(即git bash下)"></a>linux常用命令(即git bash下)</h1><p><kbd>Ctrl</kbd>+<kbd>Insert </kbd>: 复制</p>
-<p><kbd>Shift</kbd>+<kbd>Insert </kbd>: 粘贴</p>
-<h1 id="其他常用"><a href="#其他常用" class="headerlink" title="其他常用"></a>其他常用</h1><p><strong>blog主颜色</strong>：<font color=#FFCC66>#FFCC66</font></p>
-]]></content>
-      <categories>
-        <category>备忘笔记</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>blog</tag>
       </tags>
   </entry>
   <entry>
@@ -288,6 +288,38 @@
       <tags>
         <tag>生活</tag>
         <tag>爱好</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>天体模型收藏盒</title>
+    <url>/posts/summary-of-celestial-models/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
+<p>3D模型取自NASA</p>
+<p>加载可能需要一些时间，请耐心等待~</p>
+</blockquote>
+<h2 id="月球"><a href="#月球" class="headerlink" title="月球"></a>月球</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2366' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="水星"><a href="#水星" class="headerlink" title="水星"></a>水星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2369' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="金星"><a href="#金星" class="headerlink" title="金星"></a>金星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2343' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="火星"><a href="#火星" class="headerlink" title="火星"></a>火星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2372' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="木星"><a href="#木星" class="headerlink" title="木星"></a>木星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2375' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="土星"><a href="#土星" class="headerlink" title="土星"></a>土星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2355' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="天王星"><a href="#天王星" class="headerlink" title="天王星"></a>天王星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2344' width='100%' height='400px' frameborder='0'></iframe>
+
+<h2 id="海王星"><a href="#海王星" class="headerlink" title="海王星"></a>海王星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2364' width='100%' height='400px' frameborder='0'></iframe>
+
+]]></content>
+      <categories>
+        <category>收藏小间</category>
+      </categories>
+      <tags>
+        <tag>天体</tag>
+        <tag>三维</tag>
       </tags>
   </entry>
   <entry>
@@ -389,35 +421,65 @@
       </tags>
   </entry>
   <entry>
-    <title>天体模型收藏盒</title>
-    <url>/posts/summary-of-celestial-models/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
-<p>3D模型取自NASA</p>
-<p>加载可能需要一些时间，请耐心等待~</p>
+    <title>天体物理学习笔记（二）——基本天体物理量</title>
+    <url>/posts/note-for-astrophysics-learning-2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="一、基本天体物理量"><a href="#一、基本天体物理量" class="headerlink" title="一、基本天体物理量"></a>一、基本天体物理量</h2><h3 id="1-星等"><a href="#1-星等" class="headerlink" title="1.星等"></a>1.星等</h3><p>（1）<strong>【视星等】</strong>：m<br>$$\frac{E_1}{E_2}=100^{\frac{ {m_2}-{m_1} }5}$$</p>
+<blockquote>
+<p>  m<sub>1</sub>、m<sub>2</sub>表示2颗星的视星等，E<sub>1</sub>、E<sub>2</sub>表示2颗星的亮度（观测者在其位置观察该星的亮度，非实际亮度）</p>
 </blockquote>
-<h2 id="月球"><a href="#月球" class="headerlink" title="月球"></a>月球</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2366' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="水星"><a href="#水星" class="headerlink" title="水星"></a>水星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2369' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="金星"><a href="#金星" class="headerlink" title="金星"></a>金星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2343' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="火星"><a href="#火星" class="headerlink" title="火星"></a>火星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2372' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="木星"><a href="#木星" class="headerlink" title="木星"></a>木星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2375' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="土星"><a href="#土星" class="headerlink" title="土星"></a>土星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2355' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="天王星"><a href="#天王星" class="headerlink" title="天王星"></a>天王星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2344' width='100%' height='400px' frameborder='0'></iframe>
-
-<h2 id="海王星"><a href="#海王星" class="headerlink" title="海王星"></a>海王星</h2><iframe src='https://solarsystem.nasa.gov/gltf_embed/2364' width='100%' height='400px' frameborder='0'></iframe>
-
+<p>目视越亮的星，视星等越小</p>
+<p>视星等表示方法举例：北极星视星等是2.1<sup>m</sup>，目视最亮的恒星天狼星视星等是-1.4<sup>m</sup>，满月时月球视星等是-12.7<sup>m</sup>，太阳视星等-26.7<sup>m</sup>，哈勃望远镜可拍摄的最暗视星等30<sup>m</sup>,</p>
+<p>（2）<strong>【绝对星等】</strong>：M</p>
+<p>定义：将一个视星等为m的星移到距观测者10秒差距（pc）的距离，此时的视星等定义为其绝对星等</p>
+<p>由于观测亮度与距离平方成反比，故移到10pc处亮度与原观测亮度之比：<br>$$\frac{E_{10} }{E} = \frac{r^2}{10^2}$$结合视星等定义公式可得：$$<br>M-m=5-5\text{lg}r<br>$$<br>m-M称为【距离模数】</p>
+<p>恒星的实际亮度越亮，其绝对星等数值越小</p>
+<p>例如太阳绝对星等M<sub>⊙</sub>=+ 4. 8<sup>m</sup>（天体物理量表示中，下标“⊙”表示太阳），天狼星的绝对星等M=+ 1.4<sup>m</sup></p>
+<p>（3）<strong>【光度】</strong>：L</p>
+<p>定义：恒星整个表面发射的所有波段的总辐射功率（或总辐射流量），用来表示恒星的实际亮度。它是恒星本身所固有的、表征其辐射本领的量。</p>
+<p>太阳的光度L<sub>⊙</sub>=3.8×10<sup>33</sup>erg/s，可以利用与太阳的参数相比，得到其他恒星的光度L：<br>$$\lg\frac{L}{L_{\odot} }=\frac{1}{2.5}(M_{\odot}-M)$$</p>
+<blockquote>
+<p>知：</p>
+<p>1.某一时刻肉眼可见恒星约3000颗，全年一共肉眼可见恒星约6000颗</p>
+<p>2.由于地球大气对光的吸收和散射，观测的星光会变暗变红，称为【大气消光】，因此实际观测中需要进行消光改正。除此之外，星际空间存在的大量气体和尘埃也会对光进行吸收和散射，称为【星际红化】和【星际消光】，同样需要进行相应修正</p>
+<p>3.观测同一恒星使用不同的测量方法或观测不同的波段会得到不同的<strong>视星等</strong>，人眼对波长约为550nm的黄绿光最敏感，所观测的星等为【目视星等】m<sub>v</sub>；早期照相底片对波长约为430nm的蓝紫光最敏感，所测星等为【照相星等】m<sub>p</sub>；黄绿滤光片配合照相底片得到【仿视星等】m<sub>pv</sub>；望远镜终端的光电光度计测得的为【光电星等】;用对各个波段辐射灵敏度均相同的探测器测得的【辐射星等】;表征恒星在整个电磁波段辐射总量的【热星等】</p>
+</blockquote>
+<h3 id="2-温度"><a href="#2-温度" class="headerlink" title="2.温度"></a>2.温度</h3><p>（1）<strong>【色指数】</strong>：C<br>$$C=m_{p}-m_{v}或C=m_{p}-m_{pv}$$<br>（2）<strong>【色温度】</strong>：T</p>
+<p>色温度与色指数C之间的近似关系为：<br>$$T = \frac{7200}{C + 0.64}\mathbf（{K}）$$<br>色指数越负,恒星的表面温度就越高</p>
+<p>（3）<strong>【有效温度】</strong>：T<sub>e</sub></p>
+<p>定义：与恒星的光度L相同的绝对黑体的温度<br>$$L=4\pi R^2\sigma T_e^4\quad\Rightarrow\quad T_e=\left(\frac{L}{4\pi R^2\sigma}\right)^{1/4}$$</p>
+<blockquote>
+<p>R为恒星的半径，σ为斯特藩-玻尔兹曼常量</p>
+</blockquote>
+<p>有效温度也就是辐射功率与恒星相同的等效黑体的温度</p>
+<h3 id="3-光谱型"><a href="#3-光谱型" class="headerlink" title="3.光谱型"></a>3.光谱型</h3><p>（1）<strong>【基尔霍夫定律】</strong>：</p>
+<ul>
+<li>每一种化学元素在高温下都能产生辐射而发出独特的明线光谱；</li>
+<li>在低温下每一种元素都可以吸收自己能够发出的这些辐射，从而使光谱中的明线变成暗线。</li>
+</ul>
+<p>（2）<strong>【光谱型】</strong>：</p>
+<p>按哈佛分类法主要分为以下几个类型：O—B—A—F—G—K—M</p>
+<p>由O到M，颜色依次<strong>由蓝到红</strong>，<strong>温度由高到低</strong></p>
+<h3 id="4-赫罗图"><a href="#4-赫罗图" class="headerlink" title="4.赫罗图"></a>4.赫罗图</h3><p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/others/image-20230624235552525.png" alt="image-20230624235552525" loading="lazy"></p>
+<p>（1）横轴表示光谱型（或温度、或色指数），纵轴表示光度（或绝对星等）</p>
+<p>（2）三个明显的恒星聚集区：</p>
+<ul>
+<li>【主星序】：人类观测到的90%以上的恒星都位于主星序上（包括太阳），称为主序星。主序星阶段是恒星一生中最稳定的阶段，恒星在这个阶段停留的时间占到整个寿命的90%以上。</li>
+<li>【红巨星和红超巨星】：半径比太阳大几十倍到几百倍。例如肉眼可见的大角星(牧夫座α星)、毕宿五(金牛座α星)是红巨星，参宿四(猎户座α星)和心宿二(天蝎座α星)是红超巨星。</li>
+<li>【白矮星】：半径仅为太阳的1/40~1/100，例如天狼星伴星，半径比地球还小。白矮星是超新星爆发的产物，是一部分恒星演化的最终归宿。</li>
+</ul>
+<p>（3）图中一组平行的虚线为<strong>恒星等半径线</strong>，由恒星表面有效温度T<sub>e</sub>定义式与太阳的T<sub>e</sub>定义式两式相除并带入太阳相关数据可得：<br>$$\operatorname{lg}\frac{ {R} }{ R_{\odot} }=8.49-0.2M-2\operatorname{lg}T_{e}$$</p>
+<ul>
+<li>其中M为恒星的绝对星等。这样,以绝对星等为纵坐标，以lgT<sub>e</sub>为横坐标的赫罗图上，恒星的等半径线是一组平行线。因而，<strong>如果知道一颗星在赫罗图上的位置，就知道了它的半径。</strong></li>
+<li>同时也表明，温度相同的情况下，<strong>光度越大，其半径也越大。</strong>即巨星的光度大、体积大，而矮星的光度小，体积小。</li>
+</ul>
+<h3 id="5-变星"><a href="#5-变星" class="headerlink" title="5.变星"></a>5.变星</h3><p>正在记…………</p>
 ]]></content>
       <categories>
-        <category>收藏小间</category>
+        <category>备忘笔记</category>
       </categories>
       <tags>
-        <tag>天体</tag>
-        <tag>三维</tag>
+        <tag>笔记</tag>
+        <tag>天体物理</tag>
       </tags>
   </entry>
   <entry>
@@ -516,68 +578,6 @@
       </categories>
       <tags>
         <tag>快捷键</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>天体物理学习笔记（二）——基本天体物理量</title>
-    <url>/posts/note-for-astrophysics-learning-2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="一、基本天体物理量"><a href="#一、基本天体物理量" class="headerlink" title="一、基本天体物理量"></a>一、基本天体物理量</h2><h3 id="1-星等"><a href="#1-星等" class="headerlink" title="1.星等"></a>1.星等</h3><p>（1）<strong>【视星等】</strong>：m<br>$$\frac{E_1}{E_2}=100^{\frac{ {m_2}-{m_1} }5}$$</p>
-<blockquote>
-<p>  m<sub>1</sub>、m<sub>2</sub>表示2颗星的视星等，E<sub>1</sub>、E<sub>2</sub>表示2颗星的亮度（观测者在其位置观察该星的亮度，非实际亮度）</p>
-</blockquote>
-<p>目视越亮的星，视星等越小</p>
-<p>视星等表示方法举例：北极星视星等是2.1<sup>m</sup>，目视最亮的恒星天狼星视星等是-1.4<sup>m</sup>，满月时月球视星等是-12.7<sup>m</sup>，太阳视星等-26.7<sup>m</sup>，哈勃望远镜可拍摄的最暗视星等30<sup>m</sup>,</p>
-<p>（2）<strong>【绝对星等】</strong>：M</p>
-<p>定义：将一个视星等为m的星移到距观测者10秒差距（pc）的距离，此时的视星等定义为其绝对星等</p>
-<p>由于观测亮度与距离平方成反比，故移到10pc处亮度与原观测亮度之比：<br>$$\frac{E_{10} }{E} = \frac{r^2}{10^2}$$结合视星等定义公式可得：$$<br>M-m=5-5\text{lg}r<br>$$<br>m-M称为【距离模数】</p>
-<p>恒星的实际亮度越亮，其绝对星等数值越小</p>
-<p>例如太阳绝对星等M<sub>⊙</sub>=+ 4. 8<sup>m</sup>（天体物理量表示中，下标“⊙”表示太阳），天狼星的绝对星等M=+ 1.4<sup>m</sup></p>
-<p>（3）<strong>【光度】</strong>：L</p>
-<p>定义：恒星整个表面发射的所有波段的总辐射功率（或总辐射流量），用来表示恒星的实际亮度。它是恒星本身所固有的、表征其辐射本领的量。</p>
-<p>太阳的光度L<sub>⊙</sub>=3.8×10<sup>33</sup>erg/s，可以利用与太阳的参数相比，得到其他恒星的光度L：<br>$$\lg\frac{L}{L_{\odot} }=\frac{1}{2.5}(M_{\odot}-M)$$</p>
-<blockquote>
-<p>知：</p>
-<p>1.某一时刻肉眼可见恒星约3000颗，全年一共肉眼可见恒星约6000颗</p>
-<p>2.由于地球大气对光的吸收和散射，观测的星光会变暗变红，称为【大气消光】，因此实际观测中需要进行消光改正。除此之外，星际空间存在的大量气体和尘埃也会对光进行吸收和散射，称为【星际红化】和【星际消光】，同样需要进行相应修正</p>
-<p>3.观测同一恒星使用不同的测量方法或观测不同的波段会得到不同的<strong>视星等</strong>，人眼对波长约为550nm的黄绿光最敏感，所观测的星等为【目视星等】m<sub>v</sub>；早期照相底片对波长约为430nm的蓝紫光最敏感，所测星等为【照相星等】m<sub>p</sub>；黄绿滤光片配合照相底片得到【仿视星等】m<sub>pv</sub>；望远镜终端的光电光度计测得的为【光电星等】;用对各个波段辐射灵敏度均相同的探测器测得的【辐射星等】;表征恒星在整个电磁波段辐射总量的【热星等】</p>
-</blockquote>
-<h3 id="2-温度"><a href="#2-温度" class="headerlink" title="2.温度"></a>2.温度</h3><p>（1）<strong>【色指数】</strong>：C<br>$$C=m_{p}-m_{v}或C=m_{p}-m_{pv}$$<br>（2）<strong>【色温度】</strong>：T</p>
-<p>色温度与色指数C之间的近似关系为：<br>$$T = \frac{7200}{C + 0.64}\mathbf（{K}）$$<br>色指数越负,恒星的表面温度就越高</p>
-<p>（3）<strong>【有效温度】</strong>：T<sub>e</sub></p>
-<p>定义：与恒星的光度L相同的绝对黑体的温度<br>$$L=4\pi R^2\sigma T_e^4\quad\Rightarrow\quad T_e=\left(\frac{L}{4\pi R^2\sigma}\right)^{1/4}$$</p>
-<blockquote>
-<p>R为恒星的半径，σ为斯特藩-玻尔兹曼常量</p>
-</blockquote>
-<p>有效温度也就是辐射功率与恒星相同的等效黑体的温度</p>
-<h3 id="3-光谱型"><a href="#3-光谱型" class="headerlink" title="3.光谱型"></a>3.光谱型</h3><p>（1）<strong>【基尔霍夫定律】</strong>：</p>
-<ul>
-<li>每一种化学元素在高温下都能产生辐射而发出独特的明线光谱；</li>
-<li>在低温下每一种元素都可以吸收自己能够发出的这些辐射，从而使光谱中的明线变成暗线。</li>
-</ul>
-<p>（2）<strong>【光谱型】</strong>：</p>
-<p>按哈佛分类法主要分为以下几个类型：O—B—A—F—G—K—M</p>
-<p>由O到M，颜色依次<strong>由蓝到红</strong>，<strong>温度由高到低</strong></p>
-<h3 id="4-赫罗图"><a href="#4-赫罗图" class="headerlink" title="4.赫罗图"></a>4.赫罗图</h3><p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/others/image-20230624235552525.png" alt="image-20230624235552525" loading="lazy"></p>
-<p>（1）横轴表示光谱型（或温度、或色指数），纵轴表示光度（或绝对星等）</p>
-<p>（2）三个明显的恒星聚集区：</p>
-<ul>
-<li>【主星序】：人类观测到的90%以上的恒星都位于主星序上（包括太阳），称为主序星。主序星阶段是恒星一生中最稳定的阶段，恒星在这个阶段停留的时间占到整个寿命的90%以上。</li>
-<li>【红巨星和红超巨星】：半径比太阳大几十倍到几百倍。例如肉眼可见的大角星(牧夫座α星)、毕宿五(金牛座α星)是红巨星，参宿四(猎户座α星)和心宿二(天蝎座α星)是红超巨星。</li>
-<li>【白矮星】：半径仅为太阳的1/40~1/100，例如天狼星伴星，半径比地球还小。白矮星是超新星爆发的产物，是一部分恒星演化的最终归宿。</li>
-</ul>
-<p>（3）图中一组平行的虚线为<strong>恒星等半径线</strong>，由恒星表面有效温度T<sub>e</sub>定义式与太阳的T<sub>e</sub>定义式两式相除并带入太阳相关数据可得：<br>$$\operatorname{lg}\frac{ {R} }{ R_{\odot} }=8.49-0.2M-2\operatorname{lg}T_{e}$$</p>
-<ul>
-<li>其中M为恒星的绝对星等。这样,以绝对星等为纵坐标，以lgT<sub>e</sub>为横坐标的赫罗图上，恒星的等半径线是一组平行线。因而，<strong>如果知道一颗星在赫罗图上的位置，就知道了它的半径。</strong></li>
-<li>同时也表明，温度相同的情况下，<strong>光度越大，其半径也越大。</strong>即巨星的光度大、体积大，而矮星的光度小，体积小。</li>
-</ul>
-<h3 id="5-变星"><a href="#5-变星" class="headerlink" title="5.变星"></a>5.变星</h3><p>正在记…………</p>
-]]></content>
-      <categories>
-        <category>备忘笔记</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>天体物理</tag>
       </tags>
   </entry>
   <entry>
@@ -855,40 +855,6 @@
       </tags>
   </entry>
   <entry>
-    <title>生活小记（8）——骑行、新手机和独处恢复</title>
-    <url>/posts/the-life-of-neutrino-8/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h5 id="2024年2月20日-星期二"><a href="#2024年2月20日-星期二" class="headerlink" title="2024年2月20日 星期二"></a>2024年2月20日 星期二</h5><p>假期回来之后我有些不一样，可能需要一些时间重新建立一下自己，有些事情需要想清楚，有些东西需要重新拾起来。晚上过了下原神海灯节的活动，虽然有些迟了，但还是很喜欢。今天天气挺热的，睡衣都直接换短袖了，晚上打开了有阵子没看的生活大爆炸，第八季第一集了，好快。</p>
-<h5 id="2024年2月21日-星期三"><a href="#2024年2月21日-星期三" class="headerlink" title="2024年2月21日 星期三"></a>2024年2月21日 星期三</h5><p>状态在慢慢恢复了，晚上去湖边跑步，跑完又散了很久的步，湖边很凉爽，风景也很好。回来之后下单了决定好的k70，选择困难症走开。</p>
-<h5 id="2024年2月22日-星期四"><a href="#2024年2月22日-星期四" class="headerlink" title="2024年2月22日 星期四"></a>2024年2月22日 星期四</h5><p>晚上如果不是开会我会更早下班的，因为新手机到了。骑车回来的路上，我想到3年前拿到新手机时的状态，对我来说很不一样，十分开心，而如今这部手机的提升看起来就没有之前那么大了，惊喜感自然也不会那样重了。拿到手机后，传文件传了好久，真的好久，传好了之后的界面好丑，于是把所有东西都设置成自己原来的样子，整了挺长时间的，其他的都还好，只是一点，新的系统居然不支持lite版本的网易云了，这是我十分高频使用的软件，有点不能接受，只能再寻找其他替代的解决办法了。</p>
-<h5 id="2024年2月23日-星期五"><a href="#2024年2月23日-星期五" class="headerlink" title="2024年2月23日 星期五"></a>2024年2月23日 星期五</h5><p>今天很不在状态，心情也不好，很莫名。今天直接换上新手机使用了，大部分东西和之前相同，改变不算很大，嗯，体验当然还是有一些提升的，解锁速度，续航，充电都比原来要好不少。游戏提升感觉不大，不过发热的确小了不少。思索了一番之后还是决定这周不回家了，我需要一个人待会儿。</p>
-<h5 id="2024年2月24日-星期六"><a href="#2024年2月24日-星期六" class="headerlink" title="2024年2月24日 星期六"></a>2024年2月24日 星期六</h5><p>元宵<br>今天休息，上午起的比较晚，起来后给手机充电，120W确实冲的很快，20分钟就从3个电冲到了100。</p>
-<p>上午看完了万神殿第一季的最后一集，然后随便吃了点东西，就骑车去图书馆那边了，今天降温了不少，还是比较冷的，穿上了放了很久没穿的那件长外套，骑到半路等红灯的时候看到松山湖的医院，突然想到可以在这里办理医保转诊，正好又带了身份证，顺路就把这件事给办了，挺顺利的。</p>
-<p>到了那边之后在图书馆对面的公园待了会儿，开始整理自己的思绪，想清楚了正在经历的一些事情，最重要的是，我恢复了原来自己思考的能力，我真的需要一个人待会儿给自己充电，整理现在的生活，调整自己的情绪，以一个局外人的角度来看自己遇到的问题并给出当前的建议或结论。之前在这个公园只是在湖边看看荷叶，下午在这里骑来骑去骑了很久。后来去了图书馆，虽然是挑了2本书，不过没来得及看，主要是在看之前自己记录的一些想法，对现在的自己也有很大的帮助。</p>
-<p>晚上煮面，80后脱口秀，后来和父母打了很久的电话，了解了很多我们那边的习俗，还真是第一次知道。明天还不用上班，双休真是太好了，更坚定了换工作的想法。</p>
-<h5 id="2024年2月25日-星期天"><a href="#2024年2月25日-星期天" class="headerlink" title="2024年2月25日 星期天"></a>2024年2月25日 星期天</h5><p>原来那个手机的NFC坏了，里面公交卡的余额也没办法转出来了，小米客服一如既往令人失望。</p>
-<p>中午在楼下吃了个杂酱面，下午骑车去图书馆，骑到图书馆的时候感觉很快，好像都不怎么累，于是又决定再往前骑，直接骑去学校了，骑去学校的路上风景很不错，路也修的很好，进到校园里还是熟悉的感觉，这个时候还没开学，路上几乎没有人，到学校图书馆门口瞅了下，发现没开门，又去教学楼走了走，以前上课的阶梯教室，风雨走廊，还有下课时会去那边站着发呆的露景台。</p>
-<p>后来又骑去了学校旁边的创新城，也算依次认识了下里面的各种研究院和分布，如果能在这里工作和生活真的会好很多，这边比想象中要大，风景好，环境好，给人感觉很舒服。</p>
-<p>晚饭在学校食堂吃了，路过篮球场的时候似乎看到了以前的室友，不过天太黑看不清也没去打招呼了。回去的路上拍了很多照片，谷歌相机的夜景还是值得信赖的，回来的时候骑得比昨天的确累多了，今天应该骑了大概30公里了，回来就想躺着。</p>
-<h5 id="2024年2月26日-星期一"><a href="#2024年2月26日-星期一" class="headerlink" title="2024年2月26日 星期一"></a>2024年2月26日 星期一</h5><p>昨天看了一个关于多邻国公司的视频，自己有了一些想法，好像很长一段时间以来都没有把工作当回事了，以至于有时会怀疑自己是否真的能胜任以后去的其他公司的工作，于是打算开始还是认真的对待下工作，目的是打消自己对自己的能力的怀疑。于是，今天很累。回来的路上前轮刹车突然没反应了，回来之后试图修了下不过没好。生活大爆炸，睡觉。</p>
-<h5 id="2024年2月27日-星期二"><a href="#2024年2月27日-星期二" class="headerlink" title="2024年2月27日 星期二"></a>2024年2月27日 星期二</h5><p>今天同样很累，工作无休无止，若干个项目排着队等着自己搞，甚至今晚还因为被迫帮别人完成项目而加班。回到宿舍的时候只想先静静，弹了会儿琴，突然停电了，电脑里还放着打上花火的钢琴演奏，突然觉得很喜欢这种氛围，不过很快就来电了。</p>
-<h5 id="2024年2月28日-星期三"><a href="#2024年2月28日-星期三" class="headerlink" title="2024年2月28日 星期三"></a>2024年2月28日 星期三</h5><p>早上对这份工作的态度差到了极点，后来整理了下原因心情好一些了，该怎么做，该怎么改变需要执行起来。晚上下班比平时早了些，处理支线任务的一些事情，嗯。</p>
-<h5 id="2024年2月29日-星期四"><a href="#2024年2月29日-星期四" class="headerlink" title="2024年2月29日 星期四"></a>2024年2月29日 星期四</h5><p>上午还挺热的，下午突然下雨降温，天气又变得挺凉了，心情不是很好，晚上去公园骑车，骑了一圈，看着偌大的湖面，在想湖的中心会有什么，湖底没人踏足的地方又是怎样的一番景象，一会儿又想像湖面是个巨大的平地，在昏暗的灯光下越看越像，密集的城市里，只有这里是如此空旷。晚上风很大，还挺凉的，所以几乎没有人，搭在栏杆前看着被风吹皱不断变化波纹的湖面，很舒服。</p>
-<h5 id="2024年3月1日-星期五"><a href="#2024年3月1日-星期五" class="headerlink" title="2024年3月1日 星期五"></a>2024年3月1日 星期五</h5><p>要下班了被叫到另一个车程1个多小时的地方处理事情，一直到很晚，下班已经凌晨一点多了，上一次这么晚应该是两年前，那时第一次亲自认识到这里的工作可以让人加班到的程度，没想到自己会再一次。</p>
-<h5 id="2024年3月2日-星期六"><a href="#2024年3月2日-星期六" class="headerlink" title="2024年3月2日 星期六"></a>2024年3月2日 星期六</h5><p>今天周六，上午一大早还有会，昨天两点多才睡，于是请假没来，leader有意见了，后来知道上个季度他绩效是差，这里不能久待了，而且最近每天的工作量几乎是原来的2倍。晚上把车拿上来修前刹，不太好搞，应该是没完全修好。晚上和母亲打电话得知父亲病了在医院，心里也很难受。人生变幻莫测，一定要好好珍惜眼前美好的人和事，不能总是优柔寡断。</p>
-<h5 id="2024年3月3日-星期天"><a href="#2024年3月3日-星期天" class="headerlink" title="2024年3月3日 星期天"></a>2024年3月3日 星期天</h5><p>骑车，没有目的的骑了2个多小时，然后去到图书馆，看了会儿书，也整理了下生活，还有工作的打算，目前的结论是换公司，岗位不变，条件列举了一些，需要时间筛选和确定。</p>
-<h5 id="2024年3月4日-星期一"><a href="#2024年3月4日-星期一" class="headerlink" title="2024年3月4日 星期一"></a>2024年3月4日 星期一</h5><p>忙碌，费神，费脑。下班回来发现楼道里如此潮湿，像是刚发生了洪水，然后洪水退去后的场景，回南天，这种感觉总能勾起一些小时候的回忆。但现在这个温度湿度，闷热，我不太喜欢。</p>
-<h5 id="2024年3月5日-星期二"><a href="#2024年3月5日-星期二" class="headerlink" title="2024年3月5日 星期二"></a>2024年3月5日 星期二</h5><p>今天温度又高了不少，还是回南天。今天同样很累，最近上班耗费的精力太多了，下午和前同事X聊了很多，他还是做我现在的岗位，但他们公司主要给国企当供应商，因此基本不会出现下班后还找你的情况，于是我也有了新的思路，我在另一家公司还做现在的事情是可行的，是有可能达到或接近自己的理想工作的。晚上去公园跑步了，回来之后趁着回南天潮湿把地给拖了。</p>
-<h5 id="2024年3月6日-星期三"><a href="#2024年3月6日-星期三" class="headerlink" title="2024年3月6日 星期三"></a>2024年3月6日 星期三</h5><p>上午父亲造影检查的结果出来了，需要手术，并且需要转到几百公里外有手术设备能力的医院进行，今天一直很难受，想了很多事情，想到自己可能必须扛起更多了，想到从前的种种……晚上又和父母打了电话，聊了很多，心里才稍微好些。望平安，平安。</p>
-<h5 id="2024年3月7日-星期四"><a href="#2024年3月7日-星期四" class="headerlink" title="2024年3月7日 星期四"></a>2024年3月7日 星期四</h5><p>晚上无意看到宇哥1000题的视频讲解，记得当时自己备考时1000题还是高昆仑讲解，点了进去，听完了一道关于某未知函数在自变量为0时求解其n阶导的题目，用到了不少公式，虽然过去了那么久，但看到那些公式依然觉得很熟悉，也基本听懂了解题的思路，而且似乎有在喜欢这种过程，当然，不敢说自己还能够再来一次，当前的想法也不认为那样更适合自己，只是觉得自己可能可以在自己喜欢的领域更深入的学习，而不是把大把的时间浪费在加班这种事情上。</p>
-]]></content>
-      <categories>
-        <category>时间沙漏</category>
-      </categories>
-      <tags>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>生活小记（9）——整理、校园和人生小格</title>
     <url>/posts/the-life-of-neutrino-9/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h5 id="2024年3月8日-星期五"><a href="#2024年3月8日-星期五" class="headerlink" title="2024年3月8日 星期五"></a>2024年3月8日 星期五</h5><p>晚上在湖边想了很多以前自己的想法，发觉很多自己在生活经历中的一些思考，随着时间过去，慢慢的会淡忘，很少会重新想起并对目前正在经历的事情产生帮助。</p>
@@ -923,6 +889,40 @@
 <p>回学校吃晚饭，在夜晚的校园里散步，音乐学院琴房的琴声，考研自习室窗外的一瞥，感受没有自己的校园现在的样子。</p>
 <p>图书馆外面看到有大人带着几个小朋友使用天文望远镜，有一点心动。</p>
 <p>拍了不少照片和视频，嗯，不错的周末。</p>
+]]></content>
+      <categories>
+        <category>时间沙漏</category>
+      </categories>
+      <tags>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>生活小记（8）——骑行、新手机和独处恢复</title>
+    <url>/posts/the-life-of-neutrino-8/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h5 id="2024年2月20日-星期二"><a href="#2024年2月20日-星期二" class="headerlink" title="2024年2月20日 星期二"></a>2024年2月20日 星期二</h5><p>假期回来之后我有些不一样，可能需要一些时间重新建立一下自己，有些事情需要想清楚，有些东西需要重新拾起来。晚上过了下原神海灯节的活动，虽然有些迟了，但还是很喜欢。今天天气挺热的，睡衣都直接换短袖了，晚上打开了有阵子没看的生活大爆炸，第八季第一集了，好快。</p>
+<h5 id="2024年2月21日-星期三"><a href="#2024年2月21日-星期三" class="headerlink" title="2024年2月21日 星期三"></a>2024年2月21日 星期三</h5><p>状态在慢慢恢复了，晚上去湖边跑步，跑完又散了很久的步，湖边很凉爽，风景也很好。回来之后下单了决定好的k70，选择困难症走开。</p>
+<h5 id="2024年2月22日-星期四"><a href="#2024年2月22日-星期四" class="headerlink" title="2024年2月22日 星期四"></a>2024年2月22日 星期四</h5><p>晚上如果不是开会我会更早下班的，因为新手机到了。骑车回来的路上，我想到3年前拿到新手机时的状态，对我来说很不一样，十分开心，而如今这部手机的提升看起来就没有之前那么大了，惊喜感自然也不会那样重了。拿到手机后，传文件传了好久，真的好久，传好了之后的界面好丑，于是把所有东西都设置成自己原来的样子，整了挺长时间的，其他的都还好，只是一点，新的系统居然不支持lite版本的网易云了，这是我十分高频使用的软件，有点不能接受，只能再寻找其他替代的解决办法了。</p>
+<h5 id="2024年2月23日-星期五"><a href="#2024年2月23日-星期五" class="headerlink" title="2024年2月23日 星期五"></a>2024年2月23日 星期五</h5><p>今天很不在状态，心情也不好，很莫名。今天直接换上新手机使用了，大部分东西和之前相同，改变不算很大，嗯，体验当然还是有一些提升的，解锁速度，续航，充电都比原来要好不少。游戏提升感觉不大，不过发热的确小了不少。思索了一番之后还是决定这周不回家了，我需要一个人待会儿。</p>
+<h5 id="2024年2月24日-星期六"><a href="#2024年2月24日-星期六" class="headerlink" title="2024年2月24日 星期六"></a>2024年2月24日 星期六</h5><p>元宵<br>今天休息，上午起的比较晚，起来后给手机充电，120W确实冲的很快，20分钟就从3个电冲到了100。</p>
+<p>上午看完了万神殿第一季的最后一集，然后随便吃了点东西，就骑车去图书馆那边了，今天降温了不少，还是比较冷的，穿上了放了很久没穿的那件长外套，骑到半路等红灯的时候看到松山湖的医院，突然想到可以在这里办理医保转诊，正好又带了身份证，顺路就把这件事给办了，挺顺利的。</p>
+<p>到了那边之后在图书馆对面的公园待了会儿，开始整理自己的思绪，想清楚了正在经历的一些事情，最重要的是，我恢复了原来自己思考的能力，我真的需要一个人待会儿给自己充电，整理现在的生活，调整自己的情绪，以一个局外人的角度来看自己遇到的问题并给出当前的建议或结论。之前在这个公园只是在湖边看看荷叶，下午在这里骑来骑去骑了很久。后来去了图书馆，虽然是挑了2本书，不过没来得及看，主要是在看之前自己记录的一些想法，对现在的自己也有很大的帮助。</p>
+<p>晚上煮面，80后脱口秀，后来和父母打了很久的电话，了解了很多我们那边的习俗，还真是第一次知道。明天还不用上班，双休真是太好了，更坚定了换工作的想法。</p>
+<h5 id="2024年2月25日-星期天"><a href="#2024年2月25日-星期天" class="headerlink" title="2024年2月25日 星期天"></a>2024年2月25日 星期天</h5><p>原来那个手机的NFC坏了，里面公交卡的余额也没办法转出来了，小米客服一如既往令人失望。</p>
+<p>中午在楼下吃了个杂酱面，下午骑车去图书馆，骑到图书馆的时候感觉很快，好像都不怎么累，于是又决定再往前骑，直接骑去学校了，骑去学校的路上风景很不错，路也修的很好，进到校园里还是熟悉的感觉，这个时候还没开学，路上几乎没有人，到学校图书馆门口瞅了下，发现没开门，又去教学楼走了走，以前上课的阶梯教室，风雨走廊，还有下课时会去那边站着发呆的露景台。</p>
+<p>后来又骑去了学校旁边的创新城，也算依次认识了下里面的各种研究院和分布，如果能在这里工作和生活真的会好很多，这边比想象中要大，风景好，环境好，给人感觉很舒服。</p>
+<p>晚饭在学校食堂吃了，路过篮球场的时候似乎看到了以前的室友，不过天太黑看不清也没去打招呼了。回去的路上拍了很多照片，谷歌相机的夜景还是值得信赖的，回来的时候骑得比昨天的确累多了，今天应该骑了大概30公里了，回来就想躺着。</p>
+<h5 id="2024年2月26日-星期一"><a href="#2024年2月26日-星期一" class="headerlink" title="2024年2月26日 星期一"></a>2024年2月26日 星期一</h5><p>昨天看了一个关于多邻国公司的视频，自己有了一些想法，好像很长一段时间以来都没有把工作当回事了，以至于有时会怀疑自己是否真的能胜任以后去的其他公司的工作，于是打算开始还是认真的对待下工作，目的是打消自己对自己的能力的怀疑。于是，今天很累。回来的路上前轮刹车突然没反应了，回来之后试图修了下不过没好。生活大爆炸，睡觉。</p>
+<h5 id="2024年2月27日-星期二"><a href="#2024年2月27日-星期二" class="headerlink" title="2024年2月27日 星期二"></a>2024年2月27日 星期二</h5><p>今天同样很累，工作无休无止，若干个项目排着队等着自己搞，甚至今晚还因为被迫帮别人完成项目而加班。回到宿舍的时候只想先静静，弹了会儿琴，突然停电了，电脑里还放着打上花火的钢琴演奏，突然觉得很喜欢这种氛围，不过很快就来电了。</p>
+<h5 id="2024年2月28日-星期三"><a href="#2024年2月28日-星期三" class="headerlink" title="2024年2月28日 星期三"></a>2024年2月28日 星期三</h5><p>早上对这份工作的态度差到了极点，后来整理了下原因心情好一些了，该怎么做，该怎么改变需要执行起来。晚上下班比平时早了些，处理支线任务的一些事情，嗯。</p>
+<h5 id="2024年2月29日-星期四"><a href="#2024年2月29日-星期四" class="headerlink" title="2024年2月29日 星期四"></a>2024年2月29日 星期四</h5><p>上午还挺热的，下午突然下雨降温，天气又变得挺凉了，心情不是很好，晚上去公园骑车，骑了一圈，看着偌大的湖面，在想湖的中心会有什么，湖底没人踏足的地方又是怎样的一番景象，一会儿又想像湖面是个巨大的平地，在昏暗的灯光下越看越像，密集的城市里，只有这里是如此空旷。晚上风很大，还挺凉的，所以几乎没有人，搭在栏杆前看着被风吹皱不断变化波纹的湖面，很舒服。</p>
+<h5 id="2024年3月1日-星期五"><a href="#2024年3月1日-星期五" class="headerlink" title="2024年3月1日 星期五"></a>2024年3月1日 星期五</h5><p>要下班了被叫到另一个车程1个多小时的地方处理事情，一直到很晚，下班已经凌晨一点多了，上一次这么晚应该是两年前，那时第一次亲自认识到这里的工作可以让人加班到的程度，没想到自己会再一次。</p>
+<h5 id="2024年3月2日-星期六"><a href="#2024年3月2日-星期六" class="headerlink" title="2024年3月2日 星期六"></a>2024年3月2日 星期六</h5><p>今天周六，上午一大早还有会，昨天两点多才睡，于是请假没来，leader有意见了，后来知道上个季度他绩效是差，这里不能久待了，而且最近每天的工作量几乎是原来的2倍。晚上把车拿上来修前刹，不太好搞，应该是没完全修好。晚上和母亲打电话得知父亲病了在医院，心里也很难受。人生变幻莫测，一定要好好珍惜眼前美好的人和事，不能总是优柔寡断。</p>
+<h5 id="2024年3月3日-星期天"><a href="#2024年3月3日-星期天" class="headerlink" title="2024年3月3日 星期天"></a>2024年3月3日 星期天</h5><p>骑车，没有目的的骑了2个多小时，然后去到图书馆，看了会儿书，也整理了下生活，还有工作的打算，目前的结论是换公司，岗位不变，条件列举了一些，需要时间筛选和确定。</p>
+<h5 id="2024年3月4日-星期一"><a href="#2024年3月4日-星期一" class="headerlink" title="2024年3月4日 星期一"></a>2024年3月4日 星期一</h5><p>忙碌，费神，费脑。下班回来发现楼道里如此潮湿，像是刚发生了洪水，然后洪水退去后的场景，回南天，这种感觉总能勾起一些小时候的回忆。但现在这个温度湿度，闷热，我不太喜欢。</p>
+<h5 id="2024年3月5日-星期二"><a href="#2024年3月5日-星期二" class="headerlink" title="2024年3月5日 星期二"></a>2024年3月5日 星期二</h5><p>今天温度又高了不少，还是回南天。今天同样很累，最近上班耗费的精力太多了，下午和前同事X聊了很多，他还是做我现在的岗位，但他们公司主要给国企当供应商，因此基本不会出现下班后还找你的情况，于是我也有了新的思路，我在另一家公司还做现在的事情是可行的，是有可能达到或接近自己的理想工作的。晚上去公园跑步了，回来之后趁着回南天潮湿把地给拖了。</p>
+<h5 id="2024年3月6日-星期三"><a href="#2024年3月6日-星期三" class="headerlink" title="2024年3月6日 星期三"></a>2024年3月6日 星期三</h5><p>上午父亲造影检查的结果出来了，需要手术，并且需要转到几百公里外有手术设备能力的医院进行，今天一直很难受，想了很多事情，想到自己可能必须扛起更多了，想到从前的种种……晚上又和父母打了电话，聊了很多，心里才稍微好些。望平安，平安。</p>
+<h5 id="2024年3月7日-星期四"><a href="#2024年3月7日-星期四" class="headerlink" title="2024年3月7日 星期四"></a>2024年3月7日 星期四</h5><p>晚上无意看到宇哥1000题的视频讲解，记得当时自己备考时1000题还是高昆仑讲解，点了进去，听完了一道关于某未知函数在自变量为0时求解其n阶导的题目，用到了不少公式，虽然过去了那么久，但看到那些公式依然觉得很熟悉，也基本听懂了解题的思路，而且似乎有在喜欢这种过程，当然，不敢说自己还能够再来一次，当前的想法也不认为那样更适合自己，只是觉得自己可能可以在自己喜欢的领域更深入的学习，而不是把大把的时间浪费在加班这种事情上。</p>
 ]]></content>
       <categories>
         <category>时间沙漏</category>
@@ -1015,6 +1015,35 @@
       <tags>
         <tag>生活</tag>
         <tag>雨</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《Astronomy Today》学习笔记——第一部分：天文和宇宙</title>
+    <url>/posts/note-for-astronomy-today/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote>
+<p>记录<a href="https://book.douban.com/subject/4675658/">《Astronomy Today》</a>的学习笔记，更像是读书笔记，暂时没有好好排版</p>
+</blockquote>
+<p>1610年伽利略用他5cm口径的望远镜望向夜空，他的发现是第一次天文学的革命，他首次看到并记录了太阳黑子、月球环形山和环绕木星的全新世界。他的发现与主流的观念不符，这给他带来了麻烦。如今，我们学会了如何探测、测量和分析太空中黑暗物体的不可见射线，我们正处于第二次天文学的革命。</p>
+<h2 id="一、绘制天空的图像"><a href="#一、绘制天空的图像" class="headerlink" title="一、绘制天空的图像"></a>一、绘制天空的图像</h2><h3 id="1-1-我们在太空的位置"><a href="#1-1-我们在太空的位置" class="headerlink" title="1.1 我们在太空的位置"></a>1.1 我们在太空的位置</h3><p>地球的位置既不中心也不特殊，地球是个非常普通的岩石星球，所在轨道围绕的太阳也是一个非常普通的恒星，太阳也只是在其所在星系银河系靠边缘的位置，银河系也只是遍布可观测宇宙若干星系的普通一员。<br>我们身体中的大多数化学元素都来自数十亿年前恒星的炽热核心，它们的燃料耗尽后，在一次爆炸中消亡，散射的元素物质遍布广泛，最终这些物质聚集成的气体云缓慢坍塌形成新一代的恒星，太阳系也在50亿年前就这样形成。<br>简单来说，宇宙是所有空间、时间、物质和能量的总和，而天文学是研究宇宙的学科。</p>
+<h3 id="1-2-科学理论和科学方法"><a href="#1-2-科学理论和科学方法" class="headerlink" title="1.2 科学理论和科学方法"></a>1.2 科学理论和科学方法</h3><p>为了解释事物的特性，科学家通过理论构建物理对象（如行星、恒星）或现象（如引力、光）的理论模型，然后基于该模型进一步预测该事物的其他特性，如果实验与观测和预测相符，则该理论模型可以进一步发展和完善，否则，无论该理论当初看起来多么有吸引力，都必须被重新表述或抛弃。这种结合理论和实践的科学方法，将科学与伪科学区别开来。<br>理论、预测、观测的循环没有终止点，这意味一个理论可以被仅仅一个错误的预测而证伪，但无论有多少次与预测相符的观测都不能证明这个理论是正确的。理论只是随着反复证实会越来越被广泛接受<br>现代科学理论有几个共同的重要特征：<br>（1）必须是经得起实验验证的<br>（2）必须是能够不断接受实验验证的<br>（3）应当是简洁的——奥卡姆剃刀原理，如非必要，勿增实体。<br>（4）很多科学家认为应当是优雅的<br>亚里士多德通过观察月食时月亮上弧形的阴影，推测地球可能是圆形，并且每次月食时都会进行观察验证，这种基本的推理方法正是现代科学探究的方法，现代科学也正是在这种科学方法的应用下不断发展起来。</p>
+<h3 id="1-3-“显然”的观点"><a href="#1-3-“显然”的观点" class="headerlink" title="1.3 “显然”的观点"></a>1.3 “显然”的观点</h3><p>我们对宇宙的研究始于仰望夜空，我们和我们祖先看到的夜空并没有太大的改变，但我们对所见事物的理解发生了不可估量的变化。<br>天空中的星座（constellation）：<br>全年我们能用肉眼看到的星星约有6000颗，古代天文学家把最亮的那些星星分类成星座，并用神话人物、英雄、动物等命名，共88个星座。<br>早期天文学家研究天空有着实用意义，比如北极星指引北方，一些星座指示播种和收获的季节等。<br>实际上，星座里的恒星彼此间隔十分遥远，许多并无关联，但星座为天文学家提供了一种便捷的方式来划分天空。<br>天球（Celestial Sphere）：一个以地球为球心，无限半径的假想球体<br>古人认为星星运动是天球不断转动的结果，尽管我们现在知道应该是地球自转的结果，但天球仍然能够帮助我们更好的想象天空。</p>
+<h3 id="1-4-地球的轨道运动"><a href="#1-4-地球的轨道运动" class="headerlink" title="1.4 地球的轨道运动"></a>1.4 地球的轨道运动</h3><p>【太阳日】（solar day）：24小时，我们日常使用的时间基准，地球转动了约361度<br>【恒星日】（sidereal day）：地球绕其自转轴转动一周（360度）的时间，约23h56min<br>太阳日与恒星日时间不一致的原因：地球自转的同时还进行对太阳的公转，当地球自转转动360度时，由于绕太阳公转，还需转动一个小角度才能使对太阳的旋转为一周。从地球上向天空某个方向看去，太阳经过1个太阳日仍在原处，无限远处的恒星经过1个恒星日仍在原处。</p>
+<p>角度单位：1°（度）= 60′（角分）= 3600″（角秒）<br>角直径是以角度做测量单位时，从一个特定的位置上观察一个物体所得到的”视直径”。例如从地球上看，月球的角直径为0.5度</p>
+<p>由于太阳日和恒星日时间不同，我们每晚在我们相同时间基准下看到的星空也会有约4分钟的偏移。<br>正因如此，太阳看起来与背景恒星是相对运动的，太阳的这种运动映射在天球上的轨迹称为黄道（ecliptic）。<br>太阳在黄道上运动穿过的12个星座称为黄道十二宫（zodiac）<br>四季形成的主要原因：地球自转轴与日地平面的垂线不平行，而是存在约23.5度的夹角（黄赤交角），导致地球公转过程中在公转轨道上不同位置时在地球特定位置的日照不同。<br>夏季和冬季温差大的原因：<br>（1）由于黄赤交角，夏季与冬季特定地点每天日照时间长短不同，夏季比冬季的日照时间更长<br>（2）由于黄赤交角，地球上某处区域在夏季与冬季接受相同光照的区域大小不同，夏季区域更小，冬季区域更大，因此夏季比冬季温度更高<br>四季与地球到太阳的距离变化关系并不大，事实上，地球离太阳在1月初最近。<br>夏至（Summer solstice）：白昼最长，夜晚最短<br>冬至（Winter solstice）：白昼最短，夜晚最长<br>春分（vernal equinox）和秋分（autumnal equinox）：昼夜平分<br>两次春分间隔的时间为365.2422太阳日，称为1个【回归年】（tropical year），是我们日常使用的时间基准<br>地球进动（precession）：自转轴的角度始终在23.5度左右，由于太阳和月球引力的影响，地球自转轴的方向一直在微小变化，且有其变化周期，自转轴在一个周期内形成的轨迹为一个锥面，周期为26000年，如今的自转轴上方指向北极星，但在公元14000年会指向织女星，在公元前3000年指向的是天龙座α星。<br>春分实际上是地球自转轴与日地连线相垂直的时刻，由于地球进动，实际上地球还未公转一周时（359度59分59秒740毫角秒），第二次垂直的时刻（第二次春分）已经到来，因此1个回归年地球并未绕太阳公转完整的一周，公转完整一周的时间我们称为【恒星年】（sidereal year）。<br>我们现在使用回归年做日历的好处在于，无论过了多少年，四季对应的月份都可以不变。</p>
+<h3 id="1-5-月球的运动"><a href="#1-5-月球的运动" class="headerlink" title="1.5 月球的运动"></a>1.5 月球的运动</h3><p>月球每天绕地球转动约12度，每小时转动约30弧分（和月球自身的角直径相等）。<br>月相（Lunar phases）：新月（New Moon）（看不见）——峨眉月（Waxing crescent）——上弦月（First quarter）——盈凸月（Waxing gibbous）——满月（Full Moon）——亏凸月（Waning gibbous）——下弦月（Third quarter）——亏月（Waning crescent）<br>【朔望月】（synodic month）：29.5天，两次出现新月的时间间隔，中国农历以此为月的基准（农历大月30天，小月29天），月球绕地球转动约389度<br>【恒星月】（sidereal month）：27.3天，月球绕地球转动一周（360度）的时间<br>朔望月与恒星月时间不一致的原因：月球绕地球公转的同时，地球也在绕太阳公转，当月球绕地球公转360度时，由于地球绕太阳公转，还需要转动一个小角度（29度）才能够在地球上看到和之前相同的月相<br>【月食】（lunar eclipse）：太阳、地球、月球在同一直线且地球在二者之间时，地球的阴影掠过月球，挡住了太阳照向月球的光线。通常三者共线的直线并不完美，地球无法完全挡住太阳照向月球的光，此时称为【月偏食】（partial lunar eclipse）；如果三者共线的直线近乎完美，地球可以完全挡住太阳照向月球的光，此时称为【月全食】（total lunar eclipse），这时月球会呈现深红色，是地球大气折射了太阳射向月球的光的结果。<br>【日食】（solar eclipse）：太阳、月球、地球在同一直线且月球在二者之间时，月球的阴影掠过地球，在地球上看到太阳被遮挡。当三者共线直线不完美时，产生【日偏食】（partial solar eclipse）；当三者共线直线完美时，产生【日全食】（total solar eclipse），此时白天会变得像黑夜，天空中可以看见行星和恒星；由于月球绕地球的轨道是椭圆，月球和地球间距不断变化，当月球在距离地球足够远时发生日食，即使三者共线的直线完美，月球也无法完全挡住太阳的光，此时的日食称为【日环食】（annular eclipse），约有一半的日食都是日环食。<br>月食只发生在满月时，日食只发生在新月时。<br>为什么不是每次满月都发生月食，每次新月都发生日食呢？因为月球绕地球的轨道平面与地球绕太阳的轨道平面并不共面，二者间有5.2度的夹角。日食让我们看到了一个神奇的宇宙巧合：太阳和月亮尽管距离和体积都相差巨大，但它们的体积之比与它们到地球的距离之比几乎恰好相同。</p>
+<h3 id="1-6-距离的测量"><a href="#1-6-距离的测量" class="headerlink" title="1.6 距离的测量"></a>1.6 距离的测量</h3><p>【三角测量法】（Triangulation）：以要测的距离为直角边假想一个直角三角形，通过测量另一条直角边和另一条直角边与斜边的夹角计算出要测的距离<br>【视差测量法】（Parallax）：分别在地球两端观察远处某一天体时，会发现该天体相对更远处背景的相对位置是不同的，此即视差，并且该天体离我们距离越近，视差越大，因此可以通过视差测量天体到地球的距离。根据比例关系，360度与视差角度之比等于以天体到地球距离为半径的圆周长与两端在此圆构成的弧长与之比，即可求出天体到地球的距离。用这种方法还可以测量远处天体自身的尺寸。<br>公元前200年，古希腊天文学家埃拉托色尼（Eratosthenes）通过简单的几何推理计算出了地球直径，他发现在中午某时刻A地太阳在头顶正上方，因为此时A地的物体没有影子，而在相隔已知距离的B地的物体此时有影子，他通过测量B地一根竖直木棍影子的长度和木棍本身的长度，计算出了太阳倾斜的角度，由于该角度和360度之比等于AB在地球上的弧长与地球周长之比，由此他计算出地球周长为40000km，地球半径6366km，这与我们现在通过在轨飞行器测出的地球周长40070km和地球半径6378km仅有不到1%的误差。</p>
+<h2 id="二、哥白尼革命"><a href="#二、哥白尼革命" class="headerlink" title="二、哥白尼革命"></a>二、哥白尼革命</h2><p>生活在太空时代，我们已经习惯了我们在宇宙中位置的现代观点，但在不久之前，我们还一直相信地球是平的并且是一切的中心。</p>
+<h3 id="2-1-古代天文学"><a href="#2-1-古代天文学" class="headerlink" title="2.1 古代天文学"></a>2.1 古代天文学</h3><p>在早期社会中，推动天文学发展的不是科学或宗教，而是实用性，船员借此导航船只，农民借此知晓播种的时间。<br>和天文相关的最著名的遗址可能是位于英国的巨石阵（Stonehenge），它开始建立于公元前2800年，期间用了17个世纪建造、修改和完善，最终完成于公元前1100年。许多石头排列整齐，并指向重要的天文事件，包括夏至的日出以及其他时间的日月升落。具有相似功能的遗址还有位于美国的毕葛红医药轮（Big Horn Medicine Wheel），其中石头的排列指示了二至点和二分点的日出日落，以及一些亮星的位置。古代中国同样观察天空，古代中国对客星（突然出现又慢慢消失的星星）也有相关记载，最著名的客星出现在公元1054年，它在白天中可见了好几个月，现在我们知道那其实是超新星爆炸，它现在的遗迹在900年后的今天仍能观察到。</p>
+<h3 id="2-2-地心说的宇宙"><a href="#2-2-地心说的宇宙" class="headerlink" title="2.2 地心说的宇宙"></a>2.2 地心说的宇宙</h3><p>在古希腊人看来，宇宙基本上就是太阳系，太阳系以外的星星他们认为是固定在天球上不动的。古希腊的天文学家观察到，太阳和月球的运动都是简单且有序的，然而金星、水星、金星、木星、火星和土星这5个天体的运动却难以捉摸，这也是他们被叫做行星的原因，它们的运动最终导致了整个太阳系理论的垮台，并从根本上改变了人类对宇宙的看法。<br>【合日】（conjunction）：某天体与地球和太阳在同一直线，从地球上看，该天体在太阳的附近<br>【冲日】（opposition）：某天体与地球和太阳在同一直线，从地球上看，该天体在太阳的对立面<br>行星相对其他星星位置运动的速度时快时慢，有时甚至逆行（retrograde），并且亮度也在变化，对于早期的天文学家来说，对行星轨道的关键观测如下：<br>（1）内行星（inferior planet，日地轨道内的行星）始终不会偏离离太阳太远，内合（inferior conjunction）时离地球更近，此时逆行，外合（Superior conjunction）时离地球更远。<br>（2）在每次绕天球运行的过程中，外行星（superior planet，太阳系内日地轨道外的行星）与太阳形成一次顺行（prograde）合相。当它们在天球上与太阳完全相反时（冲日时），会表现出逆行运动。<br>（3）外行星在逆行时冲日最亮，内行星在内合的前后几周最亮<br>为了找出符合上述观测的太阳系模型，早期天文学家已经推理出行星和月球的亮度与到地球的距离有关，并且它们自身不发光，而是反射太阳的光。<br>最早的太阳系模型遵循古希腊哲学家亚里士多德的学说，并且是地心说。为了符合观测，模型指出每个行星绕自己的称为本轮（epicycle）的小圆轨道运动，每个小圆同时绕着地球称为均轮（deferent）的大圆轨道运动。通过给定本轮和均轮的速度，的确有很好的行星轨迹预测效果。但随着观测次数增多，模型需要引入越来越多的修正来符合观测。<br>大约在公元140年，一位名叫托勒密（Ptolemy）的希腊天文学家建立了也许是有史以来最完整的地心说模型。但为了实现预测能力，完整的托勒密模型（Ptolemaic model）有着超过80个不同的圆来解释太阳系天体的位置，它相对我们现在知道的模型来说过于复杂了，尽管如此，托勒密关于这一主题的综合著作《Syntaxis》为一千多年来所有关于宇宙的讨论提供了知识框架。<br>事实上，公元前两百多年时，一位名叫阿利斯塔克（Aristarchus）的古希腊天文学家就提出了包括地球在内的所有行星都围绕着太阳转动，地球也绕其自转轴自转，这种自转和公转的结合形成了我们看到的天空的景象，但他的理论当时并没有被广泛接受。</p>
+<h3 id="2-3-太阳系的日心说模型"><a href="#2-3-太阳系的日心说模型" class="headerlink" title="2.3 太阳系的日心说模型"></a>2.3 太阳系的日心说模型</h3><p>托勒密的宇宙模型流行了14个世纪，直到16世纪波兰牧师尼古拉·哥白尼（Nicolaus Copernicus）重新发现了阿利斯塔克的日心说模型，并展示了它相对地心说模型的和谐与简洁，地球不是宇宙的中心这一重要认识现在被称为哥白尼革命（Copernican revolution）<br>哥白尼有七个重要的观点：<br>（1）地球不是一切的中心<br>（2）地球的中心只是引力和月球轨道的中心<br>（3）行星绕太阳转动<br>（4）天空中的其他星星离我们十分遥远<br>（5）因为其他星星十分遥远，它们由于地球运动产生的视差我们观察不到<br>（6）太阳看起来在运动是因为地球在运动<br>（7）日心说为行星逆行提供了十分自然的解释<br>尽管有一些观测数据的支持，但日心说与早期思想相悖，又由于是以不流行的拉丁文发表，哥白尼的著作在当时对大众几乎没有影响，直到他死后伽利略对其思想推广，才受到罗马教会关注，将其列为禁书。</p>
+<h3 id="2-4-现代天文学的诞生"><a href="#2-4-现代天文学的诞生" class="headerlink" title="2.4 现代天文学的诞生"></a>2.4 现代天文学的诞生</h3><p>伽利略·伽利莱（Galileo Galilei）是一位意大利数学家和哲学家，他乐于通过实验来检验自己的想法，彻底改变了科学研究的方式，以至于他现在被广泛认为是实验科学之父。<br>通过使用自制的望远镜，伽利略发现了月球上的环形山，太阳黑子和太阳的自转。并且他发现了绕着木星运动的木星的卫星，他还发现金星像月球一样看起来的大小随周期变化，只能用行星绕着太阳运动来解释，这些都是地球并非一切中心的关键证据。伽利略广泛发表自己的观点和观测证据，后来他在1633年被逮捕，在监狱里度过余生。但是，对正统宇宙观的破坏已经完成，哥白尼的思想已经从鲜为人知的禁锢中解放。<br>地球运动的直接观测证据是1728年被发现的，英国天文学家詹姆斯·布拉德雷（James Bradley）发现了远处恒星的光行差（aberration of starlight），就像垂直降落的雨滴在运动汽车的车窗上留下倾斜的轨迹。证明了地球是运动的。1838年，德国天文学家弗里德里希·贝塞尔首次明确地确定了恒星视差，进一步证明了地球的轨道运动。地球围绕太阳运动的证据被陆续发现，太空探测器的出现结束了对这个理论的争论，地球围绕太阳运动的理论是压倒性的。</p>
+]]></content>
+      <categories>
+        <category>备忘笔记</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>天文</tag>
       </tags>
   </entry>
 </search>

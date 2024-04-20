@@ -6,7 +6,7 @@
   <link href="https://neutrino7.top/atom.xml" rel="self"/>
   
   <link href="https://neutrino7.top/"/>
-  <updated>2024-04-15T14:34:37.875Z</updated>
+  <updated>2024-04-20T14:24:30.140Z</updated>
   <id>https://neutrino7.top/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>《Astronomy Today》学习笔记——第一部分：天文和宇宙</title>
+    <link href="https://neutrino7.top/posts/note-for-astronomy-today/"/>
+    <id>https://neutrino7.top/posts/note-for-astronomy-today/</id>
+    <published>2024-04-19T16:00:00.000Z</published>
+    <updated>2024-04-20T14:24:30.140Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote><p>记录<a href="https://book.douban.com/subject/4675658/">《Astronomy Today》</a>的学习笔记，更像是读书笔记，暂时没有好好排版</p></blockquote><p>1610年伽利略用他5cm口径的望远镜望向夜空，他的发现是第一次天文学的革命，他首次看到并记录了太阳黑子、月球环形山和环绕木星的全新世界。他的发现与主流的观念不符，这给他带来了麻烦。如今，我们学会了如何探测、测量和分析太空中黑暗物体的不可见射线，我们正处于第二次天文学的革命。</p><h2 id="一、绘制天空的图像"><a href="#一、绘制天空的图像" class="headerlink" title="一、绘制天空的图像"></a>一、绘制天空的图像</h2><h3 id="1-1-我们在太空的位置"><a href="#1-1-我们在太空的位置" class="headerlink" title="1.1 我们在太空的位置"></a>1.1 我们在太空的位置</h3><p>地球的位置既不中心也不特殊，地球是个非常普通的岩石星球，所在轨道围绕的太阳也是一个非常普通的恒星，太阳也只是在其所在星系银河系靠边缘的位置，银河系也只是遍布可观测宇宙若干星系的普通一员。<br>我们身体中的大多数化学元素都来自数十亿年前恒星的炽热核心，它们的燃料耗尽后，在一次爆炸中消亡，散射的元素物质遍布广泛，最终这些物质聚集成的气体云缓慢坍塌形成新一代的恒星，太阳系也在50亿年前就这样形成。<br>简单来说，宇宙是所有空间、时间、物质和能量的总和，而天文学是研究宇宙的学科。</p><h3 id="1-2-科学理论和科学方法"><a href="#1-2-科学理论和科学方法" class="headerlink" title="1.2 科学理论和科学方法"></a>1.2 科学理论和科学方法</h3><p>为了解释事物的特性，科学家通过理论构建物理对象（如行星、恒星）或现象（如引力、光）的理论模型，然后基于该模型进一步预测该事物的其他特性，如果实验与观测和预测相符，则该理论模型可以进一步发展和完善，否则，无论该理论当初看起来多么有吸引力，都必须被重新表述或抛弃。这种结合理论和实践的科学方法，将科学与伪科学区别开来。<br>理论、预测、观测的循环没有终止点，这意味一个理论可以被仅仅一个错误的预测而证伪，但无论有多少次与预测相符的观测都不能证明这个理论是正确的。理论只是随着反复证实会越来越被广泛接受<br>现代科学理论有几个共同的重要特征：<br>（1）必须是经得起实验验证的<br>（2）必须是能够不断接受实验验证的<br>（3）应当是简洁的——奥卡姆剃刀原理，如非必要，勿增实体。<br>（4）很多科学家认为应当是优雅的<br>亚里士多德通过观察月食时月亮上弧形的阴影，推测地球可能是圆形，并且每次月食时都会进行观察验证，这种基本的推理方法正是现代科学探究的方法，现代科学也正是在这种科学方法的应用下不断发展起来。</p><h3 id="1-3-“显然”的观点"><a href="#1-3-“显然”的观点" class="headerlink" title="1.3 “显然”的观点"></a>1.3 “显然”的观点</h3><p>我们对宇宙的研究始于仰望夜空，我们和我们祖先看到的夜空并没有太大的改变，但我们对所见事物的理解发生了不可估量的变化。<br>天空中的星座（constellation）：<br>全年我们能用肉眼看到的星星约有6000颗，古代天文学家把最亮的那些星星分类成星座，并用神话人物、英雄、动物等命名，共88个星座。<br>早期天文学家研究天空有着实用意义，比如北极星指引北方，一些星座指示播种和收获的季节等。<br>实际上，星座里的恒星彼此间隔十分遥远，许多并无关联，但星座为天文学家提供了一种便捷的方式来划分天空。<br>天球（Celestial Sphere）：一个以地球为球心，无限半径的假想球体<br>古人认为星星运动是天球不断转动的结果，尽管我们现在知道应该是地球自转的结果，但天球仍然能够帮助我们更好的想象天空。</p><h3 id="1-4-地球的轨道运动"><a href="#1-4-地球的轨道运动" class="headerlink" title="1.4 地球的轨道运动"></a>1.4 地球的轨道运动</h3><p>【太阳日】（solar day）：24小时，我们日常使用的时间基准，地球转动了约361度<br>【恒星日】（sidereal day）：地球绕其自转轴转动一周（360度）的时间，约23h56min<br>太阳日与恒星日时间不一致的原因：地球自转的同时还进行对太阳的公转，当地球自转转动360度时，由于绕太阳公转，还需转动一个小角度才能使对太阳的旋转为一周。从地球上向天空某个方向看去，太阳经过1个太阳日仍在原处，无限远处的恒星经过1个恒星日仍在原处。</p><p>角度单位：1°（度）= 60′（角分）= 3600″（角秒）<br>角直径是以角度做测量单位时，从一个特定的位置上观察一个物体所得到的”视直径”。例如从地球上看，月球的角直径为0.5度</p><p>由于太阳日和恒星日时间不同，我们每晚在我们相同时间基准下看到的星空也会有约4分钟的偏移。<br>正因如此，太阳看起来与背景恒星是相对运动的，太阳的这种运动映射在天球上的轨迹称为黄道（ecliptic）。<br>太阳在黄道上运动穿过的12个星座称为黄道十二宫（zodiac）<br>四季形成的主要原因：地球自转轴与日地平面的垂线不平行，而是存在约23.5度的夹角（黄赤交角），导致地球公转过程中在公转轨道上不同位置时在地球特定位置的日照不同。<br>夏季和冬季温差大的原因：<br>（1）由于黄赤交角，夏季与冬季特定地点每天日照时间长短不同，夏季比冬季的日照时间更长<br>（2）由于黄赤交角，地球上某处区域在夏季与冬季接受相同光照的区域大小不同，夏季区域更小，冬季区域更大，因此夏季比冬季温度更高<br>四季与地球到太阳的距离变化关系并不大，事实上，地球离太阳在1月初最近。<br>夏至（Summer solstice）：白昼最长，夜晚最短<br>冬至（Winter solstice）：白昼最短，夜晚最长<br>春分（vernal equinox）和秋分（autumnal equinox）：昼夜平分<br>两次春分间隔的时间为365.2422太阳日，称为1个【回归年】（tropical year），是我们日常使用的时间基准<br>地球进动（precession）：自转轴的角度始终在23.5度左右，由于太阳和月球引力的影响，地球自转轴的方向一直在微小变化，且有其变化周期，自转轴在一个周期内形成的轨迹为一个锥面，周期为26000年，如今的自转轴上方指向北极星，但在公元14000年会指向织女星，在公元前3000年指向的是天龙座α星。<br>春分实际上是地球自转轴与日地连线相垂直的时刻，由于地球进动，实际上地球还未公转一周时（359度59分59秒740毫角秒），第二次垂直的时刻（第二次春分）已经到来，因此1个回归年地球并未绕太阳公转完整的一周，公转完整一周的时间我们称为【恒星年】（sidereal year）。<br>我们现在使用回归年做日历的好处在于，无论过了多少年，四季对应的月份都可以不变。</p><h3 id="1-5-月球的运动"><a href="#1-5-月球的运动" class="headerlink" title="1.5 月球的运动"></a>1.5 月球的运动</h3><p>月球每天绕地球转动约12度，每小时转动约30弧分（和月球自身的角直径相等）。<br>月相（Lunar phases）：新月（New Moon）（看不见）——峨眉月（Waxing crescent）——上弦月（First quarter）——盈凸月（Waxing gibbous）——满月（Full Moon）——亏凸月（Waning gibbous）——下弦月（Third quarter）——亏月（Waning crescent）<br>【朔望月】（synodic month）：29.5天，两次出现新月的时间间隔，中国农历以此为月的基准（农历大月30天，小月29天），月球绕地球转动约389度<br>【恒星月】（sidereal month）：27.3天，月球绕地球转动一周（360度）的时间<br>朔望月与恒星月时间不一致的原因：月球绕地球公转的同时，地球也在绕太阳公转，当月球绕地球公转360度时，由于地球绕太阳公转，还需要转动一个小角度（29度）才能够在地球上看到和之前相同的月相<br>【月食】（lunar eclipse）：太阳、地球、月球在同一直线且地球在二者之间时，地球的阴影掠过月球，挡住了太阳照向月球的光线。通常三者共线的直线并不完美，地球无法完全挡住太阳照向月球的光，此时称为【月偏食】（partial lunar eclipse）；如果三者共线的直线近乎完美，地球可以完全挡住太阳照向月球的光，此时称为【月全食】（total lunar eclipse），这时月球会呈现深红色，是地球大气折射了太阳射向月球的光的结果。<br>【日食】（solar eclipse）：太阳、月球、地球在同一直线且月球在二者之间时，月球的阴影掠过地球，在地球上看到太阳被遮挡。当三者共线直线不完美时，产生【日偏食】（partial solar eclipse）；当三者共线直线完美时，产生【日全食】（total solar eclipse），此时白天会变得像黑夜，天空中可以看见行星和恒星；由于月球绕地球的轨道是椭圆，月球和地球间距不断变化，当月球在距离地球足够远时发生日食，即使三者共线的直线完美，月球也无法完全挡住太阳的光，此时的日食称为【日环食】（annular eclipse），约有一半的日食都是日环食。<br>月食只发生在满月时，日食只发生在新月时。<br>为什么不是每次满月都发生月食，每次新月都发生日食呢？因为月球绕地球的轨道平面与地球绕太阳的轨道平面并不共面，二者间有5.2度的夹角。日食让我们看到了一个神奇的宇宙巧合：太阳和月亮尽管距离和体积都相差巨大，但它们的体积之比与它们到地球的距离之比几乎恰好相同。</p><h3 id="1-6-距离的测量"><a href="#1-6-距离的测量" class="headerlink" title="1.6 距离的测量"></a>1.6 距离的测量</h3><p>【三角测量法】（Triangulation）：以要测的距离为直角边假想一个直角三角形，通过测量另一条直角边和另一条直角边与斜边的夹角计算出要测的距离<br>【视差测量法】（Parallax）：分别在地球两端观察远处某一天体时，会发现该天体相对更远处背景的相对位置是不同的，此即视差，并且该天体离我们距离越近，视差越大，因此可以通过视差测量天体到地球的距离。根据比例关系，360度与视差角度之比等于以天体到地球距离为半径的圆周长与两端在此圆构成的弧长与之比，即可求出天体到地球的距离。用这种方法还可以测量远处天体自身的尺寸。<br>公元前200年，古希腊天文学家埃拉托色尼（Eratosthenes）通过简单的几何推理计算出了地球直径，他发现在中午某时刻A地太阳在头顶正上方，因为此时A地的物体没有影子，而在相隔已知距离的B地的物体此时有影子，他通过测量B地一根竖直木棍影子的长度和木棍本身的长度，计算出了太阳倾斜的角度，由于该角度和360度之比等于AB在地球上的弧长与地球周长之比，由此他计算出地球周长为40000km，地球半径6366km，这与我们现在通过在轨飞行器测出的地球周长40070km和地球半径6378km仅有不到1%的误差。</p><h2 id="二、哥白尼革命"><a href="#二、哥白尼革命" class="headerlink" title="二、哥白尼革命"></a>二、哥白尼革命</h2><p>生活在太空时代，我们已经习惯了我们在宇宙中位置的现代观点，但在不久之前，我们还一直相信地球是平的并且是一切的中心。</p><h3 id="2-1-古代天文学"><a href="#2-1-古代天文学" class="headerlink" title="2.1 古代天文学"></a>2.1 古代天文学</h3><p>在早期社会中，推动天文学发展的不是科学或宗教，而是实用性，船员借此导航船只，农民借此知晓播种的时间。<br>和天文相关的最著名的遗址可能是位于英国的巨石阵（Stonehenge），它开始建立于公元前2800年，期间用了17个世纪建造、修改和完善，最终完成于公元前1100年。许多石头排列整齐，并指向重要的天文事件，包括夏至的日出以及其他时间的日月升落。具有相似功能的遗址还有位于美国的毕葛红医药轮（Big Horn Medicine Wheel），其中石头的排列指示了二至点和二分点的日出日落，以及一些亮星的位置。古代中国同样观察天空，古代中国对客星（突然出现又慢慢消失的星星）也有相关记载，最著名的客星出现在公元1054年，它在白天中可见了好几个月，现在我们知道那其实是超新星爆炸，它现在的遗迹在900年后的今天仍能观察到。</p><h3 id="2-2-地心说的宇宙"><a href="#2-2-地心说的宇宙" class="headerlink" title="2.2 地心说的宇宙"></a>2.2 地心说的宇宙</h3><p>在古希腊人看来，宇宙基本上就是太阳系，太阳系以外的星星他们认为是固定在天球上不动的。古希腊的天文学家观察到，太阳和月球的运动都是简单且有序的，然而金星、水星、金星、木星、火星和土星这5个天体的运动却难以捉摸，这也是他们被叫做行星的原因，它们的运动最终导致了整个太阳系理论的垮台，并从根本上改变了人类对宇宙的看法。<br>【合日】（conjunction）：某天体与地球和太阳在同一直线，从地球上看，该天体在太阳的附近<br>【冲日】（opposition）：某天体与地球和太阳在同一直线，从地球上看，该天体在太阳的对立面<br>行星相对其他星星位置运动的速度时快时慢，有时甚至逆行（retrograde），并且亮度也在变化，对于早期的天文学家来说，对行星轨道的关键观测如下：<br>（1）内行星（inferior planet，日地轨道内的行星）始终不会偏离离太阳太远，内合（inferior conjunction）时离地球更近，此时逆行，外合（Superior conjunction）时离地球更远。<br>（2）在每次绕天球运行的过程中，外行星（superior planet，太阳系内日地轨道外的行星）与太阳形成一次顺行（prograde）合相。当它们在天球上与太阳完全相反时（冲日时），会表现出逆行运动。<br>（3）外行星在逆行时冲日最亮，内行星在内合的前后几周最亮<br>为了找出符合上述观测的太阳系模型，早期天文学家已经推理出行星和月球的亮度与到地球的距离有关，并且它们自身不发光，而是反射太阳的光。<br>最早的太阳系模型遵循古希腊哲学家亚里士多德的学说，并且是地心说。为了符合观测，模型指出每个行星绕自己的称为本轮（epicycle）的小圆轨道运动，每个小圆同时绕着地球称为均轮（deferent）的大圆轨道运动。通过给定本轮和均轮的速度，的确有很好的行星轨迹预测效果。但随着观测次数增多，模型需要引入越来越多的修正来符合观测。<br>大约在公元140年，一位名叫托勒密（Ptolemy）的希腊天文学家建立了也许是有史以来最完整的地心说模型。但为了实现预测能力，完整的托勒密模型（Ptolemaic model）有着超过80个不同的圆来解释太阳系天体的位置，它相对我们现在知道的模型来说过于复杂了，尽管如此，托勒密关于这一主题的综合著作《Syntaxis》为一千多年来所有关于宇宙的讨论提供了知识框架。<br>事实上，公元前两百多年时，一位名叫阿利斯塔克（Aristarchus）的古希腊天文学家就提出了包括地球在内的所有行星都围绕着太阳转动，地球也绕其自转轴自转，这种自转和公转的结合形成了我们看到的天空的景象，但他的理论当时并没有被广泛接受。</p><h3 id="2-3-太阳系的日心说模型"><a href="#2-3-太阳系的日心说模型" class="headerlink" title="2.3 太阳系的日心说模型"></a>2.3 太阳系的日心说模型</h3><p>托勒密的宇宙模型流行了14个世纪，直到16世纪波兰牧师尼古拉·哥白尼（Nicolaus Copernicus）重新发现了阿利斯塔克的日心说模型，并展示了它相对地心说模型的和谐与简洁，地球不是宇宙的中心这一重要认识现在被称为哥白尼革命（Copernican revolution）<br>哥白尼有七个重要的观点：<br>（1）地球不是一切的中心<br>（2）地球的中心只是引力和月球轨道的中心<br>（3）行星绕太阳转动<br>（4）天空中的其他星星离我们十分遥远<br>（5）因为其他星星十分遥远，它们由于地球运动产生的视差我们观察不到<br>（6）太阳看起来在运动是因为地球在运动<br>（7）日心说为行星逆行提供了十分自然的解释<br>尽管有一些观测数据的支持，但日心说与早期思想相悖，又由于是以不流行的拉丁文发表，哥白尼的著作在当时对大众几乎没有影响，直到他死后伽利略对其思想推广，才受到罗马教会关注，将其列为禁书。</p><h3 id="2-4-现代天文学的诞生"><a href="#2-4-现代天文学的诞生" class="headerlink" title="2.4 现代天文学的诞生"></a>2.4 现代天文学的诞生</h3><p>伽利略·伽利莱（Galileo Galilei）是一位意大利数学家和哲学家，他乐于通过实验来检验自己的想法，彻底改变了科学研究的方式，以至于他现在被广泛认为是实验科学之父。<br>通过使用自制的望远镜，伽利略发现了月球上的环形山，太阳黑子和太阳的自转。并且他发现了绕着木星运动的木星的卫星，他还发现金星像月球一样看起来的大小随周期变化，只能用行星绕着太阳运动来解释，这些都是地球并非一切中心的关键证据。伽利略广泛发表自己的观点和观测证据，后来他在1633年被逮捕，在监狱里度过余生。但是，对正统宇宙观的破坏已经完成，哥白尼的思想已经从鲜为人知的禁锢中解放。<br>地球运动的直接观测证据是1728年被发现的，英国天文学家詹姆斯·布拉德雷（James Bradley）发现了远处恒星的光行差（aberration of starlight），就像垂直降落的雨滴在运动汽车的车窗上留下倾斜的轨迹。证明了地球是运动的。1838年，德国天文学家弗里德里希·贝塞尔首次明确地确定了恒星视差，进一步证明了地球的轨道运动。地球围绕太阳运动的证据被陆续发现，太空探测器的出现结束了对这个理论的争论，地球围绕太阳运动的理论是压倒性的。</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="备忘笔记" scheme="https://neutrino7.top/categories/%E5%A4%87%E5%BF%98%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="笔记" scheme="https://neutrino7.top/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="天文" scheme="https://neutrino7.top/tags/%E5%A4%A9%E6%96%87/"/>
+    
+  </entry>
   
   <entry>
     <title>生活小记（10）——路、雨季和天文</title>
@@ -538,33 +567,6 @@
     <category term="写歌" scheme="https://neutrino7.top/tags/%E5%86%99%E6%AD%8C/"/>
     
     <category term="爱好" scheme="https://neutrino7.top/tags/%E7%88%B1%E5%A5%BD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>收藏的博客</title>
-    <link href="https://neutrino7.top/posts/Bookmarked-Blog/"/>
-    <id>https://neutrino7.top/posts/Bookmarked-Blog/</id>
-    <published>2022-10-27T16:00:00.000Z</published>
-    <updated>2022-11-25T16:34:44.647Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote><p>记录自己收藏的一些博客，嗯</p></blockquote><h2 id="常看的博客"><a href="#常看的博客" class="headerlink" title="常看的博客"></a>常看的博客</h2><ul><li><a href="https://tianheg.xyz/posts/"> 一大加贝 </a></li><li><a href="https://conge.github.io/">Conge</a></li><li><a href="https://guanqr.com/">荷戟独彷徨</a></li><li><a href="https://www.fanyiming.life/">Eamon ‘s Blog - 生活嘛~那么矫情 </a></li><li><a href="https://blog.liugezhou.online/">六个周 | enjoy day </a></li></ul><h2 id="喜欢的博客"><a href="#喜欢的博客" class="headerlink" title="喜欢的博客"></a>喜欢的博客</h2><ul><li><a href="https://blog.dorakika.cn/">DoraKika</a></li><li><a href="https://kisstime.top/">银河漫游KK </a></li><li><a href="https://chanshiyu.com/">蝉時雨 </a></li><li><a href="https://www.fomal.cc/">Fomalhaut🥝</a></li><li><a href="https://blog.xecades.xyz/">Xecades</a></li><li><a href="https://write.skywt.cn/">SkyWrite</a></li><li><a href="https://whisper.skywt.cn/">SkyWhisper – 低语 (skywt.cn)</a></li><li><a href="https://timegg.top/">TIMEGG ｜ 放进时光蛋里</a></li></ul><h2 id="博客集合站"><a href="#博客集合站" class="headerlink" title="博客集合站"></a>博客集合站</h2><ul><li><a href="http://www.jetli.com.cn/">博客志 - 优秀个人独立博客导航 </a></li><li><a href="https://www.foreverblog.cn/go.html">虫洞-随机访问十年之约成员博客 </a></li><li><a href="https://512kb.club/">512KB Club | A showcase of lightweight websites.</a></li><li><a href="https://blogroll.icl.moe/">友链屋 | idealclover </a></li><li><a href="https://travellings.cn/">开往-友链接力 </a></li></ul><h2 id="博客之始"><a href="#博客之始" class="headerlink" title="博客之始"></a>博客之始</h2><ul><li><a href="https://maorx.cn/">毛若昕丨静水流深 </a></li><li><a href="https://idealclover.top/">idealclover</a></li><li><a href="https://www.yunyoujun.cn/">云游君的小站</a></li></ul>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="收藏小间" scheme="https://neutrino7.top/categories/%E6%94%B6%E8%97%8F%E5%B0%8F%E9%97%B4/"/>
-    
-    
-    <category term="blog" scheme="https://neutrino7.top/tags/blog/"/>
     
   </entry>
   
