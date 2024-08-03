@@ -264,6 +264,14 @@ textarea {
 
 
 /* 侧栏图标hover变色 */
-/* .site-state-item-icon .icon:hover {
+.site-state-item-icon .icon:hover {
   color: #FFCC66;
-} */
+  /* transform: translateY(-2px); */
+  /* transition-duration: 0.3s; */
+  /* transform: skew(10deg, 20deg); */
+}
+
+/* placeholder变灰色 */
+textarea#wl-edit::placeholder {
+  color: #909090 !important;
+}
