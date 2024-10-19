@@ -6,7 +6,7 @@
   <link href="https://neutrino7.top/atom.xml" rel="self"/>
   
   <link href="https://neutrino7.top/"/>
-  <updated>2024-10-02T04:23:44.289Z</updated>
+  <updated>2024-10-19T06:12:36.743Z</updated>
   <id>https://neutrino7.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>漫长的</title>
+    <link href="https://neutrino7.top/posts/poetry-of-the-long-season/"/>
+    <id>https://neutrino7.top/posts/poetry-of-the-long-season/</id>
+    <published>2024-10-19T06:12:00.000Z</published>
+    <updated>2024-10-19T06:12:36.743Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><style>    .post-copyright {      display: none;    }</style><center><br><p>打个响指吧，他说</p><p>我们打个共鸣的响指</p><p>遥远的事物将被震碎</p><p>面前的人们此时尚不知情</p><br><p>吹个口哨吧，我说</p><p>你来吹个斜斜的口哨</p><p>像一块铁</p><p>然后是一枚针</p><p>磁极的弧线拂过绿玻璃</p><br><p>喝一杯水吧</p><p>也看一看河在平静时平静</p><p>不平静时我们就错过了一层台阶</p><p>一小颗眼泪滴在石头上</p><p>很长时间也不会干涸</p><br><p>整个季节将它结成了琥珀</p><p>块状的流淌</p><p>具体的光芒</p><p>在它背后是些遥远的事物</p></center><p align="right">——《漫长的季节》</p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="收藏小间" scheme="https://neutrino7.top/categories/%E6%94%B6%E8%97%8F%E5%B0%8F%E9%97%B4/"/>
+    
+    
+    <category term="诗句" scheme="https://neutrino7.top/tags/%E8%AF%97%E5%8F%A5/"/>
+    
+  </entry>
   
   <entry>
     <title>生活小记（15）——新地方</title>
@@ -534,35 +561,6 @@
     <category term="天体" scheme="https://neutrino7.top/tags/%E5%A4%A9%E4%BD%93/"/>
     
     <category term="三维" scheme="https://neutrino7.top/tags/%E4%B8%89%E7%BB%B4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>天体物理学习笔记（二）——基本天体物理量</title>
-    <link href="https://neutrino7.top/posts/note-for-astrophysics-learning-2/"/>
-    <id>https://neutrino7.top/posts/note-for-astrophysics-learning-2/</id>
-    <published>2023-06-10T16:00:00.000Z</published>
-    <updated>2023-06-24T16:27:02.289Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="一、基本天体物理量"><a href="#一、基本天体物理量" class="headerlink" title="一、基本天体物理量"></a>一、基本天体物理量</h2><h3 id="1-星等"><a href="#1-星等" class="headerlink" title="1.星等"></a>1.星等</h3><p>（1）<strong>【视星等】</strong>：m<br>$$\frac{E_1}{E_2}=100^{\frac{ {m_2}-{m_1} }5}$$</p><blockquote><p>  m<sub>1</sub>、m<sub>2</sub>表示2颗星的视星等，E<sub>1</sub>、E<sub>2</sub>表示2颗星的亮度（观测者在其位置观察该星的亮度，非实际亮度）</p></blockquote><p>目视越亮的星，视星等越小</p><p>视星等表示方法举例：北极星视星等是2.1<sup>m</sup>，目视最亮的恒星天狼星视星等是-1.4<sup>m</sup>，满月时月球视星等是-12.7<sup>m</sup>，太阳视星等-26.7<sup>m</sup>，哈勃望远镜可拍摄的最暗视星等30<sup>m</sup>,</p><p>（2）<strong>【绝对星等】</strong>：M</p><p>定义：将一个视星等为m的星移到距观测者10秒差距（pc）的距离，此时的视星等定义为其绝对星等</p><p>由于观测亮度与距离平方成反比，故移到10pc处亮度与原观测亮度之比：<br>$$\frac{E_{10} }{E} = \frac{r^2}{10^2}$$结合视星等定义公式可得：$$<br>M-m=5-5\text{lg}r<br>$$<br>m-M称为【距离模数】</p><p>恒星的实际亮度越亮，其绝对星等数值越小</p><p>例如太阳绝对星等M<sub>⊙</sub>=+ 4. 8<sup>m</sup>（天体物理量表示中，下标“⊙”表示太阳），天狼星的绝对星等M=+ 1.4<sup>m</sup></p><p>（3）<strong>【光度】</strong>：L</p><p>定义：恒星整个表面发射的所有波段的总辐射功率（或总辐射流量），用来表示恒星的实际亮度。它是恒星本身所固有的、表征其辐射本领的量。</p><p>太阳的光度L<sub>⊙</sub>=3.8×10<sup>33</sup>erg/s，可以利用与太阳的参数相比，得到其他恒星的光度L：<br>$$\lg\frac{L}{L_{\odot} }=\frac{1}{2.5}(M_{\odot}-M)$$</p><blockquote><p>知：</p><p>1.某一时刻肉眼可见恒星约3000颗，全年一共肉眼可见恒星约6000颗</p><p>2.由于地球大气对光的吸收和散射，观测的星光会变暗变红，称为【大气消光】，因此实际观测中需要进行消光改正。除此之外，星际空间存在的大量气体和尘埃也会对光进行吸收和散射，称为【星际红化】和【星际消光】，同样需要进行相应修正</p><p>3.观测同一恒星使用不同的测量方法或观测不同的波段会得到不同的<strong>视星等</strong>，人眼对波长约为550nm的黄绿光最敏感，所观测的星等为【目视星等】m<sub>v</sub>；早期照相底片对波长约为430nm的蓝紫光最敏感，所测星等为【照相星等】m<sub>p</sub>；黄绿滤光片配合照相底片得到【仿视星等】m<sub>pv</sub>；望远镜终端的光电光度计测得的为【光电星等】;用对各个波段辐射灵敏度均相同的探测器测得的【辐射星等】;表征恒星在整个电磁波段辐射总量的【热星等】</p></blockquote><h3 id="2-温度"><a href="#2-温度" class="headerlink" title="2.温度"></a>2.温度</h3><p>（1）<strong>【色指数】</strong>：C<br>$$C=m_{p}-m_{v}或C=m_{p}-m_{pv}$$<br>（2）<strong>【色温度】</strong>：T</p><p>色温度与色指数C之间的近似关系为：<br>$$T = \frac{7200}{C + 0.64}\mathbf（{K}）$$<br>色指数越负,恒星的表面温度就越高</p><p>（3）<strong>【有效温度】</strong>：T<sub>e</sub></p><p>定义：与恒星的光度L相同的绝对黑体的温度<br>$$L=4\pi R^2\sigma T_e^4\quad\Rightarrow\quad T_e=\left(\frac{L}{4\pi R^2\sigma}\right)^{1/4}$$</p><blockquote><p>R为恒星的半径，σ为斯特藩-玻尔兹曼常量</p></blockquote><p>有效温度也就是辐射功率与恒星相同的等效黑体的温度</p><h3 id="3-光谱型"><a href="#3-光谱型" class="headerlink" title="3.光谱型"></a>3.光谱型</h3><p>（1）<strong>【基尔霍夫定律】</strong>：</p><ul><li>每一种化学元素在高温下都能产生辐射而发出独特的明线光谱；</li><li>在低温下每一种元素都可以吸收自己能够发出的这些辐射，从而使光谱中的明线变成暗线。</li></ul><p>（2）<strong>【光谱型】</strong>：</p><p>按哈佛分类法主要分为以下几个类型：O—B—A—F—G—K—M</p><p>由O到M，颜色依次<strong>由蓝到红</strong>，<strong>温度由高到低</strong></p><h3 id="4-赫罗图"><a href="#4-赫罗图" class="headerlink" title="4.赫罗图"></a>4.赫罗图</h3><p><img src="https://gcore.jsdelivr.net/gh/JollyLight/images/others/image-20230624235552525.png" alt="image-20230624235552525" loading="lazy"></p><p>（1）横轴表示光谱型（或温度、或色指数），纵轴表示光度（或绝对星等）</p><p>（2）三个明显的恒星聚集区：</p><ul><li>【主星序】：人类观测到的90%以上的恒星都位于主星序上（包括太阳），称为主序星。主序星阶段是恒星一生中最稳定的阶段，恒星在这个阶段停留的时间占到整个寿命的90%以上。</li><li>【红巨星和红超巨星】：半径比太阳大几十倍到几百倍。例如肉眼可见的大角星(牧夫座α星)、毕宿五(金牛座α星)是红巨星，参宿四(猎户座α星)和心宿二(天蝎座α星)是红超巨星。</li><li>【白矮星】：半径仅为太阳的1/40~1/100，例如天狼星伴星，半径比地球还小。白矮星是超新星爆发的产物，是一部分恒星演化的最终归宿。</li></ul><p>（3）图中一组平行的虚线为<strong>恒星等半径线</strong>，由恒星表面有效温度T<sub>e</sub>定义式与太阳的T<sub>e</sub>定义式两式相除并带入太阳相关数据可得：<br>$$\operatorname{lg}\frac{ {R} }{ R_{\odot} }=8.49-0.2M-2\operatorname{lg}T_{e}$$</p><ul><li>其中M为恒星的绝对星等。这样,以绝对星等为纵坐标，以lgT<sub>e</sub>为横坐标的赫罗图上，恒星的等半径线是一组平行线。因而，<strong>如果知道一颗星在赫罗图上的位置，就知道了它的半径。</strong></li><li>同时也表明，温度相同的情况下，<strong>光度越大，其半径也越大。</strong>即巨星的光度大、体积大，而矮星的光度小，体积小。</li></ul><h3 id="5-变星"><a href="#5-变星" class="headerlink" title="5.变星"></a>5.变星</h3><p>正在记…………</p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="备忘笔记" scheme="https://neutrino7.top/categories/%E5%A4%87%E5%BF%98%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="笔记" scheme="https://neutrino7.top/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="天体物理" scheme="https://neutrino7.top/tags/%E5%A4%A9%E4%BD%93%E7%89%A9%E7%90%86/"/>
     
   </entry>
   
