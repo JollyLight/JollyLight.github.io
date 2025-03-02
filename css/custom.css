@@ -275,3 +275,19 @@ textarea {
 textarea#wl-edit::placeholder {
   color: #909090 !important;
 }
+
+/* 隐藏评论块元素 */
+#comment {
+  display: none;
+}
+
+/* 以下是启用留言板后要启用的 */
+/* 隐藏留言板反应 */
+/* .wl-reaction {
+  display: none;
+}
+
+:root {
+  --waline-theme-color: #ffcc66 ! important;
+  --waline-active-color: #ffcc66cc ! important;
+} */
