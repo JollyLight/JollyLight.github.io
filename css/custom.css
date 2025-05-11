@@ -291,3 +291,14 @@ textarea#wl-edit::placeholder {
   --waline-theme-color: #ffcc66 ! important;
   --waline-active-color: #ffcc66cc ! important;
 } */
+
+/* 以下是相册样式更改 */
+/* 隐藏图片介绍 */
+.lg-sub-html {
+  display: none;
+}
+
+/* 图片自适应高度 */
+.photo-list-cover {
+  height: auto !important;
+}
