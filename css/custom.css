@@ -219,7 +219,7 @@ textarea {
 } */
 
 /* 分类页面hover */
-.category-lists .category-list-link {
+/* .category-lists .category-list-link {
   position: relative;
 }
 
@@ -235,11 +235,6 @@ textarea {
   z-index: -2;
 }
 
-.category-lists .category-list-link:hover {
-  z-index: 1;
-  background: transparent;
-  font-weight: bolder;
-}
 
 .category-lists .category-list-link:before {
   transition: 0.3s;
@@ -250,17 +245,23 @@ textarea {
 .category-lists .category-list-link:hover:after,
 .category-lists .category-list-link:hover:before {
   width: 100%;
+} */
+
+.category-lists .category-list-link:hover {
+  z-index: 1;
+  background: transparent;
+  font-weight: bolder;
 }
 
 
 /* 标签hover */
-.tag-cloud a {
+/* .tag-cloud a {
   transition: 0.3s;
-}
+} */
 
-.tag-cloud a:hover {
-  transform: scale(1.5);
-}
+/* .tag-cloud a:hover {
+  transform: scale(1.5) !important;
+} */
 
 
 /* 侧栏图标hover变色 */
