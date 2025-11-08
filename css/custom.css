@@ -303,3 +303,18 @@ textarea#wl-edit::placeholder {
 .photo-list-cover {
   height: auto !important;
 }
+
+/* 更改上一篇和下一篇字体颜色，适应背景图片 */
+.post-nav-prev,
+.post-nav-next {
+  color: #5a5a5b;
+}
+
+/* 更改底部hexo字样适应背景图片 */
+.powered a {
+  color: #555;
+}
+
+.with-love {
+  color: #555;
+}
