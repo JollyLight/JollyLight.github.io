@@ -705,13 +705,10 @@ input {
   align-items: center;
   margin: 0.2rem;
 }
-#animate {
-  animation: iconAnimate 1.33s ease-in-out infinite;
-}
 .with-love {
   display: inline-block;
   margin: 5px 5px 0 5px;
-  color: #0078E7;
+  color: #555555;
 }
 #busuanzi_value_site_uv,
 #busuanzi_value_site_pv {
